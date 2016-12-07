@@ -1,5 +1,7 @@
-/* Tools */
+/* settings */
+@import 'settings/variables.css';
 
+/* Tools */
 @import 'tools/font-face.css';
 
 /* Generic */
@@ -7,3 +9,5 @@
 @import 'generic/generic.css';
 @import 'generic/typography.css';
 
+/* Base */
+@import 'base/base.css';

@@ -1,3 +1,30 @@
 .hero-intro {
-	background: black;
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+	color: white;
+	display: flex;
+	align-items: center;
+}
+.hero-intro__title {
+	position: fixed;
+	top: 80px;
+	left: 80px;
+	font-size: 22px;
+}
+.hero-intro__description {
+	font-size: 78px;
+	margin: 0 9.5vw;
+	max-width: 800px;
+}
+.hero-intro__anchoring {
+	position: absolute;
+	bottom: 80px;
+	left: 80px;
+	right: 80px;
+	display: flex;
+	justify-content: space-between;
+}
+.hero-intro__anchoring a {
+	color: white;
 }

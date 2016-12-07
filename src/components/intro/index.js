@@ -6,7 +6,7 @@ class HeroIntro extends Component {
 		return (
 
 			<header className="hero-intro">
-				<h1 className="hero-intro__titile">Rafael Lucas</h1>
+				<h1 className="hero-intro__title">Rafael Lucas</h1>
 				<h2 className="hero-intro__description">I am a brazilian designer specializing in interactive experiences living in Brasília, Brazil.</h2>
 
 				<nav className="hero-intro__anchoring">

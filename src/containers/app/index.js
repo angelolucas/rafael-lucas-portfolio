@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router';
+import './index.css';
 import IntroHead from '../../components/intro';
 import Footer from '../../components/footer';
 
 class app extends Component {
   render() {
     return (
-      <div className="app">
+      <div className="app-container">
         
         <IntroHead></IntroHead>
         
