@@ -1,22 +1,23 @@
 import React, { Component } from 'react';
+import './index.css'
 
-class heroIntro extends Component {
+class HeroIntro extends Component {
 	render() {
 		return (
 
 			<header className="hero-intro">
-			  <h1>Rafael Lucas</h1>
-			  <h2>I am a brazilian designer specializing in interactive experiences living in Brasília, Brazil.</h2>
+				<h1 className="hero-intro__titile">Rafael Lucas</h1>
+				<h2 className="hero-intro__description">I am a brazilian designer specializing in interactive experiences living in Brasília, Brazil.</h2>
 
-			  <nav>
-			    <a href="#">about</a>
-			    <a href="#">work</a>
-			    <a href="#">contact</a>
-			  </nav>
+				<nav className="hero-intro__anchoring">
+					<a href="#">about</a>
+					<a href="#">work</a>
+					<a href="#">contact</a>
+				</nav>
 			</header>
 
-		)
+			)
 	}
 }
 
-export default heroIntro
+export default HeroIntro

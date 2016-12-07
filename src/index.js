@@ -3,6 +3,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Router, Route, browserHistory } from 'react-router';
 
+import './styles/style.css'
+
 // App
 import app from './containers/app'
 import movamais from './containers/movamais'
