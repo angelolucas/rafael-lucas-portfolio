@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import {Link} from 'react-router';
+
 import './index.css';
 import IntroHead from '../../components/intro';
+import ListWorks from '../../components/listworks';
 import Footer from '../../components/footer';
 
 class app extends Component {
@@ -12,19 +13,7 @@ class app extends Component {
         <IntroHead></IntroHead>
         
         <main>
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/mova-mais">Mova Mais</Link>
-              <Link to="/caixa-nas-ruas">Caixa nas Ruas</Link>
-              <Link to="/bb-privete">BB Privete</Link>
-              <Link to="/david-yurman">David Yurman</Link>
-              <Link to="/encinter">Encinter</Link>
-              <Link to="/emicida">Emicida</Link>
-            </li>
-          </ul>
+          <ListWorks></ListWorks>
         </main>
 
         <Footer></Footer>
