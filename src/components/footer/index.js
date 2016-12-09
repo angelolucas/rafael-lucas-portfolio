@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
+import './index.css';
 
 class Footer extends Component {
 	render() {
 		return (
 
-			<footer>
+			<footer className="footer">
 	          <ul>
 	            <li><a href="#">twitter</a></li>
 	            <li><a href="#">facebook</a></li>

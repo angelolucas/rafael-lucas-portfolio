@@ -1,0 +1,16 @@
+.footer {
+	background: #1b1b1b;
+	color: white;
+	padding: 80px;
+}
+.footer a {
+	color: white;
+	font-size: 38px;
+}
+.footer > ul {
+	display: flex;
+	justify-content: space-between;
+}
+.footer > ul > li {
+
+}
