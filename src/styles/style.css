@@ -11,3 +11,6 @@
 
 /* Base */
 @import 'base/base.css';
+
+/* Components */
+@import 'components/single-work.css'

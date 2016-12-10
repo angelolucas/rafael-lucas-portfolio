@@ -1,18 +1,14 @@
 .app-container {
 	position: relative;
 }
-.app-container:after {
+.app-container:before {
 	content: "";
 	position: fixed;
 	width: 100vw;
 	height: 100vh;
 	top: 0;
 	left: 0;
-	//background: #1b1b1b;
-	background: white;
-	z-index: -1;
-	//border: 15px solid #313131;
-	border: 15px solid white;
-
+	background: #1b1b1b;
+	border: 15px solid #313131;
 	box-sizing: border-box;
 }

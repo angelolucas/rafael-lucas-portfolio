@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {Link} from 'react-router';
 
 import './index.css';
 import IntroHead from '../../components/intro';
@@ -18,9 +19,10 @@ class app extends Component {
 
         <Footer></Footer>
 
-        <div className="content-container">
+        <section className="single-work">
+          <Link className="single-work__back" to="/">Back</Link>
           {this.props.children}
-        </div>
+        </section>
       </div>
     );
   }

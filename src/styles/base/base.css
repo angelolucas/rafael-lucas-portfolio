@@ -1,3 +1,8 @@
 html, body {
 	background-color: #fafafa;
 }
+
+body.single-work-active {
+	height: 100vh;
+	overflow: hidden;
+}
