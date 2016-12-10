@@ -1,0 +1,29 @@
+.single-work {
+	transition: 0.5s 0s opacity, 0s 0.5s left;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 100vh;
+	background: white;
+	left: -100%;
+	opacity: 0;
+	z-index: 10;
+	overflow: auto;
+	padding: 150px;
+}
+body.single-work-active .single-work {
+	transition: 0.5s 0s opacity, 0s 0s left;
+	left: 0;
+	opacity: 1;
+}
+.single-work__back {
+	position: fixed;
+	top: 80px;
+	left: 80px;
+}
+.single-work__title {
+	font-size: 40px;
+}
+.single-work p {
+	font-size: 40px;
+}
