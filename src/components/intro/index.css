@@ -24,7 +24,8 @@
 	right: 80px;
 	display: flex;
 	justify-content: space-between;
-}
-.hero-intro__anchoring a {
-	color: white;
+
+	a {
+		color: white;
+	}
 }
