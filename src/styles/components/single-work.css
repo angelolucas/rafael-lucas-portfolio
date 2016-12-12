@@ -10,12 +10,14 @@
 	opacity: 0;
 	z-index: 10;
 	overflow: auto;
-	padding: 150px;
 }
 body.single-work-active .single-work {
 	transition: 0.5s 0s opacity, 0s 0s left;
 	left: 0;
 	opacity: 1;
+}
+.single-work .content {
+	padding: 150px;
 }
 .single-work__back {
 	position: fixed;
