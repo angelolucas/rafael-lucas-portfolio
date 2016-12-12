@@ -2,7 +2,8 @@
 	position: relative;
 	width: 100vw;
 	height: 100vh;
-	color: white;
+	//color: white;
+	color: black;
 	display: flex;
 	align-items: center;
 }

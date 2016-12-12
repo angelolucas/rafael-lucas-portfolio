@@ -5,11 +5,11 @@
 }
 .list-works > li {
 	width: 33.33%;
+	margin-bottom: 30px;
 	position: relative;
 }
 .list-works__thumb {
-	width: 33.33vw;
-	height: 33.33vw;
+	width: 100%;
 	position: relative;
 	overflow: hidden;
 }
@@ -46,7 +46,16 @@ li:hover > .list-works__thumb::after {
 	z-index: 2;    
 }
 .list-works__title {
-
+	font-size: 28px;
+	margin-left: 40px;
+}
+.list-works__category {
+	margin-left: 40px;
+	font-size: 20px;
+	color: rgba(0,0,0,0.6);
+}
+.list-works__category::before {
+	content: "- ";
 }
 .list-works__link {
 	position: absolute;
