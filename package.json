@@ -1,10 +1,9 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
+  "homepage": "https://angelolucas.github.io/portfolio",
   "private": true,
   "devDependencies": {
-    "postcss-nesting": "^2.3.1",
-    "react-router": "^3.0.0",
     "autoprefixer": "6.5.1",
     "babel-core": "6.17.0",
     "babel-eslint": "7.0.0",
@@ -29,6 +28,7 @@
     "file-loader": "0.9.0",
     "filesize": "3.3.0",
     "fs-extra": "0.30.0",
+    "gh-pages": "^0.12.0",
     "gzip-size": "3.0.0",
     "html-webpack-plugin": "2.24.0",
     "http-proxy-middleware": "0.17.2",
@@ -37,8 +37,10 @@
     "object-assign": "4.1.0",
     "path-exists": "2.1.0",
     "postcss-loader": "1.0.0",
+    "postcss-nesting": "^2.3.1",
     "promise": "7.1.1",
     "react-dev-utils": "^0.4.0",
+    "react-router": "^3.0.0",
     "recursive-readdir": "2.1.0",
     "strip-ansi": "3.0.1",
     "style-loader": "0.13.1",
@@ -55,7 +57,8 @@
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
-    "test": "node scripts/test.js --env=jsdom"
+    "test": "node scripts/test.js --env=jsdom",
+    "deploy": "npm run build&&gh-pages -d build"
   },
   "jest": {
     "collectCoverageFrom": [

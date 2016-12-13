@@ -1,7 +1,7 @@
 // Dependencies
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Router, Route, browserHistory } from 'react-router';
+import { Router, Route, hashHistory } from 'react-router';
 
 import './styles/style.css'
 
@@ -15,7 +15,7 @@ import encinter from './containers/encinter'
 import emicida from './containers/emicida'
 
 ReactDOM.render(
-  <Router history={browserHistory}>
+  <Router history={hashHistory}>
     <Route path="/" component={app}>
       
       <Route path="mova-mais" component={movamais}/>
