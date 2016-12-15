@@ -26,7 +26,12 @@
 	display: flex;
 	justify-content: space-between;
 
-	a {
+	.item {
 		color: white;
+		background: white;
+		color: black;
+		border: none;
+		font-size: 22px;
+		cursor: pointer;
 	}
 }
