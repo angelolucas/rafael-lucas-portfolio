@@ -8,17 +8,20 @@ class HeroIntro extends Component {
   componentDidMount() {
     const title = ReactDOM.findDOMNode(this.refs.title);
     const background = ReactDOM.findDOMNode(this.refs.background);
-      
+    const heightEffect = 80 / 100 * window.innerHeight;
+
     window.addEventListener('scroll', function() {
       
-      let opacity = 1 - (window.scrollY * 100 / (80 / 100 * window.innerHeight) / 100);
+      let opacity = window.scrollY * 100 / heightEffect; // get scroll in percentage
+          opacity = opacity / 100; // decreases to scale 0 to 1
+          opacity = 1 - opacity; // invert values
+          opacity = opacity.toFixed(3); // limits to 3 decimals
       
       if ( opacity < 0)
         opacity = 0;
       
-
-      title.setAttribute('style', 'opacity:' + opacity.toFixed(3));
-      background.setAttribute('style', 'opacity:' + opacity.toFixed(3));
+      title.setAttribute('style', 'opacity:' + opacity);
+      background.setAttribute('style', 'opacity:' + opacity);
 
     });
   }

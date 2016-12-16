@@ -13,4 +13,5 @@
 @import 'base/base.css';
 
 /* Components */
+@import 'components/main.css';
 @import 'components/single-work.css';
