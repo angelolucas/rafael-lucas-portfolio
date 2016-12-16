@@ -6,24 +6,24 @@ import { Router, Route, hashHistory } from 'react-router';
 import './styles/style.css'
 
 // App
-import app from './containers/app'
-import movamais from './containers/movamais'
-import caixanasruas from './containers/caixanasruas'
-import bbprivete from './containers/bbprivete'
-import davidyurman from './containers/davidyurman'
-import encinter from './containers/encinter'
-import emicida from './containers/emicida'
+import App from './containers/app';
+import MovaMais from './containers/mova-mais';
+import CaixaNasRuas from './containers/caixa-nas-ruas';
+import BBPrivete from './containers/bb-privete';
+import DavidYurman from './containers/david-yurman';
+import Encinter from './containers/encinter';
+import Emicida from './containers/emicida';
 
 ReactDOM.render(
   <Router history={hashHistory}>
-    <Route path="/" component={app}>
+    <Route path="/" component={App}>
       
-      <Route path="mova-mais" component={movamais}/>
-      <Route path="caixa-nas-ruas" component={caixanasruas}/>
-      <Route path="bb-privete" component={bbprivete}/>
-      <Route path="david-yurman" component={davidyurman}/>
-      <Route path="encinter" component={encinter}/>
-      <Route path="emicida" component={emicida}/>
+      <Route path="mova-mais" component={MovaMais}/>
+      <Route path="caixa-nas-ruas" component={CaixaNasRuas}/>
+      <Route path="bb-privete" component={BBPrivete}/>
+      <Route path="david-yurman" component={DavidYurman}/>
+      <Route path="encinter" component={Encinter}/>
+      <Route path="emicida" component={Emicida}/>
       
     </Route>
   </Router>,

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Navigation from '../../components/navigation';
 
-class movamais extends Component {
+class MovaMais extends Component {
   componentDidMount() {
     document.body.classList.add('single-work-active');  
   }
@@ -12,7 +12,7 @@ class movamais extends Component {
     const workid = 1;
 
     return (
-      <div className="movamais">
+      <div className="mova-mais">
         <div className="content">
           <h2 className="single-work__title">Mova Mais</h2>
           <p>lorem ipsum</p>
@@ -29,4 +29,4 @@ class movamais extends Component {
   }
 }
 
-export default movamais;
+export default MovaMais;

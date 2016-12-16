@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Navigation from '../../components/navigation';
 
-class davidyurman extends Component {
+class DavidYurman extends Component {
   componentDidMount() {
     document.body.classList.add('single-work-active');  
   }
@@ -23,4 +23,4 @@ class davidyurman extends Component {
   }
 }
 
-export default davidyurman;
+export default DavidYurman;

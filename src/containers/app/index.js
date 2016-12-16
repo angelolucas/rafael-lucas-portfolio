@@ -2,11 +2,11 @@ import React, { Component } from 'react';
 import { Link } from 'react-router';
 
 import IntroHead from '../../components/intro';
-import ListWorks from '../../components/listworks';
+import ListWorks from '../../components/list-works';
 import Footer from '../../components/footer';
-import BackToTop from '../../components/backtotop';
+import BackToTop from '../../components/back-to-top';
 
-class app extends Component {
+class App extends Component {
   render() {
     return (
       <div className="app-container">
@@ -29,4 +29,4 @@ class app extends Component {
   }
 }
 
-export default app;
+export default App;

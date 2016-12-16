@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Navigation from '../../components/navigation';
 
-class emicida extends Component {
+class Emicida extends Component {
   componentDidMount() {
     document.body.classList.add('single-work-active');  
   }
@@ -23,4 +23,4 @@ class emicida extends Component {
   }
 }
 
-export default emicida;
+export default Emicida;

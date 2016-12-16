@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Navigation from '../../components/navigation';
 
-class encinter extends Component {
+class Encinter extends Component {
   componentDidMount() {
     document.body.classList.add('single-work-active');  
   }
@@ -23,4 +23,4 @@ class encinter extends Component {
   }
 }
 
-export default encinter;
+export default Encinter;

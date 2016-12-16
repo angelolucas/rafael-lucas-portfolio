@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import TweenLite from 'gsap';
 
-import './index.css'
+import './index.css';
 
 class HeroIntro extends Component {
   componentDidMount() {
