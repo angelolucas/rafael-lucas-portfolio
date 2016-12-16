@@ -1,0 +1,12 @@
+main {
+	&:after {
+		background: url('../components/footer/gradient.png') repeat-x;
+		content: "";
+		position: absolute;
+		top: 100%;
+		left: 0;
+		width: 100%;
+		height: 80px;
+		pointer-events: none;
+	}
+}
