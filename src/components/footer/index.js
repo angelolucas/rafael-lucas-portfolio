@@ -5,7 +5,7 @@ class Footer extends Component {
   render() {
     return (
       <footer className="footer">
-        <ul>
+        <ul className="footer__social-networks">
           <li><a href="http://twitter.com/rafaellucas" target="_blank">twitter</a></li>
           <li><a href="http://facebook.com.br/rafaellucass" target="_blank">facebook</a></li>
           <li><a href="http://linkedin.com/in/rafaellucass" target="_blank">linkedin</a></li>

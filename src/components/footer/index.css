@@ -15,34 +15,36 @@ body {
   right: 0;
   z-index: 1;
 
+  p,
   a {
     color: white;
     font-size: 38px;
   }
-  > ul {
-    display: flex;
-    justify-content: space-between;
-    max-width: 1070px;
-    margin: auto;
-    text-align: center;
-  }
-  > ul > li {
+}
+.footer__social-networks {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1070px;
+  margin: auto;
+  text-align: center;
+
+  > li {
     flex-grow: 1;
     position: relative;
-  }
-  > ul > li:after {
-    content: "";
-    //margin-left: 50px;
-    width: 6px;
-    height: 30px;
-    background: #444;
-    display: inline-block;
-    position: absolute;
-    right: 0;
-    top: 50%;
-    transform: translateY(-50%);
-  }
-  > ul > li:last-child:after {
-    display: none;
+
+    &:after {
+      content: "";
+      width: 6px;
+      height: 30px;
+      background: #444;
+      display: inline-block;
+      position: absolute;
+      right: 0;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+    &:last-child:after {
+      display: none;
+    }
   }
 }
