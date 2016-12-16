@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router';
 
-import './index.css';
 import IntroHead from '../../components/intro';
 import ListWorks from '../../components/listworks';
 import Footer from '../../components/footer';

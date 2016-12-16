@@ -1,21 +1,26 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import { TweenMax, TweenLite } from 'gsap';
+import TweenLite from 'gsap';
 
 import './index.css'
 
 class HeroIntro extends Component {
 	componentDidMount() {
 		const title = ReactDOM.findDOMNode(this.refs.title);
-		
-		TweenMax.from (
-			title,
-			2, 
-			{
-				opacity: 0,
-				x: 100
-			}
-		)
+		const background = ReactDOM.findDOMNode(this.refs.background);
+			
+		window.addEventListener('scroll', function() {
+			
+			let opacity = 1 - (window.scrollY * 100 / (80 / 100 * window.innerHeight) / 100);
+			
+			if ( opacity < 0) 
+				opacity = 0;
+			
+
+			title.setAttribute('style', 'opacity:' + opacity.toFixed(3));
+			background.setAttribute('style', 'opacity:' + opacity.toFixed(3));
+
+		});
 	}
 	goTo(e) {
 		const goTo = '.' + e.target.attributes['data-anchoring'].value;
@@ -36,6 +41,7 @@ class HeroIntro extends Component {
 		return (
 
 			<header className="hero-intro">
+				<div ref="background" className="hero-intro__background"></div>
 				<h1 ref="title" className="hero-intro__title">Rafael Lucas</h1>
 				<h2 className="hero-intro__description">I am a brazilian designer specializing in interactive experiences living in Brasília, Brazil.</h2>
 

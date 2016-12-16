@@ -2,10 +2,10 @@
 	position: relative;
 	width: 100vw;
 	height: 100vh;
-	//color: white;
-	color: black;
+	color: white;
 	display: flex;
 	align-items: center;
+	z-index: 2;
 }
 .hero-intro__title {
 	position: fixed;
@@ -17,6 +17,7 @@
 	font-size: 78px;
 	margin: 0 9.5vw;
 	max-width: 800px;
+	position: relative;
 }
 .hero-intro__anchoring {
 	position: absolute;
@@ -27,11 +28,22 @@
 	justify-content: space-between;
 
 	.item {
+		background: transparent;
 		color: white;
-		background: white;
-		color: black;
 		border: none;
 		font-size: 22px;
 		cursor: pointer;
 	}
+}
+.hero-intro__background {
+	content: "";
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+	top: 0;
+	left: 0;
+	background: #1b1b1b;
+	border: 15px solid #313131;
+	box-sizing: border-box;
+	pointer-events: none;
 }
