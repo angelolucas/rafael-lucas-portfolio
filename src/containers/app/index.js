@@ -20,8 +20,14 @@ class App extends Component {
         <Footer></Footer>
 
         <section className="single-work">
-          <Link className="single-work__back" to="/">Back</Link>
+          
           {this.props.children}
+
+          <Link className="single-work__back" to="/">
+            Back
+            <div></div>
+          </Link>
+          
           <BackToTop></BackToTop>
         </section>
       </div>

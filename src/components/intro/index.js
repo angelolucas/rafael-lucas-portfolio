@@ -13,7 +13,7 @@ class HeroIntro extends Component {
       
       let opacity = 1 - (window.scrollY * 100 / (80 / 100 * window.innerHeight) / 100);
       
-      if ( opacity < 0) 
+      if ( opacity < 0)
         opacity = 0;
       
 
