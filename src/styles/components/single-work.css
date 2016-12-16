@@ -1,45 +1,45 @@
 .single-work {
-	background: black;
-	transition: 0.5s 0s opacity, 0s 0.5s left;
-	position: fixed;
-	top: 0;
-	width: 100%;
-	height: 100vh;
-	color: white;
-	left: -100%;
-	opacity: 0;
-	z-index: 10;
-	overflow: auto;
+  background: black;
+  transition: 0.5s 0s opacity, 0s 0.5s left;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  color: white;
+  left: -100%;
+  opacity: 0;
+  z-index: 10;
+  overflow: auto;
 }
 body.single-work-active .single-work {
-	transition: 0.5s 0s opacity, 0s 0s left;
-	left: 0;
-	opacity: 1;
+  transition: 0.5s 0s opacity, 0s 0s left;
+  left: 0;
+  opacity: 1;
 }
 .single-work .content {
-	padding: 150px;
+  padding: 150px;
 }
 .single-work__back {
-	position: fixed;
-	top: 80px;
-	left: 80px;
-	font-size: 0;
+  position: fixed;
+  top: 80px;
+  left: 80px;
+  font-size: 0;
 }
 .single-work__back:hover {
-	
+  
 }
 .single-work__back:after {
-	content: "RL";
-	font-size: 35px;
-	color: white;
-	border: 5px solid white;
-	padding: 15px 9px;
-	letter-spacing: 3px;
-	display: inline-block;
+  content: "RL";
+  font-size: 35px;
+  color: white;
+  border: 5px solid white;
+  padding: 15px 9px;
+  letter-spacing: 3px;
+  display: inline-block;
 }
 .single-work__title {
-	font-size: 40px;
+  font-size: 40px;
 }
 .single-work p {
-	font-size: 40px;
+  font-size: 40px;
 }

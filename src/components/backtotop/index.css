@@ -1,19 +1,19 @@
 .back-to-top {
-	position: fixed;
-	right: 30px;
-	bottom: 30px;
-	font-size: 40px;
-	background: transparent;
-	color: white;
-	outline: none;
-	border: none;
-	cursor: pointer;
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  font-size: 40px;
+  background: transparent;
+  color: white;
+  outline: none;
+  border: none;
+  cursor: pointer;
 
-	&:hover {
-		color: #CCC;
-	}
-	
-	&:after {
-		content: 'top';
-	}
+  &:hover {
+    color: #CCC;
+  }
+  
+  &:after {
+    content: 'top';
+  }
 }

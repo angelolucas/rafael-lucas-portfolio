@@ -3,7 +3,7 @@ import Navigation from '../../components/navigation';
 
 class movamais extends Component {
   componentDidMount() {
-   	document.body.classList.add('single-work-active');	
+    document.body.classList.add('single-work-active');  
   }
   componentWillUnmount() {
     document.body.classList.remove('single-work-active');

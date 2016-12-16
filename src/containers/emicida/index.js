@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import Navigation from '../../components/navigation';
 
 class emicida extends Component {
-	componentDidMount() {
-   	document.body.classList.add('single-work-active');	
+  componentDidMount() {
+    document.body.classList.add('single-work-active');  
   }
   componentWillUnmount() {
     document.body.classList.remove('single-work-active');

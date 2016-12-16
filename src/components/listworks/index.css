@@ -1,69 +1,69 @@
 .list-works {
-	padding: 15px;
-	display: flex;
-	flex-wrap: wrap;
+  padding: 15px;
+  display: flex;
+  flex-wrap: wrap;
 }
 .list-works > li {
-	width: 33.33%;
-	margin-bottom: 30px;
-	position: relative;
+  width: 33.33%;
+  margin-bottom: 30px;
+  position: relative;
 }
 .list-works__thumb {
-	width: 100%;
-	position: relative;
-	overflow: hidden;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
 }
 .list-works__thumb img {
-	width: 100%;
-	height: auto;
-	display: block;
+  width: 100%;
+  height: auto;
+  display: block;
 }
 .list-works__thumb:after {
-	content: "";
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	border: 15px solid #fafafa;
-	transition: 0.2s;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 15px solid #fafafa;
+  transition: 0.2s;
 }
 li:hover > .list-works__thumb::after {
-	border-width: 30px;
-	border-bottom-width: 15px;
+  border-width: 30px;
+  border-bottom-width: 15px;
 }
 .list-works__thumb > div {
-	background-size: 100%;
-    background-position: center;
-	transition: 0.2s;
-	transform: translate(-50%, -50%);
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	overflow: hidden;
-    width: 100%;
-    height: 100%;
-	z-index: 2;    
+  background-size: 100%;
+  background-position: center;
+  transition: 0.2s;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  z-index: 2;    
 }
 .list-works__title {
-	font-size: 28px;
-	margin-left: 40px;
+  font-size: 28px;
+  margin-left: 40px;
 }
 .list-works__category {
-	margin-left: 40px;
-	font-size: 20px;
-	color: rgba(0,0,0,0.6);
+  margin-left: 40px;
+  font-size: 20px;
+  color: rgba(0,0,0,0.6);
 }
 .list-works__category::before {
-	content: "- ";
+  content: "- ";
 }
 .list-works__link {
-	position: absolute;
-	opacity: 0;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	display: block;
-	z-index: 2;
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  z-index: 2;
 }
