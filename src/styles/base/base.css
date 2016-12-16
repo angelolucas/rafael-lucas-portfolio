@@ -1,8 +1,13 @@
 html, body {
-	background-color: #fafafa;
+	background-color: var(--whiteBackground);
 }
 
 body.single-work-active {
-	height: 100vh;
 	overflow: hidden;
+	//height: 100vh;
+}
+main {
+	background-color: var(--whiteBackground);
+	position: relative;
+	z-index: 2;
 }

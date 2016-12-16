@@ -1,11 +1,12 @@
 .hero-intro {
+	background: #fafafa;
 	position: relative;
 	width: 100vw;
 	height: 100vh;
 	color: white;
 	display: flex;
 	align-items: center;
-	z-index: 2;
+	z-index: 3;
 }
 .hero-intro__title {
 	position: fixed;
