@@ -12,8 +12,8 @@ class HeroIntro extends Component {
 
     window.addEventListener('scroll', function() {
       
-      let opacity = window.scrollY * 100 / heightEffect; // get scroll in percentage
-          opacity = opacity / 100; // decreases to scale 0 to 1
+      let scrollPercentage = window.scrollY * 100 / heightEffect; // get scroll in percentage
+      let opacity = scrollPercentage / 100; // decreases to scale 0 to 1
           opacity = 1 - opacity; // invert values
           opacity = opacity.toFixed(3); // limits to 3 decimals
       
