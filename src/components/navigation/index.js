@@ -4,7 +4,6 @@ import './index.css';
 
 class Navigation extends Component {
   render() {
-    
     const workList = {
       1: '/mova-mais',
       2: '/caixa-nas-ruas',
@@ -17,20 +16,20 @@ class Navigation extends Component {
     const workLength = Object.keys(workList).length;
 
     const workid = this.props.workid;
-
     let prev = workid - 1;
     let next = workid + 1;
 
-    if ( workid === 1)  
-      prev = workLength;  
-    
-    if ( workid === workLength)
+    if (workid === 1) {
+      prev = workLength;
+    }
+    if (workid === workLength) {
       next = 1;
-    
+    }
+
     return (
       <div className="navigation">
-        <Link to={ workList[prev] }>prv</Link>
-        <Link to={ workList[next] }>nxt</Link>
+        <Link to={workList[prev]}>prv</Link>
+        <Link to={workList[next]}>nxt</Link>
       </div>
     )
   }

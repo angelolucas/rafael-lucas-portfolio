@@ -19,7 +19,6 @@ import emicidathumb from '../../containers/emicida/thumb.png';
 import emicidathumboverlay from '../../containers/emicida/thumb-overlay.png';
 
 class ListWorks extends Component {
-  
   render() {
     const movamaisthumboverlayBg = {
       backgroundImage: 'url(' + movamaisthumboverlay + ')'
@@ -39,7 +38,7 @@ class ListWorks extends Component {
         <li>
           <div className="list-works__thumb">
             <img src={movamaisthumb} alt="Mova mais" />
-            <div style={movamaisthumboverlayBg}></div>
+            <div style={movamaisthumboverlayBg} />
           </div>
           <h3 className="list-works__title">Mova Mais - Startup</h3>
           <p className="list-works__category">app</p>
@@ -48,7 +47,7 @@ class ListWorks extends Component {
         <li>
           <div className="list-works__thumb">
             <img src={caixanasruasthumb} alt="Caixa nas Ruas" />
-            <div style={caixanasruasthumboverlayBg}></div>
+            <div style={caixanasruasthumboverlayBg} />
           </div>
           <h3 className="list-works__title">Caixa nas Ruas</h3>
           <p className="list-works__category">web desktop & mobile</p>
@@ -73,7 +72,7 @@ class ListWorks extends Component {
         <li>
           <div className="list-works__thumb">
             <img src={encinterthumb} alt="Encinter" />
-            <div style={encinterthumboverlayBg}></div>
+            <div style={encinterthumboverlayBg} />
           </div>
           <h3 className="list-works__title">Encinter</h3>
           <p className="list-works__category">web mobile</p>
@@ -82,7 +81,7 @@ class ListWorks extends Component {
         <li>
           <div className="list-works__thumb">
             <img src={emicidathumb} alt="Emicida" />
-            <div style={emicidathumboverlayBg}></div>
+            <div style={emicidathumboverlayBg} />
           </div>
           <h3 className="list-works__title">Emicida</h3>
           <p className="list-works__category">web mobile</p>

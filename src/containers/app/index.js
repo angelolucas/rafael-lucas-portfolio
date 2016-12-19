@@ -10,25 +10,21 @@ class App extends Component {
   render() {
     return (
       <div className="app-container">
-        
-        <IntroHead></IntroHead>
-        
+        <IntroHead />
         <main>
-          <ListWorks></ListWorks>
+          <ListWorks />
         </main>
 
-        <Footer></Footer>
+        <Footer />
 
         <section className="single-work">
-          
           {this.props.children}
 
           <Link className="single-work__back" to="/">
             Back
-            <div></div>
+            <div />
           </Link>
-          
-          <BackToTop></BackToTop>
+          <BackToTop />
         </section>
       </div>
     );

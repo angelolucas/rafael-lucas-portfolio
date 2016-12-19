@@ -17,14 +17,12 @@ import Emicida from './containers/emicida';
 ReactDOM.render(
   <Router history={hashHistory}>
     <Route path="/" component={App}>
-      
-      <Route path="mova-mais" component={MovaMais}/>
-      <Route path="caixa-nas-ruas" component={CaixaNasRuas}/>
-      <Route path="bb-privete" component={BBPrivete}/>
-      <Route path="david-yurman" component={DavidYurman}/>
-      <Route path="encinter" component={Encinter}/>
-      <Route path="emicida" component={Emicida}/>
-      
+      <Route path="mova-mais" component={MovaMais} />
+      <Route path="caixa-nas-ruas" component={CaixaNasRuas} />
+      <Route path="bb-privete" component={BBPrivete} />
+      <Route path="david-yurman" component={DavidYurman} />
+      <Route path="encinter" component={Encinter} />
+      <Route path="emicida" component={Emicida} />
     </Route>
   </Router>,
   document.getElementById('root')

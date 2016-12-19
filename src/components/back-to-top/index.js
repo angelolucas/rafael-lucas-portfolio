@@ -2,17 +2,16 @@ import React, { Component } from 'react';
 import TweenLite from 'gsap';
 import './index.css';
 
-
 class BackToTop extends Component {
   onClickButton() {
     const singleWork = document.querySelector('.single-work');
-    TweenLite.to( singleWork, 0.5, {scrollTo:0} );
+    TweenLite.to(singleWork, 0.5, { scrollTo: 0 });
   }
   render() {
     return (
-    	<div>
-	      <button onClick={ this.onClickButton } className="back-to-top"></button>
-	    </div>
+      <div className="back-to-top">
+        <button onClick={this.onClickButton} className="back-to-top" />
+      </div>
     );
   }
 }
