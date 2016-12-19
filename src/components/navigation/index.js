@@ -10,7 +10,7 @@ class Navigation extends Component {
       3: '/bb-privete',
       4: '/david-yurman',
       5: '/encinter',
-      6: '/emicida'
+      6: '/emicida',
     };
 
     const workLength = Object.keys(workList).length;
@@ -31,8 +31,8 @@ class Navigation extends Component {
         <Link to={workList[prev]}>prv</Link>
         <Link to={workList[next]}>nxt</Link>
       </div>
-    )
+    );
   }
 }
 
-export default Navigation
+export default Navigation;

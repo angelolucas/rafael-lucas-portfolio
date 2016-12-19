@@ -21,16 +21,16 @@ import emicidathumboverlay from '../../containers/emicida/thumb-overlay.png';
 class ListWorks extends Component {
   render() {
     const movamaisthumboverlayBg = {
-      backgroundImage: 'url(' + movamaisthumboverlay + ')'
+      backgroundImage: `url(${movamaisthumboverlay})`,
     };
     const caixanasruasthumboverlayBg = {
-      backgroundImage: 'url(' + caixanasruasthumboverlay + ')'
+      backgroundImage: `url(${caixanasruasthumboverlay})`,
     };
     const encinterthumboverlayBg = {
-      backgroundImage: 'url(' + encinterthumboverlay + ')'
+      backgroundImage: `url(${encinterthumboverlay})`,
     };
     const emicidathumboverlayBg = {
-      backgroundImage: 'url(' + emicidathumboverlay + ')'
+      backgroundImage: `url(${emicidathumboverlay})`,
     };
 
     return (
@@ -88,8 +88,8 @@ class ListWorks extends Component {
           <Link className="list-works__link" to="/emicida">Mais informações</Link>
         </li>
       </ul>
-    )
+    );
   }
 }
 
-export default ListWorks
+export default ListWorks;

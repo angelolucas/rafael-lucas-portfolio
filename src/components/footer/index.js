@@ -13,8 +13,8 @@ class Footer extends Component {
           <li><a href="mailto:contato@rafaellucas.com.br" target="_blank" rel="noopener noreferrer">e-mail</a></li>
         </ul>
       </footer>
-    )
+    );
   }
 }
 
-export default Footer
+export default Footer;

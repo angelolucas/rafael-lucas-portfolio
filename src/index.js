@@ -3,7 +3,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Router, Route, hashHistory } from 'react-router';
 
-import './styles/style.css'
+import './styles/style.css';
 
 // App
 import App from './containers/app';
@@ -25,5 +25,5 @@ ReactDOM.render(
       <Route path="emicida" component={Emicida} />
     </Route>
   </Router>,
-  document.getElementById('root')
+  document.getElementById('root'),
 );

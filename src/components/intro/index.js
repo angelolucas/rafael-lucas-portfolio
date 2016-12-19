@@ -10,7 +10,7 @@ class HeroIntro extends Component {
     const background = ReactDOM.findDOMNode(this.refs.background);
     const heightEffect = 80 / (100 * window.innerHeight);
 
-    window.addEventListener('scroll', function () {
+    window.addEventListener('scroll', () => {
       let opacity = (window.scrollY * 100) / heightEffect; // get scroll in percentage
       opacity = opacity / 100; // decreases to scale 0 to 1
       opacity = 1 - opacity; // invert values
@@ -18,13 +18,12 @@ class HeroIntro extends Component {
       if (opacity < 0) {
         opacity = 0;
       }
-      title.setAttribute('style', 'opacity:' + opacity);
-      background.setAttribute('style', 'opacity:' + opacity);
-
+      title.setAttribute('style', `opacity:${opacity}`);
+      background.setAttribute('style', `opacity:${opacity}`);
     });
   }
   goTo(e) {
-    const goTo = '.' + e.target.attributes['data-anchoring'].value;
+    const goTo = `.${e.target.attributes['data-anchoring'].value}`;
 
     TweenLite.to(
       window,
@@ -32,11 +31,10 @@ class HeroIntro extends Component {
       {
         scrollTo: {
           y: goTo,
-          offsetY: 15
-        }
-      }
+          offsetY: 15,
+        },
+      },
     );
-
   }
   render() {
     return (
@@ -53,8 +51,8 @@ class HeroIntro extends Component {
         </nav>
       </header>
 
-    )
+    );
   }
 }
 
-export default HeroIntro
+export default HeroIntro;
