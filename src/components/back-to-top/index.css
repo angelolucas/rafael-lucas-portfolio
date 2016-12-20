@@ -2,18 +2,17 @@
   position: fixed;
   right: 30px;
   bottom: 30px;
-  font-size: 40px;
-  background: transparent;
-  color: white;
-  outline: none;
-  border: none;
-  cursor: pointer;
 
-  &:hover {
-    color: #CCC;
-  }
-  
-  &:after {
-    content: 'top';
+  > button {
+    font-size: 40px;
+    background: transparent;
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+
+    &:hover {
+      color: #CCC;
+    }
   }
 }
