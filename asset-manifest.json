@@ -1,13 +1,8 @@
 {
-  "main.css": "static/css/main.899dc090.css",
-  "main.css.map": "static/css/main.899dc090.css.map",
-  "main.js": "static/js/main.3bf6aadb.js",
-  "main.js.map": "static/js/main.3bf6aadb.js.map",
-  "static/media/AkzidenzGroteskBQ-Bold.ttf": "static/media/AkzidenzGroteskBQ-Bold.097de029.ttf",
-  "static/media/AkzidenzGroteskBQ-Reg.ttf": "static/media/AkzidenzGroteskBQ-Reg.b927142e.ttf",
-  "static/media/LibreBaskerville-Bold.ttf": "static/media/LibreBaskerville-Bold.805fd25b.ttf",
-  "static/media/LibreBaskerville-Italic.ttf": "static/media/LibreBaskerville-Italic.71544e2a.ttf",
-  "static/media/LibreBaskerville-Regular.ttf": "static/media/LibreBaskerville-Regular.1fe60a43.ttf",
-  "static/media/thumb-outside.png": "static/media/thumb-outside.ae3acd0b.png",
-  "static/media/thumb.jpg": "static/media/thumb.ba6a0a5f.jpg"
+  "main.css": "static/css/main.d3aac718.css",
+  "main.css.map": "static/css/main.d3aac718.css.map",
+  "main.js": "static/js/main.395a425b.js",
+  "main.js.map": "static/js/main.395a425b.js.map",
+  "static/media/thumb-overlay.png": "static/media/thumb-overlay.959276e9.png",
+  "static/media/thumb.png": "static/media/thumb.3346b7d1.png"
 }
