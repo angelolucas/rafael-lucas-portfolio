@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router';
+
 import Navigation from '../../components/navigation';
+import BackToTop from '../../components/back-to-top';
 
 class BBPrivete extends Component {
   componentDidMount() {
@@ -12,7 +15,7 @@ class BBPrivete extends Component {
     const workid = 3;
 
     return (
-      <div className="bb-privete">
+      <div>
         <div className="content">
           <h2 className="single-work__title">BB Privete</h2>
           <p>O Lorem Ipsum é um texto modelo da indústria tipográfica e de</p>
@@ -26,7 +29,12 @@ class BBPrivete extends Component {
           <p>programas de publião como o Aldus PageMaker que incluem versões</p>
           <p>do Lorem Ipsum.</p>
         </div>
+        <Link className="single-work__back" to="/">
+          Back
+          <div />
+        </Link>
         <Navigation workid={workid} />
+        <BackToTop />
       </div>
     );
   }

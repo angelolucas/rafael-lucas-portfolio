@@ -1,7 +1,8 @@
 // Dependencies
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Router, Route, hashHistory } from 'react-router';
+import Router from 'react-router/BrowserRouter';
+import Match from 'react-router/Match';
 
 import './styles/style.css';
 
@@ -15,15 +16,18 @@ import Encinter from './containers/encinter';
 import Emicida from './containers/emicida';
 
 ReactDOM.render(
-  <Router history={hashHistory}>
-    <Route path="/" component={App}>
-      <Route path="mova-mais" component={MovaMais} />
-      <Route path="caixa-nas-ruas" component={CaixaNasRuas} />
-      <Route path="bb-privete" component={BBPrivete} />
-      <Route path="david-yurman" component={DavidYurman} />
-      <Route path="encinter" component={Encinter} />
-      <Route path="emicida" component={Emicida} />
-    </Route>
+  <Router>
+    <div>
+      <App />
+      <div className="single-work">
+        <div className="mova-mais"><Match pattern="/mova-mais" component={MovaMais} /></div>
+        <div className="caixa-nas-ruas"><Match pattern="/caixa-nas-ruas" component={CaixaNasRuas} /></div>
+        <div className="bb-privete"><Match pattern="/bb-privete" component={BBPrivete} /></div>
+        <div className="david-yurman"><Match pattern="/david-yurman" component={DavidYurman} /></div>
+        <div className="encinter"><Match pattern="/encinter" component={Encinter} /></div>
+        <div className="emicida"><Match pattern="/emicida" component={Emicida} /></div>
+      </div>
+    </div>
   </Router>,
   document.getElementById('root'),
 );

@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router';
+
 import Navigation from '../../components/navigation';
+import BackToTop from '../../components/back-to-top';
 
 class MovaMais extends Component {
   componentDidMount() {
@@ -12,7 +15,7 @@ class MovaMais extends Component {
     const workid = 1;
 
     return (
-      <div className="mova-mais">
+      <div>
         <div className="content">
           <h2 className="single-work__title">Mova Mais</h2>
           <p>lorem ipsum</p>
@@ -29,8 +32,12 @@ class MovaMais extends Component {
           <p>Renaissance. The first line of Lorem Ipsum, Lorem ipsum dolor </p>
           <p>amet.., comes from a line in section 1.10.32.</p>
         </div>
+        <Link className="single-work__back" to="/">
+          Back
+          <div />
+        </Link>
         <Navigation workid={workid} />
-
+        <BackToTop />
       </div>
     );
   }

@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router';
+
 import Navigation from '../../components/navigation';
+import BackToTop from '../../components/back-to-top';
 
 class DavidYurman extends Component {
   componentDidMount() {
@@ -12,7 +15,7 @@ class DavidYurman extends Component {
     const workid = 4;
 
     return (
-      <div className="davidyurman">
+      <div>
         <div className="content">
           <h2 className="single-work__title">David Yurman</h2>
           <p>Contrary to popular belief, Lorem Ipsum is not simply random</p>
@@ -28,7 +31,12 @@ class DavidYurman extends Component {
           <p>Renaissance. The first line of Lorem Ipsum, Lorem ipsum dolor </p>
           <p>amet.., comes from a line in section 1.10.32.</p>
         </div>
+        <Link className="single-work__back" to="/">
+          Back
+          <div />
+        </Link>
         <Navigation workid={workid} />
+        <BackToTop />
       </div>
     );
   }
