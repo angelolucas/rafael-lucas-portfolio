@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router';
 
-import './index.css';
 import movamaisthumb from '../../containers/mova-mais/thumb.png';
 import movamaisthumboverlay from '../../containers/mova-mais/thumb-overlay.png';
 

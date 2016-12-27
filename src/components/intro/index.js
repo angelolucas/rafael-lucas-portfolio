@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import TweenLite from 'gsap';
 
-import './index.css';
-
 class HeroIntro extends Component {
   componentDidMount() {
     window.addEventListener('scroll', () => {

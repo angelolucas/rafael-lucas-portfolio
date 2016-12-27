@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import TweenLite from 'gsap';
-import './index.css';
 
 class BackToTop extends Component {
   onClickButton() {

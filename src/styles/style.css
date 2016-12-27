@@ -1,4 +1,4 @@
-/* Settings */
+	/* Settings */
 @import 'settings/variables.css';
 
 /* Tools */
@@ -13,5 +13,12 @@
 @import 'base/base.css';
 
 /* Components */
-@import 'components/main.css';
 @import 'components/single-work.css';
+@import '../components/back-to-top';
+@import '../components/intro';
+@import '../components/list-works';
+@import '../components/footer';
+@import '../components/navigation';
+
+/* Containers */
+@import '../containers/home-page';
