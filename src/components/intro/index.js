@@ -5,12 +5,8 @@ import './index.css';
 
 class HeroIntro extends Component {
   componentDidMount() {
-    const title = this.title;
-    const background = this.background;
-    const heightEffect = (80 / 100) * window.innerHeight;
-
     window.addEventListener('scroll', () => {
-      let opacity = (window.scrollY * 100) / heightEffect; // get scroll in percentage
+      let opacity = (window.scrollY * 100) / window.innerHeight; // get scroll in percentage
       opacity /= 100; // decreases to scale 0 to 1
       opacity = 1 - opacity; // invert values
       opacity = opacity.toFixed(3); // limits to 3 decimals
@@ -19,8 +15,10 @@ class HeroIntro extends Component {
         opacity = 0;
       }
 
-      title.setAttribute('style', `opacity:${opacity}`);
-      background.setAttribute('style', `opacity:${opacity}`);
+      this.title.setAttribute('style', `opacity:${opacity}`);
+      this.background.setAttribute('style', `opacity:${opacity}`);
+      this.description.setAttribute('style', `opacity:${opacity}`);
+      this.anchoring.setAttribute('style', `opacity:${opacity}`);
     });
   }
   goTo(e) {
@@ -43,9 +41,9 @@ class HeroIntro extends Component {
       <header className="hero-intro">
         <div ref={(background) => { this.background = background; }} className="hero-intro__background" />
         <h1 ref={(title) => { this.title = title; }} className="hero-intro__title">Rafael Lucas</h1>
-        <h2 className="hero-intro__description">I am a brazilian designer specializing in interactive experiences living in Brasília, Brazil.</h2>
+        <h2 ref={(description) => { this.description = description; }} className="hero-intro__description">I am a brazilian designer specializing in interactive experiences living in Brasília, Brazil.</h2>
 
-        <nav className="hero-intro__anchoring">
+        <nav ref={(anchoring) => { this.anchoring = anchoring; }} className="hero-intro__anchoring">
           <button className="item" type="button">about</button>
           <button className="item" type="button" data-anchoring="list-works" onClick={this.goTo}>work</button>
           <button className="item" type="button" data-anchoring="footer" onClick={this.goTo}>contact</button>
