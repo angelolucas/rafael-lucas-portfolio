@@ -7,7 +7,7 @@ import Match from 'react-router/Match';
 import './styles/style.css';
 
 // App
-import App from './containers/app';
+import HomePage from './containers/home-page';
 import MovaMais from './containers/mova-mais';
 import CaixaNasRuas from './containers/caixa-nas-ruas';
 import BBPrivete from './containers/bb-privete';
@@ -18,7 +18,7 @@ import Emicida from './containers/emicida';
 ReactDOM.render(
   <Router>
     <div>
-      <App />
+      <HomePage />
       <div className="single-work">
         <div className="mova-mais"><Match pattern="/mova-mais" component={MovaMais} /></div>
         <div className="caixa-nas-ruas"><Match pattern="/caixa-nas-ruas" component={CaixaNasRuas} /></div>

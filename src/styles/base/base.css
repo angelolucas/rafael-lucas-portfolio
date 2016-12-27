@@ -6,8 +6,3 @@ body.single-work-active {
   overflow: hidden;
   //height: 100vh;
 }
-main {
-  background-color: var(--whiteBackground);
-  position: relative;
-  z-index: 2;
-}

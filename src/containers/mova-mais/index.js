@@ -15,8 +15,9 @@ class MovaMais extends Component {
     const workid = 1;
 
     return (
-      <div>
+      <main>
         <div className="content">
+          <div className="single-work__hero" />
           <h2 className="single-work__title">Mova Mais</h2>
           <p>lorem ipsum</p>
           <p>Contrary to popular belief, Lorem Ipsum is not simply random</p>
@@ -38,7 +39,7 @@ class MovaMais extends Component {
         </Link>
         <Navigation workid={workid} />
         <BackToTop />
-      </div>
+      </main>
     );
   }
 }

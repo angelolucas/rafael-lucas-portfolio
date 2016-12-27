@@ -1,4 +1,8 @@
-main {
+.home-page--main {
+  background-color: var(--whiteBackground);
+  position: relative;
+  z-index: 2;
+
 	&:after {
 		background: url('../components/footer/gradient.png') repeat-x;
 		content: "";

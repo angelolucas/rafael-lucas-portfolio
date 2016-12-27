@@ -4,11 +4,11 @@ import IntroHead from '../../components/intro';
 import ListWorks from '../../components/list-works';
 import Footer from '../../components/footer';
 
-const App = () => (
-  <div className="app-container">
+const HomePage = () => (
+  <div className="home-page">
     <IntroHead />
 
-    <main>
+    <main className="home-page--main">
       <ListWorks />
     </main>
 
@@ -16,4 +16,4 @@ const App = () => (
   </div>
 );
 
-export default App;
+export default HomePage;
