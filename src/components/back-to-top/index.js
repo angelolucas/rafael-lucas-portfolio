@@ -9,9 +9,7 @@ class BackToTop extends Component {
   }
   render() {
     return (
-      <div className="back-to-top">
-        <button onClick={this.onClickButton}>top</button>
-      </div>
+      <button className="back-to-top" onClick={this.onClickButton}>top</button>
     );
   }
 }
