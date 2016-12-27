@@ -20,12 +20,12 @@ ReactDOM.render(
     <div>
       <HomePage />
       <div className="single-work">
-        <div className="mova-mais"><Match pattern="/mova-mais" component={MovaMais} /></div>
-        <div className="caixa-nas-ruas"><Match pattern="/caixa-nas-ruas" component={CaixaNasRuas} /></div>
-        <div className="bb-privete"><Match pattern="/bb-privete" component={BBPrivete} /></div>
-        <div className="david-yurman"><Match pattern="/david-yurman" component={DavidYurman} /></div>
-        <div className="encinter"><Match pattern="/encinter" component={Encinter} /></div>
-        <div className="emicida"><Match pattern="/emicida" component={Emicida} /></div>
+        <Match pattern="/mova-mais" component={MovaMais} />
+        <Match pattern="/caixa-nas-ruas" component={CaixaNasRuas} />
+        <Match pattern="/bb-privete" component={BBPrivete} />
+        <Match pattern="/david-yurman" component={DavidYurman} />
+        <Match pattern="/encinter" component={Encinter} />
+        <Match pattern="/emicida" component={Emicida} />
       </div>
     </div>
   </Router>,

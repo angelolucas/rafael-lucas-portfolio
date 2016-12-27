@@ -16,7 +16,7 @@ class MovaMais extends Component {
 
     return (
       <main>
-        <div className="content">
+        <div className="content mova-mais">
           <div className="single-work__hero" />
           <h2 className="single-work__title">Mova Mais</h2>
           <p>lorem ipsum</p>
