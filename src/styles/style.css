@@ -11,9 +11,9 @@
 
 /* Base */
 @import 'base/base.css';
+@import 'base/bootstrap-grid';
 
 /* Components */
-
 @import '../components/back-to-top';
 @import '../components/intro';
 @import '../components/list-works';
