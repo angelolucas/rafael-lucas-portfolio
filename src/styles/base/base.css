@@ -1,3 +1,6 @@
 html, body {
   background-color: var(--whiteBackground);
 }
+img {
+	max-width: 100%;
+}
