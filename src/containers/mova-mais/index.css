@@ -1,7 +1,20 @@
 :root {
 	--pinkColor: #de445d;
 	--purpleColor: #4d3855;
+	--darkPurpleColor: #311e42;
+	--grayColor: #e8e8e8;
 }
+.mm {
+	color: var(--darkPurpleColor);
+
+	h2 {
+		color: var(--pinkColor);
+		font-weight: bold;
+		text-transform: uppercase;
+	}
+}
+
+/* Hero */
 .mm__hero {
 	background-image: url('../containers/mova-mais/images/hero.jpg');
 	background-size: cover;
@@ -10,25 +23,40 @@
   height: 100vh;
   width: 100%;
 }	
+
+/* Intro */
 .mm__intro {
 	margin: 80px auto;
 	text-align: center;
 	max-width: 700px;
 	width: 100%;
-}
-.mm__intro__title {
+
+	.mm__intro__title {
 	background: no-repeat url('../containers/mova-mais/images/mova-mais.png');
 	display: inline-block;
 	font-size: 0;
 	width: 223px;
 	height: 223px;
+	}
+	.mm__intro__concept {
+		font-size: 65px;
+		color: var(--purpleColor);
+	}
 }
-.mm__intro__concept-h {
-	color: var(--pinkColor);
-	font-weight: bold;
-	text-transform: uppercase;
+
+/* Objective */
+.mm__objective {
+	margin: 30px auto;
+	text-align: center;
+	max-width: 950px;
+	width: 100%;
+
+	p {
+		font-size: 52px;
+	}
 }
-.mm__intro__concept {
-	font-size: 65px;
-	color: var(--purpleColor);
+
+/* Step 0*/
+.mm__step0 {
+	background-color: var(--grayColor);
 }
