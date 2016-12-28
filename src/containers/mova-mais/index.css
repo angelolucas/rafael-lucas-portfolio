@@ -1,5 +1,9 @@
-.mova-mais > {
-	.single-work__hero {
-		background-image: url('../containers/mova-mais/images/hero.jpg');
-	}	
-}
+.mova-mais__hero {
+	background-image: url('../containers/mova-mais/images/hero.jpg');
+	background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}	
+

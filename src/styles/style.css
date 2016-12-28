@@ -13,7 +13,7 @@
 @import 'base/base.css';
 
 /* Components */
-@import 'components/single-work.css';
+
 @import '../components/back-to-top';
 @import '../components/intro';
 @import '../components/list-works';
@@ -22,4 +22,5 @@
 
 /* Containers */
 @import '../containers/home-page';
+@import '../containers/single-work';
 @import '../containers/mova-mais';
