@@ -2,6 +2,7 @@
 import React from 'react';
 import Match from 'react-router/Match';
 import { Link } from 'react-router';
+import TweenLite from 'gsap';
 
 // Single Works
 import MovaMais from '../mova-mais';
@@ -12,8 +13,15 @@ import Encinter from '../encinter';
 import Emicida from '../emicida';
 
 // Components
-import BackToTop from '../../components/back-to-top';
 import Navigation from '../../components/navigation';
+
+const backToTop = () => {
+  TweenLite.to(
+    document.querySelector('.single-work .scroll'),
+    0.5,
+    { scrollTo: 0 },
+  );
+};
 
 const SingleWork = () => (
   <div className="single-work">
@@ -28,12 +36,12 @@ const SingleWork = () => (
       <Navigation />
     </div>
 
-    <Link className="single-work__back" to="/">
+    <Link className="single-work__back-to-home" to="/">
       Back
       <div />
     </Link>
 
-    <BackToTop />
+    <button className="single-work__back-to-top" onClick={backToTop}>top</button>
   </div>
 );
 
