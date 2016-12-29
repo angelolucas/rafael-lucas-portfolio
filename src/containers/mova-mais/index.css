@@ -1,14 +1,14 @@
 :root {
-  --pinkColor: #ea4164;
-  --purpleColor: #4d3855;
-  --darkPurpleColor: #311e42;
+  --pink: #ea4164;
+  --purpleText: #4d3855;
+  --purpleBox: #432155;
   --grayColor: #e8e8e8;
 }
 .mm {
-  color: var(--darkPurpleColor);
+  color: var(--purpleText);
 
   h2 {
-    color: var(--pinkColor);
+    color: var(--pink);
     font-weight: bold;
     text-transform: uppercase;
   }
@@ -40,7 +40,7 @@
   }
   .mm__intro__concept {
     font-size: 65px;
-    color: var(--purpleColor);
+    color: var(--purpleText);
   }
 }
 
@@ -72,7 +72,7 @@
     span {
       position: absolute;
       top: 0;
-      background-color: var(--pinkColor);
+      background-color: var(--pink);
       border-radius: 50%;
       color: white;
       font-weight: bold;
@@ -87,11 +87,11 @@
   }
 }
 
-/* Step 0*/
-.mm__step0 {
+/* Step 01 */
+.mm__step01 {
   background-color: var(--grayColor);
 
-  .mm__step0__items {
+  .mm__step01__items {
     display: flex;
     max-width: 1280px;
     margin: 0 auto;
@@ -149,6 +149,47 @@
         width: 69px;
         height: 75px;
         top: 80px;
+      }
+    }
+  }
+}
+
+/* Step 02 */
+.mm__step02 {
+  background-color: var(--purpleBox);
+  color: white;
+  font-size: 20px;
+
+  .mm__step__description {
+    max-width: 700px;
+    width: 100%;
+    margin: 100px auto;
+    font-size: 20px;
+  }
+}
+
+/* Chess List */
+.mm__chess-list {
+  > li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+
+    &:nth-child(even) {
+      flex-direction: row-reverse;
+    }
+    > div {
+      width: 50%;
+
+      &.image {
+
+      }
+      &.text {
+        p {
+          max-width: 380px;
+          margin: auto;
+          font-size: 34px;
+        }
       }
     }
   }

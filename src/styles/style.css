@@ -11,7 +11,7 @@
 
 /* Base */
 @import 'base/base.css';
-@import 'base/bootstrap-grid';
+@import 'base/grid.css';
 
 /* Components */
 @import '../components/intro';

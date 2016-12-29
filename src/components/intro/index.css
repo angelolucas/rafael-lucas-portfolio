@@ -1,7 +1,7 @@
 .hero-intro {
   background: #fafafa;
   position: relative;
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   color: white;
   display: flex;
@@ -40,7 +40,7 @@
 .hero-intro__background {
   content: "";
   position: fixed;
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   top: 0;
   left: 0;
