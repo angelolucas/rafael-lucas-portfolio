@@ -17,12 +17,16 @@ import Navigation from '../../components/navigation';
 
 const SingleWork = () => (
   <div className="single-work">
-    <Match pattern="/mova-mais" component={MovaMais} />
-    <Match pattern="/caixa-nas-ruas" component={CaixaNasRuas} />
-    <Match pattern="/bb-privete" component={BBPrivete} />
-    <Match pattern="/david-yurman" component={DavidYurman} />
-    <Match pattern="/encinter" component={Encinter} />
-    <Match pattern="/emicida" component={Emicida} />
+    <div className="scroll">
+      <Match pattern="/mova-mais" component={MovaMais} />
+      <Match pattern="/caixa-nas-ruas" component={CaixaNasRuas} />
+      <Match pattern="/bb-privete" component={BBPrivete} />
+      <Match pattern="/david-yurman" component={DavidYurman} />
+      <Match pattern="/encinter" component={Encinter} />
+      <Match pattern="/emicida" component={Emicida} />
+
+      <Navigation />
+    </div>
 
     <Link className="single-work__back" to="/">
       Back
@@ -30,8 +34,6 @@ const SingleWork = () => (
     </Link>
 
     <BackToTop />
-
-    <Navigation />
   </div>
 );
 

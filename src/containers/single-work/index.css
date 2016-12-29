@@ -9,7 +9,11 @@
   left: -100%;
   opacity: 0;
   z-index: 10;
-  overflow: auto;
+
+  > .scroll {
+    overflow: auto;
+    height: 100vh;
+  }
 }
 
 /* Active */
