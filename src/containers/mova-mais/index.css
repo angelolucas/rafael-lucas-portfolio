@@ -1,16 +1,22 @@
 :root {
+  --gray: #f0f0f0;
   --pink: #ea4164;
   --purpleText: #4d3855;
   --purpleBox: #432155;
   --grayColor: #e8e8e8;
 }
 .mm {
+  background-color: var(--gray);
   color: var(--purpleText);
 
   h2 {
     color: var(--pink);
     font-weight: bold;
     text-transform: uppercase;
+  }
+  img {
+    margin: auto;
+    display: block;
   }
 }
 
@@ -56,6 +62,34 @@
   }
 }
 
+/* Chess List */
+.mm__chess-list {
+  > li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+
+    &:nth-child(even) {
+      flex-direction: row-reverse;
+    }
+    > div {
+      width: 50%;
+
+      &.image {
+
+      }
+      &.text {
+        p {
+          max-width: 380px;
+          margin: auto;
+          font-size: 34px;
+        }
+      }
+    }
+  }
+}
+
+
 /* Steps */ 
 .mm__step {
   position: relative;
@@ -84,6 +118,12 @@
       transform: translate(-50%, -50%);
       left: 50%;
     }
+  }
+  .mm__step__description {
+    max-width: 700px;
+    width: 100%;
+    margin: 100px auto;
+    font-size: 20px;
   }
 }
 
@@ -159,38 +199,14 @@
   background-color: var(--purpleBox);
   color: white;
   font-size: 20px;
-
-  .mm__step__description {
-    max-width: 700px;
-    width: 100%;
-    margin: 100px auto;
-    font-size: 20px;
-  }
 }
 
-/* Chess List */
-.mm__chess-list {
-  > li {
-    display: flex;
-    align-items: center;
-    margin-bottom: 100px;
-
-    &:nth-child(even) {
-      flex-direction: row-reverse;
-    }
-    > div {
-      width: 50%;
-
-      &.image {
-
-      }
-      &.text {
-        p {
-          max-width: 380px;
-          margin: auto;
-          font-size: 34px;
-        }
-      }
-    }
+/* Step 03 */
+.mm__step03 {
+  .mm__step03__background {
+    background-image: url('../containers/mova-mais/images/daily-goal.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 1148px;
   }
 }

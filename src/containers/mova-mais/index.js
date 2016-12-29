@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 
-import mockupTop from './images/mockup-top.png';
+import mockupTop from './images/mockup-top.jpg';
 import step01 from './images/step1.png';
 import step02 from './images/step2.png';
 import step03 from './images/step3.png';
+
 
 class MovaMais extends Component {
   componentDidMount() {
@@ -79,6 +80,13 @@ class MovaMais extends Component {
               </li>
             </ul>
           </div>
+        </div>
+        <div className="mm__step mm__step03">
+          <div className="container">
+            <h3 className="mm__step__title"><span>03</span> Daily Goal</h3>
+            <p className="mm__step__description">{'Um dos maiores objetivos da aplicativo é fazer com que o usuário se sinta sempre motivado a se exercitar, por isso exibimos mensagens de incentivo, sobretudo para não perder a sequência de exercícios.'}</p>
+          </div>
+          <div className="mm__step03__background" />
         </div>
       </section>
     );
