@@ -17,6 +17,7 @@ import other05 from './images/other05.png';
 import guidelineColors from './images/guideline-colors.png';
 import guidelineFont from './images/guideline-font.png';
 import guidelineIcons from './images/guideline-icons.png';
+import counter from './images/counter.png';
 
 class MovaMais extends Component {
   componentDidMount() {
@@ -229,6 +230,15 @@ class MovaMais extends Component {
             <img src={guidelineColors} alt="" />
             <img src={guidelineFont} alt="" />
             <img src={guidelineIcons} alt="" />
+          </div>
+        </div>
+
+        {/* Step 08 */}
+        <div className="mm__step mm__step08">
+          <div className="container">
+            <h3 className="mm__step__title"><span>08</span> Results</h3>
+            <img src={counter} alt="" />
+            <p>users around the world.</p>
           </div>
         </div>
       </section>

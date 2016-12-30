@@ -252,3 +252,16 @@
     margin-bottom: 200px;
   }
 }
+
+/* Step 08 */
+.mm__step08 {
+  background-color: var(--purpleBox);
+  color: white;
+
+  img {
+    margin-bottom: 40px;
+  }
+  p {
+    font-size: 32px;
+  }
+}
