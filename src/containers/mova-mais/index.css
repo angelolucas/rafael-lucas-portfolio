@@ -210,3 +210,16 @@
     height: 1148px;
   }
 }
+
+/* Step 04 */
+.mm__step04 {
+  background-color: var(--grayColor);
+
+  .mm__chess-list {
+    h4 {
+      text-transform: uppercase;
+      font-size: 50px;
+      margin-bottom: 20px;
+    }
+  }
+}
