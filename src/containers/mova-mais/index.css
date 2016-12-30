@@ -63,7 +63,7 @@
 }
 
 /* Chess List */
-.mm__chess-list {
+.chess-list {
   > li {
     display: flex;
     align-items: center;
@@ -72,20 +72,19 @@
     &:nth-child(even) {
       flex-direction: row-reverse;
     }
+    p {
+      max-width: 380px;
+      margin: auto;
+      font-size: 20px;
+    }
     > div {
       width: 50%;
-
-      &.image {
-
-      }
-      &.text {
-        p {
-          max-width: 380px;
-          margin: auto;
-          font-size: 34px;
-        }
-      }
     }
+  }
+  .chess-list__item__title {
+    text-transform: uppercase;
+    font-size: 50px;
+    margin-bottom: 20px;
   }
 }
 
@@ -207,6 +206,12 @@
   background-color: var(--purpleBox);
   color: white;
   font-size: 20px;
+
+  .chess-list {
+    p {
+      font-size: 34px;
+    }
+  }
 }
 
 /* Step 03 */
@@ -222,12 +227,21 @@
 /* Step 04 */
 .mm__step04 {
   background-color: var(--grayColor);
+}
 
-  .mm__chess-list {
-    h4 {
-      text-transform: uppercase;
-      font-size: 50px;
-      margin-bottom: 20px;
-    }
+/* Step 06 */
+.mm__step06 {
+  background-color: var(--grayColor);
+
+  .chess-list {
+    .chess-list__item__title {
+      &:after {
+        content: "";
+        border-bottom: 5px solid var(--pink);
+        width: 38px;
+        display: block;
+        margin: 20px auto 0; 
+      }
+    }   
   }
 }

@@ -9,7 +9,11 @@ import engagement02 from './images/engagement02.png';
 import engagement03 from './images/engagement03.png';
 import points01 from './images/points01.png';
 import points02 from './images/points02.png';
-
+import other01 from './images/other01.png';
+import other02 from './images/other02.png';
+import other03 from './images/other03.png';
+import other04 from './images/other04.png';
+import other05 from './images/other05.png';
 
 class MovaMais extends Component {
   componentDidMount() {
@@ -68,7 +72,7 @@ class MovaMais extends Component {
           <div className="container">
             <h3 className="mm__step__title"><span>02</span> Walkthroughs</h3>
             <p className="mm__step__description">{'A experiência do onboarding foi projetada para ser simples e didática, sem deixar de ser atrativa desde o primeiro momento, por isso a importância de ter uma linguagem clara e divertida.'}</p>
-            <ul className="mm__chess-list">
+            <ul className="chess-list">
               <li>
                 <div className="image">
                   <img src={step01} alt="" />
@@ -111,13 +115,13 @@ class MovaMais extends Component {
           <div className="container">
             <h3 className="mm__step__title"><span>04</span> Engagement</h3>
             <p className="mm__step__description">{'Reter o usuário é sempre um grande desafio se tratando de atividade física, por isso elaboramos um recurso chamado “Combo”, que beneficia com mais pontos os usuários que atiguem a meta diária com mais frequência.'}</p>
-            <ul className="mm__chess-list">
+            <ul className="chess-list">
               <li>
                 <div className="image">
                   <img src={engagement01} alt="" />
                 </div>
                 <div className="text">
-                  <h4>Hit Target!</h4>
+                  <h4 className="chess-list__item__title">Hit Target!</h4>
                   <p>{'“Você ganhou 20 pontos por cumprir sua meta pela primeira vez!”'}</p>
                 </div>
               </li>
@@ -126,7 +130,7 @@ class MovaMais extends Component {
                   <img src={engagement02} alt="" />
                 </div>
                 <div className="text">
-                  <h4>Keep Your Combo</h4>
+                  <h4 className="chess-list__item__title">Keep Your Combo</h4>
                   <p>{'“Criando uma sequência de metas atingidas você pode ganhar até 40 pontos por cumprimento de meta.”'}</p>
                 </div>
               </li>
@@ -135,7 +139,7 @@ class MovaMais extends Component {
                   <img src={engagement03} alt="" />
                 </div>
                 <div className="text">
-                  <h4>Rest Is Important</h4>
+                  <h4 className="chess-list__item__title">Rest Is Important</h4>
                   <p>{'“Você pode descansar por até 2 dias seguidos sem quebrar seu combo.”'}</p>
                 </div>
               </li>
@@ -148,13 +152,67 @@ class MovaMais extends Component {
           <div className="container">
             <h3 className="mm__step__title"><span>05</span> Points</h3>
             <p className="mm__step__description">{'Permitir um acesso fácil e rápido aos pontos é crucial, apresentando-o de madeira clara, pois é a ponta final da nossa promessa de valor. Além do que, esse benefício, no nosso caso, atua como a “Metáfora da Cenoura”. Ele é o principal fator motivacional para muitos usuários.'}</p>
-            <ul className="mm__chess-list">
+            <ul className="chess-list">
               <li>
                 <div className="image">
                   <img src={points01} alt="" />
                 </div>
                 <div className="text">
                   <img src={points02} alt="" />
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        {/* Step 06 */}
+        <div className="mm__step mm__step06">
+          <div className="container">
+            <h3 className="mm__step__title"><span>06</span> Other Resources</h3>
+            <ul className="chess-list">
+              <li>
+                <div className="image">
+                  <img src={other01} alt="" />
+                </div>
+                <div className="text">
+                  <h4 className="chess-list__item__title">Ranking Of Friends</h4>
+                  <p>{'Um recurso muito eficiente de estímulo a prática de exercício, e fomenta competição entre amigos, além de permitir comentários em atividades, likes e outros recursos sociais.'}</p>
+                </div>
+              </li>
+              <li>
+                <div className="image">
+                  <img src={other02} alt="" />
+                </div>
+                <div className="text">
+                  <h4 className="chess-list__item__title">Tracker</h4>
+                  <p>{'Tem por objetivo remover eventuais obstáculos do usuário no fluxo de embarque, e encurtar o espaço entre a prática do exercício e o benefício concreto. Em fase de teste.'}</p>
+                </div>
+              </li>
+              <li>
+                <div className="image">
+                  <img src={other03} alt="" />
+                </div>
+                <div className="text">
+                  <h4 className="chess-list__item__title">Member Get Member</h4>
+                  <p>{'Focado em aquisição. O usuário conquista pontos para cada amigo que entrar na plataforma e fizer pelo menos uma atividade.'}</p>
+                </div>
+              </li>
+              <li>
+                <div className="image">
+                  <img src={other04} alt="" />
+                </div>
+                <div className="text">
+                  <h4 className="chess-list__item__title">Duels</h4>
+                  <p>{'Permite que os usuários disputam entre si. O recurso possibilita a escolha de atributos a fim de incentivar a competição.'}</p>
+                </div>
+              </li>
+              <li>
+                <div className="image">
+                  <img src={other05} alt="" />
+                </div>
+                <div className="text">
+                  <h4 className="chess-list__item__title">Navegation</h4>
+                  <p>{'O menu dá acesso rápido a todos os recursos do aplicativo, além de feedback sobre a conexão do tracker.'}</p>
                 </div>
               </li>
             </ul>
