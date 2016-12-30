@@ -118,6 +118,14 @@
       transform: translate(-50%, -50%);
       left: 50%;
     }
+
+    &:after {
+      content: "";
+      border-bottom: 5px solid var(--pink);
+      width: 38px;
+      display: block;
+      margin: 20px auto 0; 
+    }
   }
   .mm__step__description {
     max-width: 700px;
