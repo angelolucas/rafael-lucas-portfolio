@@ -7,6 +7,8 @@ import step03 from './images/step3.png';
 import engagement01 from './images/engagement01.png';
 import engagement02 from './images/engagement02.png';
 import engagement03 from './images/engagement03.png';
+import points01 from './images/points01.png';
+import points02 from './images/points02.png';
 
 
 class MovaMais extends Component {
@@ -135,6 +137,24 @@ class MovaMais extends Component {
                 <div className="text">
                   <h4>Rest Is Important</h4>
                   <p>{'“Você pode descansar por até 2 dias seguidos sem quebrar seu combo.”'}</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        {/* Step 05 */}
+        <div className="mm__step mm__step05">
+          <div className="container">
+            <h3 className="mm__step__title"><span>05</span> Points</h3>
+            <p className="mm__step__description">{'Permitir um acesso fácil e rápido aos pontos é crucial, apresentando-o de madeira clara, pois é a ponta final da nossa promessa de valor. Além do que, esse benefício, no nosso caso, atua como a “Metáfora da Cenoura”. Ele é o principal fator motivacional para muitos usuários.'}</p>
+            <ul className="mm__chess-list">
+              <li>
+                <div className="image">
+                  <img src={points01} alt="" />
+                </div>
+                <div className="text">
+                  <img src={points02} alt="" />
                 </div>
               </li>
             </ul>
