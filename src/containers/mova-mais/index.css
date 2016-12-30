@@ -265,3 +265,17 @@
     font-size: 32px;
   }
 }
+
+.mm__available {
+  text-align: center;
+  padding: 115px 0;
+
+  a {
+    display: inline-block;
+    margin: 30px;
+    max-width: 280px;
+  }
+  img {
+    width: 280px;
+  }
+}

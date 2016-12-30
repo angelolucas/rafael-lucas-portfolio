@@ -18,6 +18,8 @@ import guidelineColors from './images/guideline-colors.png';
 import guidelineFont from './images/guideline-font.png';
 import guidelineIcons from './images/guideline-icons.png';
 import counter from './images/counter.png';
+import googlePlay from './images/google-play.svg';
+import appleStore from './images/apple-store.svg';
 
 class MovaMais extends Component {
   componentDidMount() {
@@ -239,6 +241,18 @@ class MovaMais extends Component {
             <h3 className="mm__step__title"><span>08</span> Results</h3>
             <img src={counter} alt="" />
             <p>users around the world.</p>
+          </div>
+        </div>
+
+        {/* Available In */}
+        <div className="mm__available">
+          <div className="container">
+            <a href="https://play.google.com/store/apps/details?id=com.movamais.app" target="_blank" rel="noopener noreferrer">
+              <img src={googlePlay} alt="" />
+            </a>
+            <a href="https://itunes.apple.com/br/app/mova-mais/id1096302778?l=pt&ls=1&mt=8" target="_blank" rel="noopener noreferrer">
+              <img src={appleStore} alt="" />
+            </a>
           </div>
         </div>
       </section>
