@@ -3,8 +3,10 @@ import TweenLite from 'gsap';
 
 class HeroIntro extends Component {
   componentDidMount() {
+    const heightEffect = (90 / 100) * window.innerHeight;
+
     window.addEventListener('scroll', () => {
-      let opacity = (window.scrollY * 100) / window.innerHeight; // get scroll in percentage
+      let opacity = (window.scrollY * 100) / heightEffect; // get scroll in percentage
       opacity /= 100; // decreases to scale 0 to 1
       opacity = 1 - opacity; // invert values
       opacity = opacity.toFixed(3); // limits to 3 decimals
