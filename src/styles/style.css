@@ -18,6 +18,7 @@
 @import '../components/list-works';
 @import '../components/footer';
 @import '../components/navigation';
+@import '../components/back-to-top';
 
 /* Containers */
 @import '../containers/home-page';

@@ -1,0 +1,20 @@
+.back-to-top {
+  background-image: url('../containers/single-work/images/back-to-top.svg');
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-size: 24px;
+  background-position: center;
+  transition: 0.2s transform;
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  width: 40px;
+  height: 40px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+
+  &:hover {
+    transform: translateY(-5px);
+  }
+}

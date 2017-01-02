@@ -70,22 +70,3 @@ body.single-work-active {
     transform: rotateX( 180deg );  
   }
 }
-
-.single-work__back-to-top {
-  position: fixed;
-  right: 30px;
-  bottom: 30px;
-  width: 70px;
-  height: 52px;
-
-  font-size: 40px;
-  background: transparent;
-  color: black;
-  outline: none;
-  border: none;
-  cursor: pointer;
-
-  &:hover {
-    color: #CCC;
-  }  
-}
