@@ -3,7 +3,7 @@ import TweenLite from 'gsap';
 
 class BackToTop extends Component {
   componentDidMount() {
-    const container = document.querySelector('.single-work .scroll');
+    const container = document.querySelector(this.props.container);
     const height = 1000;
     const button = this.button;
 
@@ -32,5 +32,13 @@ class BackToTop extends Component {
     );
   }
 }
+
+BackToTop.propTypes = {
+  container: React.PropTypes.string,
+};
+
+BackToTop.defaultProps = {
+  container: 'body',
+};
 
 export default BackToTop;

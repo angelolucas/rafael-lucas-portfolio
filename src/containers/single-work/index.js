@@ -33,7 +33,7 @@ const SingleWork = () => (
       <div />
     </Link>
 
-    <BackToTop />
+    <BackToTop container={'.single-work .scroll'} />
   </div>
 );
 
