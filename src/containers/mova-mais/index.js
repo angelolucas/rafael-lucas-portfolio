@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 
+import WorkHead from '../../components/work-head';
+
+import workHeadImage from './images/work-head.jpg';
 import mockupTop from './images/mockup-top.jpg';
 import step01 from './images/step1.png';
 import step02 from './images/step2.png';
@@ -33,7 +36,7 @@ class MovaMais extends Component {
       <section className="mm">
 
         {/* Hero Image */}
-        <div className="mm__hero" />
+        <WorkHead image={workHeadImage} />
 
         {/* Intro */}
         <div className="mm__intro">
