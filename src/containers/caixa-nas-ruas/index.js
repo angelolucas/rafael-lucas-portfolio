@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
 
+import WorkHead from '../../components/work-head';
+
+import workHeadImage from './images/work-head.jpg';
+
 class CaixaNasRuas extends Component {
   componentDidMount() {
     document.body.classList.add('single-work-active');
@@ -10,6 +14,10 @@ class CaixaNasRuas extends Component {
   render() {
     return (
       <section className="caixa-nas-ruas">
+
+        {/* Hero Image */}
+        <WorkHead image={workHeadImage} />
+
         <h2>Caixa nas Ruas</h2>
         <p>Contrary to popular belief, Lorem Ipsum is not simply random</p>
         <p>text. It has roots in a piece of classical Latin literature fro</p>
