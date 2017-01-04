@@ -4,7 +4,7 @@
 body {
   padding-bottom: var(--footerHeight);
 }
-.footer {
+.home-footer {
   background: #1b1b1b;
   color: white;
   padding: 80px 15px;
@@ -21,7 +21,7 @@ body {
     font-size: 38px;
   }
 }
-.footer__social-networks {
+.home-footer__networks {
   display: flex;
   justify-content: space-between;
   max-width: 1070px;

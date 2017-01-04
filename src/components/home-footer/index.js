@@ -1,9 +1,9 @@
 import React from 'react';
 
-function Footer() {
+function HomeFooter() {
   return (
-    <footer className="footer">
-      <ul className="footer__social-networks">
+    <footer className="home-footer">
+      <ul className="home-footer__networks">
         <li><a href="http://twitter.com/rafaellucas" target="_blank" rel="noopener noreferrer">twitter</a></li>
         <li><a href="http://facebook.com.br/rafaellucass" target="_blank" rel="noopener noreferrer">facebook</a></li>
         <li><a href="http://linkedin.com/in/rafaellucass" target="_blank" rel="noopener noreferrer">linkedin</a></li>
@@ -14,4 +14,4 @@ function Footer() {
   );
 }
 
-export default Footer;
+export default HomeFooter;
