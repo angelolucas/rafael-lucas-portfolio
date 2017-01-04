@@ -8,7 +8,7 @@
 
   &:before {
     content: "";
-    background-image: url('../containers/single-work/images/back-to-top.svg');
+    background-image: url('../components/back-to-top/arrow-top.svg');
     background-repeat: no-repeat;
     background-color: transparent;
     background-size: 26px;
