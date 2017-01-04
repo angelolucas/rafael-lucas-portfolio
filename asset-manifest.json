@@ -1,8 +1,8 @@
 {
-  "main.css": "static/css/main.87e4d239.css",
-  "main.css.map": "static/css/main.87e4d239.css.map",
-  "main.js": "static/js/main.f5e9e8e1.js",
-  "main.js.map": "static/js/main.f5e9e8e1.js.map",
+  "main.css": "static/css/main.c2f0c518.css",
+  "main.css.map": "static/css/main.c2f0c518.css.map",
+  "main.js": "static/js/main.a75d1bdf.js",
+  "main.js.map": "static/js/main.a75d1bdf.js.map",
   "static/media/AkzidenzGroteskBQ-Bold.ttf": "static/media/AkzidenzGroteskBQ-Bold.097de029.ttf",
   "static/media/AkzidenzGroteskBQ-Reg.ttf": "static/media/AkzidenzGroteskBQ-Reg.b927142e.ttf",
   "static/media/LibreBaskerville-Bold.ttf": "static/media/LibreBaskerville-Bold.805fd25b.ttf",
@@ -16,7 +16,6 @@
   "static/media/guideline-colors.png": "static/media/guideline-colors.fef13488.png",
   "static/media/guideline-font.png": "static/media/guideline-font.41564da1.png",
   "static/media/guideline-icons.png": "static/media/guideline-icons.02f10abb.png",
-  "static/media/hero.jpg": "static/media/hero.bd0b9547.jpg",
   "static/media/mockup-top.jpg": "static/media/mockup-top.79623129.jpg",
   "static/media/mova-mais.png": "static/media/mova-mais.7fa7990f.png",
   "static/media/other01.png": "static/media/other01.449d06bb.png",
@@ -30,5 +29,6 @@
   "static/media/step2.png": "static/media/step2.0853d693.png",
   "static/media/step3.png": "static/media/step3.a14f19d5.png",
   "static/media/thumb-overlay.png": "static/media/thumb-overlay.b2e7014e.png",
-  "static/media/thumb.png": "static/media/thumb.3346b7d1.png"
+  "static/media/thumb.png": "static/media/thumb.3346b7d1.png",
+  "static/media/work-head.jpg": "static/media/work-head.bd0b9547.jpg"
 }
