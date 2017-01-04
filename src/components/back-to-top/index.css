@@ -1,13 +1,9 @@
 .back-to-top {
-  background-color: transparent;
   position: fixed;
   right: 30px;
   bottom: 30px;
   width: 40px;
   height: 40px;
-  outline: none;
-  border: none;
-  cursor: pointer;
   pointer-events: none;
 
   &:before {
