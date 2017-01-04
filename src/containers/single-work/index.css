@@ -9,11 +9,10 @@
   left: -100%;
   opacity: 0;
   z-index: 10;
-
-  > .scroll {
-    overflow: auto;
-    height: 100vh;
-  }
+}
+.single-work__scroll {
+  overflow: auto;
+  height: 100vh;
 }
 
 /* Active */

@@ -17,7 +17,7 @@ import BackToTop from '../../components/back-to-top';
 
 const SingleWork = () => (
   <div className="single-work">
-    <div className="scroll">
+    <div className="single-work__scroll">
       <Match pattern="/mova-mais" component={MovaMais} />
       <Match pattern="/caixa-nas-ruas" component={CaixaNasRuas} />
       <Match pattern="/bb-privete" component={BBPrivete} />
@@ -33,7 +33,7 @@ const SingleWork = () => (
       <div />
     </Link>
 
-    <BackToTop container={'.single-work .scroll'} />
+    <BackToTop container={'.single-work__scroll'} />
   </div>
 );
 
