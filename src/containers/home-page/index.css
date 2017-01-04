@@ -4,7 +4,7 @@
   z-index: 2;
 
 	&:after {
-		background: url('../components/footer/gradient.png') repeat-x;
+		background: url('../components/home-footer/gradient.png') repeat-x;
 		content: "";
 		position: absolute;
 		top: 100%;

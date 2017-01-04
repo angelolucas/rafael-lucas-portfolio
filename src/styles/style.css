@@ -14,7 +14,7 @@
 @import 'base/grid.css';
 
 /* Components */
-@import '../components/intro';
+@import '../components/home-intro';
 @import '../components/list-works';
 @import '../components/home-footer';
 @import '../components/work-head';

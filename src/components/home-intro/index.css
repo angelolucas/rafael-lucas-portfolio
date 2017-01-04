@@ -1,4 +1,4 @@
-.hero-intro {
+.home-intro {
   background: #fafafa;
   position: relative;
   width: 100%;
@@ -8,20 +8,20 @@
   align-items: center;
   z-index: 3;
 }
-.hero-intro__title {
+.home-intro__title {
   position: fixed;
   top: 80px;
   left: 80px;
   font-size: 22px;
   pointer-events: none;
 }
-.hero-intro__description {
+.home-intro__description {
   font-size: 78px;
   margin: 0 9.5vw;
   max-width: 800px;
   position: relative;
 }
-.hero-intro__anchoring {
+.home-intro__anchoring {
   position: absolute;
   bottom: 80px;
   left: 80px;
@@ -37,7 +37,7 @@
     cursor: pointer;
   }
 }
-.hero-intro__background {
+.home-intro__background {
   content: "";
   position: fixed;
   width: 100%;

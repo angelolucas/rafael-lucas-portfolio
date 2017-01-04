@@ -1,18 +1,18 @@
 import React from 'react';
 
-import IntroHead from '../../components/intro';
+import HomeIntro from '../../components/home-intro';
 import ListWorks from '../../components/list-works';
-import Footer from '../../components/footer';
+import HomeFooter from '../../components/home-footer';
 
 const HomePage = () => (
   <div className="home-page">
-    <IntroHead />
+    <HomeIntro />
 
     <main className="home-page--main">
       <ListWorks />
     </main>
 
-    <Footer />
+    <HomeFooter />
   </div>
 );
 
