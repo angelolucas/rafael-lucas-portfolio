@@ -15,9 +15,9 @@ class BackToTop extends Component {
       }
     };
   }
-  backToTop() {
+  backToTop(container) {
     TweenLite.to(
-      document.querySelector('.single-work .scroll'),
+      document.querySelector(container),
       0.5,
       { scrollTo: 0 },
     );
@@ -25,9 +25,10 @@ class BackToTop extends Component {
   render() {
     return (
       <button
+        type="button"
         ref={(button) => { this.button = button; }}
         className="back-to-top"
-        onClick={this.backToTop}
+        onClick={() => this.backToTop(this.props.container)}
       />
     );
   }
