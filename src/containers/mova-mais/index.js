@@ -26,10 +26,10 @@ import appleStore from './images/apple-store.svg';
 
 class MovaMais extends Component {
   componentDidMount() {
-    document.body.classList.add('single-work-active');
+    document.body.classList.add('works-page-active');
   }
   componentWillUnmount() {
-    document.body.classList.remove('single-work-active');
+    document.body.classList.remove('works-page-active');
   }
   render() {
     return (

@@ -3,7 +3,7 @@ import React from 'react';
 import Match from 'react-router/Match';
 import { Link } from 'react-router';
 
-// Single Works
+// Works
 import MovaMais from '../mova-mais';
 import CaixaNasRuas from '../caixa-nas-ruas';
 import BBPrivete from '../bb-privete';
@@ -15,9 +15,9 @@ import Emicida from '../emicida';
 import Navigation from '../../components/navigation';
 import BackToTop from '../../components/back-to-top';
 
-const SingleWork = () => (
-  <div className="single-work">
-    <div className="single-work__scroll">
+const WorksPage = () => (
+  <div className="works-page">
+    <div className="works-page__scroll">
       <Match pattern="/mova-mais" component={MovaMais} />
       <Match pattern="/caixa-nas-ruas" component={CaixaNasRuas} />
       <Match pattern="/bb-privete" component={BBPrivete} />
@@ -28,13 +28,13 @@ const SingleWork = () => (
       <Navigation />
     </div>
 
-    <Link className="single-work__back-to-home" to="/">
+    <Link className="works-page__back-to-home" to="/">
       Back
       <div />
     </Link>
 
-    <BackToTop container={'.single-work__scroll'} />
+    <BackToTop container={'.works-page__scroll'} />
   </div>
 );
 
-export default SingleWork;
+export default WorksPage;

@@ -6,10 +6,10 @@ import workHeadImage from './images/work-head.jpg';
 
 class CaixaNasRuas extends Component {
   componentDidMount() {
-    document.body.classList.add('single-work-active');
+    document.body.classList.add('works-page-active');
   }
   componentWillUnmount() {
-    document.body.classList.remove('single-work-active');
+    document.body.classList.remove('works-page-active');
   }
   render() {
     return (

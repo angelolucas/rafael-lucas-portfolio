@@ -7,13 +7,13 @@ import './styles/style.css';
 
 // App
 import HomePage from './containers/home-page';
-import SingleWork from './containers/single-work';
+import WorksPage from './containers/works-page';
 
 ReactDOM.render(
   <Router>
     <div>
       <HomePage />
-      <SingleWork />
+      <WorksPage />
     </div>
   </Router>,
   document.getElementById('root'),
