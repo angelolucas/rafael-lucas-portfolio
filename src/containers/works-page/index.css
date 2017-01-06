@@ -1,6 +1,4 @@
 .works-page {
-  background-color: var(--whiteBackground);
-  transition: 0.5s 0s opacity, 0s 0.5s left;
   position: fixed;
   top: 0;
   width: 100%;
