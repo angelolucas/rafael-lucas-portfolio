@@ -1,74 +1,41 @@
-/* eslint-disable */
-
 // Dependencies
-import React from 'react';
-import Match from 'react-router/Match';
+import React, { Component } from 'react';
 import { Link } from 'react-router';
-import { TransitionMotion, spring } from 'react-motion';
-
-// Works
-import MovaMais from '../mova-mais';
-import CaixaNasRuas from '../caixa-nas-ruas';
-import BBPrivete from '../bb-privete';
-import DavidYurman from '../david-yurman';
-import Encinter from '../encinter';
-import Emicida from '../emicida';
 
 // Components
 import Navigation from '../../components/navigation';
 import BackToTop from '../../components/back-to-top';
 
-const WorksPage = () => (
-  <div className="works-page">
-    <div className="works-page__scroll">
-      <MatchWithFade pattern="/mova-mais" component={MovaMais} />
-      <MatchWithFade pattern="/caixa-nas-ruas" component={CaixaNasRuas} />
-      <MatchWithFade pattern="/bb-privete" component={BBPrivete} />
-      <MatchWithFade pattern="/david-yurman" component={DavidYurman} />
-      <MatchWithFade pattern="/encinter" component={Encinter} />
-      <MatchWithFade pattern="/emicida" component={Emicida} />
+class WorksPage extends Component {
+  componentDidMount() {
+    document.body.classList.add('works-page-active');
+  }
+  componentWillUnmount() {
+    document.body.classList.remove('works-page-active');
+  }
+  render() {
+    return (
+      <div className="works-page">
+        <div className="works-page__scroll">
 
-      <Navigation />
-    </div>
+          {this.props.section}
 
-    <Link className="works-page__back-to-home" to="/">
-      Back
-      <div />
-    </Link>
+          <Navigation />
+        </div>
 
-    <BackToTop container={'.works-page__scroll'} />
-  </div>
-);
+        <Link className="works-page__back-to-home" to="/">
+          Back
+          <div />
+        </Link>
 
-const MatchWithFade = ({ component: Component, ...rest }) => {
-  const willLeave = () => ({ zIndex: 1, opacity: spring(0) });
+        <BackToTop container={'.works-page__scroll'} />
+      </div>
+    );
+  }
+}
 
-  return (
-    <Match {...rest} children={({ matched, ...props }) => (
-      <TransitionMotion
-        willLeave={willLeave}
-        styles={matched ? [{
-          key: props.location.pathname,
-          style: { opacity: 1 },
-          data: props,
-        }] : []}
-      >
-        {interpolatedStyles => (
-          <div>
-            {interpolatedStyles.map(config => (
-              <div
-                key={config.key}
-                className="interpolated"
-                style={{ ...config.style }}
-              >
-                <Component {...config.data} />
-              </div>
-            ))}
-          </div>
-        )}
-      </TransitionMotion>
-    )} />
-  );
+WorksPage.propTypes = {
+  section: React.PropTypes.object,
 };
 
 export default WorksPage;

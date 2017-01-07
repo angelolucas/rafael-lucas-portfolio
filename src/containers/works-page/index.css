@@ -4,8 +4,7 @@
   width: 100%;
   height: 100vh;
   color: white;
-  left: -100%;
-  opacity: 0;
+  left: 0;
   z-index: 10;
 }
 .works-page__scroll {
@@ -14,11 +13,6 @@
 }
 
 /* Active */
-body.works-page-active .works-page {
-  transition: 0.5s 0s opacity, 0s 0s left;
-  left: 0;
-  opacity: 1;
-}
 body.works-page-active {
   overflow: hidden;
 }
