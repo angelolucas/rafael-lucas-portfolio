@@ -3,8 +3,19 @@ import React from 'react';
 import Match from 'react-router/Match';
 import { TransitionMotion, spring } from 'react-motion';
 
+const styles = {}
+
+styles.fill = {
+  position: 'fixed',
+  left: 0,
+  right: 0,
+  top: 0,
+  bottom: 0,
+  zIndex: 10
+}
+
 const MatchWithFade = ({ component: Component, ...rest }) => {
-  const willLeave = () => ({ zIndex: 1, opacity: spring(0) });
+  const willLeave = () => ({ zIndex: 12, opacity: spring(0) });
 
   return (
     <Match {...rest} children={({ matched, ...props }) => (
@@ -21,8 +32,7 @@ const MatchWithFade = ({ component: Component, ...rest }) => {
             {interpolatedStyles.map(config => (
               <div
                 key={config.key}
-                className="interpolated"
-                style={{ ...config.style }}
+                style={{ ...styles.fill, ...config.style }}
               >
                 <Component {...config.data} />
               </div>

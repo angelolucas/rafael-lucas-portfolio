@@ -19,7 +19,7 @@ function Section() {
 }
 
 function CaixaNasRuas() {
-  return <WorksPage section={Section()} />;
+  return <WorksPage section={Section()} position={2} />;
 }
 
 export default CaixaNasRuas;
