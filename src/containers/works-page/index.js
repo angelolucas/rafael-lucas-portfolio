@@ -20,7 +20,7 @@ class WorksPage extends Component {
 
           {this.props.section}
 
-          <Navigation />
+          <Navigation position={this.props.position} />
         </div>
 
         <Link className="works-page__back-to-home" to="/">
@@ -36,6 +36,7 @@ class WorksPage extends Component {
 
 WorksPage.propTypes = {
   section: React.PropTypes.object,
+  position: React.PropTypes.number,
 };
 
 export default WorksPage;

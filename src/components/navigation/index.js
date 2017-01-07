@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router';
 
-function Navigation() {
-  const workList = {
+const Navigation = (props) => {
+  const worksList = {
     1: '/mova-mais',
     2: '/caixa-nas-ruas',
     3: '/bb-privete',
@@ -11,25 +11,29 @@ function Navigation() {
     6: '/emicida',
   };
 
-  const workLength = Object.keys(workList).length;
+  const worksLength = Object.keys(worksList).length;
 
-  const workid = 1; // this.props.workid
-  let prev = workid - 1;
-  let next = workid + 1;
+  const WorkPosition = props.position;
+  let prev = WorkPosition - 1;
+  let next = WorkPosition + 1;
 
-  if (workid === 1) {
-    prev = workLength;
+  if (WorkPosition === 1) {
+    prev = worksLength;
   }
-  if (workid === workLength) {
+  if (WorkPosition === worksLength) {
     next = 1;
   }
 
   return (
     <div className="navigation">
-      <Link to={workList[prev]}>prv</Link>
-      <Link to={workList[next]}>nxt</Link>
+      <Link to={worksList[prev]}>prv</Link>
+      <Link to={worksList[next]}>nxt</Link>
     </div>
   );
-}
+};
+
+Navigation.propTypes = {
+  position: React.PropTypes.number,
+};
 
 export default Navigation;
