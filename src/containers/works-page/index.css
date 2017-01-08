@@ -15,7 +15,7 @@
 
 /* Active */
 body.works-page-active .works-page {
-  transition: 0.3s 0s opacity;
+  transition: 0.5s 0s opacity;
   pointer-events: visible;
   opacity: 1;
 }

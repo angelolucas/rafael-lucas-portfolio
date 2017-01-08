@@ -6,6 +6,7 @@ import WorkHead from '../../components/work-head';
 
 // Assets
 import movaMais from './images/mova-mais.png';
+import posterVideo from './images/video-poster.jpg';
 import video from './images/video.mp4';
 import mockupTop from './images/mockup-top.jpg';
 import step01 from './images/step1.png';
@@ -33,7 +34,7 @@ function Section() {
     <section className="mm">
 
       {/* Hero Image */}
-      <WorkHead src={video} type="video" />
+      <WorkHead src={video} poster={posterVideo} type="video" />
 
       {/* Intro */}
       <div className="work-intro">

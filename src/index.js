@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom';
 import Router from 'react-router/BrowserRouter';
 import MatchWithFade from './components/match-with-fade';
 
+// Global Styles
 import './styles/style.css';
 
 // App
@@ -15,10 +16,14 @@ import DavidYurman from './containers/david-yurman';
 import Encinter from './containers/encinter';
 import Emicida from './containers/emicida';
 
+// Work Pre loader
+import WorkPreLoader from './components/work-pre-loader';
+
 ReactDOM.render(
   <Router>
     <div>
       <HomePage />
+      <WorkPreLoader />
       <div className="works-page">
         <MatchWithFade pattern="/mova-mais" component={MovaMais} />
         <MatchWithFade pattern="/caixa-nas-ruas" component={CaixaNasRuas} />

@@ -22,6 +22,8 @@ class WorkHead extends Component {
           className="work-head__media work-head__media--video"
           src={this.props.src}
           autoPlay
+          poster={this.props.poster}
+          muted
           loop
         />
       );
@@ -53,6 +55,7 @@ class WorkHead extends Component {
 WorkHead.propTypes = {
   src: React.PropTypes.string,
   type: React.PropTypes.string,
+  poster: React.PropTypes.string,
 };
 
 export default WorkHead;
