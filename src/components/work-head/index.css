@@ -1,12 +1,33 @@
 .work-head {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
   height: 100vh;
   width: 100%;
   overflow: hidden;
   position: relative;
+}
+.work-head__media {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+
+  &.work-head__media--image {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  &.work-head__media--video {
+    min-width: 100%; 
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+  }
 }
 .work-head__button {
   background-image: url('../components/work-head/arrow-bottom.svg');

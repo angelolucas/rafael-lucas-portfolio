@@ -14,8 +14,31 @@ class WorkHead extends Component {
     );
   }
   render() {
+    let media = null;
+    // Media Type Video
+    if (this.props.type === 'video') {
+      media = (
+        <video
+          className="work-head__media work-head__media--video"
+          src={this.props.src}
+          autoPlay
+          loop
+        />
+      );
+    }
+
+    // Media Type Image
+    if (this.props.type === 'image') {
+      media = (
+        <div
+          className="work-head__media work-head__media--image"
+          style={{ backgroundImage: `url(${this.props.src})` }}
+        />
+      );
+    }
     return (
-      <div className="work-head" style={{ backgroundImage: `url(${this.props.image})` }}>
+      <div className="work-head">
+        {media}
         <button
           type="button"
           className="work-head__button"
@@ -28,7 +51,8 @@ class WorkHead extends Component {
 }
 
 WorkHead.propTypes = {
-  image: React.PropTypes.string,
+  src: React.PropTypes.string,
+  type: React.PropTypes.string,
 };
 
 export default WorkHead;
