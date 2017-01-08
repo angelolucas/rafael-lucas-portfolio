@@ -18,6 +18,7 @@
 @import '../components/list-works';
 @import '../components/home-footer';
 @import '../components/work-head';
+@import '../components/work-intro';
 @import '../components/navigation';
 @import '../components/back-to-top';
 
@@ -25,3 +26,4 @@
 @import '../containers/home-page';
 @import '../containers/works-page';
 @import '../containers/mova-mais';
+@import '../containers/caixa-nas-ruas';

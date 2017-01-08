@@ -1,0 +1,17 @@
+:root {
+  --cnr-colorfulDetails: #50afcc;
+  --cnr-text: #333333;
+  --cnr-BGColorful: #5293ca;
+  --cnr-BGDefault: #f0f0f0;
+  --cnr-BGDefault2: #e8e8e8;
+}
+.cnr {
+  background-color: var(--cnr-BGDefault);
+  color: var(--cnr-text);
+
+  h2 {
+    color: var(--cnr-colorfulDetails);
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+}

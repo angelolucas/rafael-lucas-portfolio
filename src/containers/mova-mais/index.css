@@ -1,42 +1,22 @@
 :root {
-  --gray: #f0f0f0;
-  --pink: #ea4164;
-  --purpleText: #4d3855;
-  --purpleBox: #432155;
-  --grayColor: #e8e8e8;
+  --mm-colorfulDetails: #ea4164;
+  --mm-text: #4d3855;
+  --mm-BGColorful: #432155;
+  --mm-BGDefault: #f0f0f0;
+  --mm-BGDefault2: #e8e8e8;
 }
 .mm {
-  background-color: var(--gray);
-  color: var(--purpleText);
+  background-color: var(--mm-BGDefault);
+  color: var(--mm-text);
 
   h2 {
-    color: var(--pink);
+    color: var(--mm-colorfulDetails);
     font-weight: bold;
     text-transform: uppercase;
   }
   img {
     margin: auto;
     display: block;
-  }
-}
-
-/* Intro */
-.mm__intro {
-  margin: 80px auto;
-  text-align: center;
-  max-width: 700px;
-  width: 100%;
-
-  .mm__intro__title {
-  background: no-repeat url('../containers/mova-mais/images/mova-mais.png');
-  display: inline-block;
-  font-size: 0;
-  width: 223px;
-  height: 223px;
-  }
-  .mm__intro__concept {
-    font-size: 65px;
-    color: var(--purpleText);
   }
 }
 
@@ -95,7 +75,7 @@
     span {
       position: absolute;
       top: 0;
-      background-color: var(--pink);
+      background-color: var(--mm-colorfulDetails);
       border-radius: 50%;
       color: white;
       font-weight: bold;
@@ -110,7 +90,7 @@
 
     &:after {
       content: "";
-      border-bottom: 5px solid var(--pink);
+      border-bottom: 5px solid var(--mm-colorfulDetails);
       width: 38px;
       display: block;
       margin: 20px auto 0; 
@@ -126,7 +106,7 @@
 
 /* Step 01 */
 .mm__step01 {
-  background-color: var(--grayColor);
+  background-color: var(--mm-BGDefault2);
 
   .mm__step01__items {
     display: flex;
@@ -193,7 +173,7 @@
 
 /* Step 02 */
 .mm__step02 {
-  background-color: var(--purpleBox);
+  background-color: var(--mm-BGColorful);
   color: white;
   font-size: 20px;
 
@@ -216,18 +196,18 @@
 
 /* Step 04 */
 .mm__step04 {
-  background-color: var(--grayColor);
+  background-color: var(--mm-BGDefault2);
 }
 
 /* Step 06 */
 .mm__step06 {
-  background-color: var(--grayColor);
+  background-color: var(--mm-BGDefault2);
 
   .chess-list {
     .chess-list__item__title {
       &:after {
         content: "";
-        border-bottom: 5px solid var(--pink);
+        border-bottom: 5px solid var(--mm-colorfulDetails);
         width: 38px;
         display: block;
         margin: 20px auto 0; 
@@ -245,7 +225,7 @@
 
 /* Step 08 */
 .mm__step08 {
-  background-color: var(--purpleBox);
+  background-color: var(--mm-BGColorful);
   color: white;
 
   img {

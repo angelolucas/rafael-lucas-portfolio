@@ -5,6 +5,7 @@ import WorksPage from '../works-page';
 import WorkHead from '../../components/work-head';
 
 // Assets
+import movaMais from './images/mova-mais.png';
 import workHeadImage from './images/work-head.jpg';
 import mockupTop from './images/mockup-top.jpg';
 import step01 from './images/step1.png';
@@ -35,13 +36,15 @@ function Section() {
       <WorkHead image={workHeadImage} />
 
       {/* Intro */}
-      <div className="mm__intro">
+      <div className="work-intro">
         <div className="container">
-          <h1 className="mm__intro__title">Mova Mais</h1>
+          <h1 className="work-intro__title">Mova Mais</h1>
+          <img src={movaMais} alt="Mova Mais" />
           <h2>Concept</h2>
           <h3>Ganhe pontos por fazer exercícios.</h3>
         </div>
       </div>
+
       <div className="container">
         <img src={mockupTop} alt="" />
       </div>
