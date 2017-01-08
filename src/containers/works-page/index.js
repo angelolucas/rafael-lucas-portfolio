@@ -11,11 +11,13 @@ class WorksPage extends Component {
     document.body.classList.add('works-page-active');
   }
   componentWillUnmount() {
-    document.body.classList.remove('works-page-active');
+    if (location.pathname === '/') {
+      document.body.classList.remove('works-page-active');
+    }
   }
   render() {
     return (
-      <div className="works-page">
+      <div>
         <div className="works-page__scroll">
 
           {this.props.section}

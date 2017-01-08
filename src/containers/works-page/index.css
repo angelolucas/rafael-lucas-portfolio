@@ -1,4 +1,12 @@
 .works-page {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100vh;
+  opacity: 0;
+  z-index: 10;
+  pointer-events: none;
 }
 .works-page__scroll {
   overflow: auto;
@@ -6,6 +14,11 @@
 }
 
 /* Active */
+body.works-page-active .works-page {
+  transition: 0.3s 0s opacity;
+  pointer-events: visible;
+  opacity: 1;
+}
 body.works-page-active {
   overflow: hidden;
 }

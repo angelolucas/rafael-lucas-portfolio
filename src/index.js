@@ -19,12 +19,14 @@ ReactDOM.render(
   <Router>
     <div>
       <HomePage />
-      <MatchWithFade pattern="/mova-mais" component={MovaMais} />
-      <MatchWithFade pattern="/caixa-nas-ruas" component={CaixaNasRuas} />
-      <MatchWithFade pattern="/bb-privete" component={BBPrivete} />
-      <MatchWithFade pattern="/david-yurman" component={DavidYurman} />
-      <MatchWithFade pattern="/encinter" component={Encinter} />
-      <MatchWithFade pattern="/emicida" component={Emicida} />
+      <div className="works-page">
+        <MatchWithFade pattern="/mova-mais" component={MovaMais} />
+        <MatchWithFade pattern="/caixa-nas-ruas" component={CaixaNasRuas} />
+        <MatchWithFade pattern="/bb-privete" component={BBPrivete} />
+        <MatchWithFade pattern="/david-yurman" component={DavidYurman} />
+        <MatchWithFade pattern="/encinter" component={Encinter} />
+        <MatchWithFade pattern="/emicida" component={Emicida} />
+      </div>
     </div>
   </Router>,
   document.getElementById('root'),
