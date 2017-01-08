@@ -1,0 +1,14 @@
+/* Objective */
+.work-objective {
+  margin: 0 auto;
+  padding: 100px 0 200px;
+  text-align: center;
+  width: 100%;
+
+  .container {
+    max-width: 950px;
+  }
+  p {
+    font-size: 52px;
+  }
+}

@@ -20,18 +20,6 @@
   }
 }
 
-/* Objective */
-.mm__objective {
-  margin: 100px auto 200px;
-  text-align: center;
-  max-width: 950px;
-  width: 100%;
-
-  p {
-    font-size: 52px;
-  }
-}
-
 /* Chess List */
 .chess-list {
   > li {

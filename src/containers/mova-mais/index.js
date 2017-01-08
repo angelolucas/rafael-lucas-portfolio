@@ -45,12 +45,13 @@ function Section() {
         </div>
       </div>
 
+      {/* Mockup */}
       <div className="container">
         <img src={mockupTop} alt="" />
       </div>
 
       {/* Objective */}
-      <div className="mm__objective">
+      <div className="work-objective">
         <div className="container">
           <h2>Objective</h2>
           <p>{'Apresentar claramente a proposta de valor, tendo sempre um crescimento consistente da base de usuários, atrelado a uma interface amigável, concisa e focada no usuário.'}</p>

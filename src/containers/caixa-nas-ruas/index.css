@@ -1,6 +1,7 @@
 :root {
   --cnr-colorfulDetails: #50afcc;
   --cnr-text: #333333;
+  --cnr-darkText: #274560;
   --cnr-BGColorful: #5293ca;
   --cnr-BGDefault: #f0f0f0;
   --cnr-BGDefault2: #e8e8e8;
@@ -13,5 +14,15 @@
     color: var(--cnr-colorfulDetails);
     font-weight: bold;
     text-transform: uppercase;
+  }
+  .work-objective {
+    background-color: var(--cnr-BGColorful);
+    color: white;
+    margin-top: -27vw;
+    padding-top: 27vw;
+
+    h2 {
+      color: var(--cnr-darkText);
+    }
   }
 }
