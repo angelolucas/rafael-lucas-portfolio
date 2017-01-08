@@ -1,8 +1,8 @@
 {
-  "main.css": "static/css/main.c0543dd9.css",
-  "main.css.map": "static/css/main.c0543dd9.css.map",
-  "main.js": "static/js/main.c1105b73.js",
-  "main.js.map": "static/js/main.c1105b73.js.map",
+  "main.css": "static/css/main.fcf4dce1.css",
+  "main.css.map": "static/css/main.fcf4dce1.css.map",
+  "main.js": "static/js/main.3667b779.js",
+  "main.js.map": "static/js/main.3667b779.js.map",
   "static/media/AkzidenzGroteskBQ-Bold.ttf": "static/media/AkzidenzGroteskBQ-Bold.097de029.ttf",
   "static/media/AkzidenzGroteskBQ-Reg.ttf": "static/media/AkzidenzGroteskBQ-Reg.b927142e.ttf",
   "static/media/LibreBaskerville-Bold.ttf": "static/media/LibreBaskerville-Bold.805fd25b.ttf",
@@ -32,5 +32,7 @@
   "static/media/step3.png": "static/media/step3.a14f19d5.png",
   "static/media/thumb-overlay.png": "static/media/thumb-overlay.b2e7014e.png",
   "static/media/thumb.png": "static/media/thumb.3346b7d1.png",
-  "static/media/work-head.jpg": "static/media/work-head.bd0b9547.jpg"
+  "static/media/video-poster.jpg": "static/media/video-poster.3f48daf7.jpg",
+  "static/media/video.mp4": "static/media/video.d4207d6d.mp4",
+  "static/media/work-head.jpg": "static/media/work-head.538dd0ed.jpg"
 }
