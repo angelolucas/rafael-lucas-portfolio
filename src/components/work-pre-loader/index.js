@@ -1,9 +1,9 @@
 // Dependencies
 import React from 'react';
 
-import posterMovaMais from '../../containers/mova-mais/images/video-poster.jpg';
-import videoMovaMais from '../../containers/mova-mais/images/video.mp4';
-import posterCaixaNasRuas from '../../containers/caixa-nas-ruas/images/work-head.jpg';
+import posterMovaMais from '../../containers/mova-mais/media/video-poster.jpg';
+import videoMovaMais from '../../containers/mova-mais/media/video.mp4';
+import posterCaixaNasRuas from '../../containers/caixa-nas-ruas/media/work-head.jpg';
 
 function WorkPreLoader() {
   return (

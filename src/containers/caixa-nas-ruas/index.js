@@ -5,9 +5,9 @@ import WorkPage from '../work-page';
 import WorkHead from '../../components/work-head';
 
 // Assets
-import caixaNasRuas from './images/caixa-nas-ruas.svg';
-import workHeadImage from './images/work-head.jpg';
-import mockupTop from './images/mockup-top.png';
+import caixaNasRuas from './media/caixa-nas-ruas.svg';
+import workHeadImage from './media/work-head.jpg';
+import mockupTop from './media/mockup-top.png';
 
 function Section() {
   return (

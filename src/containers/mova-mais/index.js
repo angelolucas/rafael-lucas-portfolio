@@ -5,29 +5,29 @@ import WorkPage from '../work-page';
 import WorkHead from '../../components/work-head';
 
 // Assets
-import movaMais from './images/mova-mais.png';
-import posterVideo from './images/video-poster.jpg';
-import video from './images/video.mp4';
-import mockupTop from './images/mockup-top.jpg';
-import step01 from './images/step1.png';
-import step02 from './images/step2.png';
-import step03 from './images/step3.png';
-import engagement01 from './images/engagement01.png';
-import engagement02 from './images/engagement02.png';
-import engagement03 from './images/engagement03.png';
-import points01 from './images/points01.png';
-import points02 from './images/points02.png';
-import other01 from './images/other01.png';
-import other02 from './images/other02.png';
-import other03 from './images/other03.png';
-import other04 from './images/other04.png';
-import other05 from './images/other05.png';
-import guidelineColors from './images/guideline-colors.png';
-import guidelineFont from './images/guideline-font.png';
-import guidelineIcons from './images/guideline-icons.png';
-import counter from './images/counter.png';
-import googlePlay from './images/google-play.svg';
-import appleStore from './images/apple-store.svg';
+import movaMais from './media/mova-mais.png';
+import posterVideo from './media/video-poster.jpg';
+import video from './media/video.mp4';
+import mockupTop from './media/mockup-top.jpg';
+import step01 from './media/step1.png';
+import step02 from './media/step2.png';
+import step03 from './media/step3.png';
+import engagement01 from './media/engagement01.png';
+import engagement02 from './media/engagement02.png';
+import engagement03 from './media/engagement03.png';
+import points01 from './media/points01.png';
+import points02 from './media/points02.png';
+import other01 from './media/other01.png';
+import other02 from './media/other02.png';
+import other03 from './media/other03.png';
+import other04 from './media/other04.png';
+import other05 from './media/other05.png';
+import guidelineColors from './media/guideline-colors.png';
+import guidelineFont from './media/guideline-font.png';
+import guidelineIcons from './media/guideline-icons.png';
+import counter from './media/counter.png';
+import googlePlay from './media/google-play.svg';
+import appleStore from './media/apple-store.svg';
 
 function Section() {
   return (

@@ -83,13 +83,13 @@
         margin-bottom: 50px;
       }
       &:nth-child(1):before {
-        background-image: url('../containers/mova-mais/images/flow1.svg');
+        background-image: url('../containers/mova-mais/media/flow1.svg');
       }
       &:nth-child(2):before {
-        background-image: url('../containers/mova-mais/images/flow2.svg');
+        background-image: url('../containers/mova-mais/media/flow2.svg');
       }
       &:nth-child(3):before {
-        background-image: url('../containers/mova-mais/images/flow3.svg');
+        background-image: url('../containers/mova-mais/media/flow3.svg');
       }
       p {
         font-size: 34px;
@@ -106,13 +106,13 @@
         background-size: 100%;
       }
       &:nth-child(1):after {
-        background-image: url('../containers/mova-mais/images/arrow1.svg');
+        background-image: url('../containers/mova-mais/media/arrow1.svg');
         width: 123px;
         height: 32px;
         top: 40px;
       }
       &:nth-child(2):after {
-        background-image: url('../containers/mova-mais/images/arrow2.svg');
+        background-image: url('../containers/mova-mais/media/arrow2.svg');
         width: 69px;
         height: 75px;
         top: 80px;
@@ -137,7 +137,7 @@
 /* Step 03 */
 .work-step--mm03 {
   .work-step--mm03__background {
-    background-image: url('../containers/mova-mais/images/daily-goal.jpg');
+    background-image: url('../containers/mova-mais/media/daily-goal.jpg');
     background-repeat: no-repeat;
     background-position: center;
     height: 1148px;
