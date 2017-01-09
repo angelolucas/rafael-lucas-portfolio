@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 
 class Emicida extends Component {
   componentDidMount() {
-    document.body.classList.add('works-page-active');
+    document.body.classList.add('work-page-active');
   }
   componentWillUnmount() {
-    document.body.classList.remove('works-page-active');
+    document.body.classList.remove('work-page-active');
   }
   render() {
     return (

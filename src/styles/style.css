@@ -25,6 +25,6 @@
 
 /* Containers */
 @import '../containers/home-page';
-@import '../containers/works-page';
+@import '../containers/work-page';
 @import '../containers/mova-mais';
 @import '../containers/caixa-nas-ruas';

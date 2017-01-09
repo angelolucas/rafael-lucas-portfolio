@@ -1,6 +1,6 @@
 import React from 'react';
 
-import WorksPage from '../works-page';
+import WorkPage from '../work-page';
 
 import WorkHead from '../../components/work-head';
 
@@ -45,7 +45,7 @@ function Section() {
 }
 
 function CaixaNasRuas() {
-  return <WorksPage section={Section()} position={2} />;
+  return <WorkPage section={Section()} position={2} />;
 }
 
 export default CaixaNasRuas;

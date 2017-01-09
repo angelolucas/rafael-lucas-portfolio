@@ -1,6 +1,6 @@
 import React from 'react';
 
-import WorksPage from '../works-page';
+import WorkPage from '../work-page';
 
 import WorkHead from '../../components/work-head';
 
@@ -264,7 +264,7 @@ function Section() {
 }
 
 function MovaMais() {
-  return <WorksPage section={Section()} position={1} />;
+  return <WorkPage section={Section()} position={1} />;
 }
 
 export default MovaMais;

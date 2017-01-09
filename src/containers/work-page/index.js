@@ -6,39 +6,39 @@ import { Link } from 'react-router';
 import Navigation from '../../components/navigation';
 import BackToTop from '../../components/back-to-top';
 
-class WorksPage extends Component {
+class WorkPage extends Component {
   componentDidMount() {
-    document.body.classList.add('works-page-active');
+    document.body.classList.add('work-page-active');
   }
   componentWillUnmount() {
     if (location.pathname === '/') {
-      document.body.classList.remove('works-page-active');
+      document.body.classList.remove('work-page-active');
     }
   }
   render() {
     return (
       <div>
-        <div className="works-page__scroll">
+        <div className="work-page__scroll">
 
           {this.props.section}
 
           <Navigation position={this.props.position} />
         </div>
 
-        <Link className="works-page__back-to-home" to="/">
+        <Link className="work-page__back-to-home" to="/">
           Back
           <div />
         </Link>
 
-        <BackToTop container={'.works-page__scroll'} />
+        <BackToTop container={'.work-page__scroll'} />
       </div>
     );
   }
 }
 
-WorksPage.propTypes = {
+WorkPage.propTypes = {
   section: React.PropTypes.object,
   position: React.PropTypes.number,
 };
 
-export default WorksPage;
+export default WorkPage;

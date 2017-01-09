@@ -4,7 +4,7 @@ import TweenLite from 'gsap';
 class WorkHead extends Component {
   downButton() {
     TweenLite.to(
-      document.querySelector('.works-page__scroll'),
+      document.querySelector('.work-page__scroll'),
       0.5,
       {
         scrollTo: {

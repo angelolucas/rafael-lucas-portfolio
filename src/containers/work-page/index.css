@@ -1,4 +1,4 @@
-.works-page {
+.work-page {
   position: fixed;
   top: 0;
   left: 0;
@@ -8,23 +8,23 @@
   z-index: 10;
   pointer-events: none;
 }
-.works-page__scroll {
+.work-page__scroll {
   overflow: auto;
   height: 100vh;
 }
 
 /* Active */
-body.works-page-active .works-page {
+body.work-page-active .work-page {
   transition: 0.5s 0s opacity;
   pointer-events: visible;
   opacity: 1;
 }
-body.works-page-active {
+body.work-page-active {
   overflow: hidden;
 }
 
 /* Back Button */
-.works-page__back-to-home {
+.work-page__back-to-home {
   width: 80px;
   height: 80px;
   position: fixed;

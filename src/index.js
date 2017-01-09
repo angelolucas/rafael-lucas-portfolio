@@ -24,7 +24,7 @@ ReactDOM.render(
     <div>
       <HomePage />
       <WorkPreLoader />
-      <div className="works-page">
+      <div className="work-page">
         <MatchWithFade pattern="/mova-mais" component={MovaMais} />
         <MatchWithFade pattern="/caixa-nas-ruas" component={CaixaNasRuas} />
         <MatchWithFade pattern="/bb-privete" component={BBPrivete} />
