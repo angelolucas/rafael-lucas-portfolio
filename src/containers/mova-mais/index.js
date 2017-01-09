@@ -60,10 +60,10 @@ function Section() {
       </div>
 
       {/* Step 01 */}
-      <div className="mm__step mm__step01">
+      <div className="work-step work-step--mm01">
         <div className="container">
-          <h3 className="mm__step__title"><span>01</span> Flow</h3>
-          <ul className="mm__step01__items">
+          <h3 className="work-step__title"><span>01</span> Flow</h3>
+          <ul className="work-step--mm01__items">
             <li>
               <p>Monitor<br /> physical activities</p>
             </li>
@@ -78,10 +78,10 @@ function Section() {
       </div>
 
       {/* Step 02 */}
-      <div className="mm__step mm__step02">
+      <div className="work-step work-step--mm02">
         <div className="container">
-          <h3 className="mm__step__title"><span>02</span> Walkthroughs</h3>
-          <p className="mm__step__description">{'A experiência do onboarding foi projetada para ser simples e didática, sem deixar de ser atrativa desde o primeiro momento, por isso a importância de ter uma linguagem clara e divertida.'}</p>
+          <h3 className="work-step__title"><span>02</span> Walkthroughs</h3>
+          <p className="work-step__description">{'A experiência do onboarding foi projetada para ser simples e didática, sem deixar de ser atrativa desde o primeiro momento, por isso a importância de ter uma linguagem clara e divertida.'}</p>
           <ul className="chess-list">
             <li>
               <div className="image">
@@ -112,19 +112,19 @@ function Section() {
       </div>
 
       {/* Step 03 */}
-      <div className="mm__step mm__step03">
+      <div className="work-step work-step--mm03">
         <div className="container">
-          <h3 className="mm__step__title"><span>03</span> Daily Goal</h3>
-          <p className="mm__step__description">{'Um dos maiores objetivos da aplicativo é fazer com que o usuário se sinta sempre motivado a se exercitar, por isso exibimos mensagens de incentivo, sobretudo para não perder a sequência de exercícios.'}</p>
+          <h3 className="work-step__title"><span>03</span> Daily Goal</h3>
+          <p className="work-step__description">{'Um dos maiores objetivos da aplicativo é fazer com que o usuário se sinta sempre motivado a se exercitar, por isso exibimos mensagens de incentivo, sobretudo para não perder a sequência de exercícios.'}</p>
         </div>
-        <div className="mm__step03__background" />
+        <div className="work-step--mm03__background" />
       </div>
 
       {/* Step 04 */}
-      <div className="mm__step mm__step04">
+      <div className="work-step work-step--mm04">
         <div className="container">
-          <h3 className="mm__step__title"><span>04</span> Engagement</h3>
-          <p className="mm__step__description">{'Reter o usuário é sempre um grande desafio se tratando de atividade física, por isso elaboramos um recurso chamado “Combo”, que beneficia com mais pontos os usuários que atiguem a meta diária com mais frequência.'}</p>
+          <h3 className="work-step__title"><span>04</span> Engagement</h3>
+          <p className="work-step__description">{'Reter o usuário é sempre um grande desafio se tratando de atividade física, por isso elaboramos um recurso chamado “Combo”, que beneficia com mais pontos os usuários que atiguem a meta diária com mais frequência.'}</p>
           <ul className="chess-list">
             <li>
               <div className="image">
@@ -158,10 +158,10 @@ function Section() {
       </div>
 
       {/* Step 05 */}
-      <div className="mm__step mm__step05">
+      <div className="work-step work-step--mm05">
         <div className="container">
-          <h3 className="mm__step__title"><span>05</span> Points</h3>
-          <p className="mm__step__description">{'Permitir um acesso fácil e rápido aos pontos é crucial, apresentando-o de madeira clara, pois é a ponta final da nossa promessa de valor. Além do que, esse benefício, no nosso caso, atua como a “Metáfora da Cenoura”. Ele é o principal fator motivacional para muitos usuários.'}</p>
+          <h3 className="work-step__title"><span>05</span> Points</h3>
+          <p className="work-step__description">{'Permitir um acesso fácil e rápido aos pontos é crucial, apresentando-o de madeira clara, pois é a ponta final da nossa promessa de valor. Além do que, esse benefício, no nosso caso, atua como a “Metáfora da Cenoura”. Ele é o principal fator motivacional para muitos usuários.'}</p>
           <ul className="chess-list">
             <li>
               <div className="image">
@@ -176,9 +176,9 @@ function Section() {
       </div>
 
       {/* Step 06 */}
-      <div className="mm__step mm__step06">
+      <div className="work-step work-step--mm06">
         <div className="container">
-          <h3 className="mm__step__title"><span>06</span> Other Resources</h3>
+          <h3 className="work-step__title"><span>06</span> Other Resources</h3>
           <ul className="chess-list">
             <li>
               <div className="image">
@@ -230,9 +230,9 @@ function Section() {
       </div>
 
       {/* Step 07 */}
-      <div className="mm__step mm__step07">
+      <div className="work-step work-step--mm07">
         <div className="container">
-          <h3 className="mm__step__title"><span>07</span> Guideline</h3>
+          <h3 className="work-step__title"><span>07</span> Guideline</h3>
           <img src={guidelineColors} alt="" />
           <img src={guidelineFont} alt="" />
           <img src={guidelineIcons} alt="" />
@@ -240,9 +240,9 @@ function Section() {
       </div>
 
       {/* Step 08 */}
-      <div className="mm__step mm__step08">
+      <div className="work-step work-step--mm08">
         <div className="container">
-          <h3 className="mm__step__title"><span>08</span> Results</h3>
+          <h3 className="work-step__title"><span>08</span> Results</h3>
           <img src={counter} alt="" />
           <p>users around the world.</p>
         </div>

@@ -1,0 +1,42 @@
+.work-step {
+  position: relative;
+  text-align: center;
+  padding-top: 90px;
+  padding-bottom: 150px;
+}
+.work-step__title {
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-bottom: 140px;
+
+  /* Step Number */
+  span {
+    position: absolute;
+    top: 0;
+    background-color: #818181;
+    border-radius: 50%;
+    color: white;
+    font-weight: bold;
+    font-size: 34px;
+    width: 85px;
+    height: 85px;
+    text-align: center;
+    line-height: 85px;
+    transform: translate(-50%, -50%);
+    left: 50%;
+  }
+
+  &:after {
+    content: "";
+    border-bottom: 5px solid #464646;
+    width: 38px;
+    display: block;
+    margin: 20px auto 0; 
+  }
+}
+.work-step__description {
+  max-width: 700px;
+  width: 100%;
+  margin: 100px auto;
+  font-size: 20px;
+}
