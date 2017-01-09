@@ -1,21 +1,21 @@
 import React from 'react';
 import { Link } from 'react-router';
 
-import movamaisthumb from '../../containers/mova-mais/thumb.png';
-import movamaisthumboverlay from '../../containers/mova-mais/thumb-overlay.png';
+import movamaisthumb from '../../containers/mova-mais/images/thumb.png';
+import movamaisthumboverlay from '../../containers/mova-mais/images/thumb-overlay.png';
 
-import caixanasruasthumb from '../../containers/caixa-nas-ruas/thumb.png';
-import caixanasruasthumboverlay from '../../containers/caixa-nas-ruas/thumb-overlay.png';
+import caixanasruasthumb from '../../containers/caixa-nas-ruas/images/thumb.png';
+import caixanasruasthumboverlay from '../../containers/caixa-nas-ruas/images/thumb-overlay.png';
 
-import bbprivetethumb from '../../containers/bb-privete/thumb.png';
+import bbprivetethumb from '../../containers/bb-privete/images/thumb.png';
 
-import davidyurmanthumb from '../../containers/david-yurman/thumb.png';
+import davidyurmanthumb from '../../containers/david-yurman/images/thumb.png';
 
-import encinterthumb from '../../containers/encinter/thumb.png';
-import encinterthumboverlay from '../../containers/encinter/thumb-overlay.png';
+import encinterthumb from '../../containers/encinter/images/thumb.png';
+import encinterthumboverlay from '../../containers/encinter/images/thumb-overlay.png';
 
-import emicidathumb from '../../containers/emicida/thumb.png';
-import emicidathumboverlay from '../../containers/emicida/thumb-overlay.png';
+import emicidathumb from '../../containers/emicida/images/thumb.png';
+import emicidathumboverlay from '../../containers/emicida/images/thumb-overlay.png';
 
 function ListWorks() {
   const movamaisthumboverlayBg = {

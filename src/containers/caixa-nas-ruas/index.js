@@ -40,6 +40,13 @@ function Section() {
         </div>
       </div>
 
+      {/* Step 01 */}
+      <div className="work-step work-step--cnr01">
+        <div className="container">
+          <h3 className="work-step__title"><span>01</span> Flow</h3>
+        </div>
+      </div>
+
     </section>
   );
 }
