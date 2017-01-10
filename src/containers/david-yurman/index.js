@@ -12,7 +12,7 @@ function Section() {
     <section className="dy">
 
       {/* Hero Image */}
-      <WorkHead src={video} type="video" />
+      <WorkHead color="black" src={video} type="video" />
     </section>
   );
 }

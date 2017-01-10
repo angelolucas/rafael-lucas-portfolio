@@ -12,7 +12,7 @@ function Section() {
     <section className="dy">
 
       {/* Hero Image */}
-      <WorkHead src={workHeadImage} type="image" />
+      <WorkHead color="#ebeade" src={workHeadImage} type="image" />
     </section>
   );
 }

@@ -15,6 +15,7 @@ class WorkHead extends Component {
   }
   render() {
     let media = null;
+
     // Media Type Video
     if (this.props.type === 'video') {
       media = (
@@ -39,7 +40,7 @@ class WorkHead extends Component {
       );
     }
     return (
-      <div className="work-head">
+      <div className="work-head" style={{ backgroundColor: this.props.color }}>
         {media}
         <button
           type="button"
@@ -53,6 +54,7 @@ class WorkHead extends Component {
 }
 
 WorkHead.propTypes = {
+  color: React.PropTypes.string,
   src: React.PropTypes.string,
   type: React.PropTypes.string,
   poster: React.PropTypes.string,

@@ -14,7 +14,7 @@ function Section() {
     <section className="cnr">
 
       {/* Hero Image */}
-      <WorkHead src={workHeadImage} type="image" />
+      <WorkHead color="#a0a8ab" src={workHeadImage} type="image" />
 
       {/* Intro */}
       <div className="work-intro">
