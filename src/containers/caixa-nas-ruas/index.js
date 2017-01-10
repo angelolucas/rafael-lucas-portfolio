@@ -17,6 +17,7 @@ import shield3 from './media/shield3.png';
 import events from './media/events.png';
 import editorial from './media/editorial.png';
 import store from './media/store.png';
+import mobile from './media/mobile.png';
 
 function Section() {
   return (
@@ -81,6 +82,14 @@ function Section() {
           <h4>Store</h4>
           <p className="work-step__description">{'Vitrine de produtos para trocar com os pontos acumulados na plataforma de acordo com seu desempenho.'}</p>
           <img src={store} alt="store" />
+        </div>
+      </div>
+
+      {/* Step 03 */}
+      <div className="work-step work-step--cnr03">
+        <div className="container">
+          <h3 className="work-step__title"><span>03</span> Web Mobile</h3>
+          <img src={mobile} alt="mobile" />
         </div>
       </div>
 

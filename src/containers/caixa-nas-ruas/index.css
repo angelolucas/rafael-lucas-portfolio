@@ -4,7 +4,6 @@
   --cnr-darkText: #274560;
   --cnr-BGColorful: #5293ca;
   --cnr-BGDefault: #f0f0f0;
-  --cnr-BGDefault2: #e8e8e8;
 }
 .cnr {
   background-color: var(--cnr-BGDefault);
@@ -37,9 +36,6 @@
   h2 {
     color: var(--cnr-darkText);
   }
-}
-.work-step--cnr02 {
-  background-color: var(--cnr-BGDefault2);
 }
 .cnr__shields {
   img {

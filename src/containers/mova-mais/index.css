@@ -3,7 +3,6 @@
   --mm-text: #4d3855;
   --mm-BGColorful: #432155;
   --mm-BGDefault: #f0f0f0;
-  --mm-BGDefault2: #e8e8e8;
 }
 .mm {
   background-color: var(--mm-BGDefault);
@@ -52,8 +51,6 @@
 
 /* Step 01 */
 .work-step--mm01 {
-  background-color: var(--mm-BGDefault2);
-
   .work-step--mm01__items {
     display: flex;
     max-width: 1280px;
@@ -119,6 +116,7 @@
 
 /* Step 02 */
 .work-step--mm02 {
+  background-image: none;
   background-color: var(--mm-BGColorful);
   color: white;
   font-size: 20px;
@@ -140,15 +138,8 @@
   }
 }
 
-/* Step 04 */
-.work-step--mm04 {
-  background-color: var(--mm-BGDefault2);
-}
-
 /* Step 06 */
 .work-step--mm06 {
-  background-color: var(--mm-BGDefault2);
-
   .chess-list {
     .chess-list__item__title {
       &:after {
@@ -171,6 +162,7 @@
 
 /* Step 08 */
 .work-step--mm08 {
+  background-image: none;
   background-color: var(--mm-BGColorful);
   color: white;
 
