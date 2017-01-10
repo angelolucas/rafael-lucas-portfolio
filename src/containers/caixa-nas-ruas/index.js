@@ -8,6 +8,7 @@ import WorkHead from '../../components/work-head';
 import caixaNasRuas from './media/caixa-nas-ruas.svg';
 import workHeadImage from './media/work-head.jpg';
 import mockupTop from './media/mockup-top.png';
+import siteMap from './media/site-map.png';
 
 function Section() {
   return (
@@ -33,7 +34,7 @@ function Section() {
       </div>
 
       {/* Objective */}
-      <div className="work-objective">
+      <div className="work-objective work-objective--cnr">
         <div className="container">
           <h2>Objective</h2>
           <p>{'Desenhar uma plataforma simples e amigável que estimule a saúde e a qualidade de vida, promovendo a prática esportiva de forma saudável com premiações.'}</p>
@@ -43,7 +44,8 @@ function Section() {
       {/* Step 01 */}
       <div className="work-step work-step--cnr01">
         <div className="container">
-          <h3 className="work-step__title"><span>01</span> Flow</h3>
+          <h3 className="work-step__title"><span>01</span> Site Map</h3>
+          <img src={siteMap} alt="Site Map" />
         </div>
       </div>
 
