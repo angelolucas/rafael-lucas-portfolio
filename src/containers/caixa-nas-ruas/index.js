@@ -9,6 +9,14 @@ import caixaNasRuas from './media/caixa-nas-ruas.svg';
 import workHeadImage from './media/work-head.jpg';
 import mockupTop from './media/mockup-top.png';
 import siteMap from './media/site-map.png';
+import dashboard from './media/dashboard.png';
+import team from './media/team.png';
+import shield1 from './media/shield1.png';
+import shield2 from './media/shield2.png';
+import shield3 from './media/shield3.png';
+import events from './media/events.png';
+import editorial from './media/editorial.png';
+import store from './media/store.png';
 
 function Section() {
   return (
@@ -46,6 +54,33 @@ function Section() {
         <div className="container">
           <h3 className="work-step__title"><span>01</span> Site Map</h3>
           <img src={siteMap} alt="Site Map" />
+        </div>
+      </div>
+
+      {/* Step 02 */}
+      <div className="work-step work-step--cnr02">
+        <div className="container">
+          <h3 className="work-step__title"><span>02</span> Pages</h3>
+          <h4>Dashboard</h4>
+          <p className="work-step__description">{'Central de medição de desempenho de cada participante com dados detalhados sobre a perseverança de treino, objetivos individuais e visualizações de dados quantitativas e qualitativas.'}</p>
+          <img src={dashboard} alt="Dashboard Page" />
+          <h3>Teams</h3>
+          <p className="work-step__description">{'As equipes têm a missão de cooperação mútua, e o critério de formação é estabelecido pelos próprios usuários. A equipe tem um lema e um brasão de identificação.'}</p>
+          <img src={team} alt="Team Page" />
+          <div className="cnr__shields">
+            <img src={shield1} alt="Shield1" />
+            <img src={shield2} alt="Shield2" />
+            <img src={shield3} alt="Shield3" />
+          </div>
+          <h4>Events</h4>
+          <p className="work-step__description">{'Apresentação do calendário de provas com navegação de estímulo a participação das pessoas nesses eventos através da plataforma.'}</p>
+          <img src={events} alt="events" />
+          <h4>Editorial</h4>
+          <p className="work-step__description">{'O conteúdo do programa possui caráter motivador, tendo como missão estimular as pessoas a se afastarem do sedentarismo através do bom exemplo, da inspiração e do potencial de superação de cada um. Ajudar os praticantes a removerem barreiras motivacionais e técnicas que atrapalhem o início ou evolução na prática de uma modalidade.'}</p>
+          <img src={editorial} alt="events" />
+          <h4>Store</h4>
+          <p className="work-step__description">{'Vitrine de produtos para trocar com os pontos acumulados na plataforma de acordo com seu desempenho.'}</p>
+          <img src={store} alt="store" />
         </div>
       </div>
 

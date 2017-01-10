@@ -63,3 +63,12 @@ body.work-page-active {
     transform: rotateX( 180deg );  
   }
 }
+
+/* Section */
+.work-page section {
+  img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+}

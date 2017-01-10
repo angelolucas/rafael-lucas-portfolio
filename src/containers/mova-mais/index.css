@@ -14,10 +14,6 @@
     font-weight: bold;
     text-transform: uppercase;
   }
-  img {
-    margin: auto;
-    display: block;
-  }
   .work-step__title {
     span {
       background-color: var(--mm-colorfulDetails);
