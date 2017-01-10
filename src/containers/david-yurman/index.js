@@ -18,7 +18,7 @@ function Section() {
 }
 
 function DavidYurman() {
-  return <WorkPage section={Section()} position={6} />;
+  return <WorkPage section={Section()} position={4} />;
 }
 
 export default DavidYurman;

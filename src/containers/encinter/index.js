@@ -18,7 +18,7 @@ function Section() {
 }
 
 function Encinter() {
-  return <WorkPage section={Section()} position={6} />;
+  return <WorkPage section={Section()} position={5} />;
 }
 
 export default Encinter;
