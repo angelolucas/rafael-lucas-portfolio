@@ -20,6 +20,11 @@ import store from './media/store.png';
 import mobile from './media/mobile.png';
 import colors from './media/colors.png';
 import types from './media/types.png';
+import result1 from './media/result1.svg';
+import result2 from './media/result2.svg';
+import result3 from './media/result3.svg';
+import result4 from './media/result4.svg';
+import result5 from './media/result5.svg';
 
 function Section() {
   return (
@@ -101,6 +106,40 @@ function Section() {
           <h3 className="work-step__title"><span>04</span> Guideline</h3>
           <img src={colors} alt="colors" />
           <img src={types} alt="types" />
+        </div>
+      </div>
+
+      {/* Step 05 */}
+      <div className="work-step work-step--cnr05">
+        <div className="container">
+          <h3 className="work-step__title"><span>05</span> Resultados</h3>
+          <ul>
+            <li>
+              <img width="42" src={result1} alt="" />
+              <h4>5 milhões</h4>
+              <p>quilômetros percorridos</p>
+            </li>
+            <li>
+              <img width="42" src={result2} alt="" />
+              <h4>125</h4>
+              <p>equivale a voltas à terra</p>
+            </li>
+            <li>
+              <img width="37" src={result3} alt="" />
+              <h4>+ 300 mil</h4>
+              <p>horas de exercícios</p>
+            </li>
+            <li>
+              <img width="34" src={result4} alt="" />
+              <h4>4 milhões</h4>
+              <p>calorias queimadas</p>
+            </li>
+            <li>
+              <img width="31" src={result5} alt="" />
+              <h4>+ 1 bilhão</h4>
+              <p>passos dados</p>
+            </li>
+          </ul>
         </div>
       </div>
 

@@ -48,3 +48,10 @@
     margin-right: 0;
   }
 }
+
+.work-step--cnr05 {
+  ul {
+    display: flex;
+    justify-content: space-between;
+  }
+}
