@@ -18,6 +18,8 @@ import events from './media/events.png';
 import editorial from './media/editorial.png';
 import store from './media/store.png';
 import mobile from './media/mobile.png';
+import colors from './media/colors.png';
+import types from './media/types.png';
 
 function Section() {
   return (
@@ -65,7 +67,7 @@ function Section() {
           <h4>Dashboard</h4>
           <p className="work-step__description">{'Central de medição de desempenho de cada participante com dados detalhados sobre a perseverança de treino, objetivos individuais e visualizações de dados quantitativas e qualitativas.'}</p>
           <img src={dashboard} alt="Dashboard Page" />
-          <h3>Teams</h3>
+          <h4>Teams</h4>
           <p className="work-step__description">{'As equipes têm a missão de cooperação mútua, e o critério de formação é estabelecido pelos próprios usuários. A equipe tem um lema e um brasão de identificação.'}</p>
           <img src={team} alt="Team Page" />
           <div className="cnr__shields">
@@ -90,6 +92,15 @@ function Section() {
         <div className="container">
           <h3 className="work-step__title"><span>03</span> Web Mobile</h3>
           <img src={mobile} alt="mobile" />
+        </div>
+      </div>
+
+      {/* Step 04 */}
+      <div className="work-step work-step--cnr04">
+        <div className="container">
+          <h3 className="work-step__title"><span>04</span> Guideline</h3>
+          <img src={colors} alt="colors" />
+          <img src={types} alt="types" />
         </div>
       </div>
 
