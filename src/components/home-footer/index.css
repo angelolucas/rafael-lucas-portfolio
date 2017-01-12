@@ -1,9 +1,6 @@
 :root {
   --footerHeight: 198px;
 }
-body {
-  padding-bottom: var(--footerHeight);
-}
 .home-footer {
   background: #1b1b1b;
   color: white;
@@ -47,4 +44,9 @@ body {
       display: none;
     }
   }
+}
+.home-footer__blank {
+  position: relative;
+  height: var(--footerHeight);
+  z-index: -1;
 }
