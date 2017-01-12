@@ -19,7 +19,7 @@
     font-size: 45px;
   }
   .work-step__title {
-    span {
+    &:before {
       background-color: var(--cnr-colorfulDetails);
     }
     &:after {

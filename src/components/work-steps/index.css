@@ -4,6 +4,8 @@
   text-align: center;
   padding-top: 90px;
   padding-bottom: 150px;
+  counter-reset: 2;
+  counter-increment: index;
 }
 .work-step__title {
   font-size: 30px;
@@ -11,7 +13,8 @@
   margin-bottom: 140px;
 
   /* Step Number */
-  span {
+  &:before {
+    content: counter(index);
     position: absolute;
     top: 0;
     background-color: #818181;

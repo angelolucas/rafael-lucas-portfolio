@@ -14,7 +14,7 @@
     text-transform: uppercase;
   }
   .work-step__title {
-    span {
+    &:before {
       background-color: var(--mm-colorfulDetails);
     }
     &:after {

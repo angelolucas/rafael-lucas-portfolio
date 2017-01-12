@@ -60,7 +60,7 @@ function Section() {
       {/* Step 01 */}
       <div className="work-step work-step--cnr01">
         <div className="container">
-          <h3 className="work-step__title"><span>01</span> Site Map</h3>
+          <h3 className="work-step__title">Site Map</h3>
           <img src={siteMap} alt="Site Map" />
         </div>
       </div>
@@ -68,7 +68,7 @@ function Section() {
       {/* Step 02 */}
       <div className="work-step work-step--cnr02">
         <div className="container">
-          <h3 className="work-step__title"><span>02</span> Pages</h3>
+          <h3 className="work-step__title">Pages</h3>
           <h4>Dashboard</h4>
           <p className="work-step__description">{'Central de medição de desempenho de cada participante com dados detalhados sobre a perseverança de treino, objetivos individuais e visualizações de dados quantitativas e qualitativas.'}</p>
           <img src={dashboard} alt="Dashboard Page" />
@@ -95,7 +95,7 @@ function Section() {
       {/* Step 03 */}
       <div className="work-step work-step--cnr03">
         <div className="container">
-          <h3 className="work-step__title"><span>03</span> Web Mobile</h3>
+          <h3 className="work-step__title">Web Mobile</h3>
           <img src={mobile} alt="mobile" />
         </div>
       </div>
@@ -103,7 +103,7 @@ function Section() {
       {/* Step 04 */}
       <div className="work-step work-step--cnr04">
         <div className="container">
-          <h3 className="work-step__title"><span>04</span> Guideline</h3>
+          <h3 className="work-step__title">Guideline</h3>
           <img src={colors} alt="colors" />
           <img src={types} alt="types" />
         </div>
@@ -112,7 +112,7 @@ function Section() {
       {/* Step 05 */}
       <div className="work-step work-step--cnr05">
         <div className="container">
-          <h3 className="work-step__title"><span>05</span> Resultados</h3>
+          <h3 className="work-step__title">Resultados</h3>
           <ul>
             <li>
               <img width="42" src={result1} alt="" />
