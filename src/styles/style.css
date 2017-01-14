@@ -24,10 +24,10 @@
 @import '../components/navigation';
 @import '../components/back-to-top';
 
-/* Containers */
-@import '../containers/home-page';
-@import '../containers/work-page';
-@import '../containers/mova-mais';
-@import '../containers/caixa-nas-ruas';
-@import '../containers/david-yurman';
-@import '../containers/emicida';
+/* sections */
+@import '../sections/home-page';
+@import '../sections/work-page';
+@import '../sections/mova-mais';
+@import '../sections/caixa-nas-ruas';
+@import '../sections/david-yurman';
+@import '../sections/emicida';

@@ -8,13 +8,13 @@ import MatchWithFade from './components/match-with-fade';
 import './styles/style.css';
 
 // App
-import HomePage from './containers/home-page';
-import MovaMais from './containers/mova-mais';
-import CaixaNasRuas from './containers/caixa-nas-ruas';
-import BBPrivete from './containers/bb-privete';
-import DavidYurman from './containers/david-yurman';
-import Encinter from './containers/encinter';
-import Emicida from './containers/emicida';
+import HomePage from './sections/home-page';
+import MovaMais from './sections/mova-mais';
+import CaixaNasRuas from './sections/caixa-nas-ruas';
+import BBPrivete from './sections/bb-privete';
+import DavidYurman from './sections/david-yurman';
+import Encinter from './sections/encinter';
+import Emicida from './sections/emicida';
 
 // Work Pre loader
 import WorkPreLoader from './components/work-pre-loader';
