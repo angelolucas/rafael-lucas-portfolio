@@ -1,7 +1,7 @@
 :root {
   --footerHeight: 198px;
 }
-.home-footer {
+.footer {
   background: #1b1b1b;
   color: white;
   padding: 80px 15px;
@@ -18,7 +18,7 @@
     font-size: 38px;
   }
 }
-.home-footer__networks {
+.footer__networks {
   display: flex;
   justify-content: space-between;
   max-width: 1070px;
@@ -45,7 +45,7 @@
     }
   }
 }
-.home-footer__blank {
+.footer__blank {
   position: relative;
   height: var(--footerHeight);
   z-index: -1;

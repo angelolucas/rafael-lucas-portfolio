@@ -2,7 +2,7 @@ import React from 'react';
 
 import Header from '../../components/header';
 import ListWorks from '../../components/list-works';
-import HomeFooter from '../../components/home-footer';
+import Footer from '../../components/footer';
 
 const HomePage = () => (
   <div className="home-page">
@@ -12,7 +12,7 @@ const HomePage = () => (
       <ListWorks />
     </main>
 
-    <HomeFooter />
+    <Footer />
   </div>
 );
 
