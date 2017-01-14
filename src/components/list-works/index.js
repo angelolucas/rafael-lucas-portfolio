@@ -18,25 +18,12 @@ import emicidathumb from '../../sections/emicida/media/thumb.png';
 import emicidathumboverlay from '../../sections/emicida/media/thumb-overlay.png';
 
 function ListWorks() {
-  const movamaisthumboverlayBg = {
-    backgroundImage: `url(${movamaisthumboverlay})`,
-  };
-  const caixanasruasthumboverlayBg = {
-    backgroundImage: `url(${caixanasruasthumboverlay})`,
-  };
-  const encinterthumboverlayBg = {
-    backgroundImage: `url(${encinterthumboverlay})`,
-  };
-  const emicidathumboverlayBg = {
-    backgroundImage: `url(${emicidathumboverlay})`,
-  };
-
   return (
     <ul className="list-works">
       <li>
         <div className="list-works__thumb">
           <img src={movamaisthumb} alt="Mova mais" />
-          <div style={movamaisthumboverlayBg} />
+          <div style={{ backgroundImage: `url(${movamaisthumboverlay})` }} />
         </div>
         <h3 className="list-works__title">Mova Mais - Startup</h3>
         <p className="list-works__category">app</p>
@@ -45,7 +32,7 @@ function ListWorks() {
       <li>
         <div className="list-works__thumb">
           <img src={caixanasruasthumb} alt="Caixa nas Ruas" />
-          <div style={caixanasruasthumboverlayBg} />
+          <div style={{ backgroundImage: `url(${caixanasruasthumboverlay})` }} />
         </div>
         <h3 className="list-works__title">Caixa nas Ruas</h3>
         <p className="list-works__category">web desktop & mobile</p>
@@ -70,7 +57,7 @@ function ListWorks() {
       <li>
         <div className="list-works__thumb">
           <img src={encinterthumb} alt="Encinter" />
-          <div style={encinterthumboverlayBg} />
+          <div style={{ backgroundImage: `url(${encinterthumboverlay})` }} />
         </div>
         <h3 className="list-works__title">Encinter</h3>
         <p className="list-works__category">web mobile</p>
@@ -79,7 +66,7 @@ function ListWorks() {
       <li>
         <div className="list-works__thumb">
           <img src={emicidathumb} alt="Emicida" />
-          <div style={emicidathumboverlayBg} />
+          <div style={{ backgroundImage: `url(${emicidathumboverlay})` }} />
         </div>
         <h3 className="list-works__title">Emicida</h3>
         <p className="list-works__category">web mobile</p>
