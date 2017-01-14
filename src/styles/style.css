@@ -25,7 +25,6 @@
 @import '../components/back-to-top';
 
 /* sections */
-@import '../sections/home';
 @import '../sections/work-page';
 @import '../sections/mova-mais';
 @import '../sections/caixa-nas-ruas';
