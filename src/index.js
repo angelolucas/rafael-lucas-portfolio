@@ -8,7 +8,7 @@ import MatchWithFade from './components/match-with-fade';
 import './styles/style.css';
 
 // App
-import HomePage from './sections/home-page';
+import Home from './sections/home';
 import MovaMais from './sections/mova-mais';
 import CaixaNasRuas from './sections/caixa-nas-ruas';
 import BBPrivete from './sections/bb-privete';
@@ -22,7 +22,7 @@ import WorkPreLoader from './components/work-pre-loader';
 ReactDOM.render(
   <Router>
     <div>
-      <HomePage />
+      <Home />
       <WorkPreLoader />
       <div className="work-page">
         <MatchWithFade pattern="/mova-mais" component={MovaMais} />

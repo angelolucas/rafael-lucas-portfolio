@@ -4,11 +4,11 @@ import Header from '../../components/header';
 import ListWorks from '../../components/list-works';
 import Footer from '../../components/footer';
 
-const HomePage = () => (
-  <div className="home-page">
+const Home = () => (
+  <div className="home">
     <Header />
 
-    <main className="home-page--main">
+    <main className="home--main">
       <ListWorks />
     </main>
 
@@ -16,4 +16,4 @@ const HomePage = () => (
   </div>
 );
 
-export default HomePage;
+export default Home;
