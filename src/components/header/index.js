@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import TweenLite from 'gsap';
 
-class HomeIntro extends Component {
+class Header extends Component {
   componentDidMount() {
     const heightEffect = (90 / 100) * window.innerHeight;
 
@@ -38,29 +38,29 @@ class HomeIntro extends Component {
   render() {
     return (
 
-      <header className="home-intro">
+      <header className="header">
         <div
           ref={(background) => { this.background = background; }}
-          className="home-intro__background"
+          className="header__background"
         />
 
         <h1
           ref={(title) => { this.title = title; }}
-          className="home-intro__title"
+          className="header__title"
         >
           Rafael Lucas
         </h1>
 
         <h2
           ref={(description) => { this.description = description; }}
-          className="home-intro__description"
+          className="header__description"
         >
           {'I am a brazilian designer specializing in interactive experiences living in Brasília, Brazil.'}
         </h2>
 
         <nav
           ref={(anchoring) => { this.anchoring = anchoring; }}
-          className="home-intro__anchoring"
+          className="header__anchoring"
         >
           <button
             type="button"
@@ -92,4 +92,4 @@ class HomeIntro extends Component {
   }
 }
 
-export default HomeIntro;
+export default Header;

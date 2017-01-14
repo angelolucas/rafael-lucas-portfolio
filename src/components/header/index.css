@@ -1,4 +1,4 @@
-.home-intro {
+.header {
   background: #fafafa;
   position: relative;
   width: 100%;
@@ -8,20 +8,20 @@
   align-items: center;
   z-index: 3;
 }
-.home-intro__title {
+.header__title {
   position: fixed;
   top: 80px;
   left: 80px;
   font-size: 22px;
   pointer-events: none;
 }
-.home-intro__description {
+.header__description {
   font-size: 78px;
   margin: 0 9.5vw;
   max-width: 800px;
   position: relative;
 }
-.home-intro__anchoring {
+.header__anchoring {
   position: absolute;
   bottom: 80px;
   left: 80px;
@@ -37,7 +37,7 @@
     cursor: pointer;
   }
 }
-.home-intro__background {
+.header__background {
   content: "";
   position: fixed;
   width: 100%;
