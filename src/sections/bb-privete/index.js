@@ -5,14 +5,14 @@ import WorkPage from '../work-page';
 import WorkHead from '../../components/work-head';
 
 // Assets
-import workHeadImage from './media/work-head.jpg';
+import video from './media/video.mp4';
 
 function Section() {
   return (
     <section className="cnr">
 
       {/* Hero Image */}
-      <WorkHead color="black" src={workHeadImage} type="image" />
+      <WorkHead color="black" src={video} type="video" />
 
     </section>
   );

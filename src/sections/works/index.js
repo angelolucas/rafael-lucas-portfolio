@@ -13,9 +13,10 @@ import Emicida from '../emicida';
 // Pre load media
 import posterMovaMais from '../mova-mais/media/video-poster.jpg';
 import posterCaixaNasRuas from '../caixa-nas-ruas/media/work-head.jpg';
-import posterBBPrivete from '../bb-privete/media/work-head.jpg';
-import posterEncinter from '../encinter/media/work-head.jpg';
+
 import videoMovaMais from '../mova-mais/media/video.mp4';
+import videoBBPrivete from '../bb-privete/media/video.mp4';
+import videoEncinter from '../encinter/media/video.mp4';
 import videoEmicida from '../emicida/media/video.mp4';
 import videoDavidYurman from '../david-yurman/media/video.mp4';
 
@@ -32,11 +33,11 @@ function WorkPreLoader() {
       <div style={{ display: 'none' }}>
         <img src={posterMovaMais} alt="" />
         <img src={posterCaixaNasRuas} alt="" />
-        <img src={posterBBPrivete} alt="" />
-        <img src={posterEncinter} alt="" />
         <video src={videoMovaMais} />
-        <video src={videoEmicida} />
+        <video src={videoBBPrivete} />
         <video src={videoDavidYurman} />
+        <video src={videoEncinter} />
+        <video src={videoEmicida} />
       </div>
     </div>
   );
