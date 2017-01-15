@@ -1,8 +1,8 @@
-.about-section {
+.contact-section {
   transition: 0.4s transform;
   position: absolute;
   top: 0;
-  left: -100%;
+  right: -100%;
   width: 100%;
   height: 100vh;
   color: white;
@@ -16,26 +16,19 @@
     margin: 0 100px 40px;
     max-width: 1000px;
   }
-  body.about-section--active & {
-    transform: translateX(100%);
+  body.contact-section--active & {
+    transform: translateX(-100%);
   }
 }
-.about-section__back {
-  transition: 0.1s;
+.contact-section__back {
   color: white;
   position: absolute;
   top: 80px;
-  right: 80px;
+  left: 80px;
   font-size: 22px;
-  opacity: 0;
 
-  &:after {
-    content: " →";
+  &:before {
+    content: "← ";
     font-family: arial;
-  }
-
-  body.about-section--active & {
-    transition: 0.2s;
-    opacity: 1;
   }
 }

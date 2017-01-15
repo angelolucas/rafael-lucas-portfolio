@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import Navigation from '../header-navigation';
 import About from '../../sections/about';
+import Contact from '../../sections/contact';
 
 class Header extends Component {
   componentDidMount() {
@@ -17,15 +18,14 @@ class Header extends Component {
         opacity = 0;
       }
 
-      this.background.setAttribute('style', `opacity:${opacity}`);
+      this.bg.setAttribute('style', `opacity:${opacity}`);
       this.content.setAttribute('style', `opacity:${opacity}`);
     });
   }
   render() {
     return (
-
       <header className="header">
-        <div className="header__background" ref={(background) => { this.background = background; }} />
+        <div className="header__background" ref={(bg) => { this.bg = bg; }} />
         <div ref={(content) => { this.content = content; }}>
           <h1 className="header__title">Rafael Lucas</h1>
 
@@ -36,6 +36,8 @@ class Header extends Component {
           </div>
 
           <About />
+
+          <Contact />
 
           <Navigation />
         </div>

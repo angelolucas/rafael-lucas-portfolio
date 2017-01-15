@@ -8,14 +8,24 @@
   overflow: hidden;
 }
 .header__title {
+  transition: 0.4s transform, 0.4s opacity;
   position: fixed;
   top: 80px;
   left: 80px;
   font-size: 22px;
   pointer-events: none;
+
+  body.about-section--active & {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  body.contact-section--active & {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
 }
 .header__description {
-  transition: 0.3s transform;
+  transition: 0.3s 0s transform, 0s 0s opacity;
   display: flex;
   align-items: center;
   position: relative;
@@ -28,7 +38,14 @@
     max-width: 800px;
   }
   body.about-section--active & {
+    transition: 0.4s 0s transform, 0s 0.4s opacity;
     transform: translateX(100%);
+    opacity: 0;
+  }
+  body.contact-section--active & {
+    transition: 0.4s 0s transform, 0s 0.4s opacity;
+    transform: translateX(-100%);
+    opacity: 0;
   }
 }
 .header__background {

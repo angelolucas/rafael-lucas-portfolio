@@ -27,6 +27,7 @@
 
 /* sections */
 @import '../sections/about';
+@import '../sections/contact';
 @import '../sections/work-page';
 @import '../sections/mova-mais';
 @import '../sections/caixa-nas-ruas';

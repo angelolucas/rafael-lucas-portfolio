@@ -2,9 +2,11 @@ import React from 'react';
 import TweenLite from 'gsap';
 
 const about = () => {
+  document.body.classList.remove('contact-section--active');
   document.body.classList.add('about-section--active');
 };
 const contact = () => {
+  document.body.classList.remove('about-section--active');
   document.body.classList.add('contact-section--active');
 };
 const work = () => {
