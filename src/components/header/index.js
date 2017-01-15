@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import TweenLite from 'gsap';
 
+import About from '../../sections/about';
+
 class Header extends Component {
   componentDidMount() {
     const heightEffect = (90 / 100) * window.innerHeight;
@@ -15,78 +17,58 @@ class Header extends Component {
         opacity = 0;
       }
 
-      this.title.setAttribute('style', `opacity:${opacity}`);
       this.background.setAttribute('style', `opacity:${opacity}`);
-      this.description.setAttribute('style', `opacity:${opacity}`);
-      this.anchoring.setAttribute('style', `opacity:${opacity}`);
+      this.content.setAttribute('style', `opacity:${opacity}`);
     });
   }
-  goTo(e) {
-    const goTo = `.${e.target.attributes['data-anchoring'].value}`;
-
+  about() {
+    document.body.classList.add('about-section--active');
+  }
+  contact() {
+    document.body.classList.add('contact-section--active');
+  }
+  work() {
     TweenLite.to(
       window,
       0.5,
       {
         scrollTo: {
-          y: goTo,
-          offsetY: 15,
+          y: window.innerHeight,
         },
       },
     );
   }
+
   render() {
     return (
 
       <header className="header">
-        <div
-          ref={(background) => { this.background = background; }}
-          className="header__background"
-        />
+        <div className="header__background" ref={(background) => { this.background = background; }} />
+        <div ref={(content) => { this.content = content; }}>
+          <h1 className="header__title">Rafael Lucas</h1>
 
-        <h1
-          ref={(title) => { this.title = title; }}
-          className="header__title"
-        >
-          Rafael Lucas
-        </h1>
+          <div className="header__description">
+            <h2>
+              {'I am a brazilian designer specializing in interactive experiences living in Brasília, Brazil.'}
+            </h2>
+          </div>
 
-        <h2
-          ref={(description) => { this.description = description; }}
-          className="header__description"
-        >
-          {'I am a brazilian designer specializing in interactive experiences living in Brasília, Brazil.'}
-        </h2>
+          <About />
 
-        <nav
-          ref={(anchoring) => { this.anchoring = anchoring; }}
-          className="header__anchoring"
-        >
-          <button
-            type="button"
-            className="item"
-          >
-            about
-          </button>
+          <nav className="header__anchoring">
+            <button className="item" onClick={this.about}>
+              about
+            </button>
 
-          <button
-            type="button"
-            className="item"
-            data-anchoring="list-works"
-            onClick={this.goTo}
-          >
-            work
-          </button>
+            <button className="item" onClick={this.work}>
+              work
+            </button>
 
-          <button
-            type="button"
-            className="item"
-            data-anchoring="footer"
-            onClick={this.goTo}
-          >
-            contact
-          </button>
-        </nav>
+            <button className="item" onClick={this.contact}>
+              contact
+            </button>
+          </nav>
+        </div>
       </header>
     );
   }

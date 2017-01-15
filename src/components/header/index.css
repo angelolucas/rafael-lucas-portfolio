@@ -1,12 +1,11 @@
 .header {
-  background: #fafafa;
+  background-color: var(--whiteBackground);
   position: relative;
   width: 100%;
   height: 100vh;
   color: white;
-  display: flex;
-  align-items: center;
   z-index: 3;
+  overflow: hidden;
 }
 .header__title {
   position: fixed;
@@ -16,10 +15,21 @@
   pointer-events: none;
 }
 .header__description {
-  font-size: 78px;
-  margin: 0 9.5vw;
-  max-width: 800px;
+  transition: 0.3s transform;
+  display: flex;
+  align-items: center;
   position: relative;
+  width: 100%;
+  height: 100vh;
+
+  h2 {
+    margin: 0 9.5vw;
+    font-size: 78px;
+    max-width: 800px;
+  }
+  body.about-section--active & {
+    transform: translateX(100%);
+  }
 }
 .header__anchoring {
   position: absolute;

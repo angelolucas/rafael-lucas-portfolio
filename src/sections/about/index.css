@@ -1,0 +1,34 @@
+.about-section {
+  transition: 0.3s transform;
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  p {
+    font-size: 40px;
+    font-weight: normal;
+    margin: 0 100px 40px;
+    max-width: 1000px;
+  }
+  body.about-section--active & {
+    transform: translateX(100%);
+  }
+}
+.about-section__back {
+  color: white;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  font-size: 30px;
+
+  &:after {
+    content: " →";
+    font-family: arial;
+  }
+}
