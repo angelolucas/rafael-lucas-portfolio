@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router';
 
 // Components
-import Navigation from '../../components/navigation';
+import WorkNavigation from '../../components/work-navigation';
 import BackToTop from '../../components/back-to-top';
 
 class WorkPage extends Component {
@@ -22,7 +22,7 @@ class WorkPage extends Component {
 
           {this.props.section}
 
-          <Navigation position={this.props.position} />
+          <WorkNavigation position={this.props.position} />
         </div>
 
         <Link className="work-page__back-to-home" to="/">

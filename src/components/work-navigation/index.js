@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router';
 
-const Navigation = (props) => {
+const WorkNavigation = (props) => {
   const worksList = {
     1: '/mova-mais',
     2: '/caixa-nas-ruas',
@@ -25,15 +25,15 @@ const Navigation = (props) => {
   }
 
   return (
-    <div className="navigation">
+    <div className="work-navigation">
       <Link to={worksList[prev]}>prv</Link>
       <Link to={worksList[next]}>nxt</Link>
     </div>
   );
 };
 
-Navigation.propTypes = {
+WorkNavigation.propTypes = {
   position: React.PropTypes.number,
 };
 
-export default Navigation;
+export default WorkNavigation;

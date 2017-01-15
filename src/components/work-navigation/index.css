@@ -1,17 +1,17 @@
-.navigation {
+.work-navigation {
   background: #141414;
   display: flex;
   justify-content: space-around;
   text-align: center;
   font-size: 80px;
 }
-.navigation a {
+.work-navigation a {
   padding: 70px 0;
   color: white;
   display: inline-block;
   width: 100%;
   text-decoration: underline;
 }
-.navigation a:first-child {
+.work-navigation a:first-child {
   border-right: 1px solid #5b5b5b;
 }
