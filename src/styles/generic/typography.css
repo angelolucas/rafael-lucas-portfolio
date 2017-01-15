@@ -1,7 +1,10 @@
 body {
-  font-family: 'Akzidenz Grotesk', sans-serif;
+  font-family: 'Sailec', sans-serif;
   font-weight: bold;
 }
 a {
   text-decoration: none;
+}
+button {
+  font-family: 'Sailec', sans-serif;
 }
