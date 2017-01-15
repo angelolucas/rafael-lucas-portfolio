@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import TweenLite from 'gsap';
 
+import Navigation from '../header-navigation';
 import About from '../../sections/about';
 
 class Header extends Component {
@@ -21,24 +21,6 @@ class Header extends Component {
       this.content.setAttribute('style', `opacity:${opacity}`);
     });
   }
-  about() {
-    document.body.classList.add('about-section--active');
-  }
-  contact() {
-    document.body.classList.add('contact-section--active');
-  }
-  work() {
-    TweenLite.to(
-      window,
-      0.5,
-      {
-        scrollTo: {
-          y: window.innerHeight,
-        },
-      },
-    );
-  }
-
   render() {
     return (
 
@@ -55,19 +37,7 @@ class Header extends Component {
 
           <About />
 
-          <nav className="header__anchoring">
-            <button className="item" onClick={this.about}>
-              about
-            </button>
-
-            <button className="item" onClick={this.work}>
-              work
-            </button>
-
-            <button className="item" onClick={this.contact}>
-              contact
-            </button>
-          </nav>
+          <Navigation />
         </div>
       </header>
     );

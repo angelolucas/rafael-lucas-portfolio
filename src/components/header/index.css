@@ -31,22 +31,6 @@
     transform: translateX(100%);
   }
 }
-.header__anchoring {
-  position: absolute;
-  bottom: 80px;
-  left: 80px;
-  right: 80px;
-  display: flex;
-  justify-content: space-between;
-
-  .item {
-    background: transparent;
-    color: white;
-    border: none;
-    font-size: 22px;
-    cursor: pointer;
-  }
-}
 .header__background {
   content: "";
   position: fixed;

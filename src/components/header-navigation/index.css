@@ -1,0 +1,15 @@
+.header-navigation {
+  position: absolute;
+  bottom: 80px;
+  left: 80px;
+  right: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+.header-navigation__item {
+  background: transparent;
+  color: white;
+  border: none;
+  font-size: 22px;
+  cursor: pointer;
+}
