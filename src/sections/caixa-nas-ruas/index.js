@@ -39,8 +39,8 @@ function Section() {
           <h1 className="work-intro__title">Caixa Nas Ruas</h1>
           <img src={caixaNasRuas} width="281" alt="Caixa Nas Ruas" />
           <h2>Concept</h2>
-          <h3>O seu bem-estar começa Nas Ruas.</h3>
-          <p>{'O programa Caixa Nas Ruas estimula o engajamento dos usuários motivando a prática regular de atividades físicas através de conteúdo, senso de pertencimento, estímulo social e programa de relacionamento.'}</p>
+          <h3 className="work-intro__subtitle">O seu bem-estar começa Nas Ruas.</h3>
+          <p className="work-intro__description">{'O programa Caixa Nas Ruas estimula o engajamento dos usuários motivando a prática regular de atividades físicas através de conteúdo, senso de pertencimento, estímulo social e programa de relacionamento.'}</p>
         </div>
       </div>
 

@@ -10,8 +10,6 @@
 
   h2 {
     color: var(--mm-colorfulDetails);
-    font-weight: bold;
-    text-transform: uppercase;
   }
   .work-step__title {
     &:before {

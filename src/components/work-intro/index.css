@@ -1,20 +1,27 @@
 .work-intro {
-  padding: 80px 0;
+  padding: 100px 0 80px;
   text-align: center;
   width: 100%;
 
   .container {
     margin: 0 auto;
-    max-width: 700px;  
+    max-width: 730px;  
   }
   img {
-    margin-bottom: 20px;
+    margin-bottom: 80px;
   }
   .work-intro__title {
     font-size: 0;
   }
-  h3 {
+  .work-intro__subtitle {
     font-size: 65px;
+    font-weight: 100;
     margin-bottom: 20px;
+  }
+  .work-intro__description {
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 1.5;
+    letter-spacing: 0.6px;
   }
 }

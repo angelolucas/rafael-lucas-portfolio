@@ -42,7 +42,8 @@ function Section() {
           <h1 className="work-intro__title">Mova Mais</h1>
           <img src={movaMais} alt="Mova Mais" />
           <h2>Concept</h2>
-          <h3>Ganhe pontos por fazer exercícios.</h3>
+          <h3 className="work-intro__subtitle">Ganhe pontos por fazer exercícios.</h3>
+          <p className="work-intro__description">{'A plataforma tem por objetivo incentivar pessoas a saírem do sedentarismo, acompanhando a rotina de atividades físicas e recompensado com pontos de programas de fidelidade, que podem ser trocados por voos, eletrônicos e muitos outros.'}</p>
         </div>
       </div>
 
