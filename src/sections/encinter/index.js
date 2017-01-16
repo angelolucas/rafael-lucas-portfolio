@@ -8,10 +8,21 @@ import WorkHead from '../../components/work-head';
 import video from './media/video.mp4';
 import logo from './media/logo.svg';
 import mockup from './media/mockup.jpg';
+/*
+import siteMap from './media/site-map.png';
+import homePage from './media/home-page.png';
+import products from './media/products.png';
+import productsDetail from './media/products-detail.png';
+import contact from './media/contact.png';
+import navigation from './media/navigation.png';
+import devices from './media/devices.png';
+import credits from './media/credits.png';
+import guideline from './media/guideline.png';
+*/
 
 function Section() {
   return (
-    <section className="dy">
+    <section className="ect">
 
       {/* Hero Image */}
       <WorkHead color="white" src={video} type="video" />

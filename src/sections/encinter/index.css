@@ -1,0 +1,21 @@
+:root {
+  --ect-colorfulDetails: #ee4645;
+  --ect-text: #333333;
+  --ect-BGDefault: #e6e5e3;
+}
+.ect {
+  background-color: var(--ect-BGDefault);
+  color: var(--ect-text);
+
+  h2 {
+    color: var(--ect-colorfulDetails);
+  }
+  .work-step__title {
+    &:before {
+      background-color: var(--ect-colorfulDetails);
+    }
+    &:after {
+      border-bottom: 5px solid var(--ect-colorfulDetails);
+    }
+  }
+}
