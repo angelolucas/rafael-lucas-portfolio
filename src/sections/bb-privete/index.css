@@ -1,0 +1,15 @@
+:root {
+  --bbp-text: #cdcdcd;
+  --bbp-BGDefault: #161616;
+}
+.bbp {
+  background-color: var(--bbp-BGDefault);
+  color: var(--bbp-text);
+
+  h2 {
+    color: white;
+  }
+  .work-intro__subtitle {
+    color: white;
+  }
+}
