@@ -16,9 +16,7 @@ import contact from './media/contact.png';
 import navigation from './media/navigation.png';
 import devices from './media/devices.png';
 import credits from './media/credits.png';
-/*
 import guideline from './media/guideline.png';
-*/
 
 function Section() {
   return (
@@ -66,7 +64,7 @@ function Section() {
           <ul className="chess-list chess-list--align-top">
             <li>
               <div>
-                <img src={homePage} alt="" />
+                <img src={homePage} alt="Home Page" />
               </div>
               <div className="chess-list__info">
                 <h4 className="chess-list__title">Home Page</h4>
@@ -75,7 +73,7 @@ function Section() {
             </li>
             <li>
               <div>
-                <img src={products} alt="" />
+                <img src={products} alt="Products" />
               </div>
               <div className="chess-list__info">
                 <h4 className="chess-list__title">Products</h4>
@@ -84,7 +82,7 @@ function Section() {
             </li>
             <li>
               <div>
-                <img src={productsDetail} alt="" />
+                <img src={productsDetail} alt="Products Destail" />
               </div>
               <div className="chess-list__info">
                 <h4 className="chess-list__title">Products Detail</h4>
@@ -93,7 +91,7 @@ function Section() {
             </li>
             <li>
               <div>
-                <img src={contact} alt="" />
+                <img src={contact} alt="Contact" />
               </div>
               <div className="chess-list__info">
                 <h4 className="chess-list__title">Contact</h4>
@@ -102,7 +100,7 @@ function Section() {
             </li>
             <li>
               <div>
-                <img src={navigation} alt="" />
+                <img src={navigation} alt="Navigation" />
               </div>
               <div className="chess-list__info">
                 <h4 className="chess-list__title">Navigation</h4>
@@ -116,6 +114,14 @@ function Section() {
           <h4 className="ect-credits__title">Credits</h4>
           <p>Design versão desktop: Adriel Nunes</p>
           <img src={credits} alt="" />
+        </div>
+      </div>
+
+      {/* Step 03 */}
+      <div className="work-step work-step--ect03">
+        <div className="container">
+          <h3 className="work-step__title">Guideline</h3>
+          <img src={guideline} alt="Guideline" />
         </div>
       </div>
     </section>
