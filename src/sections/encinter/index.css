@@ -20,3 +20,13 @@
     border-color: var(--ect-colorfulDetails);
   }
 }
+.ect-credits {
+  text-align: center;
+
+  .container {
+    padding-top: 120px;
+  }
+  .ect-credits__title {
+    font-style: 30px;
+  }
+}

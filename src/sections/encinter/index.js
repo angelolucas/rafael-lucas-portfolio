@@ -14,9 +14,9 @@ import products from './media/products.png';
 import productsDetail from './media/products-detail.png';
 import contact from './media/contact.png';
 import navigation from './media/navigation.png';
-/*
 import devices from './media/devices.png';
 import credits from './media/credits.png';
+/*
 import guideline from './media/guideline.png';
 */
 
@@ -111,8 +111,13 @@ function Section() {
             </li>
           </ul>
         </div>
+        <img className="work-step__full-image" src={devices} alt="" />
+        <div className="container">
+          <h4 className="ect-credits__title">Credits</h4>
+          <p>Design versão desktop: Adriel Nunes</p>
+          <img src={credits} alt="" />
+        </div>
       </div>
-
     </section>
   );
 }
