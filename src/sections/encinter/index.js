@@ -9,12 +9,12 @@ import video from './media/video.mp4';
 import logo from './media/logo.svg';
 import mockup from './media/mockup.jpg';
 import siteMap from './media/site-map.png';
-/*
 import homePage from './media/home-page.png';
 import products from './media/products.png';
 import productsDetail from './media/products-detail.png';
 import contact from './media/contact.png';
 import navigation from './media/navigation.png';
+/*
 import devices from './media/devices.png';
 import credits from './media/credits.png';
 import guideline from './media/guideline.png';
@@ -58,6 +58,61 @@ function Section() {
           <img src={siteMap} alt="Site Map" />
         </div>
       </div>
+
+      {/* Step 02 */}
+      <div className="work-step work-step--ect02">
+        <div className="container">
+          <h3 className="work-step__title">Web Mobile</h3>
+          <ul className="chess-list chess-list--align-top">
+            <li>
+              <div>
+                <img src={homePage} alt="" />
+              </div>
+              <div className="chess-list__info">
+                <h4 className="chess-list__title">Home Page</h4>
+                <p>{'A página inicial primeiramente exibe um slideshow com as principais ofertas do momento, e abaixo as categorias dos produtos. Ao final é apresentado o endereço, campo para se inscrever na newsletter e acesso as redes sociais. '}</p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <img src={products} alt="" />
+              </div>
+              <div className="chess-list__info">
+                <h4 className="chess-list__title">Products</h4>
+                <p>{'A página permite que o usuário veja vários modelos ao mesmo tempo, agilizando assim sua busca. É possível filtrar por categoria.'}</p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <img src={productsDetail} alt="" />
+              </div>
+              <div className="chess-list__info">
+                <h4 className="chess-list__title">Products Detail</h4>
+                <p>{'Nessa página é possivel conhecer melhor a história e o designer da peça, ver fotos de diferentes ângulos e ter acesso a todos os dados, como dimensões e detalhes de fabricação.'}</p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <img src={contact} alt="" />
+              </div>
+              <div className="chess-list__info">
+                <h4 className="chess-list__title">Contact</h4>
+                <p>{'O site disponibiliza um formulário simples para entrar em contato. E ainda acesso ao endereço das lojas físicas, por meio do mapa.'}</p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <img src={navigation} alt="" />
+              </div>
+              <div className="chess-list__info">
+                <h4 className="chess-list__title">Navigation</h4>
+                <p>{'Menu simples que dá acesso a todas as páginas do site, além dos telefones de contato da filial e da sede.'}</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
     </section>
   );
 }

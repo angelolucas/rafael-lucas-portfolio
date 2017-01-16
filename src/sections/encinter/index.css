@@ -10,12 +10,13 @@
   h2 {
     color: var(--ect-colorfulDetails);
   }
-  .work-step__title {
-    &:before {
-      background-color: var(--ect-colorfulDetails);
-    }
-    &:after {
-      border-bottom: 5px solid var(--ect-colorfulDetails);
-    }
+  .work-step__title:before {
+    background-color: var(--ect-colorfulDetails);
+  }
+  .work-step__title:after {
+    border-color: var(--ect-colorfulDetails);
+  }
+  .chess-list__title:after {
+    border-color: var(--ect-colorfulDetails);
   }
 }
