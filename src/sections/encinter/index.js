@@ -31,7 +31,7 @@ function Section() {
           <h1 className="work-intro__title">Encinter</h1>
           <img src={logo} width="187" height="187" alt="Logo Encinter" />
           <h2>Concept</h2>
-          <h3 className="work-intro__subtitle">Escinter. Spaces That Engage.</h3>
+          <h3 className="work-intro__subtitle">Escinter.<br /> Spaces That Engage.</h3>
           <p className="work-intro__description">{'A Escinter é uma empresa familiar com 25 anos de atuação no mercado de interiores de espaços corporativos. Ciente de que a qualidade do espaço de trabalho interfere diretamente na vida das pessoas, sua missão é garantir que seus clientes tenham melhor qualidade de vida e desempenho.'}</p>
         </div>
       </div>

@@ -1,7 +1,18 @@
+:root {
+  --bbp-text: #cdcdcd;
+  --bbp-BGDefault: #141414;
+}
 .dy {
-  background-color: #e6e5e3;
+  background-color: var(--bbp-BGDefault);
+  color: var(--bbp-text);
 
-  .work-head {
-    background-color: black;
+  h2 {
+    color: white;
+  }
+  .work-intro .container {
+    max-width: 1050px;
+  }
+  .work-intro__subtitle {
+    color: white;
   }
 }

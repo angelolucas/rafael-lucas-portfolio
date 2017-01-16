@@ -9,6 +9,9 @@
   h2 {
     color: white;
   }
+  .work-intro .container {
+    max-width: 880px;
+  }
   .work-intro__subtitle {
     color: white;
   }
