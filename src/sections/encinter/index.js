@@ -42,6 +42,14 @@ function Section() {
       <div className="container">
         <img src={mockup} alt="" />
       </div>
+
+      {/* Objective */}
+      <div className="work-objective">
+        <div className="container">
+          <h2>Objective</h2>
+          <p>{'Apresentar a empresa bem como  seu catálogo de produtos na versão móvel, permitindo a melhor experiência possível de forma clara e concisa.'}</p>
+        </div>
+      </div>
     </section>
   );
 }
