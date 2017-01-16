@@ -8,7 +8,7 @@ import WorkHead from '../../components/work-head';
 import movaMais from './media/mova-mais.png';
 import posterVideo from './media/video-poster.jpg';
 import video from './media/video.mp4';
-import mockupTop from './media/mockup-top.jpg';
+import mockup from './media/mockup.jpg';
 import step01 from './media/step1.png';
 import step02 from './media/step2.png';
 import step03 from './media/step3.png';
@@ -49,7 +49,7 @@ function Section() {
 
       {/* Mockup */}
       <div className="container">
-        <img src={mockupTop} alt="" />
+        <img src={mockup} alt="" />
       </div>
 
       {/* Objective */}

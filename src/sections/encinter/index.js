@@ -7,6 +7,7 @@ import WorkHead from '../../components/work-head';
 // Assets
 import video from './media/video.mp4';
 import logo from './media/logo.svg';
+import mockup from './media/mockup.jpg';
 
 function Section() {
   return (
@@ -24,6 +25,11 @@ function Section() {
           <h3 className="work-intro__subtitle">Escinter. Spaces That Engage.</h3>
           <p className="work-intro__description">{'A Escinter é uma empresa familiar com 25 anos de atuação no mercado de interiores de espaços corporativos. Ciente de que a qualidade do espaço de trabalho interfere diretamente na vida das pessoas, sua missão é garantir que seus clientes tenham melhor qualidade de vida e desempenho.'}</p>
         </div>
+      </div>
+
+      {/* Mockup */}
+      <div className="container">
+        <img src={mockup} alt="" />
       </div>
     </section>
   );

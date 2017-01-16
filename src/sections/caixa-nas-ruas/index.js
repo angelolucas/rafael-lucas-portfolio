@@ -7,7 +7,7 @@ import WorkHead from '../../components/work-head';
 // Assets
 import caixaNasRuas from './media/caixa-nas-ruas.svg';
 import workHeadImage from './media/work-head.jpg';
-import mockupTop from './media/mockup-top.png';
+import mockup from './media/mockup.png';
 import siteMap from './media/site-map.png';
 import dashboard from './media/dashboard.png';
 import team from './media/team.png';
@@ -46,7 +46,7 @@ function Section() {
 
       {/* Mockup */}
       <div className="container">
-        <img src={mockupTop} alt="" />
+        <img src={mockup} alt="" />
       </div>
 
       {/* Objective */}
