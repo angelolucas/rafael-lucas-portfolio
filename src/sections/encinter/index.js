@@ -8,8 +8,8 @@ import WorkHead from '../../components/work-head';
 import video from './media/video.mp4';
 import logo from './media/logo.svg';
 import mockup from './media/mockup.jpg';
-/*
 import siteMap from './media/site-map.png';
+/*
 import homePage from './media/home-page.png';
 import products from './media/products.png';
 import productsDetail from './media/products-detail.png';
@@ -48,6 +48,14 @@ function Section() {
         <div className="container">
           <h2>Objective</h2>
           <p>{'Apresentar a empresa bem como  seu catálogo de produtos na versão móvel, permitindo a melhor experiência possível de forma clara e concisa.'}</p>
+        </div>
+      </div>
+
+      {/* Step 01 */}
+      <div className="work-step work-step--ect01">
+        <div className="container">
+          <h3 className="work-step__title">Site Map</h3>
+          <img src={siteMap} alt="Site Map" />
         </div>
       </div>
     </section>
