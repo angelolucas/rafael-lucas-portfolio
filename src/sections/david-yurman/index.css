@@ -15,4 +15,7 @@
   .work-intro__subtitle {
     color: white;
   }
+  .work-objective .container {
+    max-width: 1150px;
+  }
 }

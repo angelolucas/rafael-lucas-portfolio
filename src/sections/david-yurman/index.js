@@ -37,6 +37,14 @@ function Section() {
         <img src={mockup} alt="" />
       </div>
 
+      {/* Objective */}
+      <div className="work-objective">
+        <div className="container">
+          <h2>Objective</h2>
+          <p>{'Projetar uma experiência móvel para um comércio eletrônico de jóias de luxo, permitindo que a exposição e compra dos produtos sejam efetuadas de maneira amigável, intuitiva e elegante.'}</p>
+        </div>
+      </div>
+
     </section>
   );
 }
