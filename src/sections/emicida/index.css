@@ -1,10 +1,10 @@
 :root {
-  --bbp-text: #c4653f;
-  --bbp-BGDefault: #141414;
+  --mcd-text: #c4653f;
+  --mcd-BGDefault: #141414;
 }
 .mcd {
-  background-color: var(--bbp-BGDefault);
-  color: var(--bbp-text);
+  background-color: var(--mcd-BGDefault);
+  color: var(--mcd-text);
 
   h2 {
     color: white;

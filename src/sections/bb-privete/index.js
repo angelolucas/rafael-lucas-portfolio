@@ -42,9 +42,17 @@ function Section() {
       </div>
 
       {/* Mockup */}
-      <div className="mockup">
+      <div className="work-mockup">
         <div className="container">
           <img src={mockup} alt="" />
+        </div>
+      </div>
+
+      {/* Objective */}
+      <div className="work-objective">
+        <div className="container">
+          <h2>Objective</h2>
+          <p>Desenhar um ambiente agradável e confiável onde o cliente se sinta seguro. Além de transmitir credibilidade ao público e apresentar o modelo de relacionamento exclusivo, sólido e experiente.</p>
         </div>
       </div>
     </section>
