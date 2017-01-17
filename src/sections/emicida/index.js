@@ -13,12 +13,17 @@ function Section() {
     <section className="mcd">
 
       {/* Hero Image */}
-      <WorkHead color="black" src={video} type="video" />
+      <WorkHead
+        title="Emicida"
+        category="web mobile"
+        color="black"
+        src={video}
+        type="video"
+      />
 
       {/* Intro */}
       <div className="work-intro">
         <div className="container">
-          <h1 className="work-intro__title">Emicida</h1>
           <img src={logo} width="180" alt="David Yurman" />
           <h2>Concept</h2>
           <h3 className="work-intro__subtitle">E.M.I.C.I.D.A<br /> &quot;Enquanto Minha Imaginação Compuser Insanidades Domino a Arte&quot;</h3>

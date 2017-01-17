@@ -31,12 +31,17 @@ function Section() {
     <section className="cnr">
 
       {/* Hero Image */}
-      <WorkHead color="#a0a8ab" src={workHeadImage} type="image" />
+      <WorkHead
+        title="Caixa Nas Ruas"
+        category="web desktop & mobile"
+        color="#a0a8ab"
+        src={workHeadImage}
+        type="image"
+      />
 
       {/* Intro */}
       <div className="work-intro">
         <div className="container">
-          <h1 className="work-intro__title">Caixa Nas Ruas</h1>
           <img src={caixaNasRuas} width="281" alt="Caixa Nas Ruas" />
           <h2>Concept</h2>
           <h3 className="work-intro__subtitle">O seu bem-estar começa Nas Ruas.</h3>

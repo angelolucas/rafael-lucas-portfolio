@@ -23,12 +23,17 @@ function Section() {
     <section className="bbp">
 
       {/* Hero Image */}
-      <WorkHead color="black" src={video} type="video" />
+      <WorkHead
+        title="BB Privete"
+        category="web desktop"
+        color="black"
+        src={video}
+        type="video"
+      />
 
       {/* Intro */}
       <div className="work-intro">
         <div className="container">
-          <h1 className="work-intro__title">Banco do Brasil Privete</h1>
           <img src={logo} width="204" alt="Logo Banco do Brasil Privete" />
           <h2>Concept</h2>
           <h3 className="work-intro__subtitle">Não conte com a Sorte. Conte com o Private.</h3>

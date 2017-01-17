@@ -23,12 +23,17 @@ function Section() {
     <section className="ect">
 
       {/* Hero Image */}
-      <WorkHead color="white" src={video} type="video" />
+      <WorkHead
+        title="Encinter"
+        category="web mobile"
+        color="white"
+        src={video}
+        type="video"
+      />
 
       {/* Intro */}
       <div className="work-intro">
         <div className="container">
-          <h1 className="work-intro__title">Encinter</h1>
           <img src={logo} width="187" height="187" alt="Logo Encinter" />
           <h2>Concept</h2>
           <h3 className="work-intro__subtitle">Escinter.<br /> Spaces That Engage.</h3>

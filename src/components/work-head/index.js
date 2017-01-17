@@ -42,6 +42,10 @@ class WorkHead extends Component {
     return (
       <div className="work-head" style={{ backgroundColor: this.props.color }}>
         {media}
+        <div className="container">
+          <h1 className="work-head__title">{ this.props.title }</h1>
+          <h6 className="work-head__category">{ this.props.category }</h6>
+        </div>
         <button
           type="button"
           className="work-head__button"
@@ -54,6 +58,8 @@ class WorkHead extends Component {
 }
 
 WorkHead.propTypes = {
+  title: React.PropTypes.string,
+  category: React.PropTypes.string,
   color: React.PropTypes.string,
   src: React.PropTypes.string,
   type: React.PropTypes.string,

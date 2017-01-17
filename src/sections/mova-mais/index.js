@@ -34,12 +34,17 @@ function Section() {
     <section className="mm">
 
       {/* Hero Image */}
-      <WorkHead src={video} poster={posterVideo} type="video" />
+      <WorkHead
+        title="Mova Mais"
+        category="app"
+        src={video}
+        poster={posterVideo}
+        type="video"
+      />
 
       {/* Intro */}
       <div className="work-intro">
         <div className="container">
-          <h1 className="work-intro__title">Mova Mais</h1>
           <img src={movaMais} alt="Mova Mais" />
           <h2>Concept</h2>
           <h3 className="work-intro__subtitle">Ganhe pontos por fazer exercícios.</h3>

@@ -13,12 +13,17 @@ function Section() {
     <section className="dy">
 
       {/* Hero Image */}
-      <WorkHead color="black" src={video} type="video" />
+      <WorkHead
+        title="David Yurman"
+        category="web mobile"
+        color="black"
+        src={video}
+        type="video"
+      />
 
       {/* Intro */}
       <div className="work-intro">
         <div className="container">
-          <h1 className="work-intro__title">David Yurman</h1>
           <img src={logo} width="116" alt="David Yurman" />
           <h2>Concept</h2>
           <h3 className="work-intro__subtitle">Discover the artistry and inspiration of America’s preeminent jewelry designer.</h3>
