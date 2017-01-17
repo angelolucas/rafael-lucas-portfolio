@@ -19,7 +19,7 @@
       border-bottom: 5px solid var(--mm-colorfulDetails);
     }
   }
-  .chess-list__item__title:after {
+  .chess-list__title:after {
     border-color: var(--mm-colorfulDetails);
   }
 }
@@ -135,7 +135,6 @@
 }
 
 .mm__available {
-  text-align: center;
   padding: 115px 0;
 
   a {

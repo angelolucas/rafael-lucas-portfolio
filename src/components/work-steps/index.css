@@ -1,7 +1,6 @@
 .work-step {
   background-image: linear-gradient(#ebe9e9, #f0f0f0 600px);
   position: relative;
-  text-align: center;
   padding-top: 90px;
   padding-bottom: 150px;
   counter-reset: 2;
@@ -24,7 +23,6 @@
     font-size: 34px;
     width: 85px;
     height: 85px;
-    text-align: center;
     line-height: 85px;
     transform: translate(-50%, -50%);
     left: 50%;

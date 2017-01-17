@@ -18,4 +18,7 @@
   .work-objective .container {
     max-width: 1150px;
   }
+  .chess-list__title:after {
+    border-color: white;
+  }
 }
