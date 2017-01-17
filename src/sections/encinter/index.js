@@ -117,7 +117,7 @@ function Section() {
         <img className="work-step__full-image" src={devices} alt="" />
         <div className="container">
           <h4 className="ect-credits__title">Credits</h4>
-          <p>Design versão desktop: Adriel Nunes</p>
+          <p>Design versão desktop: <a href="https://www.linkedin.com/in/adrielnunes" target="_blank" rel="noopener noreferrer">Adriel Nunes</a></p>
           <img src={credits} alt="" />
         </div>
       </div>

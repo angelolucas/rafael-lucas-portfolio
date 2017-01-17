@@ -145,7 +145,7 @@ function Section() {
       <div className="credits">
         <div className="container">
           <h3 className="credits__title">Credits</h3>
-          <p className="credits__info">Tive como insumo o layout para desktop desenhado pelo então designer da David Yurman, Sung Hean e pelo designer Alex Lins. Minha função no projeto foi desenhar o site para dispositivos móveis juntamente com o designer Adriel Nunes.</p>
+          <p className="credits__info">Tive como insumo o layout para desktop desenhado pelo então designer da David Yurman, <a href="http://w.sunghean.com/" target="_blank" rel="noopener noreferrer">Sung Hean</a> e pelo designer <a href="http://alexlins.com/portfolio/design/" target="_blank" rel="noopener noreferrer">Alex Lins</a>. Minha função no projeto foi desenhar o site para dispositivos móveis juntamente com o designer <a href="https://www.linkedin.com/in/adrielnunes" target="_blank" rel="noopener noreferrer">Adriel Nunes</a>.</p>
           <img src={credits} alt="" />
         </div>
       </div>

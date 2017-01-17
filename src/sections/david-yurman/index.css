@@ -5,7 +5,10 @@
 .dy {
   background-color: var(--bbp-BGDefault);
   color: var(--dy-text);
-
+  a {
+    color: white;
+    border-bottom: 1px solid white;
+  }
   h2 {
     color: white;
   }
