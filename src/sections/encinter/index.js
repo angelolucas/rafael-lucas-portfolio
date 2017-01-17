@@ -37,7 +37,7 @@ function Section() {
           <img src={logo} width="187" height="187" alt="Logo Encinter" />
           <h2>Concept</h2>
           <h3 className="work-intro__subtitle">Escinter.<br /> Spaces That Engage.</h3>
-          <p className="work-intro__description">{'A Escinter é uma empresa familiar com 25 anos de atuação no mercado de interiores de espaços corporativos. Ciente de que a qualidade do espaço de trabalho interfere diretamente na vida das pessoas, sua missão é garantir que seus clientes tenham melhor qualidade de vida e desempenho.'}</p>
+          <p className="work-intro__description">A Escinter é uma empresa familiar com 25 anos de atuação no mercado de interiores de espaços corporativos. Ciente de que a qualidade do espaço de trabalho interfere diretamente na vida das pessoas, sua missão é garantir que seus clientes tenham melhor qualidade de vida e desempenho.</p>
         </div>
       </div>
 
@@ -50,7 +50,7 @@ function Section() {
       <div className="work-objective">
         <div className="container">
           <h2>Objective</h2>
-          <p>{'Apresentar a empresa bem como  seu catálogo de produtos na versão móvel, permitindo a melhor experiência possível de forma clara e concisa.'}</p>
+          <p>Apresentar a empresa bem como  seu catálogo de produtos na versão móvel, permitindo a melhor experiência possível de forma clara e concisa.</p>
         </div>
       </div>
 
@@ -73,7 +73,7 @@ function Section() {
               </div>
               <div className="chess-list__info">
                 <h4 className="chess-list__title">Home Page</h4>
-                <p>{'A página inicial primeiramente exibe um slideshow com as principais ofertas do momento, e abaixo as categorias dos produtos. Ao final é apresentado o endereço, campo para se inscrever na newsletter e acesso as redes sociais. '}</p>
+                <p>A página inicial primeiramente exibe um slideshow com as principais ofertas do momento, e abaixo as categorias dos produtos. Ao final é apresentado o endereço, campo para se inscrever na newsletter e acesso as redes sociais. </p>
               </div>
             </li>
             <li>
@@ -82,7 +82,7 @@ function Section() {
               </div>
               <div className="chess-list__info">
                 <h4 className="chess-list__title">Products</h4>
-                <p>{'A página permite que o usuário veja vários modelos ao mesmo tempo, agilizando assim sua busca. É possível filtrar por categoria.'}</p>
+                <p>A página permite que o usuário veja vários modelos ao mesmo tempo, agilizando assim sua busca. É possível filtrar por categoria.</p>
               </div>
             </li>
             <li>
@@ -91,7 +91,7 @@ function Section() {
               </div>
               <div className="chess-list__info">
                 <h4 className="chess-list__title">Products Detail</h4>
-                <p>{'Nessa página é possivel conhecer melhor a história e o designer da peça, ver fotos de diferentes ângulos e ter acesso a todos os dados, como dimensões e detalhes de fabricação.'}</p>
+                <p>Nessa página é possivel conhecer melhor a história e o designer da peça, ver fotos de diferentes ângulos e ter acesso a todos os dados, como dimensões e detalhes de fabricação.</p>
               </div>
             </li>
             <li>
@@ -100,7 +100,7 @@ function Section() {
               </div>
               <div className="chess-list__info">
                 <h4 className="chess-list__title">Contact</h4>
-                <p>{'O site disponibiliza um formulário simples para entrar em contato. E ainda acesso ao endereço das lojas físicas, por meio do mapa.'}</p>
+                <p>O site disponibiliza um formulário simples para entrar em contato. E ainda acesso ao endereço das lojas físicas, por meio do mapa.</p>
               </div>
             </li>
             <li>
@@ -109,7 +109,7 @@ function Section() {
               </div>
               <div className="chess-list__info">
                 <h4 className="chess-list__title">Navigation</h4>
-                <p>{'Menu simples que dá acesso a todas as páginas do site, além dos telefones de contato da filial e da sede.'}</p>
+                <p>Menu simples que dá acesso a todas as páginas do site, além dos telefones de contato da filial e da sede.</p>
               </div>
             </li>
           </ul>

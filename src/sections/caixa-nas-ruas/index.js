@@ -45,7 +45,7 @@ function Section() {
           <img src={caixaNasRuas} width="281" alt="Caixa Nas Ruas" />
           <h2>Concept</h2>
           <h3 className="work-intro__subtitle">O seu bem-estar começa Nas Ruas.</h3>
-          <p className="work-intro__description">{'O programa Caixa Nas Ruas estimula o engajamento dos usuários motivando a prática regular de atividades físicas através de conteúdo, senso de pertencimento, estímulo social e programa de relacionamento.'}</p>
+          <p className="work-intro__description">O programa Caixa Nas Ruas estimula o engajamento dos usuários motivando a prática regular de atividades físicas através de conteúdo, senso de pertencimento, estímulo social e programa de relacionamento.</p>
         </div>
       </div>
 
@@ -58,7 +58,7 @@ function Section() {
       <div className="work-objective work-objective--cnr">
         <div className="container">
           <h2>Objective</h2>
-          <p>{'Desenhar uma plataforma simples e amigável que estimule a saúde e a qualidade de vida, promovendo a prática esportiva de forma saudável com premiações.'}</p>
+          <p>Desenhar uma plataforma simples e amigável que estimule a saúde e a qualidade de vida, promovendo a prática esportiva de forma saudável com premiações.</p>
         </div>
       </div>
 
@@ -75,10 +75,10 @@ function Section() {
         <div className="container">
           <h3 className="work-step__title">Pages</h3>
           <h4>Dashboard</h4>
-          <p className="work-step__description">{'Central de medição de desempenho de cada participante com dados detalhados sobre a perseverança de treino, objetivos individuais e visualizações de dados quantitativas e qualitativas.'}</p>
+          <p className="work-step__description">Central de medição de desempenho de cada participante com dados detalhados sobre a perseverança de treino, objetivos individuais e visualizações de dados quantitativas e qualitativas.</p>
           <img src={dashboard} alt="Dashboard Page" />
           <h4>Teams</h4>
-          <p className="work-step__description">{'As equipes têm a missão de cooperação mútua, e o critério de formação é estabelecido pelos próprios usuários. A equipe tem um lema e um brasão de identificação.'}</p>
+          <p className="work-step__description">As equipes têm a missão de cooperação mútua, e o critério de formação é estabelecido pelos próprios usuários. A equipe tem um lema e um brasão de identificação.</p>
           <img src={team} alt="Team Page" />
           <div className="cnr__shields">
             <img src={shield1} alt="Shield1" />
@@ -86,13 +86,13 @@ function Section() {
             <img src={shield3} alt="Shield3" />
           </div>
           <h4>Events</h4>
-          <p className="work-step__description">{'Apresentação do calendário de provas com navegação de estímulo a participação das pessoas nesses eventos através da plataforma.'}</p>
+          <p className="work-step__description">Apresentação do calendário de provas com navegação de estímulo a participação das pessoas nesses eventos através da plataforma.</p>
           <img src={events} alt="events" />
           <h4>Editorial</h4>
-          <p className="work-step__description">{'O conteúdo do programa possui caráter motivador, tendo como missão estimular as pessoas a se afastarem do sedentarismo através do bom exemplo, da inspiração e do potencial de superação de cada um. Ajudar os praticantes a removerem barreiras motivacionais e técnicas que atrapalhem o início ou evolução na prática de uma modalidade.'}</p>
+          <p className="work-step__description">O conteúdo do programa possui caráter motivador, tendo como missão estimular as pessoas a se afastarem do sedentarismo através do bom exemplo, da inspiração e do potencial de superação de cada um. Ajudar os praticantes a removerem barreiras motivacionais e técnicas que atrapalhem o início ou evolução na prática de uma modalidade.</p>
           <img src={editorial} alt="events" />
           <h4>Store</h4>
-          <p className="work-step__description">{'Vitrine de produtos para trocar com os pontos acumulados na plataforma de acordo com seu desempenho.'}</p>
+          <p className="work-step__description">Vitrine de produtos para trocar com os pontos acumulados na plataforma de acordo com seu desempenho.</p>
           <img src={store} alt="store" />
         </div>
       </div>

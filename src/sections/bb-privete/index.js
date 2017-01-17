@@ -37,7 +37,7 @@ function Section() {
           <img src={logo} width="204" alt="Logo Banco do Brasil Privete" />
           <h2>Concept</h2>
           <h3 className="work-intro__subtitle">Não conte com a Sorte. Conte com o Private.</h3>
-          <p className="work-intro__description">{'Site institucional do segmento Private do maior banco da América Latina. Tem por objetivo atenter às necessidades de aconselhamento financeiro e gestão de recursos, com estratégias personalizadas de forma isenta e transparente.'}</p>
+          <p className="work-intro__description">Site institucional do segmento Private do maior banco da América Latina. Tem por objetivo atenter às necessidades de aconselhamento financeiro e gestão de recursos, com estratégias personalizadas de forma isenta e transparente.</p>
         </div>
       </div>
 

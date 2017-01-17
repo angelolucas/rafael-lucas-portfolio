@@ -48,7 +48,7 @@ function Section() {
           <img src={movaMais} alt="Mova Mais" />
           <h2>Concept</h2>
           <h3 className="work-intro__subtitle">Ganhe pontos por fazer exercícios.</h3>
-          <p className="work-intro__description">{'A plataforma tem por objetivo incentivar pessoas a saírem do sedentarismo, acompanhando a rotina de atividades físicas e recompensado com pontos de programas de fidelidade, que podem ser trocados por voos, eletrônicos e muitos outros.'}</p>
+          <p className="work-intro__description">A plataforma tem por objetivo incentivar pessoas a saírem do sedentarismo, acompanhando a rotina de atividades físicas e recompensado com pontos de programas de fidelidade, que podem ser trocados por voos, eletrônicos e muitos outros.</p>
         </div>
       </div>
 
@@ -61,7 +61,7 @@ function Section() {
       <div className="work-objective">
         <div className="container">
           <h2>Objective</h2>
-          <p>{'Apresentar claramente a proposta de valor, tendo sempre um crescimento consistente da base de usuários, atrelado a uma interface amigável, concisa e focada no usuário.'}</p>
+          <p>Apresentar claramente a proposta de valor, tendo sempre um crescimento consistente da base de usuários, atrelado a uma interface amigável, concisa e focada no usuário.</p>
         </div>
       </div>
 
@@ -87,14 +87,14 @@ function Section() {
       <div className="work-step work-step--mm02">
         <div className="container">
           <h3 className="work-step__title">Walkthroughs</h3>
-          <p className="work-step__description">{'A experiência do onboarding foi projetada para ser simples e didática, sem deixar de ser atrativa desde o primeiro momento, por isso a importância de ter uma linguagem clara e divertida.'}</p>
+          <p className="work-step__description">A experiência do onboarding foi projetada para ser simples e didática, sem deixar de ser atrativa desde o primeiro momento, por isso a importância de ter uma linguagem clara e divertida.</p>
           <ul className="chess-list">
             <li>
               <div>
                 <img src={step01} alt="" />
               </div>
               <div className="chess-list__info">
-                <p>{'“Cadastre-se em um dos apps de monitoramento e conecte sua conta.”'}</p>
+                <p>“Cadastre-se em um dos apps de monitoramento e conecte sua conta.”</p>
               </div>
             </li>
             <li>
@@ -102,7 +102,7 @@ function Section() {
                 <img src={step02} alt="" />
               </div>
               <div className="chess-list__info">
-                <p>{'“Monitore suas atividades pelo app que conectou.”'}</p>
+                <p>“Monitore suas atividades pelo app que conectou.”</p>
               </div>
             </li>
             <li>
@@ -110,7 +110,7 @@ function Section() {
                 <img src={step03} alt="" />
               </div>
               <div className="chess-list__info">
-                <p>{'“Alcance sua meta diária  e acumule pontos para conversão”'}</p>
+                <p>“Alcance sua meta diária  e acumule pontos para conversão”</p>
               </div>
             </li>
           </ul>
@@ -121,7 +121,7 @@ function Section() {
       <div className="work-step work-step--mm03">
         <div className="container">
           <h3 className="work-step__title">Daily Goal</h3>
-          <p className="work-step__description">{'Um dos maiores objetivos da aplicativo é fazer com que o usuário se sinta sempre motivado a se exercitar, por isso exibimos mensagens de incentivo, sobretudo para não perder a sequência de exercícios.'}</p>
+          <p className="work-step__description">Um dos maiores objetivos da aplicativo é fazer com que o usuário se sinta sempre motivado a se exercitar, por isso exibimos mensagens de incentivo, sobretudo para não perder a sequência de exercícios.</p>
         </div>
         <div className="work-step--mm03__background" />
       </div>
@@ -130,7 +130,7 @@ function Section() {
       <div className="work-step work-step--mm04">
         <div className="container">
           <h3 className="work-step__title">Engagement</h3>
-          <p className="work-step__description">{'Reter o usuário é sempre um grande desafio se tratando de atividade física, por isso elaboramos um recurso chamado “Combo”, que beneficia com mais pontos os usuários que atiguem a meta diária com mais frequência.'}</p>
+          <p className="work-step__description">Reter o usuário é sempre um grande desafio se tratando de atividade física, por isso elaboramos um recurso chamado “Combo”, que beneficia com mais pontos os usuários que atiguem a meta diária com mais frequência.</p>
           <ul className="chess-list">
             <li>
               <div>
@@ -138,7 +138,7 @@ function Section() {
               </div>
               <div className="chess-list__info">
                 <h4 className="chess-list__title">Hit Target!</h4>
-                <p>{'“Você ganhou 20 pontos por cumprir sua meta pela primeira vez!”'}</p>
+                <p>“Você ganhou 20 pontos por cumprir sua meta pela primeira vez!”</p>
               </div>
             </li>
             <li>
@@ -147,7 +147,7 @@ function Section() {
               </div>
               <div className="chess-list__info">
                 <h4 className="chess-list__title">Keep Your Combo</h4>
-                <p>{'“Criando uma sequência de metas atingidas você pode ganhar até 40 pontos por cumprimento de meta.”'}</p>
+                <p>“Criando uma sequência de metas atingidas você pode ganhar até 40 pontos por cumprimento de meta.”</p>
               </div>
             </li>
             <li>
@@ -156,7 +156,7 @@ function Section() {
               </div>
               <div className="chess-list__info">
                 <h4 className="chess-list__title">Rest Is Important</h4>
-                <p>{'“Você pode descansar por até 2 dias seguidos sem quebrar seu combo.”'}</p>
+                <p>“Você pode descansar por até 2 dias seguidos sem quebrar seu combo.”</p>
               </div>
             </li>
           </ul>
@@ -167,7 +167,7 @@ function Section() {
       <div className="work-step work-step--mm05">
         <div className="container">
           <h3 className="work-step__title">Points</h3>
-          <p className="work-step__description">{'Permitir um acesso fácil e rápido aos pontos é crucial, apresentando-o de madeira clara, pois é a ponta final da nossa promessa de valor. Além do que, esse benefício, no nosso caso, atua como a “Metáfora da Cenoura”. Ele é o principal fator motivacional para muitos usuários.'}</p>
+          <p className="work-step__description">Permitir um acesso fácil e rápido aos pontos é crucial, apresentando-o de madeira clara, pois é a ponta final da nossa promessa de valor. Além do que, esse benefício, no nosso caso, atua como a “Metáfora da Cenoura”. Ele é o principal fator motivacional para muitos usuários.</p>
           <ul className="chess-list">
             <li>
               <div>
@@ -192,7 +192,7 @@ function Section() {
               </div>
               <div className="chess-list__info">
                 <h4 className="chess-list__item__title">Ranking Of Friends</h4>
-                <p>{'Um recurso muito eficiente de estímulo a prática de exercício, e fomenta competição entre amigos, além de permitir comentários em atividades, likes e outros recursos sociais.'}</p>
+                <p>Um recurso muito eficiente de estímulo a prática de exercício, e fomenta competição entre amigos, além de permitir comentários em atividades, likes e outros recursos sociais.</p>
               </div>
             </li>
             <li>
@@ -201,7 +201,7 @@ function Section() {
               </div>
               <div className="chess-list__info">
                 <h4 className="chess-list__item__title">Tracker</h4>
-                <p>{'Tem por objetivo remover eventuais obstáculos do usuário no fluxo de embarque, e encurtar o espaço entre a prática do exercício e o benefício concreto. Em fase de teste.'}</p>
+                <p>Tem por objetivo remover eventuais obstáculos do usuário no fluxo de embarque, e encurtar o espaço entre a prática do exercício e o benefício concreto. Em fase de teste.</p>
               </div>
             </li>
             <li>
@@ -210,7 +210,7 @@ function Section() {
               </div>
               <div className="chess-list__info">
                 <h4 className="chess-list__item__title">Member Get Member</h4>
-                <p>{'Focado em aquisição. O usuário conquista pontos para cada amigo que entrar na plataforma e fizer pelo menos uma atividade.'}</p>
+                <p>Focado em aquisição. O usuário conquista pontos para cada amigo que entrar na plataforma e fizer pelo menos uma atividade.</p>
               </div>
             </li>
             <li>
@@ -219,7 +219,7 @@ function Section() {
               </div>
               <div className="chess-list__info">
                 <h4 className="chess-list__item__title">Duels</h4>
-                <p>{'Permite que os usuários disputam entre si. O recurso possibilita a escolha de atributos a fim de incentivar a competição.'}</p>
+                <p>Permite que os usuários disputam entre si. O recurso possibilita a escolha de atributos a fim de incentivar a competição.</p>
               </div>
             </li>
             <li>
@@ -228,7 +228,7 @@ function Section() {
               </div>
               <div className="chess-list__info">
                 <h4 className="chess-list__item__title">Navegation</h4>
-                <p>{'O menu dá acesso rápido a todos os recursos do aplicativo, além de feedback sobre a conexão do tracker.'}</p>
+                <p>O menu dá acesso rápido a todos os recursos do aplicativo, além de feedback sobre a conexão do tracker.</p>
               </div>
             </li>
           </ul>

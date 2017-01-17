@@ -16,11 +16,6 @@ module.exports = {
       "react/forbid-prop-types": 0,
       "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
       "class-methods-use-this": 0,
-      "max-len": [2, {
-        "code": 80,
-        "ignoreTrailingComments": true,
-        'ignoreStrings': true,
-        "ignoreTemplateLiterals": true
-      }]
+      "max-len": 0,
     }
 };

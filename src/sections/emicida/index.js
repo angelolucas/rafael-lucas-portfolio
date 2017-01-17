@@ -27,7 +27,7 @@ function Section() {
           <img src={logo} width="180" alt="David Yurman" />
           <h2>Concept</h2>
           <h3 className="work-intro__subtitle">E.M.I.C.I.D.A<br /> &quot;Enquanto Minha Imaginação Compuser Insanidades Domino a Arte&quot;</h3>
-          <p className="work-intro__description">{'Site institucional do rapper e produtor musical brasileiro Emicida. Considero uma das maiores revelações do hip hop do Brasil. Famoso por suas constantes vitórias nas batalhas do improvi'}</p>
+          <p className="work-intro__description">Site institucional do rapper e produtor musical brasileiro Emicida. Considero uma das maiores revelações do hip hop do Brasil. Famoso por suas constantes vitórias nas batalhas do improvi</p>
         </div>
       </div>
     </section>
