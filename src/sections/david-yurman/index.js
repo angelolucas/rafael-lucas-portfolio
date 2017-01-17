@@ -7,6 +7,7 @@ import WorkHead from '../../components/work-head';
 // Assets
 import video from './media/video.mp4';
 import logo from './media/logo.png';
+import mockup from './media/mockup.png';
 
 function Section() {
   return (
@@ -29,6 +30,11 @@ function Section() {
           <h3 className="work-intro__subtitle">Discover the artistry and inspiration of America’s preeminent jewelry designer.</h3>
           <p className="work-intro__description">{'David Yurman Inc. is a privately held American designer jewelry company founded by David Yurman and Sybil Yurmanand headquartered in New York City. There are currently a total of 32 David Yurman boutiques in North America and worldwide.'}</p>
         </div>
+      </div>
+
+      {/* Mockup */}
+      <div className="container">
+        <img src={mockup} alt="" />
       </div>
 
     </section>

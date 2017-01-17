@@ -1,10 +1,10 @@
 :root {
-  --bbp-text: #cdcdcd;
-  --bbp-BGDefault: #141414;
+  --dy-text: #cdcdcd;
+  --dy-BGDefault: #141414;
 }
 .dy {
   background-color: var(--bbp-BGDefault);
-  color: var(--bbp-text);
+  color: var(--dy-text);
 
   h2 {
     color: white;
