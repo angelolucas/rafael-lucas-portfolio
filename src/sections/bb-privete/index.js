@@ -7,8 +7,8 @@ import WorkHead from '../../components/work-head';
 // Assets
 import video from './media/video.mp4';
 import logo from './media/logo.png';
-/*
 import mockup from './media/mockup.png';
+/*
 import siteMap from './media/site-map.png';
 import homePage from './media/home-page.png';
 import privateClient from './media/privat-client.png';
@@ -38,6 +38,13 @@ function Section() {
           <h2>Concept</h2>
           <h3 className="work-intro__subtitle">Não conte com a Sorte. Conte com o Private.</h3>
           <p className="work-intro__description">{'Site institucional do segmento Private do maior banco da América Latina. Tem por objetivo atenter às necessidades de aconselhamento financeiro e gestão de recursos, com estratégias personalizadas de forma isenta e transparente.'}</p>
+        </div>
+      </div>
+
+      {/* Mockup */}
+      <div className="mockup">
+        <div className="container">
+          <img src={mockup} alt="" />
         </div>
       </div>
     </section>

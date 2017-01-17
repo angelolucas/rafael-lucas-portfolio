@@ -15,4 +15,13 @@
   .work-intro__subtitle {
     color: white;
   }
+  .mockup {
+    overflow: hidden;
+
+    img {
+      max-width: 1668px;
+      margin-left: -65px;
+      width: 131%;
+    }
+  }
 }
