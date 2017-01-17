@@ -21,4 +21,25 @@
   .chess-list__title:after {
     border-color: white;
   }
+  .guideline__title {
+    font-size: 35px;
+    font-weight: 100;
+    text-transform: uppercase;
+    margin-bottom: 90px;
+  }
+  .guideline__image {
+    margin-bottom: 230px;
+  }
+  .credits__title {
+    font-size: 35px;
+    font-weight: 100;
+    margin-bottom: 30px;
+  }
+  .credits__info {
+    max-width: 730px;
+    font-size: 18px;
+    margin: 0 auto 90px;
+    line-height: 2;
+    font-weight: 100;
+  }
 }
