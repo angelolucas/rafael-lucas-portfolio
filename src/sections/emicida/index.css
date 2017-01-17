@@ -1,5 +1,22 @@
+:root {
+  --bbp-text: #c4653f;
+  --bbp-BGDefault: #141414;
+}
 .mcd {
-  .work-head {
-    background-color: black;
+  background-color: var(--bbp-BGDefault);
+  color: var(--bbp-text);
+
+  h2 {
+    color: white;
+  }
+  .work-intro .container {
+    max-width: 1020px;
+  }
+  .work-intro p {
+    max-width: 660px;
+    margin: auto;
+  }
+  .work-intro__subtitle {
+    color: white;
   }
 }
