@@ -3,7 +3,6 @@
   display: flex;
   justify-content: space-around;
   text-align: center;
-  font-size: 80px;
 }
 .work-navigation a {
   padding: 70px 0;
@@ -11,6 +10,8 @@
   display: inline-block;
   width: 100%;
   text-decoration: underline;
+  font-size: 80px;
+  font-weight: bold;
 }
 .work-navigation a:first-child {
   border-right: 1px solid #5b5b5b;

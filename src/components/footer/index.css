@@ -11,12 +11,6 @@
   left: 0;
   right: 0;
   z-index: 1;
-
-  p,
-  a {
-    color: white;
-    font-size: 38px;
-  }
 }
 .footer__networks {
   display: flex;
@@ -29,6 +23,11 @@
     flex-grow: 1;
     position: relative;
 
+    a {
+      color: white;
+      font-size: 38px;
+      font-weight: bold;
+    }
     &:after {
       content: "";
       width: 6px;
