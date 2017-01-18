@@ -22,6 +22,7 @@
 @import '../components/work-intro';
 @import '../components/work-objective';
 @import '../components/work-steps';
+@import '../components/work-screen';
 @import '../components/work-chess-list';
 @import '../components/work-navigation';
 @import '../components/back-to-top';

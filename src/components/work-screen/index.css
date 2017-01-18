@@ -1,0 +1,31 @@
+.work-screen__info {
+  display: flex;
+  align-items: flex-end;
+  padding: 80px 0 65px;
+}
+.work-screen__title {
+  font-size: 50px;
+  margin-right: 80px;
+  white-space: nowrap;
+
+  &:before {
+    content: "";
+    border-top: 5px solid white;
+    width: 32px;
+    display: block;
+    margin: 0 0 30px auto; 
+  }
+}
+.work-screen__description {
+  text-align: left;
+  line-height: 1.6;
+  max-width: 730px;
+}
+.work-screen::after {
+  content: "";
+  height: 315px;
+  display: block;
+  width: 2px;
+  background: linear-gradient(#3f3f3f, transparent);
+  margin: 0 auto;
+}
