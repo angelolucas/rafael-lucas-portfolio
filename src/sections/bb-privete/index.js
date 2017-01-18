@@ -14,9 +14,7 @@ import privateClient from './media/privat-client.png';
 import investiments from './media/investiments.png';
 import financialAdvisory from './media/financial-advisory.png';
 import aboutTheClient from './media/about-the-client.png';
-/*
 import guideline from './media/guideline.png';
-*/
 
 function Section() {
   return (
@@ -117,6 +115,11 @@ function Section() {
             <p className="work-screen__description">Página que detalha sobre o segmento e o próprio banco, de maneira segura, sólida e experiente.</p>
           </div>
         </div>
+      </div>
+
+      {/* Guideline */}
+      <div className="container">
+        <img src={guideline} alt="Guideline" />
       </div>
     </section>
   );
