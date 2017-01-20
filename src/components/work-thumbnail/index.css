@@ -1,5 +1,6 @@
 .work-thumbnail {
   position: relative;
+  margin-bottom: 30px;
 }
 .work-thumbnail:hover {
   .work-thumbnail__window::after {
