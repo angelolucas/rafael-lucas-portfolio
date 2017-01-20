@@ -18,6 +18,7 @@
 @import '../components/header-navigation';
 @import '../components/list-works';
 @import '../components/footer';
+@import '../components/work-thumbnail';
 @import '../components/work-head';
 @import '../components/work-intro';
 @import '../components/work-objective';
