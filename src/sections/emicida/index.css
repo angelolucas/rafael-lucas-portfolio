@@ -4,19 +4,29 @@
 }
 .mcd {
   background-color: var(--mcd-BGDefault);
+  background-image: url('../sections/emicida/media/background.jpg');
   color: var(--mcd-text);
 
   h2 {
-    color: white;
+    color: var(--mcd-text);
   }
   .work-intro .container {
     max-width: 1020px;
   }
-  .work-intro p {
+  .work-intro__subtitle {
+    color: #dedfde;
+  }
+  .work-intro__description {
     max-width: 660px;
     margin: auto;
   }
-  .work-intro__subtitle {
-    color: white;
+  .mcd-patter1 {
+    background-image: url('../sections/emicida/media/patter1.png');
+    background-attachment: fixed;
+    background-size: 30px;
+    height: 180px;
+  }
+  .work-objective p {
+    color: #dedfde;
   }
 }
