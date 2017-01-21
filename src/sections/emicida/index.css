@@ -20,13 +20,22 @@
     max-width: 660px;
     margin: auto;
   }
-  .mcd-patter1 {
-    background-image: url('../sections/emicida/media/patter1.png');
+  .mcd-patter {
     background-attachment: fixed;
-    background-size: 30px;
     height: 180px;
+  }
+  .mcd-patter--1 {
+    background-image: url('../sections/emicida/media/patter1.png');
+    background-size: 30px;
+  }
+  .mcd-patter--2 {
+    background-image: url('../sections/emicida/media/patter2.png');
+    background-size: 230px;
   }
   .work-objective p {
     color: #dedfde;
+  }
+  .work-sitemap {
+    padding-bottom: 170px;
   }
 }

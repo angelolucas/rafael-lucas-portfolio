@@ -8,6 +8,7 @@ import WorkHead from '../../components/work-head';
 import video from './media/video.mp4';
 import logo from './media/logo.png';
 import mockup from './media/mockup.png';
+import siteMap from './media/site-map.png';
 
 function Section() {
   return (
@@ -33,11 +34,11 @@ function Section() {
       </div>
 
       {/* Mockup */}
-      <div className="container">
+      <div className="container container--full">
         <img src={mockup} alt="" />
       </div>
 
-      <div className="mcd-patter1" />
+      <div className="mcd-patter mcd-patter--1" />
 
       {/* Objective */}
       <div className="work-objective">
@@ -46,6 +47,17 @@ function Section() {
           <p>Fazer com que a experiência do site móvel seja completa e amigável, permitindo que o usuário conheça o artista, sua obra, tragetória e tenha acesso a sua agenda de maneira acessível e intuitiva.</p>
         </div>
       </div>
+
+      {/* Site map */}
+      <div className="work-sitemap">
+        <div className="container">
+          <h2>Site Map</h2>
+          <img src={siteMap} alt="Site Map" />
+        </div>
+      </div>
+
+      <div className="mcd-patter mcd-patter--2" />
+
     </section>
   );
 }
