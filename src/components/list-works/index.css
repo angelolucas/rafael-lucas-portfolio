@@ -2,11 +2,12 @@
   background-color: var(--whiteBackground);
   position: relative;
   z-index: 2;
-  padding: 15px;
+}
+.list-works ul {
   display: flex;
-  flex-wrap: wrap;
-
-  > * {
-    flex: 33%;
-  }
+  flex-wrap: wrap;  
+  padding: 15px;
+}
+.list-works ul > li {
+  flex: 33%;
 }

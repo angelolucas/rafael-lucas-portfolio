@@ -69,20 +69,24 @@ const works = {
 
 function ListWorks() {
   return (
-    <ul className="list-works">
-      {
-        Object.keys(works).map((work, key) => (
-          <WorkThubnail
-            key={key}
-            title={works[work].title}
-            category={works[work].category}
-            link={works[work].link}
-            image={works[work].image}
-            detail={works[work].detail}
-          />
-        ))
-      }
-    </ul>
+    <main className="list-works">
+      <div className="container container--full">
+        <ul>
+          {
+            Object.keys(works).map((work, key) => (
+              <WorkThubnail
+                key={key}
+                title={works[work].title}
+                category={works[work].category}
+                link={works[work].link}
+                image={works[work].image}
+                detail={works[work].detail}
+              />
+            ))
+          }
+        </ul>
+      </div>
+    </main>
   );
 }
 
