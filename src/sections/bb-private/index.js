@@ -22,7 +22,7 @@ function Section() {
 
       {/* Hero Image */}
       <WorkHead
-        title="BB Privete"
+        title="BB Private"
         category="web desktop"
         color="black"
         src={video}
@@ -32,7 +32,7 @@ function Section() {
       {/* Intro */}
       <div className="work-intro">
         <div className="container">
-          <img src={logo} width="204" alt="Logo Banco do Brasil Privete" />
+          <img src={logo} width="204" alt="Logo Banco do Brasil Private" />
           <h2>Concept</h2>
           <h3 className="work-intro__subtitle">Não conte com a Sorte. Conte com o Private.</h3>
           <p className="work-intro__description">Site institucional do segmento Private do maior banco da América Latina. Tem por objetivo atenter às necessidades de aconselhamento financeiro e gestão de recursos, com estratégias personalizadas de forma isenta e transparente.</p>
@@ -125,8 +125,8 @@ function Section() {
   );
 }
 
-function BBPrivete() {
+function BBPrivate() {
   return <WorkPage section={Section()} position={3} />;
 }
 
-export default BBPrivete;
+export default BBPrivate;

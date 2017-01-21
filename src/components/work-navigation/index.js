@@ -5,7 +5,7 @@ const WorkNavigation = (props) => {
   const worksList = {
     1: '/mova-mais',
     2: '/caixa-nas-ruas',
-    3: '/bb-privete',
+    3: '/bb-private',
     4: '/david-yurman',
     5: '/escinter',
     6: '/emicida',

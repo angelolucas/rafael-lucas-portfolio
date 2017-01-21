@@ -10,8 +10,8 @@ import MMDetail from '../../sections/mova-mais/media/thumb-overlay.png';
 import CNRImage from '../../sections/caixa-nas-ruas/media/thumb.png';
 import CNRDetail from '../../sections/caixa-nas-ruas/media/thumb-overlay.png';
 
-// BB Privete
-import BBPImage from '../../sections/bb-privete/media/thumb.png';
+// BB Private
+import BBPImage from '../../sections/bb-private/media/thumb.png';
 
 // David Yurman
 import DYImage from '../../sections/david-yurman/media/thumb.png';
@@ -39,10 +39,10 @@ const works = {
     image: CNRImage,
     detail: CNRDetail,
   },
-  'bb-privete': {
+  'bb-private': {
     title: 'BB Private',
     category: 'web desktop',
-    link: '/bb-privete',
+    link: '/bb-private',
     image: BBPImage,
   },
   'david-yurman': {
