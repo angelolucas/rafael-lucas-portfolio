@@ -35,7 +35,7 @@
   line-height: 88px;
 
   h2 {
-    margin: 0 11vw;
+    margin: 0 5vw;
     font-size: 75px;
     max-width: 990px;
     line-height: 90px;
@@ -59,7 +59,7 @@
   top: 0;
   left: 0;
   background: #151515;
-  border: 15px solid #313131;
+  border: 15px solid #272727;
   box-sizing: border-box;
   pointer-events: none;
 }

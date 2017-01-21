@@ -6,7 +6,7 @@ import Contact from '../../sections/contact';
 
 class Header extends Component {
   componentDidMount() {
-    const heightEffect = (90 / 100) * window.innerHeight;
+    const heightEffect = (80 / 100) * window.innerHeight;
 
     window.addEventListener('scroll', () => {
       let opacity = (window.scrollY * 100) / heightEffect; // get scroll in percentage
@@ -18,19 +18,21 @@ class Header extends Component {
         opacity = 0;
       }
 
-      this.bg.setAttribute('style', `opacity:${opacity}`);
-      this.content.setAttribute('style', `opacity:${opacity}`);
+      this.effect.setAttribute('style', `opacity:${opacity}`);
     });
   }
   render() {
     return (
       <header className="header">
-        <div className="header__background" ref={(bg) => { this.bg = bg; }} />
-        <div ref={(content) => { this.content = content; }}>
+        <div ref={(effect) => { this.effect = effect; }}>
+          <div className="header__background" />
+
           <h1 className="header__title">Rafael Lucas</h1>
 
-          <div className="header__description">
-            <h2>Hi! My name is Rafael Lucas, I&apos;m a designer specializing in interactive experiences living in Brasília, Brazil.</h2>
+          <div className="container">
+            <div className="header__description">
+              <h2>Hi! My name is Rafael Lucas, I&apos;m a designer specializing in interactive experiences living in Brasília, Brazil.</h2>
+            </div>
           </div>
 
           <About />

@@ -5,10 +5,11 @@
   right: 80px;
   display: flex;
   justify-content: space-between;
+  z-index: 3;
 }
 .header-navigation__item {
   background: transparent;
-  color: white;
+  color: #a5a5a5;
   border: none;
   font-size: 22px;
   cursor: pointer;
