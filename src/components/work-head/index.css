@@ -18,11 +18,11 @@
     background-attachment: fixed;
   }
   &.work-head__media--video {
-    min-width: 100%; 
+    min-width: 100%;
     min-height: 100%;
     width: auto;
     height: auto;
-    
+
     position: absolute;
     top: 50%;
     left: 50%;
@@ -39,20 +39,22 @@
 }
 .work-head__title {
   text-transform: uppercase;
-  font-size: 140px;
+  font-size: 100px;
   line-height: 1.1;
   letter-spacing: 28px;
   color: white;
   margin-bottom: 20px;
+  font-weight: 900;
+  text-shadow: 0px 7px 29px rgba(20, 0, 0, 0.1);
 }
 .work-head__category {
   font-size: 30px;
-  font-weight: 600;
-  color: #a8a7a7;
+  font-weight: 300;
+  color: rgba(0, 0, 6, 0.5);
 
   &::before,
   &::after {
-    content: " - ";
+    content: " — ";
     margin: 0 8px;
   }
 }
