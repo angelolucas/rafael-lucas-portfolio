@@ -1,9 +1,9 @@
 :root {
   --dy-text: #cdcdcd;
-  --dy-BGDefault: #141414;
+  --dy-BGDefault: #0f0f0f;
 }
 .dy {
-  background-color: var(--bbp-BGDefault);
+  background-color: var(--dy-BGDefault);
   color: var(--dy-text);
   a {
     color: white;

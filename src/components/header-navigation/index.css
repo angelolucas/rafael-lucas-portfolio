@@ -11,6 +11,7 @@
   background: transparent;
   color: #a5a5a5;
   border: none;
-  font-size: 22px;
+  font-size: 20px;
   cursor: pointer;
+  letter-spacing: 1px;
 }

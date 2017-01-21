@@ -27,7 +27,7 @@
   p {
     font-size: 40px;
     font-weight: normal;
-    margin: 0 100px 40px;
+    margin: 0 0 0 5vw;
     max-width: 990px;
     font-weight: 100;
     line-height: 60px;
@@ -48,6 +48,7 @@
   right: 80px;
   font-size: 22px;
   opacity: 0;
+  letter-spacing: 1px;
 
   &:after {
     content: " →";
