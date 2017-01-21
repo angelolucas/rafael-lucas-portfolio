@@ -24,6 +24,11 @@
       border-bottom: 5px solid #e09b41;
     }
   }
+  .work-results__title {
+    font-weight: 700;
+    font-size: 25px;
+    margin: 25px 0px 5px 0px;
+  }
 }
 .work-objective--cnr {
   background-color: var(--cnr-BGColorful);
