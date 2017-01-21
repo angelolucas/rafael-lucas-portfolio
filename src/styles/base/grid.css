@@ -7,3 +7,7 @@
   max-width: 1440px;
   width: 100%;
 }
+.container--full {
+  padding-left: 0;
+  padding-right: 0;
+}
