@@ -16,9 +16,9 @@ import BBPImage from '../../sections/bb-privete/media/thumb.png';
 // David Yurman
 import DYImage from '../../sections/david-yurman/media/thumb.png';
 
-// Encinter
-import ECTImage from '../../sections/encinter/media/thumb.png';
-import ECTDetail from '../../sections/encinter/media/thumb-overlay.png';
+// Escinter
+import ESTImage from '../../sections/escinter/media/thumb.png';
+import ESTDetail from '../../sections/escinter/media/thumb-overlay.png';
 
 // Emicida
 import MCDImage from '../../sections/emicida/media/thumb.png';
@@ -51,12 +51,12 @@ const works = {
     link: '/david-yurman',
     image: DYImage,
   },
-  encinter: {
-    title: 'Encinter',
+  escinter: {
+    title: 'Escinter',
     category: 'web mobile',
-    link: '/encinter',
-    image: ECTImage,
-    detail: ECTDetail,
+    link: '/escinter',
+    image: ESTImage,
+    detail: ESTDetail,
   },
   emicida: {
     title: 'Emicida',

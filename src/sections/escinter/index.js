@@ -24,7 +24,7 @@ function Section() {
 
       {/* Hero Image */}
       <WorkHead
-        title="Encinter"
+        title="Escinter"
         category="web mobile"
         color="white"
         src={video}
@@ -34,7 +34,7 @@ function Section() {
       {/* Intro */}
       <div className="work-intro">
         <div className="container">
-          <img src={logo} width="187" height="187" alt="Logo Encinter" />
+          <img src={logo} width="187" height="187" alt="Logo Escinter" />
           <h2>Concept</h2>
           <h3 className="work-intro__subtitle">Escinter.<br /> Spaces That Engage.</h3>
           <p className="work-intro__description">A Escinter é uma empresa familiar com 25 anos de atuação no mercado de interiores de espaços corporativos. Ciente de que a qualidade do espaço de trabalho interfere diretamente na vida das pessoas, sua missão é garantir que seus clientes tenham melhor qualidade de vida e desempenho.</p>
@@ -133,8 +133,8 @@ function Section() {
   );
 }
 
-function Encinter() {
+function Escinter() {
   return <WorkPage section={Section()} position={5} />;
 }
 
-export default Encinter;
+export default Escinter;

@@ -7,7 +7,7 @@ import MovaMais from '../mova-mais';
 import CaixaNasRuas from '../caixa-nas-ruas';
 import BBPrivete from '../bb-privete';
 import DavidYurman from '../david-yurman';
-import Encinter from '../encinter';
+import Escinter from '../escinter';
 import Emicida from '../emicida';
 
 // Pre load media
@@ -16,7 +16,7 @@ import posterCaixaNasRuas from '../caixa-nas-ruas/media/work-head.jpg';
 
 import videoMovaMais from '../mova-mais/media/video.mp4';
 import videoBBPrivete from '../bb-privete/media/video.mp4';
-import videoEncinter from '../encinter/media/video.mp4';
+import videoEscinter from '../escinter/media/video.mp4';
 import videoEmicida from '../emicida/media/video.mp4';
 import videoDavidYurman from '../david-yurman/media/video.mp4';
 
@@ -27,7 +27,7 @@ function WorkPreLoader() {
       <MatchWithFade pattern="/caixa-nas-ruas" component={CaixaNasRuas} />
       <MatchWithFade pattern="/bb-privete" component={BBPrivete} />
       <MatchWithFade pattern="/david-yurman" component={DavidYurman} />
-      <MatchWithFade pattern="/encinter" component={Encinter} />
+      <MatchWithFade pattern="/escinter" component={Escinter} />
       <MatchWithFade pattern="/emicida" component={Emicida} />
 
       <div style={{ display: 'none' }}>
@@ -36,7 +36,7 @@ function WorkPreLoader() {
         <video src={videoMovaMais} />
         <video src={videoBBPrivete} />
         <video src={videoDavidYurman} />
-        <video src={videoEncinter} />
+        <video src={videoEscinter} />
         <video src={videoEmicida} />
       </div>
     </div>

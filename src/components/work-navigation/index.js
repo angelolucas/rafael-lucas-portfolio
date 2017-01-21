@@ -7,7 +7,7 @@ const WorkNavigation = (props) => {
     2: '/caixa-nas-ruas',
     3: '/bb-privete',
     4: '/david-yurman',
-    5: '/encinter',
+    5: '/escinter',
     6: '/emicida',
   };
 
