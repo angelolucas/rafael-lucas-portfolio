@@ -32,10 +32,17 @@
     background-image: url('../sections/emicida/media/patter2.png');
     background-size: 230px;
   }
+  .mcd-patter--3 {
+    background-image: url('../sections/emicida/media/patter3.png');
+    background-size: 21px;
+  }
   .work-objective p {
     color: #dedfde;
   }
   .work-sitemap {
-    padding-bottom: 170px;
+    padding-bottom: 180px;
+  }
+  .work-pages {
+    padding: 180px 0 0;
   }
 }
