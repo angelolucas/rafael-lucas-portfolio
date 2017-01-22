@@ -50,7 +50,7 @@ function Section() {
       </div>
 
       {/* Mockup */}
-      <div className="container">
+      <div className="container container--full">
         <img src={mockup} alt="" />
       </div>
 
@@ -76,10 +76,18 @@ function Section() {
           <h3 className="work-step__title">Pages</h3>
           <h4>Dashboard</h4>
           <p className="work-step__description">Central de medição de desempenho de cada participante com dados detalhados sobre a perseverança de treino, objetivos individuais e visualizações de dados quantitativas e qualitativas.</p>
+        </div>
+        <div className="container container--full">
           <img src={dashboard} alt="Dashboard Page" />
+        </div>
+        <div className="container">
           <h4>Teams</h4>
           <p className="work-step__description">As equipes têm a missão de cooperação mútua, e o critério de formação é estabelecido pelos próprios usuários. A equipe tem um lema e um brasão de identificação.</p>
+        </div>
+        <div className="container container--full">
           <img src={team} alt="Team Page" />
+        </div>
+        <div className="container">
           <div className="cnr__shields">
             <img src={shield1} alt="Shield1" />
             <img src={shield2} alt="Shield2" />
@@ -87,12 +95,22 @@ function Section() {
           </div>
           <h4>Events</h4>
           <p className="work-step__description">Apresentação do calendário de provas com navegação de estímulo a participação das pessoas nesses eventos através da plataforma.</p>
+        </div>
+        <div className="container container--full">
           <img src={events} alt="events" />
+        </div>
+        <div className="container">
           <h4>Editorial</h4>
           <p className="work-step__description">O conteúdo do programa possui caráter motivador, tendo como missão estimular as pessoas a se afastarem do sedentarismo através do bom exemplo, da inspiração e do potencial de superação de cada um. Ajudar os praticantes a removerem barreiras motivacionais e técnicas que atrapalhem o início ou evolução na prática de uma modalidade.</p>
+        </div>
+        <div className="container container--full">
           <img src={editorial} alt="events" />
+        </div>
+        <div className="container">
           <h4>Store</h4>
           <p className="work-step__description">Vitrine de produtos para trocar com os pontos acumulados na plataforma de acordo com seu desempenho.</p>
+        </div>
+        <div className="container container--full">
           <img src={store} alt="store" />
         </div>
       </div>
@@ -101,6 +119,8 @@ function Section() {
       <div className="work-step work-step--cnr03">
         <div className="container">
           <h3 className="work-step__title">Web Mobile</h3>
+        </div>
+        <div className="container container--full">
           <img src={mobile} alt="mobile" />
         </div>
       </div>
