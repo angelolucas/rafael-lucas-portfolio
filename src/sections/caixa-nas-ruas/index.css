@@ -29,6 +29,13 @@
     font-size: 25px;
     margin: 25px 0px 5px 0px;
   }
+  .work-results ul {
+    display: flex;
+    justify-content: space-between;
+  }
+  .work-results ul > li {
+    flex: 20%;
+  }
 }
 .work-objective--cnr {
   background-color: var(--cnr-BGColorful);
@@ -49,12 +56,5 @@
   }
   img:last-child {
     margin-right: 0;
-  }
-}
-
-.work-step--cnr05 {
-  ul {
-    display: flex;
-    justify-content: space-between;
   }
 }
