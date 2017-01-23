@@ -32,9 +32,12 @@
   left: 80px;
   font-size: 22px;
   letter-spacing: 1px;
-
-  &:before {
-    content: "← ";
-    font-family: arial;
-  }
+}
+.contact-section__back--arrow:after {
+  content: "← ";
+  font-family: arial;
+  position: absolute;
+  top: 0;
+  left: -25px;
+  pointer-events: none;
 }

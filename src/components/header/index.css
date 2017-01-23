@@ -26,13 +26,14 @@
   }
 }
 .header__description {
-  transition: 0.3s 0s transform, 0s 0s opacity;
+  transition: 0.4s 0s transform, 0.4s 0s opacity;
   display: flex;
   align-items: center;
   position: relative;
   width: 100%;
   height: 100vh;
   line-height: 88px;
+  opacity: 1;
 
   h2 {
     margin: 0 0 0 5vw;
@@ -41,13 +42,11 @@
     line-height: 90px;
   }
   body.about-section--active & {
-    transition: 0.4s 0s transform, 0s 0.4s opacity;
-    transform: translateX(100%);
+    transform: translateX(50%);
     opacity: 0;
   }
   body.contact-section--active & {
-    transition: 0.4s 0s transform, 0s 0.4s opacity;
-    transform: translateX(-100%);
+    transform: translateX(-50%);
     opacity: 0;
   }
 }
