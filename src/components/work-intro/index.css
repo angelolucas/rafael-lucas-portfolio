@@ -4,7 +4,7 @@
 
   .container {
     margin: 0 auto;
-    max-width: 730px;
+    max-width: 770px;
   }
   img {
     margin-bottom: 80px;
@@ -16,7 +16,7 @@
   }
   .work-intro__description {
     font-size: 20px;
-    font-weight: 200;
+    font-weight: 300;
     line-height: 1.5;
     letter-spacing: 0.6px;
   }
