@@ -29,75 +29,7 @@
       color: white;
       font-size: 35px;
       font-weight: bold;
-      position: relative;
       line-height: 1.2;
-
-      &:before, 
-      &:after {
-        bottom: 0;
-        height: 3px;
-        content: '';
-        display: block;
-        position: absolute;
-      }
-      &:before {
-        left: 0;
-        width: 0;
-        transition: width 0s ease, background 0.5s ease;
-      }
-      &:after {
-        right: 0;
-        width: 0;
-        background: #fff;
-        transition: width 0.5s ease;
-      }
-      &:hover:before {
-        width: 100%;
-        background: #fff;
-        transition: width 0.5s ease;
-      }
-      &:hover:after {
-        width: 100%;
-        background: transparent;
-        transition: all 0s ease;
-      }
-      &:hover {
-        &.footer__twitter {
-          color: #1da1f2;
-
-          &:before {
-            background-color: #1da1f2;
-          }
-        }
-        &.footer__facebook {
-          color: #3f62ac;
-
-          &:before {
-            background-color: #3f62ac;
-          }
-        }
-        &.footer__linkedin {
-          color: #1481ba;
-
-          &:before {
-            background-color: #1481ba;
-          }
-        }
-        &.footer__instagram {
-          color: #c12d9d;
-
-          &:before {
-            background-color: #c12d9d;
-          }
-        }
-        &.footer__email {
-          color: #d04335;
-
-          &:before {
-            background-color: #d04335
-          }
-        }
-      }
     }
     &:after {
       content: "";

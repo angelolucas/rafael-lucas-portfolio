@@ -1,0 +1,35 @@
+.link-underlined {
+  position: relative;
+
+  &:before, 
+  &:after {
+    bottom: 0;
+    height: 3px;
+    content: '';
+    display: block;
+    position: absolute;
+  }
+  &:before {
+    left: 0;
+    width: 0;
+    transition: width 0s ease, background 0.4s ease;
+  }
+  &:after {
+    right: 0;
+    width: 0;
+    background: #fff;
+    transition: width 0.4s ease;
+  }
+  &:hover:before,
+  &.link-underlined--active:before {
+    width: 100%;
+    background: #fff;
+    transition: width 0.4s ease;
+  }
+  &:hover:after,
+  &.link-underlined--active:after {
+    width: 100%;
+    background: transparent;
+    transition: all 0s ease;
+  }
+}
