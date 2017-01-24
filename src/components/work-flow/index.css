@@ -1,0 +1,58 @@
+:root {
+  --flow-arrows: {
+    content: "";
+    position: absolute;
+    right: 0;
+    transform: translateX(50%);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+}
+.work-flow {
+  display: flex;
+  max-width: 1280px;
+  margin: 0 auto;
+  justify-content: space-around;
+  line-height: 42px;
+}
+.work-flow__item {
+  flex: 33%;
+  flex-grow: 1;
+  position: relative;
+}
+
+/* Icon  */
+.work-flow__item:before {
+  content: "";
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50%;
+  box-shadow: 0px 9px 25px -1px rgba(0, 0, 0, 0.4), inset 0px -4px rgba(0,0,0,0.2);
+  margin-bottom: 50px;
+}
+
+/* Arrows */
+.work-flow__item:nth-child(1):after {
+  @apply --flow-arrows;
+  background-image: url('../components/work-flow/arrow1.svg');
+  width: 123px;
+  height: 32px;
+  top: 40px;
+}
+.work-flow__item:nth-child(2):after {
+  @apply --flow-arrows;
+  background-image: url('../components/work-flow/arrow2.svg');
+  width: 69px;
+  height: 75px;
+  top: 80px;
+}
+
+/* Paragraph */
+.work-flow__item__text {
+  font-size: 34px;
+}

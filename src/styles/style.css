@@ -23,10 +23,13 @@
 @import '../components/work-head';
 @import '../components/work-intro';
 @import '../components/work-objective';
+@import '../components/work-flow';
 @import '../components/work-steps';
 @import '../components/work-screen';
 @import '../components/work-chess-list';
+@import '../components/work-guideline';
 @import '../components/work-navigation';
+@import '../components/two-columns';
 @import '../components/back-to-top';
 
 /* sections */

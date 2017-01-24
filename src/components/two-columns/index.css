@@ -1,0 +1,7 @@
+.two-columns {
+  display: flex;
+}
+.two-columns__item {
+  flex: 50%;
+  margin: auto;
+}

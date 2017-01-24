@@ -1,0 +1,6 @@
+.work-guideline img {
+  margin-bottom: 200px;
+}
+.work-guideline img:last-child {
+  margin-bottom: 0;
+}
