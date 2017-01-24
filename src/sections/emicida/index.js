@@ -153,7 +153,7 @@ function Section() {
 }
 
 function Emicida() {
-  return <WorkPage section={Section()} position={6} />;
+  return <WorkPage section={Section()} position={6} theme="work-page--dark" />;
 }
 
 export default Emicida;

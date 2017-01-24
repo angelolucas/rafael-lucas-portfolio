@@ -29,7 +29,11 @@ class BackToTop extends Component {
         ref={(button) => { this.button = button; }}
         className="back-to-top"
         onClick={() => this.backToTop(this.props.container)}
-      />
+      >
+        <svg viewBox="0 0 483 266.1">
+          <path className="back-to-top__svg" d="M20.2 263L239.9 41l222.8 225.1 20.3-20.6-222.7-225v-.1L240.1 0 0 242.6z" />
+        </svg>
+      </button>
     );
   }
 }

@@ -17,7 +17,7 @@ class WorkPage extends Component {
   }
   render() {
     return (
-      <div>
+      <div className={this.props.theme}>
         <div className="work-page__scroll">
 
           {this.props.section}
@@ -39,6 +39,7 @@ class WorkPage extends Component {
 WorkPage.propTypes = {
   section: React.PropTypes.object,
   position: React.PropTypes.number,
+  theme: React.PropTypes.string,
 };
 
 export default WorkPage;

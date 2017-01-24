@@ -4,33 +4,28 @@
   bottom: 30px;
   width: 40px;
   height: 40px;
-  pointer-events: none;
-
-  &:before {
-    content: "";
-    background-image: url('../components/back-to-top/arrow-top.svg');
-    background-repeat: no-repeat;
-    background-color: transparent;
-    background-size: 26px;
-    background-position: center;
-    transition: 0.2s transform, 0.2s opacity;
-    transform: translateY(5px);
-    display: block;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-  }
+  pointer-events: none;  
+  transition: 0.2s transform, 0.2s opacity;
+  transform: translateY(5px);
+  display: block;
+  opacity: 0;
 }
+.back-to-top__svg {
+  fill: #050101;
+}
+.work-page--dark {
+  .back-to-top__svg {
+    fill: white;
+  }
+} 
 
 /* visible */
 .back-to-top--show {
   pointer-events: visible;
-  
-  &:before {
-    opacity: 1;
-    transform: translateY(0);
-  }
-  &:hover:before {
+  opacity: 1;
+  transform: translateY(0);
+
+  &:hover{
     transform: translateY(-5px);
   }
 }
