@@ -55,7 +55,7 @@ function Section() {
       </div>
 
       {/* Step 01 */}
-      <div className="work-step work-step--ect01">
+      <div className="work-step work-sitemap work-step--ect01">
         <div className="container">
           <h3 className="work-step__title">Site Map</h3>
           <img src={siteMap} alt="Site Map" />
@@ -115,10 +115,12 @@ function Section() {
           </ul>
         </div>
         <img className="work-step__full-image" src={devices} alt="" />
-        <div className="container">
-          <h4 className="ect-credits__title">Credits</h4>
-          <p>Design versão desktop: <a href="https://www.linkedin.com/in/adrielnunes" target="_blank" rel="noopener noreferrer">Adriel Nunes</a></p>
-          <img src={credits} alt="" />
+        <div className="work-credits">
+          <div className="container">
+            <h4 className="work-credits__title">Credits</h4>
+            <p className="work-credits__description">Design versão desktop: <a href="https://www.linkedin.com/in/adrielnunes" target="_blank" rel="noopener noreferrer">Adriel Nunes</a></p>
+            <img src={credits} alt="" />
+          </div>
         </div>
       </div>
 
