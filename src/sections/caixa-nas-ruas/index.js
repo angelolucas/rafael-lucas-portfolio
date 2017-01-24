@@ -129,8 +129,10 @@ function Section() {
       <div className="work-step work-step--cnr04">
         <div className="container">
           <h3 className="work-step__title">Guideline</h3>
-          <img src={colors} alt="colors" />
-          <img src={types} alt="types" />
+          <div className="work-guideline">
+            <img src={colors} alt="colors" />
+            <img src={types} alt="types" />
+          </div>
         </div>
       </div>
 
