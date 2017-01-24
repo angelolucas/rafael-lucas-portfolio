@@ -73,6 +73,7 @@
   bottom: 40px;
   width: 80px;
   height: 80px;
+  z-index: 3;
 }
 .work-head__button:hover {
   transform: translateY(5px);

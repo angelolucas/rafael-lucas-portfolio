@@ -77,7 +77,8 @@ body.work-page-active {
 /* Section */
 .work-page section {
   text-align: center;
-  
+  overflow: hidden;
+   
   h2 {
     font-size: 18px;
     font-weight: bold;

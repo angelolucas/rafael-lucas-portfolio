@@ -65,7 +65,7 @@ function Section() {
       {/* Home Page Screens */}
       <div className="work-screen">
         <div className="container">
-          <img src={homePage} alt="Home Page" />
+          <img className="work-screen__image" src={homePage} alt="Home Page" />
           <div className="work-screen__info">
             <h3 className="work-screen__title">Home Page</h3>
             <p className="work-screen__description">Página inicial, exibe um slideshow elegante que dá acesso a página em destaque do momento. No header tem os três pilares do site e o botão para acesso a área privada.</p>
@@ -76,7 +76,7 @@ function Section() {
       {/* Private Client Screens */}
       <div className="work-screen">
         <div className="container">
-          <img src={privateClient} alt="Private Client" />
+          <img className="work-screen__image" src={privateClient} alt="Private Client" />
           <div className="work-screen__info">
             <h3 className="work-screen__title">Private Client</h3>
             <p className="work-screen__description">Página que expõe as principais vantagens de ser cliente do seguimento, e o leque de serviços oferecidos, como atendimento exclusivo e consultoria financeira.</p>
@@ -87,7 +87,7 @@ function Section() {
       {/* Investiments Screens */}
       <div className="work-screen">
         <div className="container">
-          <img src={investiments} alt="Investiments" />
+          <img className="work-screen__image" src={investiments} alt="Investiments" />
           <div className="work-screen__info">
             <h3 className="work-screen__title">Investiments</h3>
             <p className="work-screen__description">Elenca nessa página as principais formas de investimentos de maneira clara, diversificada e direta.</p>
@@ -98,7 +98,7 @@ function Section() {
       {/* Financial Advisory Screens */}
       <div className="work-screen">
         <div className="container">
-          <img src={financialAdvisory} alt="Financial Advisory" />
+          <img className="work-screen__image" src={financialAdvisory} alt="Financial Advisory" />
           <div className="work-screen__info">
             <h3 className="work-screen__title">Financial Advisory</h3>
             <p className="work-screen__description">Essa página detalha sobre a assessoria financira, discriminando produtos como cartões, seguros e tarifas de serviços.</p>
@@ -109,7 +109,7 @@ function Section() {
       {/* About The Client Screens */}
       <div className="work-screen">
         <div className="container">
-          <img src={aboutTheClient} alt="About The Client" />
+          <img className="work-screen__image" src={aboutTheClient} alt="About The Client" />
           <div className="work-screen__info">
             <h3 className="work-screen__title">About The Client</h3>
             <p className="work-screen__description">Página que detalha sobre o segmento e o próprio banco, de maneira segura, sólida e experiente.</p>
@@ -118,8 +118,10 @@ function Section() {
       </div>
 
       {/* Guideline */}
-      <div className="container">
-        <img src={guideline} alt="Guideline" />
+      <div className="work-guideline">
+        <div className="container">
+          <img src={guideline} alt="Guideline" />
+        </div>
       </div>
     </section>
   );
