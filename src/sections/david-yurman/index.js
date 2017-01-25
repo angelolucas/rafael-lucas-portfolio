@@ -18,6 +18,7 @@ import checkout from './media/checkout.png';
 import findAStore from './media/find-a-store.png';
 import guideline from './media/guideline.png';
 import credits from './media/credits.png';
+import mockup2 from './media/mockup2.png';
 
 function Section() {
   return (
@@ -133,14 +134,6 @@ function Section() {
         </ul>
       </div>
 
-      {/* Guideline */}
-      <div className="guideline">
-        <div className="container">
-          <h3 className="guideline__title">Style Guide</h3>
-          <img className="guideline__image" src={guideline} alt="Guideline" />
-        </div>
-      </div>
-
       {/* Credits */}
       <div className="credits">
         <div className="container">
@@ -151,6 +144,19 @@ function Section() {
 
       <div className="container container--full">
         <img src={credits} alt="" />
+      </div>
+
+      {/* Guideline */}
+      <div className="guideline">
+        <div className="container">
+          <h3 className="guideline__title">Style Guide</h3>
+          <img className="guideline__image" src={guideline} alt="Guideline" />
+        </div>
+      </div>
+
+      {/* Mockup */}
+      <div className="container container--full">
+        <img src={mockup2} alt="" />
       </div>
 
     </section>

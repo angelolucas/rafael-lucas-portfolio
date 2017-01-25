@@ -52,7 +52,7 @@
   .credits__info {
     max-width: 730px;
     margin: 0 auto 90px;
-    line-height: 2;
+    line-height: 1.7;
     font-weight: 100;
   }
 }
