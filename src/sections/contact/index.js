@@ -8,10 +8,10 @@ function Contact() {
   return (
     <div className="contact-section">
       <div className="container">
-        <p>email:</p>
-        <p>contato@rafaellucas.com.br</p>
-        <p>phone:</p>
-        <p>+55 61 9 9167 6245</p>
+        <h4 className="contact-section__title">email:</h4>
+        <p className="contact-section__value contact-section__value--email">contato@rafaellucas.com.br</p>
+        <h4 className="contact-section__title">phone:</h4>
+        <p className="contact-section__value">+55 61 9 9167 6245</p>
       </div>
 
       <button type="button" className="contact-section__back link-underlined" onClick={back}>

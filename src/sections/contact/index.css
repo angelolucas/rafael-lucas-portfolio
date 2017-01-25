@@ -12,12 +12,6 @@
   pointer-events: none;
   opacity: 0;
 
-  p {
-    font-size: 40px;
-    font-weight: normal;
-    margin: 0 0 0 5vw;
-    max-width: 1000px;
-  }
   body.contact-section--active & {
     transform: translateX(-50%);
     pointer-events: visible;
@@ -40,4 +34,18 @@
   top: 0;
   left: -25px;
   pointer-events: none;
+}
+.contact-section__title {
+  font-size: 44px;
+  font-weight: 100;
+  margin: 0 0 10px 5vw;
+}
+.contact-section__value {
+  font-size: 44px;
+  font-weight: bold;
+  margin: 0 0 0 5vw;
+  max-width: 1000px; 
+}
+.contact-section__value--email {
+  margin-bottom: 80px;
 }
