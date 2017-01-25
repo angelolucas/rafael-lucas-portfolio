@@ -1,4 +1,5 @@
 /* Settings */
+@import 'settings/breakpoints.css';
 @import 'settings/variables.css';
 
 /* Tools */

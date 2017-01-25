@@ -1,4 +1,3 @@
-
 .container {
   margin-right: auto;
   margin-left: auto;
@@ -10,4 +9,15 @@
 .container--full {
   padding-left: 0;
   padding-right: 0;
+}
+
+@media (--viewport-medium ) {
+  .container {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .container--full {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
