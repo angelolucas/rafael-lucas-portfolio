@@ -20,6 +20,12 @@
     max-width: 660px;
     margin: auto;
   }
+  .work-mockup {
+    position: relative;
+  }
+  .work-mockup img {
+    transform: translateX(-4.5%);
+  }
   .mcd-patter {
     background-attachment: fixed;
     height: 180px;
@@ -44,5 +50,20 @@
   }
   .work-pages {
     padding: 180px 0 0;
+  }
+  .chess-list img {
+    transform: translateX(6.8%);
+  }
+  .chess-list__title {
+    color: white;
+  }
+  .chess-list__title:after {
+    border-color: var(--mcd-text);
+  }
+  .chess-list__info {
+    max-height: 71vw;
+  }
+  .work-guideline {
+    padding: 200px 0;
   }
 }

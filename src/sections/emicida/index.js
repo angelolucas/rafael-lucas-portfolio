@@ -17,6 +17,9 @@ import discography from './media/discography.png';
 import photosGallery from './media/photos-gallery.png';
 import contact from './media/contact.png';
 import navigation from './media/navigation.png';
+import pallete from './media/pallete.png';
+import types from './media/types.png';
+import patterns from './media/patterns.png';
 
 function Section() {
   return (
@@ -42,8 +45,10 @@ function Section() {
       </div>
 
       {/* Mockup */}
-      <div className="container container--full">
-        <img src={mockup} alt="" />
+      <div className="work-mockup">
+        <div className="container container--full">
+          <img src={mockup} alt="" />
+        </div>
       </div>
 
       <div className="mcd-patter mcd-patter--1" />
@@ -147,6 +152,18 @@ function Section() {
       </div>
 
       <div className="mcd-patter mcd-patter--3" />
+
+      {/* guideline */}
+      <div className="work-guideline">
+        <div className="container">
+          <h2>Color Pallete</h2>
+          <img src={pallete} alt="" />
+          <h2>Typefaces</h2>
+          <img src={types} alt="" />
+          <h2>Patterns</h2>
+          <img src={patterns} alt="" />
+        </div>
+      </div>
 
     </section>
   );

@@ -22,21 +22,21 @@
       justify-content: center;
     }
   }
-  .chess-list__info {
-    max-height: 60vw;
-  }
-  .chess-list__title {
-    font-size: 45px;
-    font-weight: 400;
-    margin-bottom: 25px;
+}
+.chess-list__info {
+  max-height: 60vw;
+}
+.chess-list__title {
+  font-size: 45px;
+  font-weight: 400;
+  margin-bottom: 25px;
 
-    &:after {
-      content: "";
-      border-bottom: 5px solid transparent;
-      width: 38px;
-      display: block;
-      margin: 25px auto 0; 
-    }
+  &:after {
+    content: "";
+    border-bottom: 5px solid transparent;
+    width: 38px;
+    display: block;
+    margin: 25px auto 0; 
   }
 }
 .chess-list--align-top {
