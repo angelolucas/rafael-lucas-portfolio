@@ -25,6 +25,7 @@ import result2 from './media/result2.svg';
 import result3 from './media/result3.svg';
 import result4 from './media/result4.svg';
 import result5 from './media/result5.svg';
+import mockup2 from './media/mockup2.jpg';
 
 function Section() {
   return (
@@ -170,6 +171,10 @@ function Section() {
         </div>
       </div>
 
+      {/* Mockup */}
+      <div className="container container--full">
+        <img src={mockup2} alt="" />
+      </div>
     </section>
   );
 }
