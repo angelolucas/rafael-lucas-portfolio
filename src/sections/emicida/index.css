@@ -68,7 +68,7 @@
   }
   .work-credits__image {
     max-width: 1682px;
-    margin-bottom: 80px;
+    margin: 160px 0 80px;
     width: 117%;
     transform: translateX(4%);
   }
@@ -79,7 +79,7 @@
     color: white;
   }
   .work-credits__description {
-    margin: 0 auto 200px;
+    margin: 0 auto;
     font-size: 18px;
     max-width: 700px;
     line-height: 1.6;
