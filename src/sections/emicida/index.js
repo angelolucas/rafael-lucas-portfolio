@@ -20,6 +20,7 @@ import navigation from './media/navigation.png';
 import pallete from './media/pallete.png';
 import types from './media/types.png';
 import patterns from './media/patterns.png';
+import credits from './media/credits.png';
 
 function Section() {
   return (
@@ -165,6 +166,14 @@ function Section() {
         </div>
       </div>
 
+      {/* Credits */}
+      <div className="work-credits">
+        <div className="container container--full">
+          <img className="work-credits__image" src={credits} alt="" />
+          <h3 className="work-credits__title">Credits</h3>
+          <p className="work-credits__description">Tive como insumo a versão desktop produzida pelo designer <a href="https://www.linkedin.com/in/adrielnunes" target="_blank" rel="noopener noreferrer">Adriel Nunes</a>, que também assina a direção de arte de alguns clips e a última capa de álbum.</p>
+        </div>
+      </div>
     </section>
   );
 }

@@ -66,4 +66,27 @@
   .work-guideline {
     padding: 200px 0;
   }
+  .work-credits__image {
+    max-width: 1682px;
+    margin-bottom: 80px;
+    width: 117%;
+    transform: translateX(4%);
+  }
+  .work-credits__title {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: white;
+  }
+  .work-credits__description {
+    margin: 0 auto 200px;
+    font-size: 18px;
+    max-width: 700px;
+    line-height: 1.6;
+
+    a {
+      color: var(--mcd-text);
+      border-bottom: 1px solid;
+    }
+  }
 }
