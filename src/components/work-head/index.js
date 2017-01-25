@@ -48,6 +48,7 @@ class WorkHead extends Component {
         </div>
         <button
           type="button"
+          title="Go Down"
           className="work-head__button"
           ref={(button) => { this.button = button; }}
           onClick={this.downButton}

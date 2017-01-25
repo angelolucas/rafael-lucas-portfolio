@@ -26,6 +26,7 @@ class BackToTop extends Component {
     return (
       <button
         type="button"
+        title="Back To Top"
         ref={(button) => { this.button = button; }}
         className="back-to-top"
         onClick={() => this.backToTop(this.props.container)}

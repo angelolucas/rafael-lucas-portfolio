@@ -25,7 +25,7 @@ class WorkPage extends Component {
           <WorkNavigation position={this.props.position} />
         </div>
 
-        <Link className="work-page__back-to-home" to="/">
+        <Link className="work-page__back-to-home" to="/" title="Back">
           Back
           <div />
         </Link>
