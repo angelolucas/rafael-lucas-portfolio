@@ -17,6 +17,7 @@ import navigation from './media/navigation.png';
 import devices from './media/devices.png';
 import credits from './media/credits.png';
 import guideline from './media/guideline.png';
+import mockup2 from './media/mockup2.png';
 
 function Section() {
   return (
@@ -130,6 +131,11 @@ function Section() {
           <h3 className="work-step__title">Guideline</h3>
           <img src={guideline} alt="Guideline" />
         </div>
+      </div>
+
+      {/* Mockup */}
+      <div className="container container--full">
+        <img src={mockup2} alt="" />
       </div>
     </section>
   );
