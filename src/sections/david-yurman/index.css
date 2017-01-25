@@ -21,8 +21,19 @@
   .work-objective .container {
     max-width: 1150px;
   }
+  .chess-list__title {
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 50px;
+  }
   .chess-list__title:after {
     border-color: white;
+  }
+  .chess-list img {
+    transform: translateX(6.5%);
+  }
+  .chess-list__info {
+    max-height: 71vw;
   }
   .guideline__title {
     font-size: 35px;
