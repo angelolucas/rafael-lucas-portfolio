@@ -144,28 +144,28 @@ function Section() {
           <ul>
             <li>
               <img width="42" src={result1} alt="" />
-              <h5 className="work-results__title">5 milhões</h5>
+              <h5 className="work-results__title">5.7 milhões</h5>
               <p>quilômetros percorridos</p>
             </li>
             <li>
               <img width="42" src={result2} alt="" />
-              <h5 className="work-results__title">125</h5>
-              <p>equivale a voltas à terra</p>
+              <h5 className="work-results__title">144</h5>
+              <p>equivale a voltas à Terra</p>
             </li>
             <li>
               <img width="37" src={result3} alt="" />
-              <h5 className="work-results__title">+ 300 mil</h5>
-              <p>horas de exercícios</p>
+              <h5 className="work-results__title">1 milhão</h5>
+              <p>de horas de exercícios</p>
             </li>
             <li>
               <img width="34" src={result4} alt="" />
-              <h5 className="work-results__title">3 bilhões</h5>
-              <p>calorias queimadas</p>
+              <h5 className="work-results__title">415 milhões</h5>
+              <p>de calorias queimadas</p>
             </li>
             <li>
               <img width="31" src={result5} alt="" />
-              <h5 className="work-results__title">+ 52 bilhões</h5>
-              <p>passos dados</p>
+              <h5 className="work-results__title">11 bilhões</h5>
+              <p>de passos</p>
             </li>
           </ul>
         </div>
