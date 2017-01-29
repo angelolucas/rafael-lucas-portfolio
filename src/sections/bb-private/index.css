@@ -1,6 +1,6 @@
 :root {
   --bbp-text: #cdcdcd;
-  --bbp-BGDefault: #161616;
+  --bbp-BGDefault: #0B0B0B;
 }
 .bbp {
   background-color: var(--bbp-BGDefault);
