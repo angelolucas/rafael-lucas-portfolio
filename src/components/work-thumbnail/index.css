@@ -62,10 +62,3 @@
   display: block;
   z-index: 2;
 }
-@media (max-width: 1024px) {
-  .work-thumbnail:hover {
-    .work-thumbnail__window::after {
-      border-width: 15px;
-    }
-  }
-}

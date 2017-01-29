@@ -1,8 +1,13 @@
+:root {
+  --fluid-side-spacing: 5.5;
+  --side-spacing: calc(1440 / 100 * var(--fluid-side-spacing)px);
+}
 .container {
+  transition: 0.4s padding;
   margin-right: auto;
   margin-left: auto;
-  padding-left: 80px;
-  padding-right: 80px;
+  padding-left: var(--side-spacing);
+  padding-right: var(--side-spacing);
   max-width: 1440px;
   width: 100%;
 }
@@ -10,11 +15,10 @@
   padding-left: 0;
   padding-right: 0;
 }
-
-@media (--viewport-medium ) {
+@media (--viewport-max) {
   .container {
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: var(--fluid-side-spacing)vw;
+    padding-right: var(--fluid-side-spacing)vw;
   }
   .container--full {
     padding-left: 0;

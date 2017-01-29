@@ -4,7 +4,7 @@
 .footer {
   background: #1b1b1b;
   color: white;
-  padding: 80px 15px;
+  padding: 80px 0;
   position: fixed;
   height: var(--footerHeight);
   bottom: 0;
@@ -63,4 +63,8 @@
     height: 80px;
     pointer-events: none;
   }
+}
+
+@media (--viewport-med ) {
+  
 }

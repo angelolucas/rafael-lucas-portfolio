@@ -4,3 +4,6 @@
 img {
   max-width: 100%;
 }
+.no-wrap {
+  white-space: nowrap;
+}

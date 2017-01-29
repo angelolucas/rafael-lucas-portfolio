@@ -11,3 +11,9 @@
 .list-works ul > li {
   flex: 33%;
 }
+
+@media (--viewport-med ) {
+  .list-works ul > li {
+    flex: 50%;
+  }
+}

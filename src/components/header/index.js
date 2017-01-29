@@ -29,9 +29,9 @@ class Header extends Component {
 
           <h1 className="header__title">Rafael Lucas</h1>
 
-          <div className="container">
-            <div className="header__description">
-              <h2>Hi! My name is Rafael Lucas, I&apos;m a designer specializing in interactive experiences living in Brasília, Brazil.</h2>
+          <div className="header__description">
+            <div className="container">
+              <h2>Hi! My name is <span className="no-wrap">Rafael Lucas</span>,<br /> I&apos;m a designer specializing <br /> in  interactive experiences<br /> living in Brasília, Brazil.</h2>
             </div>
           </div>
 

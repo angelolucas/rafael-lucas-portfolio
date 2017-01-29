@@ -48,6 +48,7 @@
 .chess-list-walkt {
   img {
     max-width: 490px;
+    width: 100%;
   }
   > li p {
     font-size: 34px;

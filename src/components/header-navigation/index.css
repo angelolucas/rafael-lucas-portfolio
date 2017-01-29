@@ -1,8 +1,8 @@
 .header-navigation {
   position: absolute;
-  bottom: 80px;
-  left: 80px;
-  right: 80px;
+  bottom: var(--side-spacing);
+  left: var(--side-spacing);
+  right: var(--side-spacing);
   display: flex;
   justify-content: space-between;
   z-index: 3;
@@ -14,4 +14,18 @@
   font-size: 20px;
   cursor: pointer;
   letter-spacing: 1px;
+}
+@media (--viewport-max) {
+  .header-navigation {
+    bottom: var(--fluid-side-spacing)vw;
+    left: var(--fluid-side-spacing)vw;
+    right: var(--fluid-side-spacing)vw;
+  }
+}
+@media (--viewport-min) {
+ .header-navigation {
+    bottom: calc(var(--fluid-side-spacing) * 2)vw;
+    left: calc(var(--fluid-side-spacing) * 2)vw;
+    right: calc(var(--fluid-side-spacing) * 2)vw;
+  } 
 }
