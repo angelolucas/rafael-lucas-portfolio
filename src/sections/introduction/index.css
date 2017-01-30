@@ -1,3 +1,12 @@
+.introduction-section__title {
+  transition: 0.4s transform, 0.4s opacity;
+  position: fixed;
+  top: var(--side-spacing);
+  left: var(--side-spacing);
+  font-size: 22px;
+  font-weight: bold;
+  pointer-events: none;
+}
 .introduction-section {
   transition: 0.4s 0s transform, 0.4s 0s opacity;
   display: flex;
@@ -23,12 +32,20 @@
   }
 }
 @media (--viewport-max) {
+  .introduction-section__title {
+    top: var(--fluid-side-spacing)vw;
+    left: var(--fluid-side-spacing)vw;   
+  }
   .introduction-section h2 {
     font-size: calc(4vw + 4vh / 2);
     margin-left: var(--fluid-side-spacing)vw;
   }
 }
 @media (--viewport-min) {
+  .introduction-section__title {
+    top: calc(var(--fluid-side-spacing) * 2)vw;
+    left: calc(var(--fluid-side-spacing) * 2)vw;   
+  }
   .introduction-section h2 {
     margin-right: var(--fluid-side-spacing)vw;
   }

@@ -29,8 +29,6 @@ class Header extends Component {
         <div ref={(effect) => { this.effect = effect; }}>
           <div className="header__background" />
 
-          <h1 className="header__title">Rafael Lucas</h1>
-
           <Introduction />
 
           <About />
