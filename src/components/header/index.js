@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
 
-import Navigation from '../header-navigation';
+
+import Introduction from '../../sections/introduction';
 import About from '../../sections/about';
 import Contact from '../../sections/contact';
+import Navigation from '../header-navigation';
 
 class Header extends Component {
   componentDidMount() {
@@ -29,11 +31,7 @@ class Header extends Component {
 
           <h1 className="header__title">Rafael Lucas</h1>
 
-          <div className="header__description">
-            <div className="container">
-              <h2>Hi! My name is <span className="no-wrap">Rafael Lucas</span>,<br /> I&apos;m a designer specializing <br /> in  interactive experiences<br /> living in Brasília, Brazil.</h2>
-            </div>
-          </div>
+          <Introduction />
 
           <About />
 

@@ -34,6 +34,7 @@
 @import '../components/back-to-top';
 
 /* sections */
+@import '../sections/introduction';
 @import '../sections/about';
 @import '../sections/contact';
 @import '../sections/work-page';

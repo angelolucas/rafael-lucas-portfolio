@@ -1,0 +1,39 @@
+.introduction-section {
+  transition: 0.4s 0s transform, 0.4s 0s opacity;
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  opacity: 1;
+
+  h2 {
+    margin: 0;
+    margin-left: var(--side-spacing);
+    font-size: 75px;
+    line-height: 1.2;
+  }
+  body.about-section--active & {
+    transform: translateX(50%);
+    opacity: 0;
+  }
+  body.contact-section--active & {
+    transform: translateX(-50%);
+    opacity: 0;
+  }
+}
+@media (--viewport-max) {
+  .introduction-section h2 {
+    font-size: calc(4vw + 4vh / 2);
+    margin-left: var(--fluid-side-spacing)vw;
+  }
+}
+@media (--viewport-min) {
+  .introduction-section h2 {
+    margin-right: var(--fluid-side-spacing)vw;
+  }
+  .introduction-section br {
+    display: none;
+    margin-right: 
+  }
+}
