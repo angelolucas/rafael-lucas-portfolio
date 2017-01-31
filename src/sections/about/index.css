@@ -61,12 +61,8 @@
     right: var(--fluid-side-spacing)vw;
   }
   .about-section p {
-    font-size: calc(2.2vw + 2.2vh / 2 );
+    font-size: calc(1.6vw + 4vh / 2 );
   }
-}
-
-@media (--viewport-med ) {
-  
 }
 
 @media (--viewport-min) {

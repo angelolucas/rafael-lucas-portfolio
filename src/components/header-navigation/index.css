@@ -14,6 +14,11 @@
   font-size: 20px;
   cursor: pointer;
   letter-spacing: 1px;
+  padding: 0;
+}
+.header-navigation__item:before,
+.header-navigation__item:after {
+  height: 2px;
 }
 @media (--viewport-max) {
   .header-navigation {

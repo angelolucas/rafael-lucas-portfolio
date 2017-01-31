@@ -46,10 +46,16 @@
   max-width: 1000px; 
 }
 .contact-section__value--email {
-  margin-bottom: 80px;
+  margin-bottom: 10vh;
 }
 
 @media (--viewport-max ) {
+  .contact-section__title {
+    font-size: calc(2vw + 2vh);
+  }
+  .contact-section__value {
+    font-size: calc(2vw + 2vh);
+  }
   .contact-section__back {
     top: var(--fluid-side-spacing)vw;
     left: var(--fluid-side-spacing)vw;
