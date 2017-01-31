@@ -19,3 +19,8 @@
   box-sizing: border-box;
   pointer-events: none;
 }
+@media (--viewport-min ) {
+  .header__background {
+    border-width: 10px;
+  }
+}

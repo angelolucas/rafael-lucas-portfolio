@@ -5,7 +5,7 @@
 }
 .list-works ul {
   display: flex;
-  flex-wrap: wrap;  
+  flex-wrap: wrap;
   padding: 15px;
 }
 .list-works ul > li {
@@ -13,7 +13,15 @@
 }
 
 @media (--viewport-med ) {
+  .list-works ul {
+    padding: 10px;
+  }
   .list-works ul > li {
     flex: 50%;
+  }
+}
+@media (--viewport-min ) {
+  .list-works ul > li {
+    flex: 100%;
   }
 }

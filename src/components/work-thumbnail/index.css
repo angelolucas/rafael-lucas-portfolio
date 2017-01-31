@@ -38,11 +38,12 @@
 }
 .work-thumbnail__title {
   font-size: 42px;
-  line-height: 1.6;
+  line-height: 1.1;
   margin-left: 40px;
+  margin: 10px 1vw 10px 3vw;
 }
 .work-thumbnail__category {
-  margin-left: 40px;
+  margin-left: 3vw;
   font-weight: normal;
   color: rgba(0,0,0,0.5);
   font-size: 19px;
@@ -61,4 +62,21 @@
   height: 100%;
   display: block;
   z-index: 2;
+}
+
+@media (--viewport-max ) {
+  .work-thumbnail__title {
+    font-size: calc(27px + 1vw);
+  }
+}
+
+@media (--viewport-med ) {
+  .work-thumbnail:hover {
+  .work-thumbnail__window::after {
+      border-width: 20px;
+    }
+  }
+  .work-thumbnail__window::after {
+    border-width: 10px;
+  }
 }
