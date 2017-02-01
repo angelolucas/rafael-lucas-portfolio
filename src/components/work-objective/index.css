@@ -12,3 +12,9 @@
     line-height: 1.3;
   }
 }
+
+@media (--viewport-med) {
+  .work-objective p {
+    font-size: calc(10px + 5vw);
+  }
+}

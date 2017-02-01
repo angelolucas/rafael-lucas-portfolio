@@ -9,15 +9,21 @@
   img {
     margin-bottom: 80px;
   }
+}
+.work-intro__subtitle {
+  font-size: 65px;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+.work-intro__description {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.5;
+  letter-spacing: 0.6px;
+}
+
+@media (--viewport-med) {
   .work-intro__subtitle {
-    font-size: 65px;
-    margin-bottom: 20px;
-    line-height: 80px;
-  }
-  .work-intro__description {
-    font-size: 20px;
-    font-weight: 300;
-    line-height: 1.5;
-    letter-spacing: 0.6px;
+    font-size: calc(30px + 3.6vw);
   }
 }
