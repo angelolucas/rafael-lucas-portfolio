@@ -1,7 +1,3 @@
-:root {
-  --fluid-side-spacing: 5.5;
-  --side-spacing: calc(1440 / 100 * var(--fluid-side-spacing)px);
-}
 .container {
   transition: 0.4s padding;
   margin-right: auto;
