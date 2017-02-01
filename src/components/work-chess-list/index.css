@@ -2,9 +2,9 @@
 .chess-list {
   > li {
     display: flex;
-    margin-bottom: 160px;
+    margin-bottom: 10vw;
 
-    &:nth-child(even) {
+    &:nth-child(odd) {
       flex-direction: row-reverse;
     }
     p {
@@ -42,5 +42,23 @@
 .chess-list--align-top {
   > li {
     align-items: inherit;
+  }
+}
+
+@media (--viewport-med ) {
+  .chess-list > li {
+    flex-direction: column;
+    margin-bottom: 30vw;
+
+    &:nth-child(odd) {
+      flex-direction: column;
+    }
+  }
+  .chess-list > li > div {
+    width: 100%;
+  }
+  .chess-list__info {
+    margin-bottom: 20vw;
+    max-height: none;
   }
 }

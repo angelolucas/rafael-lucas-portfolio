@@ -60,75 +60,75 @@ function Section() {
       <div className="container">
         <ul className="chess-list chess-list--align-top">
           <li>
-            <div>
-              <img src={homePage} alt="Home Page" />
-            </div>
             <div className="chess-list__info">
               <h4 className="chess-list__title">Home Page</h4>
               <p>Slideshow com as principais ofertas. Acesso ao menu de navegação e quantidade de produtos na bolsa no header.</p>
             </div>
+            <div>
+              <img src={homePage} alt="Home Page" />
+            </div>
           </li>
           <li>
-            <div>
-              <img src={navigation} alt="Navigation" />
-            </div>
             <div className="chess-list__info">
               <h4 className="chess-list__title">Navigation</h4>
               <p>Menu simples, com componentes cumprimidos. É possível efetuar uma busca e acessar as demais áreas do site através dele.</p>
             </div>
+            <div>
+              <img src={navigation} alt="Navigation" />
+            </div>
           </li>
           <li>
-            <div>
-              <img src={explore} alt="Explore" />
-            </div>
             <div className="chess-list__info">
               <h4 className="chess-list__title">Explore</h4>
               <p>É possível visualizar vários produtos ao mesmo tempo, além de filtrar pro preço, tamanho, cor e categoria.</p>
             </div>
+            <div>
+              <img src={explore} alt="Explore" />
+            </div>
           </li>
           <li>
-            <div>
-              <img src={productDetail} alt="Procuct Detail" />
-            </div>
             <div className="chess-list__info">
               <h4 className="chess-list__title">Procuct Detail</h4>
               <p>Na página do produto é exposta imagens bem destacadas, onde é possível visualizar todos os detalhes da peça. Também é exibido as cores disponívels, dimenções, preços e vários outros detalhes.</p>
             </div>
+            <div>
+              <img src={productDetail} alt="Procuct Detail" />
+            </div>
           </li>
           <li>
-            <div>
-              <img src={search} alt="Search" />
-            </div>
             <div className="chess-list__info">
               <h4 className="chess-list__title">Search</h4>
               <p>Busca por produtos com filtros, permitindo uma pesquisa rápida e efeciente.</p>
             </div>
+            <div>
+              <img src={search} alt="Search" />
+            </div>
           </li>
           <li>
-            <div>
-              <img src={shoppingBag} alt="Shopping Bag" />
-            </div>
             <div className="chess-list__info">
               <h4 className="chess-list__title">Shopping Bag</h4>
               <p>Detalhes de todos os produtos adicionados na bolsa. Com navegação intuitiva o usuário consegue facilmente remover itens ou finalizar comprar.</p>
             </div>
+            <div>
+              <img src={shoppingBag} alt="Shopping Bag" />
+            </div>
           </li>
           <li>
-            <div>
-              <img src={checkout} alt="Checkout" />
-            </div>
             <div className="chess-list__info">
               <h4 className="chess-list__title">Checkout</h4>
               <p>Último passo para compra, página onde o usuário preenche dados pessoais e de pagamento para conclusão da compra.</p>
             </div>
+            <div>
+              <img src={checkout} alt="Checkout" />
+            </div>
           </li>
           <li>
-            <div>
-              <img src={findAStore} alt="Find A Store" />
-            </div>
             <div className="chess-list__info">
               <h4 className="chess-list__title">Find A Store</h4>
               <p>Forma fácil de encontrar uma loja próxima, identificando a localização ou inserindo o código postal.</p>
+            </div>
+            <div>
+              <img src={findAStore} alt="Find A Store" />
             </div>
           </li>
         </ul>

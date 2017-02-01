@@ -61,7 +61,7 @@
 
 .chess-list-engagement {
   img {
-    max-width: 490px;
+    width: 370px;
   }
   .chess-list__title {
     text-transform: uppercase;

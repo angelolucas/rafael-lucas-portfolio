@@ -78,75 +78,75 @@ function Section() {
         <div className="container">
           <ul className="chess-list chess-list--align-top">
             <li>
-              <div>
-                <img src={homePage} alt="Home Page" />
-              </div>
               <div className="chess-list__info">
                 <h4 className="chess-list__title">Home Page</h4>
                 <p>Slideshow de início com os principais destaques do site. Em sequida boxes representando cada área do site. Abaixo as redes sociais do MC.</p>
               </div>
+              <div>
+                <img src={homePage} alt="Home Page" />
+              </div>
             </li>
             <li>
-              <div>
-                <img src={editorial} alt="Editorial" />
-              </div>
               <div className="chess-list__info">
                 <h4 className="chess-list__title">Editorial</h4>
                 <p>Área de conteúdo, onde permite que o artista apresente suas objeções, filosofias  e ideais de vida de forma mais produnda.</p>
               </div>
+              <div>
+                <img src={editorial} alt="Editorial" />
+              </div>
             </li>
             <li>
-              <div>
-                <img src={biography} alt="Biography" />
-              </div>
               <div className="chess-list__info">
                 <h4 className="chess-list__title">Biography</h4>
                 <p>Nessa página é possível conhecer melhor sua tragetória de vida, início de carreira e suas influências. Aqui também é exibido os sua equipe de trabalho.</p>
               </div>
+              <div>
+                <img src={biography} alt="Biography" />
+              </div>
             </li>
             <li>
-              <div>
-                <img src={agenda} alt="Agenda" />
-              </div>
               <div className="chess-list__info">
                 <h4 className="chess-list__title">Agenda</h4>
                 <p>Exposição de todos os compromissos e shows do rapper. É possível filtrar por mês.</p>
               </div>
+              <div>
+                <img src={agenda} alt="Agenda" />
+              </div>
             </li>
             <li>
-              <div>
-                <img src={discography} alt="Discography" />
-              </div>
               <div className="chess-list__info">
                 <h4 className="chess-list__title">Discography</h4>
                 <p>Nessa página é possível conhecer toda sua obra, ter acesso as músicas dos álbuns e acessar as plataformas de compra e streaming.</p>
               </div>
+              <div>
+                <img src={discography} alt="Discography" />
+              </div>
             </li>
             <li>
-              <div>
-                <img src={photosGallery} alt="Gallery" />
-              </div>
               <div className="chess-list__info">
                 <h4 className="chess-list__title">Photos Gallery</h4>
                 <p>Galeria de fotos e vídeos de shows, clipes, e até aquivos pessoais.</p>
               </div>
+              <div>
+                <img src={photosGallery} alt="Gallery" />
+              </div>
             </li>
             <li>
-              <div>
-                <img src={contact} alt="Contact" />
-              </div>
               <div className="chess-list__info">
                 <h4 className="chess-list__title">Contact</h4>
                 <p>Emails para contato, assessoria de impresa e link da gravadora.</p>
               </div>
+              <div>
+                <img src={contact} alt="Contact" />
+              </div>
             </li>
             <li>
-              <div>
-                <img src={navigation} alt="Navigation" />
-              </div>
               <div className="chess-list__info">
                 <h4 className="chess-list__title">Navigation</h4>
                 <p>Menu simples e elegante que dá acesso a todas as páginas do site.</p>
+              </div>
+              <div>
+                <img src={navigation} alt="Navigation" />
               </div>
             </li>
           </ul>

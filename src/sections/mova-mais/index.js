@@ -90,27 +90,27 @@ function Section() {
           <p className="work-step__description">A experiência do onboarding foi projetada para ser simples e didática, sem deixar de ser atrativa desde o primeiro momento, por isso a importância de ter uma linguagem clara e divertida.</p>
           <ul className="chess-list chess-list-walkt">
             <li>
-              <div>
-                <img src={step01} alt="" />
-              </div>
               <div className="chess-list__info">
                 <p>“Cadastre-se em um dos apps de monitoramento e conecte sua conta.”</p>
               </div>
+              <div>
+                <img src={step01} alt="" />
+              </div>
             </li>
             <li>
-              <div>
-                <img src={step02} alt="" />
-              </div>
               <div className="chess-list__info">
                 <p>“Monitore suas atividades pelo app que conectou.”</p>
               </div>
+              <div>
+                <img src={step02} alt="" />
+              </div>
             </li>
             <li>
-              <div>
-                <img src={step03} alt="" />
-              </div>
               <div className="chess-list__info">
                 <p>“Alcance sua meta diária  e acumule pontos para conversão”</p>
+              </div>
+              <div>
+                <img src={step03} alt="" />
               </div>
             </li>
           </ul>
@@ -133,30 +133,30 @@ function Section() {
           <p className="work-step__description">Reter o usuário é sempre um grande desafio se tratando de atividade física, por isso elaboramos um recurso chamado “Combo”, que beneficia com mais pontos os usuários que atiguem a meta diária com mais frequência.</p>
           <ul className="chess-list chess-list-engagement">
             <li>
-              <div>
-                <img src={engagement01} alt="" />
-              </div>
               <div className="chess-list__info">
                 <h4 className="chess-list__title">Hit Target!</h4>
                 <p>“Você ganhou <strong>20 pontos</strong> por cumprir sua meta pela primeira vez!”</p>
               </div>
+              <div>
+                <img src={engagement01} alt="" />
+              </div>
             </li>
             <li>
-              <div>
-                <img src={engagement02} alt="" />
-              </div>
               <div className="chess-list__info">
                 <h4 className="chess-list__title">Keep Your Combo</h4>
                 <p>“Criando uma sequência de metas atingidas você pode ganhar até <strong>40 pontos</strong> por cumprimento de meta.”</p>
               </div>
+              <div>
+                <img src={engagement02} alt="" />
+              </div>
             </li>
             <li>
-              <div>
-                <img src={engagement03} alt="" />
-              </div>
               <div className="chess-list__info">
                 <h4 className="chess-list__title">Rest Is Important</h4>
                 <p>“Você pode descansar por até <strong>2 dias</strong> seguidos sem quebrar seu combo.”</p>
+              </div>
+              <div>
+                <img src={engagement03} alt="" />
               </div>
             </li>
           </ul>
@@ -187,48 +187,48 @@ function Section() {
           <h3 className="work-step__title">Other Resources</h3>
           <ul className="chess-list chess-list--resources">
             <li>
-              <div>
-                <img src={other01} alt="" />
-              </div>
               <div className="chess-list__info">
                 <h4 className="chess-list__title">Ranking Of Friends</h4>
                 <p>Um recurso muito eficiente de estímulo a prática de exercício, e fomenta competição entre amigos, além de permitir comentários em atividades, likes e outros recursos sociais.</p>
               </div>
+              <div>
+                <img src={other01} alt="" />
+              </div>
             </li>
             <li>
-              <div>
-                <img src={other02} alt="" />
-              </div>
               <div className="chess-list__info">
                 <h4 className="chess-list__title">Tracker</h4>
                 <p>Tem por objetivo remover eventuais obstáculos do usuário no fluxo de embarque, e encurtar o espaço entre a prática do exercício e o benefício concreto. Em fase de teste.</p>
               </div>
+              <div>
+                <img src={other02} alt="" />
+              </div>
             </li>
             <li>
-              <div>
-                <img src={other03} alt="" />
-              </div>
               <div className="chess-list__info">
                 <h4 className="chess-list__title">Member Get Member</h4>
                 <p>Focado em aquisição. O usuário conquista pontos para cada amigo que entrar na plataforma e fizer pelo menos uma atividade.</p>
               </div>
+              <div>
+                <img src={other03} alt="" />
+              </div>
             </li>
             <li>
-              <div>
-                <img src={other04} alt="" />
-              </div>
               <div className="chess-list__info">
                 <h4 className="chess-list__title">Duels</h4>
                 <p>Permite que os usuários disputam entre si. O recurso possibilita a escolha de atributos a fim de incentivar a competição.</p>
               </div>
+              <div>
+                <img src={other04} alt="" />
+              </div>
             </li>
             <li>
-              <div>
-                <img src={other05} alt="" />
-              </div>
               <div className="chess-list__info">
                 <h4 className="chess-list__title">Navegation</h4>
                 <p>O menu dá acesso rápido a todos os recursos do aplicativo, além de feedback sobre a conexão do tracker.</p>
+              </div>
+              <div>
+                <img src={other05} alt="" />
               </div>
             </li>
           </ul>

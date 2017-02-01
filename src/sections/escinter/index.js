@@ -69,48 +69,48 @@ function Section() {
           <h3 className="work-step__title">Web Mobile</h3>
           <ul className="chess-list chess-list--align-top">
             <li>
-              <div>
-                <img src={homePage} alt="Home Page" />
-              </div>
               <div className="chess-list__info">
                 <h4 className="chess-list__title">Home Page</h4>
                 <p>A página inicial primeiramente exibe um slideshow com as principais ofertas do momento, e abaixo as categorias dos produtos. Ao final é apresentado o endereço, campo para se inscrever na newsletter e acesso as redes sociais. </p>
               </div>
+              <div>
+                <img src={homePage} alt="Home Page" />
+              </div>
             </li>
             <li>
-              <div>
-                <img src={products} alt="Products" />
-              </div>
               <div className="chess-list__info">
                 <h4 className="chess-list__title">Products</h4>
                 <p>A página permite que o usuário veja vários modelos ao mesmo tempo, agilizando assim sua busca. É possível filtrar por categoria.</p>
               </div>
+              <div>
+                <img src={products} alt="Products" />
+              </div>
             </li>
             <li>
-              <div>
-                <img src={productsDetail} alt="Products Destail" />
-              </div>
               <div className="chess-list__info">
                 <h4 className="chess-list__title">Products Detail</h4>
                 <p>Nessa página é possivel conhecer melhor a história e o designer da peça, ver fotos de diferentes ângulos e ter acesso a todos os dados, como dimensões e detalhes de fabricação.</p>
               </div>
+              <div>
+                <img src={productsDetail} alt="Products Destail" />
+              </div>
             </li>
             <li>
-              <div>
-                <img src={contact} alt="Contact" />
-              </div>
               <div className="chess-list__info">
                 <h4 className="chess-list__title">Contact</h4>
                 <p>O site disponibiliza um formulário simples para entrar em contato. E ainda acesso ao endereço das lojas físicas, por meio do mapa.</p>
               </div>
+              <div>
+                <img src={contact} alt="Contact" />
+              </div>
             </li>
             <li>
-              <div>
-                <img src={navigation} alt="Navigation" />
-              </div>
               <div className="chess-list__info">
                 <h4 className="chess-list__title">Navigation</h4>
                 <p>Menu simples que dá acesso a todas as páginas do site, além dos telefones de contato da filial e da sede.</p>
+              </div>
+              <div>
+                <img src={navigation} alt="Navigation" />
               </div>
             </li>
           </ul>
