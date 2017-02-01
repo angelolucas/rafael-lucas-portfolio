@@ -16,3 +16,10 @@
 .work-navigation a:first-child {
   border-right: 1px solid #5b5b5b;
 }
+
+@media (--viewport-med) {
+  .work-navigation a {
+    font-size: 8.5vw;
+    padding: 7vw 0;
+  }
+}
