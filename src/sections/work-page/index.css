@@ -28,8 +28,8 @@ body.work-page-active {
   width: 80px;
   height: 80px;
   position: fixed;
-  top: var(--side-spacing);
-  left: var(--side-spacing);
+  top: 53px;
+  left: 53px;
   z-index: 2;
   perspective: 300px;
   font-size: 0;
@@ -93,7 +93,7 @@ body.work-page-active {
   }
 }
 
-@media ( --viewport-max ) {
+@media ( --viewport-med ) {
   .work-page__back-to-home {
     top: var(--fluid-side-spacing)vw;
     left: var(--fluid-side-spacing)vw;

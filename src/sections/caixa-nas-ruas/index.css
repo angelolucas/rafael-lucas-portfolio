@@ -22,7 +22,7 @@
       background-color: var(--cnr-colorfulDetails);
     }
     &:after {
-      border-bottom: 5px solid #e09b41;
+      border-bottom: 5px solid #fe950b;
     }
   }
   .cnr__shields {

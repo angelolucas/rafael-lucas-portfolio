@@ -26,8 +26,8 @@ import guidelineColors from './media/guideline-colors.png';
 import guidelineFont from './media/guideline-font.png';
 import guidelineIcons from './media/guideline-icons.png';
 import counter from './media/counter.png';
-import googlePlay from './media/google-play.svg';
-import appleStore from './media/apple-store.svg';
+import googlePlay from './media/google-play.png';
+import appleStore from './media/apple-store.png';
 
 function Section() {
   return (
