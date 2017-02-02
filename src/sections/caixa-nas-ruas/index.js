@@ -127,13 +127,11 @@ function Section() {
       </div>
 
       {/* Step 04 */}
-      <div className="work-step work-step--cnr04">
+      <div className="work-step work-step--cnr04 work-guideline">
         <div className="container">
           <h3 className="work-step__title">Guideline</h3>
-          <div className="work-guideline">
-            <img src={colors} alt="colors" />
-            <img src={types} alt="types" />
-          </div>
+          <img src={colors} alt="colors" />
+          <img src={types} alt="types" />
         </div>
       </div>
 

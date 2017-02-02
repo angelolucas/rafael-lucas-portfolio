@@ -147,10 +147,10 @@ function Section() {
       </div>
 
       {/* Guideline */}
-      <div className="guideline">
+      <div className="work-guideline">
         <div className="container">
-          <h3 className="guideline__title">Style Guide</h3>
-          <img className="guideline__image" src={guideline} alt="Guideline" />
+          <h3 className="work-guideline__title">Style Guide</h3>
+          <img className="work-guideline__image" src={guideline} alt="Guideline" />
         </div>
       </div>
 

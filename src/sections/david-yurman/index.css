@@ -35,13 +35,13 @@
   .chess-list__info {
     max-height: 71vw;
   }
-  .guideline__title {
+  .work-guideline__title {
     font-size: 35px;
     font-weight: 100;
     text-transform: uppercase;
     margin-bottom: 90px;
   }
-  .guideline__image {
+  .work-guideline__image {
     margin-bottom: 230px;
   }
   .credits__title {

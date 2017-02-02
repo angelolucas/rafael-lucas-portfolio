@@ -63,8 +63,8 @@
   .chess-list__info {
     max-height: 71vw;
   }
-  .work-guideline {
-    padding: 200px 0;
+  .work-credits {
+    padding-bottom: 100px;
   }
   .work-credits__image {
     max-width: 1682px;

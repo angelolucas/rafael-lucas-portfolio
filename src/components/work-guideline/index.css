@@ -1,6 +1,15 @@
+.work-guideline {
+  padding: 90px 0 150px;
+}
 .work-guideline img {
   margin-bottom: 200px;
 }
 .work-guideline img:last-child {
   margin-bottom: 0;
+}
+
+@media (--viewport-min) {
+  .work-guideline {
+    display: none;
+  }
 }

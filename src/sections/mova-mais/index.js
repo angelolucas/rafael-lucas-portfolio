@@ -236,14 +236,12 @@ function Section() {
       </div>
 
       {/* Step 07 */}
-      <div className="work-step work-step--mm07">
+      <div className="work-step work-step--mm07 work-guideline">
         <div className="container">
           <h3 className="work-step__title">Guideline</h3>
-          <div className="work-guideline">
-            <img src={guidelineColors} alt="" />
-            <img src={guidelineFont} alt="" />
-            <img src={guidelineIcons} alt="" />
-          </div>
+          <img src={guidelineColors} alt="" />
+          <img src={guidelineFont} alt="" />
+          <img src={guidelineIcons} alt="" />
         </div>
       </div>
 
