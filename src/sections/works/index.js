@@ -30,6 +30,7 @@ function WorkPreLoader() {
       <MatchWithFade pattern="/escinter" component={Escinter} />
       <MatchWithFade pattern="/emicida" component={Emicida} />
 
+      { window.innerWidth > 480 &&
       <div style={{ display: 'none' }}>
         <img src={posterMovaMais} alt="" />
         <img src={posterCaixaNasRuas} alt="" />
@@ -39,6 +40,7 @@ function WorkPreLoader() {
         <video src={videoEscinter} />
         <video src={videoEmicida} />
       </div>
+      }
     </div>
   );
 }
