@@ -8,16 +8,23 @@ import WorkHead from '../../components/work-head';
 import caixaNasRuas from './media/caixa-nas-ruas.svg';
 import workHeadImage from './media/work-head.jpg';
 import mockup from './media/mockup.png';
+import mockupSmall from './media/mockup-small.png';
 import siteMap from './media/site-map.png';
 import dashboard from './media/dashboard.png';
+import dashboardSmall from './media/dashboard-small.png';
 import team from './media/team.png';
+import teamSmall from './media/team-small.png';
 import shield1 from './media/shield1.png';
 import shield2 from './media/shield2.png';
 import shield3 from './media/shield3.png';
 import events from './media/events.png';
+import eventsSmall from './media/events-small.png';
 import editorial from './media/editorial.png';
+import editorialSmall from './media/editorial-small.png';
 import store from './media/store.png';
+import storeSmall from './media/store-small.png';
 import mobile from './media/mobile.png';
+import mobileSmall from './media/mobile-small.png';
 import colors from './media/colors.png';
 import types from './media/types.png';
 import result1 from './media/result1.svg';
@@ -26,6 +33,7 @@ import result3 from './media/result3.svg';
 import result4 from './media/result4.svg';
 import result5 from './media/result5.svg';
 import mockup2 from './media/mockup2.jpg';
+import mockup2Small from './media/mockup2-small.jpg';
 
 function Section() {
   return (
@@ -52,7 +60,10 @@ function Section() {
 
       {/* Mockup */}
       <div className="container container--full">
-        <img src={mockup} alt="" />
+        <picture>
+          <source srcSet={mockupSmall} media="(max-width: 480px)" />
+          <img src={mockup} alt="" />
+        </picture>
       </div>
 
       {/* Objective */}
@@ -79,14 +90,20 @@ function Section() {
           <p className="work-step__description">Central de medição de desempenho de cada participante com dados detalhados sobre a perseverança de treino, objetivos individuais e visualizações de dados quantitativas e qualitativas.</p>
         </div>
         <div className="container container--full">
-          <img src={dashboard} alt="Dashboard Page" />
+          <picture>
+            <source srcSet={dashboardSmall} media="(max-width: 480px)" />
+            <img src={dashboard} alt="Dashboard Page" />
+          </picture>
         </div>
         <div className="container">
           <h4>Teams</h4>
           <p className="work-step__description">As equipes têm a missão de cooperação mútua, e o critério de formação é estabelecido pelos próprios usuários. A equipe tem um lema e um brasão de identificação.</p>
         </div>
         <div className="container container--full">
-          <img src={team} alt="Team Page" />
+          <picture>
+            <source srcSet={teamSmall} media="(max-width: 480px)" />
+            <img src={team} alt="Team Page" />
+          </picture>
         </div>
         <div className="container">
           <div className="cnr__shields">
@@ -98,21 +115,30 @@ function Section() {
           <p className="work-step__description">Apresentação do calendário de provas com navegação de estímulo a participação das pessoas nesses eventos através da plataforma.</p>
         </div>
         <div className="container container--full">
-          <img src={events} alt="events" />
+          <picture>
+            <source srcSet={eventsSmall} media="(max-width: 480px)" />
+            <img src={events} alt="events" />
+          </picture>
         </div>
         <div className="container">
           <h4>Editorial</h4>
           <p className="work-step__description">O conteúdo do programa possui caráter motivador, tendo como missão estimular as pessoas a se afastarem do sedentarismo através do bom exemplo, da inspiração e do potencial de superação de cada um. Ajudar os praticantes a removerem barreiras motivacionais e técnicas que atrapalhem o início ou evolução na prática de uma modalidade.</p>
         </div>
         <div className="container container--full">
-          <img src={editorial} alt="events" />
+          <picture>
+            <source srcSet={editorialSmall} media="(max-width: 480px)" />
+            <img src={editorial} alt="events" />
+          </picture>
         </div>
         <div className="container">
           <h4>Store</h4>
           <p className="work-step__description">Vitrine de produtos para trocar com os pontos acumulados na plataforma de acordo com seu desempenho.</p>
         </div>
         <div className="container container--full">
-          <img src={store} alt="store" />
+          <picture>
+            <source srcSet={storeSmall} media="(max-width: 480px)" />
+            <img src={store} alt="store" />
+          </picture>
         </div>
       </div>
 
@@ -122,11 +148,15 @@ function Section() {
           <h3 className="work-step__title">Web Mobile</h3>
         </div>
         <div className="container container--full">
-          <img src={mobile} alt="mobile" />
+          <picture>
+            <source srcSet={mobileSmall} media="(max-width: 480px)" />
+            <img src={mobile} alt="mobile" />
+          </picture>
         </div>
       </div>
 
       {/* Step 04 */}
+      { window.innerWidth > 480 &&
       <div className="work-step work-step--cnr04 work-guideline">
         <div className="container">
           <h3 className="work-step__title">Guideline</h3>
@@ -134,6 +164,7 @@ function Section() {
           <img src={types} alt="types" />
         </div>
       </div>
+      }
 
       {/* Step 05 */}
       <div className="work-step work-step--cnr05 work-results">
@@ -171,7 +202,10 @@ function Section() {
 
       {/* Mockup */}
       <div className="container container--full">
-        <img src={mockup2} alt="" />
+        <picture>
+          <source srcSet={mockup2Small} media="(max-width: 480px)" />
+          <img src={mockup2} alt="" />
+        </picture>
       </div>
     </section>
   );
