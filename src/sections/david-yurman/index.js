@@ -147,12 +147,14 @@ function Section() {
       </div>
 
       {/* Guideline */}
+      { window.innerWidth > 480 &&
       <div className="work-guideline">
         <div className="container">
           <h3 className="work-guideline__title">Style Guide</h3>
           <img className="work-guideline__image" src={guideline} alt="Guideline" />
         </div>
       </div>
+      }
 
       {/* Mockup */}
       <div className="container container--full">

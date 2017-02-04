@@ -167,6 +167,7 @@ function Section() {
       </div>
 
       {/* guideline */}
+      { window.innerWidth > 480 &&
       <div className="work-guideline">
         <div className="container">
           <h2>Color Pallete</h2>
@@ -177,6 +178,7 @@ function Section() {
           <img src={patterns} alt="" />
         </div>
       </div>
+      }
 
       {/* Mockup */}
       <div className="container container--full">
