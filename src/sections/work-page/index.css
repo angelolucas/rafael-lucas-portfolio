@@ -23,57 +23,6 @@ body.work-page-active {
   overflow: hidden;
 }
 
-/* Back Button */
-.work-page__back-to-home {
-  width: 80px;
-  height: 80px;
-  position: fixed;
-  top: 53px;
-  left: 53px;
-  z-index: 2;
-  perspective: 300px;
-  font-size: 0;
-  z-index: 3;
-  
-  > div {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    transform-style: preserve-3d;
-    transition: transform 0.3s ease-out;
-  }
-  > div::before,
-  > div::after {
-    position: absolute;
-    backface-visibility: hidden;
-    font-size: 35px;
-    font-weight: 600;
-    color: white;
-    border: 6px solid white;
-    padding: 22px 10px;
-    letter-spacing: 1px;
-    display: inline-block;
-    box-sizing: border-box;
-    width: 100%;
-    height: 100%;
-  }
-  > div::before {
-    content: "RL";
-  }
-  > div::after {
-    content: "";
-    background-image: url('../sections/work-page/back-to-home.svg');
-    background-repeat: no-repeat;
-    background-size: 60%;
-    background-position: center;
-    transform: rotateX( 180deg );
-  }
-  &:hover > div,
-  &.work-page__back-to-home--active div{
-    transform: rotateX( 180deg );  
-  }
-}
-
 /* Section */
 .work-page section {
   text-align: center;
@@ -90,25 +39,5 @@ body.work-page-active {
     margin-left: auto;
     margin-right: auto;
     display: block;
-  }
-}
-
-@media ( --viewport-med ) {
-  .work-page__back-to-home {
-    top: var(--fluid-side-spacing)vw;
-    left: var(--fluid-side-spacing)vw;
-  } 
-}
-
-@media ( --viewport-min ) {
-  .work-page__back-to-home {
-    width: 70px;
-    height: 70px;
-
-    > div::before,
-    > div::after {
-      font-size: 32px;
-      padding: 18px 8px;
-    }
   }
 }

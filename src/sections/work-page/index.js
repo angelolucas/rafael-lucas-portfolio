@@ -1,9 +1,9 @@
 // Dependencies
 import React, { Component } from 'react';
-import { Link } from 'react-router';
 
 // Components
 import WorkNavigation from '../../components/work-navigation';
+import BackToHome from '../../components/back-to-home';
 import BackToTop from '../../components/back-to-top';
 
 class WorkPage extends Component {
@@ -25,10 +25,7 @@ class WorkPage extends Component {
           <WorkNavigation position={this.props.position} />
         </div>
 
-        <Link className="work-page__back-to-home" to="/" title="Back">
-          Back
-          <div />
-        </Link>
+        <BackToHome />
 
         <BackToTop container={'.work-page__scroll'} />
       </div>
