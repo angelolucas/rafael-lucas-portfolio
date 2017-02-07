@@ -272,7 +272,7 @@ function Section() {
 }
 
 function MovaMais() {
-  return <WorkPage section={Section()} position={1} />;
+  return <WorkPage section={Section()} position={1} theme="light" />;
 }
 
 export default MovaMais;

@@ -166,7 +166,7 @@ function Section() {
 }
 
 function DavidYurman() {
-  return <WorkPage section={Section()} position={4} theme="work-page--dark" />;
+  return <WorkPage section={Section()} position={4} theme="dark" />;
 }
 
 export default DavidYurman;

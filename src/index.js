@@ -10,7 +10,7 @@ import './styles/style.css';
 import Header from './components/header';
 import ListWorks from './components/list-works';
 import Footer from './components/footer';
-import Works from './sections/works';
+import AllWorks from './sections/all-works';
 
 ReactDOM.render(
   <Router>
@@ -21,7 +21,7 @@ ReactDOM.render(
 
       <Footer />
 
-      <Works />
+      <AllWorks />
     </div>
   </Router>,
   document.getElementById('root'),

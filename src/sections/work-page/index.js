@@ -17,15 +17,15 @@ class WorkPage extends Component {
   }
   render() {
     return (
-      <div className={this.props.theme}>
-        <div className="work-page__scroll">
+      <div className={`work-page work-page--${this.props.theme}`}>
+        <div className="work-page__scroll" ref={(scroll) => { this.scroll = scroll; }}>
 
           {this.props.section}
 
           <WorkNavigation position={this.props.position} />
         </div>
 
-        <BackToHome />
+        <BackToHome container={'.work-page__scroll'} />
 
         <BackToTop container={'.work-page__scroll'} />
       </div>

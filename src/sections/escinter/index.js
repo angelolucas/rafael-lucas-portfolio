@@ -144,7 +144,7 @@ function Section() {
 }
 
 function Escinter() {
-  return <WorkPage section={Section()} position={5} />;
+  return <WorkPage section={Section()} position={5} theme="light" />;
 }
 
 export default Escinter;

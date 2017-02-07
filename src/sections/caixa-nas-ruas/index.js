@@ -212,7 +212,7 @@ function Section() {
 }
 
 function CaixaNasRuas() {
-  return <WorkPage section={Section()} position={2} />;
+  return <WorkPage section={Section()} position={2} theme="light" />;
 }
 
 export default CaixaNasRuas;

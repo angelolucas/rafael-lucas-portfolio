@@ -1,26 +1,7 @@
-.work-page {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 100vh;
-  opacity: 0;
-  z-index: 10;
-  pointer-events: none;
-}
+
 .work-page__scroll {
   overflow: auto;
   height: 100vh;
-}
-
-/* Active */
-body.work-page-active .work-page {
-  transition: 0.5s 0s opacity;
-  pointer-events: visible;
-  opacity: 1;
-}
-body.work-page-active {
-  overflow: hidden;
 }
 
 /* Section */

@@ -20,9 +20,9 @@ import videoEscinter from '../escinter/media/video.mp4';
 import videoEmicida from '../emicida/media/video.mp4';
 import videoDavidYurman from '../david-yurman/media/video.mp4';
 
-function WorkPreLoader() {
+function AllWorks() {
   return (
-    <div className="work-page">
+    <div className="all-works">
       <MatchWithFade pattern="/mova-mais" component={MovaMais} />
       <MatchWithFade pattern="/caixa-nas-ruas" component={CaixaNasRuas} />
       <MatchWithFade pattern="/bb-private" component={BBPrivate} />
@@ -31,7 +31,7 @@ function WorkPreLoader() {
       <MatchWithFade pattern="/emicida" component={Emicida} />
 
       { window.innerWidth > 480 &&
-      <div style={{ display: 'none' }}>
+      <div className="all-works__preloaders" style={{ display: 'none' }}>
         <img src={posterMovaMais} alt="" />
         <img src={posterCaixaNasRuas} alt="" />
         <video src={videoMovaMais} />
@@ -45,4 +45,4 @@ function WorkPreLoader() {
   );
 }
 
-export default WorkPreLoader;
+export default AllWorks;

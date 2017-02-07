@@ -136,7 +136,7 @@ function Section() {
 }
 
 function BBPrivate() {
-  return <WorkPage section={Section()} position={3} theme="work-page--dark" />;
+  return <WorkPage section={Section()} position={3} theme="dark" />;
 }
 
 export default BBPrivate;
