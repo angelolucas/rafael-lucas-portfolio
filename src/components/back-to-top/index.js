@@ -2,19 +2,6 @@ import React, { Component } from 'react';
 import TweenLite from 'gsap';
 
 class BackToTop extends Component {
-  componentDidMount() {
-    const container = document.querySelector(this.props.container);
-    const height = 1000;
-    const button = this.button;
-
-    container.onscroll = () => {
-      if (container.scrollTop > height) {
-        button.classList.add('back-to-top--show');
-      } else {
-        button.classList.remove('back-to-top--show');
-      }
-    };
-  }
   backToTop(container) {
     TweenLite.to(
       document.querySelector(container),
@@ -27,7 +14,6 @@ class BackToTop extends Component {
       <button
         type="button"
         title="Back To Top"
-        ref={(button) => { this.button = button; }}
         className="back-to-top"
         onClick={() => this.backToTop(this.props.container)}
       >

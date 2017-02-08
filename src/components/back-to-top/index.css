@@ -5,10 +5,14 @@
   width: 40px;
   height: 40px;
   pointer-events: none;  
-  transition: 0.2s transform, 0.2s opacity;
+  transition: 0.3s transform, 0.3s opacity;
   transform: translateY(5px);
   display: block;
   opacity: 0;
+
+  &:hover{
+    transform: translateY(-5px);
+  }
 }
 .back-to-top__svg {
   fill: #050101;
@@ -20,12 +24,9 @@
 } 
 
 /* visible */
-.back-to-top--show {
+.back-to-top--show,
+.work-page--down .back-to-top {
   pointer-events: visible;
   opacity: 1;
   transform: translateY(0);
-
-  &:hover{
-    transform: translateY(-5px);
-  }
 }

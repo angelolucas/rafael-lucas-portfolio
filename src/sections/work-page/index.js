@@ -9,6 +9,18 @@ import BackToTop from '../../components/back-to-top';
 class WorkPage extends Component {
   componentDidMount() {
     document.body.classList.add('work-page-active');
+
+    const height = 1000;
+    const workPage = this.workPage;
+    const scroll = this.scroll;
+
+    scroll.addEventListener('scroll', (e) => {
+      if (e.target.scrollTop > height) {
+        workPage.classList.add('work-page--down');
+      } else {
+        workPage.classList.remove('work-page--down');
+      }
+    });
   }
   componentWillUnmount() {
     if (location.pathname === '/') {
@@ -17,7 +29,10 @@ class WorkPage extends Component {
   }
   render() {
     return (
-      <div className={`work-page work-page--${this.props.theme}`}>
+      <div
+        className={`work-page work-page--${this.props.theme}`}
+        ref={(workPage) => { this.workPage = workPage; }}
+      >
         <div className="work-page__scroll" ref={(scroll) => { this.scroll = scroll; }}>
 
           {this.props.section}
