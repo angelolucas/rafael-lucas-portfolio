@@ -3,7 +3,11 @@ import { Link } from 'react-router';
 
 function BackToHome() {
   return (
-    <Link className="back-to-home" to="/" title="Back">
+    <Link
+      className="back-to-home"
+      title="Back"
+      to="/"
+    >
       Back
       <div />
     </Link>

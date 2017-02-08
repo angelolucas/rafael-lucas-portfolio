@@ -43,10 +43,12 @@
     background-position: center;
     transform: rotateX( 180deg );
   }
-  &:hover > div,
-  &.work-page__back-to-home--active div{
-    transform: rotateX( 180deg );  
-  }
+}
+
+/* Rotated */
+.back-to-home:hover > div,
+.work-page--down .back-to-home > div {
+  transform: rotateX( 180deg );
 }
 
 @media ( --viewport-med ) {
