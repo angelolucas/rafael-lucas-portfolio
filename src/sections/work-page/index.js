@@ -9,8 +9,7 @@ import BackToTop from '../../components/back-to-top';
 class WorkPage extends Component {
   componentDidMount() {
     document.body.classList.add('work-page-active');
-
-    const height = 1000;
+    const height = window.innerHeight;
     const workPage = this.workPage;
     const scroll = this.scroll;
 
@@ -30,7 +29,7 @@ class WorkPage extends Component {
   render() {
     return (
       <div
-        className={`work-page work-page--${this.props.theme}`}
+        className={`work-page work-page--${this.props.theme} work-page--${this.props.name}`}
         ref={(workPage) => { this.workPage = workPage; }}
       >
         <div className="work-page__scroll" ref={(scroll) => { this.scroll = scroll; }}>
@@ -49,6 +48,7 @@ class WorkPage extends Component {
 }
 
 WorkPage.propTypes = {
+  name: React.PropTypes.string,
   section: React.PropTypes.object,
   position: React.PropTypes.number,
   theme: React.PropTypes.string,

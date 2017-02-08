@@ -29,6 +29,7 @@ function Section() {
 
       {/* Hero Image */}
       <WorkHead
+        name="mcd"
         title="Emicida"
         category="web mobile"
         color="black"
@@ -189,7 +190,14 @@ function Section() {
 }
 
 function Emicida() {
-  return <WorkPage section={Section()} position={6} theme="dark" />;
+  return (
+    <WorkPage
+      section={Section()}
+      name="mcd"
+      position={6}
+      theme="dark"
+    />
+  );
 }
 
 export default Emicida;

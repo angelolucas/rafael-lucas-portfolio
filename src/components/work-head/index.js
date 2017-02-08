@@ -2,6 +2,18 @@ import React, { Component } from 'react';
 import TweenLite from 'gsap';
 
 class WorkHead extends Component {
+  componentDidMount() {
+    const el = document.querySelector(`.work-page--${this.props.name} .work-page__scroll`);
+    const height = window.innerHeight;
+
+    if (window.innerWidth >= 480) {
+      el.addEventListener('scroll', (e) => {
+        if (e.target.scrollTop < height) {
+          this.workMedia.style.transform = `translateY(${e.target.scrollTop / 2}px)`;
+        }
+      });
+    }
+  }
   downButton() {
     TweenLite.to(
       document.querySelector('.work-page__scroll'),
@@ -20,7 +32,7 @@ class WorkHead extends Component {
     if (this.props.type === 'video') {
       media = (
         <video
-          className="work-head__media work-head__media--video"
+          className="work-head__media--video"
           src={this.props.src}
           autoPlay
           poster={this.props.poster}
@@ -34,14 +46,16 @@ class WorkHead extends Component {
     if (this.props.type === 'image') {
       media = (
         <div
-          className="work-head__media work-head__media--image"
+          className="work-head__media--image"
           style={{ backgroundImage: `url(${this.props.src})` }}
         />
       );
     }
     return (
       <div className="work-head" style={{ backgroundColor: this.props.color }}>
-        {media}
+        <div className="work-head__media" ref={(workMedia) => { this.workMedia = workMedia; }}>
+          {media}
+        </div>
         <div className="container">
           <h1 className="work-head__title">{ this.props.title }</h1>
           <h6 className="work-head__category">{ this.props.category }</h6>
@@ -59,6 +73,7 @@ class WorkHead extends Component {
 }
 
 WorkHead.propTypes = {
+  name: React.PropTypes.string,
   title: React.PropTypes.string,
   category: React.PropTypes.string,
   color: React.PropTypes.string,

@@ -26,6 +26,7 @@ function Section() {
 
       {/* Hero Image */}
       <WorkHead
+        name="dy"
         title="David Yurman"
         category="web mobile"
         color="black"
@@ -166,7 +167,14 @@ function Section() {
 }
 
 function DavidYurman() {
-  return <WorkPage section={Section()} position={4} theme="dark" />;
+  return (
+    <WorkPage
+      section={Section()}
+      name="dy"
+      position={4}
+      theme="dark"
+    />
+  );
 }
 
 export default DavidYurman;

@@ -35,6 +35,7 @@ function Section() {
 
       {/* Hero Image */}
       <WorkHead
+        name="mm"
         title="Mova Mais"
         category="app"
         src={video}
@@ -272,7 +273,14 @@ function Section() {
 }
 
 function MovaMais() {
-  return <WorkPage section={Section()} position={1} theme="light" />;
+  return (
+    <WorkPage
+      section={Section()}
+      name="mm"
+      position={1}
+      theme="light"
+    />
+  );
 }
 
 export default MovaMais;

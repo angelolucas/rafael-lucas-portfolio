@@ -41,6 +41,7 @@ function Section() {
 
       {/* Hero Image */}
       <WorkHead
+        name="cnr"
         title="Caixa Nas Ruas"
         category="web desktop & mobile"
         color="#a0a8ab"
@@ -212,7 +213,14 @@ function Section() {
 }
 
 function CaixaNasRuas() {
-  return <WorkPage section={Section()} position={2} theme="light" />;
+  return (
+    <WorkPage
+      section={Section()}
+      name="cnr"
+      position={2}
+      theme="light"
+    />
+  );
 }
 
 export default CaixaNasRuas;

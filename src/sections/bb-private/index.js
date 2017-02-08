@@ -23,6 +23,7 @@ function Section() {
 
       {/* Hero Image */}
       <WorkHead
+        name="bbp"
         title="BB Private"
         category="web desktop"
         color="black"
@@ -136,7 +137,14 @@ function Section() {
 }
 
 function BBPrivate() {
-  return <WorkPage section={Section()} position={3} theme="dark" />;
+  return (
+    <WorkPage
+      section={Section()}
+      name="bbp"
+      position={3}
+      theme="dark"
+    />
+  );
 }
 
 export default BBPrivate;

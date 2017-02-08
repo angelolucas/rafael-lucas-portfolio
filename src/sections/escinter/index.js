@@ -25,6 +25,7 @@ function Section() {
 
       {/* Hero Image */}
       <WorkHead
+        name="ect"
         title="Escinter"
         category="web mobile"
         color="white"
@@ -144,7 +145,14 @@ function Section() {
 }
 
 function Escinter() {
-  return <WorkPage section={Section()} position={5} theme="light" />;
+  return (
+    <WorkPage
+      section={Section()}
+      name="ect"
+      position={5}
+      theme="light"
+    />
+  );
 }
 
 export default Escinter;
