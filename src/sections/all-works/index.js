@@ -30,7 +30,7 @@ function AllWorks() {
       <MatchWithFade pattern="/escinter" component={Escinter} />
       <MatchWithFade pattern="/emicida" component={Emicida} />
 
-      { window.innerWidth > 480 &&
+      { window.innerWidth >= 480 &&
       <div className="all-works__preloaders" style={{ display: 'none' }}>
         <img src={posterMovaMais} alt="" />
         <img src={posterCaixaNasRuas} alt="" />

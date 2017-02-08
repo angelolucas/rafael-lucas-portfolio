@@ -119,7 +119,7 @@ function Section() {
       </div>
 
       {/* Guideline */}
-      { window.innerWidth > 480 &&
+      { window.innerWidth >= 480 &&
       <div className="work-guideline">
         <div className="container">
           <img src={guideline} alt="Guideline" />

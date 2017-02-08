@@ -147,7 +147,7 @@ function Section() {
       </div>
 
       {/* Guideline */}
-      { window.innerWidth > 480 &&
+      { window.innerWidth >= 480 &&
       <div className="work-guideline">
         <div className="container">
           <h3 className="work-guideline__title">Style Guide</h3>
