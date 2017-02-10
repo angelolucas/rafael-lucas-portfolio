@@ -1,0 +1,18 @@
+.device-simulator {
+  position: relative;
+}
+.device-simulator__device-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+} 
+.device-simulator__device {
+  position: sticky;
+  top: 0;
+}
+.chess-list__info--test {
+  position: sticky;
+  top: 0px;
+}

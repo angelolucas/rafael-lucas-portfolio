@@ -25,6 +25,8 @@
 }
 .chess-list__info {
   max-height: 60vw;
+  position: sticky;
+  top: 0px;
 }
 .chess-list__title {
   font-size: 45px;

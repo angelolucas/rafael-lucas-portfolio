@@ -9,6 +9,7 @@ import video from './media/video.mp4';
 import logo from './media/logo.svg';
 import mockup from './media/mockup.jpg';
 import siteMap from './media/site-map.png';
+import device from '../../components/device-simulator/media/android-header.png';
 import homePage from './media/home-page.png';
 import products from './media/products.png';
 import productsDetail from './media/products-detail.png';
@@ -70,12 +71,17 @@ function Section() {
           <h3 className="work-step__title">Web Mobile</h3>
           <ul className="chess-list chess-list--align-top">
             <li>
-              <div className="chess-list__info">
+              <div className="chess-list__info chess-list__info--test">
                 <h4 className="chess-list__title">Home Page</h4>
                 <p>A página inicial primeiramente exibe um slideshow com as principais ofertas do momento, e abaixo as categorias dos produtos. Ao final é apresentado o endereço, campo para se inscrever na newsletter e acesso as redes sociais. </p>
               </div>
               <div>
-                <img src={homePage} alt="Home Page" />
+                <div className="device-simulator">
+                  <img className="device-simulator__page" src={homePage} alt="Home Page" />
+                  <div className="device-simulator__device-container">
+                    <img className="device-simulator__device" src={device} alt="" />
+                  </div>
+                </div>
               </div>
             </li>
             <li>
