@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router';
+import GetWorks from '../get-works';
 
 const WorkNavigation = (props) => {
   const worksList = {
@@ -10,6 +11,7 @@ const WorkNavigation = (props) => {
     5: '/escinter',
     6: '/emicida',
   };
+  console.log(GetWorks);
 
   const worksLength = Object.keys(worksList).length;
 
