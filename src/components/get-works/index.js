@@ -21,40 +21,46 @@ import MCDImage from '../../sections/emicida/media/thumb.png';
 import MCDDetail from '../../sections/emicida/media/thumb-overlay.png';
 
 const GetWorks = {
-  'mova-mais': {
+  1: {
+    name: 'mova-mais',
     title: 'Mova Mais',
     category: 'app',
     link: '/mova-mais',
     image: MMImage,
     detail: MMDetail,
   },
-  'caixa-nas-ruas': {
+  2: {
+    name: 'caixa-nas-ruas',
     title: 'Caixa Nas Ruas',
     category: 'web desktop & mobile',
     link: '/caixa-nas-ruas',
     image: CNRImage,
     detail: CNRDetail,
   },
-  'bb-private': {
+  3: {
+    name: 'bb-private',
     title: 'BB Private',
     category: 'web desktop',
     link: '/bb-private',
     image: BBPImage,
   },
-  'david-yurman': {
+  4: {
+    name: 'david-yurman',
     title: 'David Yurman',
     category: 'web mobile',
     link: '/david-yurman',
     image: DYImage,
   },
-  escinter: {
+  5: {
+    name: 'escinter',
     title: 'Escinter',
     category: 'web mobile',
     link: '/escinter',
     image: ESTImage,
     detail: ESTDetail,
   },
-  emicida: {
+  6: {
+    name: 'emicida',
     title: 'Emicida',
     category: 'web mobile',
     link: '/emicida',

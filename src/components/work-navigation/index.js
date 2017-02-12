@@ -3,17 +3,7 @@ import { Link } from 'react-router';
 import GetWorks from '../get-works';
 
 const WorkNavigation = (props) => {
-  const worksList = {
-    1: '/mova-mais',
-    2: '/caixa-nas-ruas',
-    3: '/bb-private',
-    4: '/david-yurman',
-    5: '/escinter',
-    6: '/emicida',
-  };
-  console.log(GetWorks);
-
-  const worksLength = Object.keys(worksList).length;
+  const worksLength = Object.keys(GetWorks).length;
 
   const WorkPosition = props.position;
   let prev = WorkPosition - 1;
@@ -21,15 +11,14 @@ const WorkNavigation = (props) => {
 
   if (WorkPosition === 1) {
     prev = worksLength;
-  }
-  if (WorkPosition === worksLength) {
+  } else if (WorkPosition === worksLength) {
     next = 1;
   }
 
   return (
     <div className="work-navigation">
-      <Link to={worksList[prev]}>prv</Link>
-      <Link to={worksList[next]}>nxt</Link>
+      <Link to={GetWorks[prev].name}>prv</Link>
+      <Link to={GetWorks[next].name}>nxt</Link>
     </div>
   );
 };
