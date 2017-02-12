@@ -79,7 +79,7 @@ function Section() {
         <div className="container">
           <ul className="chess-list chess-list--align-top">
             <li>
-              <div className="chess-list__info">
+              <div className="chess-list__info chess-list__info--sticky">
                 <h4 className="chess-list__title">Home Page</h4>
                 <p>Slideshow de início com os principais destaques do site. Em sequida boxes representando cada área do site. Abaixo as redes sociais do MC.</p>
               </div>
@@ -88,7 +88,7 @@ function Section() {
               </div>
             </li>
             <li>
-              <div className="chess-list__info">
+              <div className="chess-list__info chess-list__info--sticky">
                 <h4 className="chess-list__title">Editorial</h4>
                 <p>Área de conteúdo, onde permite que o artista apresente suas objeções, filosofias  e ideais de vida de forma mais produnda.</p>
               </div>
@@ -97,7 +97,7 @@ function Section() {
               </div>
             </li>
             <li>
-              <div className="chess-list__info">
+              <div className="chess-list__info chess-list__info--sticky">
                 <h4 className="chess-list__title">Biography</h4>
                 <p>Nessa página é possível conhecer melhor sua tragetória de vida, início de carreira e suas influências. Aqui também é exibido os sua equipe de trabalho.</p>
               </div>
@@ -106,7 +106,7 @@ function Section() {
               </div>
             </li>
             <li>
-              <div className="chess-list__info">
+              <div className="chess-list__info chess-list__info--sticky">
                 <h4 className="chess-list__title">Agenda</h4>
                 <p>Exposição de todos os compromissos e shows do rapper. É possível filtrar por mês.</p>
               </div>
@@ -115,7 +115,7 @@ function Section() {
               </div>
             </li>
             <li>
-              <div className="chess-list__info">
+              <div className="chess-list__info chess-list__info--sticky">
                 <h4 className="chess-list__title">Discography</h4>
                 <p>Nessa página é possível conhecer toda sua obra, ter acesso as músicas dos álbuns e acessar as plataformas de compra e streaming.</p>
               </div>
@@ -124,7 +124,7 @@ function Section() {
               </div>
             </li>
             <li>
-              <div className="chess-list__info">
+              <div className="chess-list__info chess-list__info--sticky">
                 <h4 className="chess-list__title">Photos Gallery</h4>
                 <p>Galeria de fotos e vídeos de shows, clipes, e até aquivos pessoais.</p>
               </div>

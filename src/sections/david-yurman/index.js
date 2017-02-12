@@ -79,7 +79,7 @@ function Section() {
             </div>
           </li>
           <li>
-            <div className="chess-list__info">
+            <div className="chess-list__info chess-list__info--sticky">
               <h4 className="chess-list__title">Explore</h4>
               <p>É possível visualizar vários produtos ao mesmo tempo, além de filtrar pro preço, tamanho, cor e categoria.</p>
             </div>
@@ -88,7 +88,7 @@ function Section() {
             </div>
           </li>
           <li>
-            <div className="chess-list__info">
+            <div className="chess-list__info chess-list__info--sticky">
               <h4 className="chess-list__title">Procuct Detail</h4>
               <p>Na página do produto é exposta imagens bem destacadas, onde é possível visualizar todos os detalhes da peça. Também é exibido as cores disponívels, dimenções, preços e vários outros detalhes.</p>
             </div>
@@ -97,7 +97,7 @@ function Section() {
             </div>
           </li>
           <li>
-            <div className="chess-list__info">
+            <div className="chess-list__info chess-list__info--sticky">
               <h4 className="chess-list__title">Search</h4>
               <p>Busca por produtos com filtros, permitindo uma pesquisa rápida e efeciente.</p>
             </div>
@@ -106,7 +106,7 @@ function Section() {
             </div>
           </li>
           <li>
-            <div className="chess-list__info">
+            <div className="chess-list__info chess-list__info--sticky">
               <h4 className="chess-list__title">Shopping Bag</h4>
               <p>Detalhes de todos os produtos adicionados na bolsa. Com navegação intuitiva o usuário consegue facilmente remover itens ou finalizar comprar.</p>
             </div>
@@ -115,7 +115,7 @@ function Section() {
             </div>
           </li>
           <li>
-            <div className="chess-list__info">
+            <div className="chess-list__info chess-list__info--sticky">
               <h4 className="chess-list__title">Checkout</h4>
               <p>Último passo para compra, página onde o usuário preenche dados pessoais e de pagamento para conclusão da compra.</p>
             </div>

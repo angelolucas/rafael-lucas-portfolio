@@ -9,7 +9,6 @@ import video from './media/video.mp4';
 import logo from './media/logo.svg';
 import mockup from './media/mockup.jpg';
 import siteMap from './media/site-map.png';
-import device from '../../components/device-simulator/media/android-header.png';
 import homePage from './media/home-page.png';
 import products from './media/products.png';
 import productsDetail from './media/products-detail.png';
@@ -69,23 +68,18 @@ function Section() {
       <div className="work-step work-step--ect02">
         <div className="container">
           <h3 className="work-step__title">Web Mobile</h3>
-          <ul className="chess-list chess-list--align-top">
+          <ul className="chess-list">
             <li>
-              <div className="chess-list__info chess-list__info--test">
+              <div className="chess-list__info chess-list__info--sticky">
                 <h4 className="chess-list__title">Home Page</h4>
                 <p>A página inicial primeiramente exibe um slideshow com as principais ofertas do momento, e abaixo as categorias dos produtos. Ao final é apresentado o endereço, campo para se inscrever na newsletter e acesso as redes sociais. </p>
               </div>
               <div>
-                <div className="device-simulator">
-                  <img className="device-simulator__page" src={homePage} alt="Home Page" />
-                  <div className="device-simulator__device-container">
-                    <img className="device-simulator__device" src={device} alt="" />
-                  </div>
-                </div>
+                <img src={homePage} alt="Home Page" />
               </div>
             </li>
             <li>
-              <div className="chess-list__info">
+              <div className="chess-list__info chess-list__info--sticky">
                 <h4 className="chess-list__title">Products</h4>
                 <p>A página permite que o usuário veja vários modelos ao mesmo tempo, agilizando assim sua busca. É possível filtrar por categoria.</p>
               </div>
@@ -94,7 +88,7 @@ function Section() {
               </div>
             </li>
             <li>
-              <div className="chess-list__info">
+              <div className="chess-list__info chess-list__info--sticky">
                 <h4 className="chess-list__title">Products Detail</h4>
                 <p>Nessa página é possivel conhecer melhor a história e o designer da peça, ver fotos de diferentes ângulos e ter acesso a todos os dados, como dimensões e detalhes de fabricação.</p>
               </div>
@@ -103,7 +97,7 @@ function Section() {
               </div>
             </li>
             <li>
-              <div className="chess-list__info">
+              <div className="chess-list__info chess-list__info--sticky">
                 <h4 className="chess-list__title">Contact</h4>
                 <p>O site disponibiliza um formulário simples para entrar em contato. E ainda acesso ao endereço das lojas físicas, por meio do mapa.</p>
               </div>

@@ -60,9 +60,6 @@
   .chess-list__title:after {
     border-color: var(--mcd-text);
   }
-  .chess-list__info {
-    max-height: 71vw;
-  }
   .work-credits {
     padding-bottom: 100px;
   }

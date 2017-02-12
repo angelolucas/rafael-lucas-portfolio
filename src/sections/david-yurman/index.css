@@ -32,9 +32,6 @@
   .chess-list img {
     transform: translateX(6.5%);
   }
-  .chess-list__info {
-    max-height: 71vw;
-  }
   .work-guideline__title {
     font-size: 35px;
     font-weight: 100;

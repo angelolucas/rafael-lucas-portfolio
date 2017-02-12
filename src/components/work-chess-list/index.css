@@ -23,10 +23,10 @@
     }
   }
 }
-.chess-list__info {
-  max-height: 60vw;
+.chess-list__info--sticky {
   position: sticky;
-  top: 0px;
+  top: 0;
+  height: 100vh 
 }
 .chess-list__title {
   font-size: 45px;
@@ -62,5 +62,9 @@
   .chess-list__info {
     margin-bottom: 20vw;
     max-height: none;
+  }
+  .chess-list__info--sticky {
+    position: relative;
+    height: auto;
   }
 }
