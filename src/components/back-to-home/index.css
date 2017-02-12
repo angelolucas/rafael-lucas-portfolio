@@ -50,6 +50,9 @@
 .work-page--down .back-to-home > div {
   transform: rotateX( 180deg );
 }
+.work-page--down .back-to-home:hover > div {
+  transform: rotateX( 0deg ); 
+}
 
 @media ( --viewport-med ) {
   .back-to-home {
