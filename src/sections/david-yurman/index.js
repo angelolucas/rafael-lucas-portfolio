@@ -158,10 +158,7 @@ function Section() {
       }
 
       {/* Mockup */}
-      <div className="container container--full">
-        <img src={mockup2} alt="" />
-      </div>
-
+      <img className="image-full" src={mockup2} alt="" />
     </section>
   );
 }

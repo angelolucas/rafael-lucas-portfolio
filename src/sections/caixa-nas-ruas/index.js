@@ -202,12 +202,10 @@ function Section() {
       </div>
 
       {/* Mockup */}
-      <div className="container container--full">
-        <picture>
-          <source srcSet={mockup2Small} media="(max-width: 480px)" />
-          <img src={mockup2} alt="" />
-        </picture>
-      </div>
+      <picture>
+        <source srcSet={mockup2Small} media="(max-width: 480px)" />
+        <img className="image-full" src={mockup2} alt="" />
+      </picture>
     </section>
   );
 }

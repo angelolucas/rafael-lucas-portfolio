@@ -116,7 +116,7 @@ function Section() {
             </li>
           </ul>
         </div>
-        <img className="work-step__full-image" src={devices} alt="" />
+        <img className="image-full" src={devices} alt="" />
         <div className="work-credits">
           <div className="container">
             <h4 className="work-credits__title">Credits</h4>
@@ -137,9 +137,7 @@ function Section() {
       }
 
       {/* Mockup */}
-      <div className="container container--full">
-        <img src={mockup2} alt="" />
-      </div>
+      <img className="image-full" src={mockup2} alt="" />
     </section>
   );
 }

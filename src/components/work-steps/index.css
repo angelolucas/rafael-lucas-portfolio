@@ -46,6 +46,6 @@
   line-height: 1.5;
   font-weight: 100;
 }
-.work-step__full-image {
+.work-step .image-full {
   margin-bottom: 120px;
 }
