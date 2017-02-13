@@ -1,6 +1,6 @@
 :root {
   --horizontalFooterHeight: 198px;
-  --verticalFooterHeight: 300px;
+  --verticalFooterHeight: 210px;
 }
 .footer {
   background: #1b1b1b;
@@ -15,15 +15,14 @@
   z-index: 1;
 }
 .footer__networks {
-  display: flex;
-  justify-content: space-between;
   max-width: 1070px;
   margin: auto;
   text-align: center;
 
   > li {
-    flex-grow: 1;
+    display: inline-block;
     position: relative;
+    padding: 10px 35px;
 
     a {
       transition: color 0.5s ease;
@@ -40,7 +39,7 @@
       background: #444;
       display: inline-block;
       position: absolute;
-      right: 0;
+      right: -3px;
       top: 50%;
       transform: translateY(-50%);
     }
@@ -68,25 +67,24 @@
 }
 
 @media ( --viewport-med ) {
-  
+  .footer__networks > li {
+    padding-left: 3.7vw;
+    padding-right: 3.7vw;
+
+    a {
+      font-size: calc(16px + 2vw);
+    }
+    &:after {
+      width: 4px;
+      height: 25px;
+      right: -2px;
+    }
+  }
 }
 
 @media ( --viewport-min ) {
   .footer,
   .footer__shadow {
     height: var(--verticalFooterHeight);
-  }
-  .footer__networks {
-    display: block;
-  }
-  .footer__networks > li {
-    width: 100%;
-  }
-  .footer__networks > li a {
-    line-height: 1.6;
-    font-size: 30px;
-  }
-  .footer__networks > li:after {
-    display: none;
   }
 }
