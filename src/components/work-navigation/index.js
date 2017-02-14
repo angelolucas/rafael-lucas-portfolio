@@ -37,11 +37,13 @@ class WorkNavigation extends Component {
   componentDidMount() {
     const video = document.querySelectorAll('.work-nav__media--video');
     for (let i = 0; i < video.length; i += 1) {
-      video[i].onmouseenter = function () {
-        this.play();
+      video[i].onmouseenter = () => {
+        video[i].play();
       };
-      video[i].onmouseleave = function () {
-        this.pause();
+      video[i].onmouseleave = () => {
+        setTimeout(() => {
+          video[i].pause();
+        }, 500);
       };
     }
   }
@@ -51,13 +53,15 @@ class WorkNavigation extends Component {
         <div className="work-nav__item work-nav__item--prev">
           <Link className="work-nav__link" to={GetWorks[this.prev].name}>
             <div className="work-nav__media">{this.media(this.prev)}</div>
-            <div className="work-nav__info">Prev</div>
+            <div className="work-nav__pttrn" />
+            <div className="work-nav__info">prv</div>
           </Link>
         </div>
         <div className="work-nav__item work-nav__item--next">
           <Link className="work-nav__link" to={GetWorks[this.next].name}>
             <div className="work-nav__media">{this.media(this.next)}</div>
-            <div className="work-nav__info">Next</div>
+            <div className="work-nav__pttrn" />
+            <div className="work-nav__info">nxt</div>
           </Link>
         </div>
       </div>
