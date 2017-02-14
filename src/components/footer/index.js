@@ -2,7 +2,7 @@ import React from 'react';
 
 function HomeFooter() {
   return (
-    <div>
+    <div className="footer-container">
       <footer className="footer">
         <div className="container">
           <ul className="footer__networks">
@@ -24,7 +24,6 @@ function HomeFooter() {
           </ul>
         </div>
       </footer>
-      <div className="footer__shadow" />
     </div>
   );
 }

@@ -48,11 +48,9 @@
     }
   }
 }
-.footer__shadow {
+.footer-container {
   position: relative;
   height: var(--horizontalFooterHeight);
-  pointer-events: none;
-  z-index: 2;
 
   &:after {
     background: url('../components/footer/gradient.png') repeat-x;
@@ -63,6 +61,7 @@
     width: 100%;
     height: 80px;
     pointer-events: none;
+    z-index: 2;
   }
 }
 
@@ -83,8 +82,8 @@
 }
 
 @media ( --viewport-min ) {
-  .footer,
-  .footer__shadow {
+  .footer-container,
+  .footer {
     height: var(--verticalFooterHeight);
   }
 }
