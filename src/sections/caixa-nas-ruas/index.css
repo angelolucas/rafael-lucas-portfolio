@@ -38,11 +38,14 @@
     margin: 25px 0px 5px 0px;
   }
   .work-results ul {
-    display: flex;
-    justify-content: space-between;
+    width: 100%;
   }
   .work-results ul > li {
-    flex: 20%;
+    display: inline-block;
+    min-width: 140px;
+    padding: 20px 20px;
+    vertical-align: top;
+    width: 20%;
   }
 }
 .work-objective--cnr {
@@ -64,5 +67,11 @@
   }
   img:last-child {
     margin-right: 0;
+  }
+}
+@media (--viewport-max) {
+  .cnr .work-results ul > li {
+    padding-left: 1vw;
+    padding-right: 1vw;
   }
 }
