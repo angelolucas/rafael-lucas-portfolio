@@ -9,6 +9,7 @@ import video from './media/video.mp4';
 import logo from './media/logo.png';
 import mockup from './media/mockup.png';
 import siteMap from './media/site-map.png';
+import siteMapMin from './media/site-map-min.png';
 import homePage from './media/home-page.png';
 import editorial from './media/editorial.png';
 import biography from './media/biography.png';
@@ -68,7 +69,10 @@ function Section() {
       <div className="work-sitemap">
         <div className="container">
           <h2>Site Map</h2>
-          <img src={siteMap} alt="Site Map" />
+          <picture>
+            <source srcSet={siteMapMin} media="(max-width: 480px)" />
+            <img src={siteMap} alt="Site Map" />
+          </picture>
         </div>
       </div>
 

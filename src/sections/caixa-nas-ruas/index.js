@@ -8,23 +8,24 @@ import WorkHead from '../../components/work-head';
 import caixaNasRuas from './media/caixa-nas-ruas.svg';
 import workHeadImage from './media/work-head.jpg';
 import mockup from './media/mockup.png';
-import mockupSmall from './media/mockup-small.png';
+import mockupMin from './media/mockup-min.png';
 import siteMap from './media/site-map.png';
+import siteMapMin from './media/site-map-min.png';
 import dashboard from './media/dashboard.png';
-import dashboardSmall from './media/dashboard-small.png';
+import dashboardMin from './media/dashboard-min.png';
 import team from './media/team.png';
-import teamSmall from './media/team-small.png';
+import teamMin from './media/team-min.png';
 import shield1 from './media/shield1.png';
 import shield2 from './media/shield2.png';
 import shield3 from './media/shield3.png';
 import events from './media/events.png';
-import eventsSmall from './media/events-small.png';
+import eventsMin from './media/events-min.png';
 import editorial from './media/editorial.png';
-import editorialSmall from './media/editorial-small.png';
+import editorialMin from './media/editorial-min.png';
 import store from './media/store.png';
-import storeSmall from './media/store-small.png';
+import storeMin from './media/store-min.png';
 import mobile from './media/mobile.png';
-import mobileSmall from './media/mobile-small.png';
+import mobileMin from './media/mobile-min.png';
 import colors from './media/colors.png';
 import types from './media/types.png';
 import result1 from './media/result1.svg';
@@ -33,7 +34,7 @@ import result3 from './media/result3.svg';
 import result4 from './media/result4.svg';
 import result5 from './media/result5.svg';
 import mockup2 from './media/mockup2.jpg';
-import mockup2Small from './media/mockup2-small.jpg';
+import mockup2Min from './media/mockup2-min.jpg';
 
 function Section() {
   return (
@@ -62,7 +63,7 @@ function Section() {
       {/* Mockup */}
       <div className="container container--full">
         <picture>
-          <source srcSet={mockupSmall} media="(max-width: 480px)" />
+          <source srcSet={mockupMin} media="(max-width: 480px)" />
           <img src={mockup} alt="" />
         </picture>
       </div>
@@ -79,7 +80,10 @@ function Section() {
       <div className="work-step work-step--cnr01">
         <div className="container">
           <h3 className="work-step__title">Site Map</h3>
-          <img src={siteMap} alt="Site Map" />
+          <picture>
+            <source srcSet={siteMapMin} media="(max-width: 480px)" />
+            <img src={siteMap} alt="Site Map" />
+          </picture>
         </div>
       </div>
 
@@ -92,7 +96,7 @@ function Section() {
         </div>
         <div className="container container--full">
           <picture>
-            <source srcSet={dashboardSmall} media="(max-width: 480px)" />
+            <source srcSet={dashboardMin} media="(max-width: 480px)" />
             <img src={dashboard} alt="Dashboard Page" />
           </picture>
         </div>
@@ -102,7 +106,7 @@ function Section() {
         </div>
         <div className="container container--full">
           <picture>
-            <source srcSet={teamSmall} media="(max-width: 480px)" />
+            <source srcSet={teamMin} media="(max-width: 480px)" />
             <img src={team} alt="Team Page" />
           </picture>
         </div>
@@ -117,7 +121,7 @@ function Section() {
         </div>
         <div className="container container--full">
           <picture>
-            <source srcSet={eventsSmall} media="(max-width: 480px)" />
+            <source srcSet={eventsMin} media="(max-width: 480px)" />
             <img src={events} alt="events" />
           </picture>
         </div>
@@ -127,7 +131,7 @@ function Section() {
         </div>
         <div className="container container--full">
           <picture>
-            <source srcSet={editorialSmall} media="(max-width: 480px)" />
+            <source srcSet={editorialMin} media="(max-width: 480px)" />
             <img src={editorial} alt="events" />
           </picture>
         </div>
@@ -137,7 +141,7 @@ function Section() {
         </div>
         <div className="container container--full">
           <picture>
-            <source srcSet={storeSmall} media="(max-width: 480px)" />
+            <source srcSet={storeMin} media="(max-width: 480px)" />
             <img src={store} alt="store" />
           </picture>
         </div>
@@ -150,7 +154,7 @@ function Section() {
         </div>
         <div className="container container--full">
           <picture>
-            <source srcSet={mobileSmall} media="(max-width: 480px)" />
+            <source srcSet={mobileMin} media="(max-width: 480px)" />
             <img src={mobile} alt="mobile" />
           </picture>
         </div>
@@ -203,7 +207,7 @@ function Section() {
 
       {/* Mockup */}
       <picture>
-        <source srcSet={mockup2Small} media="(max-width: 480px)" />
+        <source srcSet={mockup2Min} media="(max-width: 480px)" />
         <img className="image-full" src={mockup2} alt="" />
       </picture>
     </section>
