@@ -1,24 +1,72 @@
-.work-navigation {
+.work-nav {
   background: #141414;
   display: flex;
   justify-content: space-around;
   text-align: center;
 }
-.work-navigation a {
-  padding: 70px 0;
-  color: white;
+.work-nav__item {
+  height: 300px;
   display: inline-block;
   width: 100%;
-  text-decoration: underline;
+  position: relative;
+}
+.work-nav__item--prev {
+  border-right: 1px solid #5b5b5b;
+}
+.work-nav__media {
+  //transition: 50ms transform;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+.work-nav__media:after {
+  background-image: url('../components/work-navigation/pttrn.png');
+  background-attachment: fixed;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+}
+.work-nav__media--image {
+  background-size: cover;
+  background-position: center top;
+  width: 100%;
+  height: 100%;
+}
+.work-nav__media--video {
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+.work-nav__info {
+  position: absolute;
+  color: white;
   font-size: 80px;
   font-weight: bold;
+  text-decoration: underline;
+  pointer-events: none;
 }
-.work-navigation a:first-child {
-  border-right: 1px solid #5b5b5b;
+.work-nav__link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 @media (--viewport-med) {
-  .work-navigation a {
+  .work-nav__info {
     font-size: 8.5vw;
     padding: 7vw 0;
   }

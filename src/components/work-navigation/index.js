@@ -1,27 +1,69 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { Link } from 'react-router';
 import GetWorks from '../get-works';
 
-const WorkNavigation = (props) => {
-  const worksLength = Object.keys(GetWorks).length;
+class WorkNavigation extends Component {
+  componentWillMount() {
+    const worksLength = Object.keys(GetWorks).length;
+    const workPosition = this.props.position;
+    this.prev = workPosition - 1;
+    this.next = workPosition + 1;
 
-  const WorkPosition = props.position;
-  let prev = WorkPosition - 1;
-  let next = WorkPosition + 1;
+    if (workPosition === 1) {
+      this.prev = worksLength;
+    } else if (workPosition === worksLength) {
+      this.next = 1;
+    }
 
-  if (WorkPosition === 1) {
-    prev = worksLength;
-  } else if (WorkPosition === worksLength) {
-    next = 1;
+    this.media = (id) => {
+      if (GetWorks[id].video) {
+        return (
+          <video
+            className="work-nav__media--video"
+            src={GetWorks[id].video}
+            muted
+            loop
+          />
+        );
+      }
+      return (
+        <div
+          className="work-nav__media--image"
+          style={{ backgroundImage: `url(${GetWorks[id].poster})` }}
+        />
+      );
+    };
   }
-
-  return (
-    <div className="work-navigation">
-      <Link to={GetWorks[prev].name}>prv</Link>
-      <Link to={GetWorks[next].name}>nxt</Link>
-    </div>
-  );
-};
+  componentDidMount() {
+    const video = document.querySelectorAll('.work-nav__media--video');
+    for (let i = 0; i < video.length; i += 1) {
+      video[i].onmouseenter = function () {
+        this.play();
+      };
+      video[i].onmouseleave = function () {
+        this.pause();
+      };
+    }
+  }
+  render() {
+    return (
+      <div className="work-nav">
+        <div className="work-nav__item work-nav__item--prev">
+          <Link className="work-nav__link" to={GetWorks[this.prev].name}>
+            <div className="work-nav__media">{this.media(this.prev)}</div>
+            <div className="work-nav__info">Prev</div>
+          </Link>
+        </div>
+        <div className="work-nav__item work-nav__item--next">
+          <Link className="work-nav__link" to={GetWorks[this.next].name}>
+            <div className="work-nav__media">{this.media(this.next)}</div>
+            <div className="work-nav__info">Next</div>
+          </Link>
+        </div>
+      </div>
+    );
+  }
+}
 
 WorkNavigation.propTypes = {
   position: React.PropTypes.number,

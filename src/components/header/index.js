@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 
-
 import Introduction from '../../sections/introduction';
 import About from '../../sections/about';
 import Contact from '../../sections/contact';
