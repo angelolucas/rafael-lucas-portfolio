@@ -1,6 +1,7 @@
 // Dependencies
 import React from 'react';
 import MatchWithFade from '../../components/match-with-fade';
+import GetWorks from '../../components/get-works';
 
 // Works
 import MovaMais from '../mova-mais';
@@ -9,16 +10,6 @@ import BBPrivate from '../bb-private';
 import DavidYurman from '../david-yurman';
 import Escinter from '../escinter';
 import Emicida from '../emicida';
-
-// Pre load media
-import posterMovaMais from '../mova-mais/media/video-poster.jpg';
-import posterCaixaNasRuas from '../caixa-nas-ruas/media/work-head.jpg';
-
-import videoMovaMais from '../mova-mais/media/video.mp4';
-import videoBBPrivate from '../bb-private/media/video.mp4';
-import videoEscinter from '../escinter/media/video.mp4';
-import videoEmicida from '../emicida/media/video.mp4';
-import videoDavidYurman from '../david-yurman/media/video.mp4';
 
 function AllWorks() {
   return (
@@ -30,15 +21,21 @@ function AllWorks() {
       <MatchWithFade pattern="/escinter" component={Escinter} />
       <MatchWithFade pattern="/emicida" component={Emicida} />
 
+      {/* Load videos and posters if viewport is greater than 480px */}
       { window.innerWidth >= 480 &&
       <div className="all-works__preloaders" style={{ display: 'none' }}>
-        <img src={posterMovaMais} alt="" />
-        <img src={posterCaixaNasRuas} alt="" />
-        <video src={videoMovaMais} />
-        <video src={videoBBPrivate} />
-        <video src={videoDavidYurman} />
-        <video src={videoEscinter} />
-        <video src={videoEmicida} />
+        {
+          Object.keys(GetWorks).map((work, key) => (
+            GetWorks[work].poster &&
+            <img key={key} src={GetWorks[work].poster} alt="" />
+          ))
+        }
+        {
+          Object.keys(GetWorks).map((work, key) => (
+            GetWorks[work].video &&
+            <video key={key} src={GetWorks[work].video} />
+          ))
+        }
       </div>
       }
     </div>
