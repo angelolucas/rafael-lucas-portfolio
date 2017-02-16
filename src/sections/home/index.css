@@ -21,6 +21,9 @@
 }
 @media (--viewport-min ) {
   .home__effect__overlay {
+    height: 120vh;
+  }
+  .home__effect__overlay {
     border-width: 0;
   }
 }

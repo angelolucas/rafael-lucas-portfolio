@@ -140,6 +140,9 @@
   }
 }
 @media (--viewport-min) {
+  .header__section {
+    padding-top: calc(var(--fluid-side-spacing) * 4)vw;
+  }
   .header__section--left .header__section__back {
     top: calc(var(--fluid-side-spacing) * 2)vw;
     right: calc(var(--fluid-side-spacing) * 2)vw;
@@ -149,8 +152,9 @@
     left: calc(var(--fluid-side-spacing) * 2)vw;
   }
   .header__nav {
-    bottom: calc(var(--fluid-side-spacing) * 2)vw;
+    top: calc(var(--fluid-side-spacing) * 4)vw;
     left: calc(var(--fluid-side-spacing) * 2)vw;
     right: calc(var(--fluid-side-spacing) * 2)vw;
-  } 
+    bottom: inherit;
+  }
 }

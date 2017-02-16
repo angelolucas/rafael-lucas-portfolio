@@ -55,6 +55,7 @@ class Header extends Component {
             <About />
             <button
               className="header__section__back link-underlined"
+              onTouchEnd={() => this.section(1)}
               onClick={() => this.section(1)}
             >
               Back <span className="header__section__back--arrow" />
@@ -66,6 +67,7 @@ class Header extends Component {
             <Contact />
             <button
               className="header__section__back link-underlined"
+              onTouchEnd={() => this.section(1)}
               onClick={() => this.section(1)}
             >
               <span className="header__section__back--arrow" /> Back
@@ -78,6 +80,7 @@ class Header extends Component {
           <button
             className="header__nav__item link-underlined"
             data-section-id="2"
+            onTouchEnd={() => this.section(2)}
             onClick={() => this.section(2)}
           >
             about
@@ -85,6 +88,7 @@ class Header extends Component {
 
           <button
             className="header__nav__item link-underlined"
+            onTouchEnd={this.work}
             onClick={this.work}
           >
             work
@@ -93,6 +97,7 @@ class Header extends Component {
           <button
             className="header__nav__item link-underlined"
             data-section-id="3"
+            onTouchEnd={() => this.section(3)}
             onClick={() => this.section(3)}
           >
             contact
