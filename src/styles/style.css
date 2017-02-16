@@ -16,7 +16,6 @@
 
 /* Components */
 @import '../components/header';
-@import '../components/header-navigation';
 @import '../components/list-works';
 @import '../components/footer';
 @import '../components/work-thumbnail';
