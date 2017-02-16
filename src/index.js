@@ -7,20 +7,13 @@ import Router from 'react-router/BrowserRouter';
 import './styles/style.css';
 
 // App
-import Header from './components/header';
-import ListWorks from './components/list-works';
-import Footer from './components/footer';
+import Home from './sections/home';
 import AllWorks from './sections/all-works';
 
 ReactDOM.render(
   <Router>
     <div>
-      <Header />
-
-      <ListWorks />
-
-      <Footer />
-
+      <Home />
       <AllWorks />
     </div>
   </Router>,

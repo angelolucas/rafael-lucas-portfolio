@@ -1,26 +1,7 @@
 .header {
-  background-color: var(--whiteBackground);
   position: relative;
   width: 100%;
   height: 100vh;
   color: white;
-  z-index: 3;
   overflow: hidden;
-}
-.header__background {
-  content: "";
-  position: fixed;
-  width: 100%;
-  height: 100vh;
-  top: 0;
-  left: 0;
-  background: #151515;
-  border: 15px solid #272727;
-  box-sizing: border-box;
-  pointer-events: none;
-}
-@media (--viewport-min ) {
-  .header__background {
-    border-width: 10px;
-  }
 }

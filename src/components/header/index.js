@@ -1,44 +1,22 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 import Introduction from '../../sections/introduction';
 import About from '../../sections/about';
 import Contact from '../../sections/contact';
 import Navigation from '../header-navigation';
 
-class Header extends Component {
-  componentDidMount() {
-    const heightEffect = (80 / 100) * window.innerHeight;
+function Header() {
+  return (
+    <header className="header">
+      <Introduction />
 
-    window.addEventListener('scroll', () => {
-      let opacity = (window.scrollY * 100) / heightEffect; // get scroll in percentage
-      opacity /= 100; // decreases to scale 0 to 1
-      opacity = 1 - opacity; // invert values
-      opacity = opacity.toFixed(3); // limits to 3 decimals
+      <About />
 
-      if (opacity < 0) {
-        opacity = 0;
-      }
+      <Contact />
 
-      this.effect.setAttribute('style', `opacity:${opacity}`);
-    });
-  }
-  render() {
-    return (
-      <header className="header">
-        <div ref={(effect) => { this.effect = effect; }}>
-          <div className="header__background" />
-
-          <Introduction />
-
-          <About />
-
-          <Contact />
-
-          <Navigation />
-        </div>
-      </header>
-    );
-  }
+      <Navigation />
+    </header>
+  );
 }
 
 export default Header;
