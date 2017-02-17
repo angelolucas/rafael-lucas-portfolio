@@ -7,9 +7,3 @@
 .work-guideline img:last-child {
   margin-bottom: 0;
 }
-
-@media (--viewport-min) {
-  .work-guideline {
-    display: none;
-  }
-}

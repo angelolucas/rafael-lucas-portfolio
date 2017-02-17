@@ -1,8 +1,3 @@
-/* Break Points */
-@custom-media --viewport-max (width < 1440px);
-@custom-media --viewport-med (width < 960px);
-@custom-media --viewport-min (width < 480px);
-
 :root {
   /* Side Spacing */
   --fluid-side-spacing: 5.5;
