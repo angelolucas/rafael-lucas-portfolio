@@ -34,15 +34,20 @@ function Section() {
   return (
     <section className="mm">
 
-      {/* Hero Image */}
-      <WorkHead
-        name="mm"
-        title="Mova Mais"
-        category="app"
-        src={video}
-        poster={posterVideo}
-        type="video"
-      />
+      {/*
+        Work Head
+        Disabled for small devices
+      */}
+      { window.innerWidth >= 480 &&
+        <WorkHead
+          name="mm"
+          title="Mova Mais"
+          category="app"
+          src={video}
+          poster={posterVideo}
+          type="video"
+        />
+      }
 
       {/* Intro */}
       <div className="work-intro">
@@ -239,16 +244,19 @@ function Section() {
         </div>
       </div>
 
-      {/* Step 07 */}
+      {/*
+        Guideline
+        Disabled for small devices
+      */}
       { window.innerWidth >= 480 &&
-      <div className="work-step work-step--mm07 work-guideline">
-        <div className="container">
-          <h3 className="work-step__title">Guideline</h3>
-          <img src={guidelineColors} alt="" />
-          <img src={guidelineFont} alt="" />
-          <img src={guidelineIcons} alt="" />
+        <div className="work-step work-step--mm07 work-guideline">
+          <div className="container">
+            <h3 className="work-step__title">Guideline</h3>
+            <img src={guidelineColors} alt="" />
+            <img src={guidelineFont} alt="" />
+            <img src={guidelineIcons} alt="" />
+          </div>
         </div>
-      </div>
       }
 
       {/* Step 08 */}

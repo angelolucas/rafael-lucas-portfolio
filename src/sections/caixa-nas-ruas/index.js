@@ -40,15 +40,20 @@ function Section() {
   return (
     <section className="cnr">
 
-      {/* Hero Image */}
-      <WorkHead
-        name="cnr"
-        title="Caixa Nas Ruas"
-        category="web desktop & mobile"
-        color="#a0a8ab"
-        src={workHeadImage}
-        type="image"
-      />
+      {/*
+        Work Head
+        Disabled for small devices
+      */}
+      { window.innerWidth >= 480 &&
+        <WorkHead
+          name="cnr"
+          title="Caixa Nas Ruas"
+          category="web desktop & mobile"
+          color="#a0a8ab"
+          src={workHeadImage}
+          type="image"
+        />
+      }
 
       {/* Intro */}
       <div className="work-intro">
@@ -160,15 +165,18 @@ function Section() {
         </div>
       </div>
 
-      {/* Step 04 */}
+      {/*
+        Guideline
+        Disabled for small devices
+      */}
       { window.innerWidth >= 480 &&
-      <div className="work-step work-step--cnr04 work-guideline">
-        <div className="container">
-          <h3 className="work-step__title">Guideline</h3>
-          <img src={colors} alt="colors" />
-          <img src={types} alt="types" />
+        <div className="work-step work-step--cnr04 work-guideline">
+          <div className="container">
+            <h3 className="work-step__title">Guideline</h3>
+            <img src={colors} alt="colors" />
+            <img src={types} alt="types" />
+          </div>
         </div>
-      </div>
       }
 
       {/* Step 05 */}

@@ -21,7 +21,10 @@ function AllWorks() {
       <MatchWithFade pattern="/escinter" component={Escinter} />
       <MatchWithFade pattern="/emicida" component={Emicida} />
 
-      {/* Load videos and posters if viewport is greater than 480px */}
+      {/*
+        Preloaders
+        Disabled for small devices
+      */}
       { window.innerWidth >= 480 &&
       <div className="all-works__preloaders" style={{ display: 'none' }}>
         {

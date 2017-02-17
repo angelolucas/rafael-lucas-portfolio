@@ -21,15 +21,20 @@ function Section() {
   return (
     <section className="bbp">
 
-      {/* Hero Image */}
-      <WorkHead
-        name="bbp"
-        title="BB Private"
-        category="web desktop"
-        color="black"
-        src={video}
-        type="video"
-      />
+      {/*
+        Work Head
+        Disabled for small devices
+      */}
+      { window.innerWidth >= 480 &&
+        <WorkHead
+          name="bbp"
+          title="BB Private"
+          category="web desktop"
+          color="black"
+          src={video}
+          type="video"
+        />
+      }
 
       {/* Intro */}
       <div className="work-intro">
@@ -119,13 +124,16 @@ function Section() {
         </div>
       </div>
 
-      {/* Guideline */}
+      {/*
+        Guideline
+        Disabled for small devices
+      */}
       { window.innerWidth >= 480 &&
-      <div className="work-guideline">
-        <div className="container">
-          <img src={guideline} alt="Guideline" />
+        <div className="work-guideline">
+          <div className="container">
+            <img src={guideline} alt="Guideline" />
+          </div>
         </div>
-      </div>
       }
 
       {/* Mockup */}

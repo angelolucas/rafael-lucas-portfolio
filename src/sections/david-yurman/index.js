@@ -24,15 +24,20 @@ function Section() {
   return (
     <section className="dy">
 
-      {/* Hero Image */}
-      <WorkHead
-        name="dy"
-        title="David Yurman"
-        category="web mobile"
-        color="black"
-        src={video}
-        type="video"
-      />
+      {/*
+        Work Head
+        Disabled for small devices
+      */}
+      { window.innerWidth >= 480 &&
+        <WorkHead
+          name="dy"
+          title="David Yurman"
+          category="web mobile"
+          color="black"
+          src={video}
+          type="video"
+        />
+      }
 
       {/* Intro */}
       <div className="work-intro">
@@ -147,14 +152,17 @@ function Section() {
         <img src={credits} alt="" />
       </div>
 
-      {/* Guideline */}
+      {/*
+        Guideline
+        Disabled for small devices
+      */}
       { window.innerWidth >= 480 &&
-      <div className="work-guideline">
-        <div className="container">
-          <h3 className="work-guideline__title">Style Guide</h3>
-          <img className="work-guideline__image" src={guideline} alt="Guideline" />
+        <div className="work-guideline">
+          <div className="container">
+            <h3 className="work-guideline__title">Style Guide</h3>
+            <img className="work-guideline__image" src={guideline} alt="Guideline" />
+          </div>
         </div>
-      </div>
       }
 
       {/* Mockup */}
