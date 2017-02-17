@@ -12,6 +12,7 @@ import mockup from './media/mockup.jpg';
 import step01 from './media/step1.png';
 import step02 from './media/step2.png';
 import step03 from './media/step3.png';
+import dailyGoal from './media/daily-goal.png';
 import engagement01 from './media/engagement01.png';
 import engagement02 from './media/engagement02.png';
 import engagement03 from './media/engagement03.png';
@@ -124,7 +125,9 @@ function Section() {
           <h3 className="work-step__title">Daily Goal</h3>
           <p className="work-step__description">Um dos maiores objetivos da aplicativo é fazer com que o usuário se sinta sempre motivado a se exercitar, por isso exibimos mensagens de incentivo, sobretudo para não perder a sequência de exercícios.</p>
         </div>
-        <div className="work-step--mm03__background" />
+        <div className="mm__daily-goal__image">
+          <img src={dailyGoal} alt="" />
+        </div>
       </div>
 
       {/* Step 04 */}
