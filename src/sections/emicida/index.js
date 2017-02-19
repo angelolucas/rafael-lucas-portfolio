@@ -181,7 +181,7 @@ function Section() {
         Disabled for small devices
       */}
       { window.innerWidth >= 480 &&
-        <div className="work-guideline">
+        <div className="work-guideline hide-viewport--min">
           <div className="container">
             <h2>Color Pallete</h2>
             <img src={pallete} alt="" />

@@ -54,7 +54,7 @@ class WorkNavigation extends Component {
           <Link className="work-nav__link" to={GetWorks[this.prev].name}>
             {/* Disabled media for mobile */}
             { window.innerWidth >= 480 &&
-              <div className="work-nav__media">{this.media(this.prev)}</div>
+              <div className="work-nav__media hide-viewport--min">{this.media(this.prev)}</div>
             }
             <div className="work-nav__pttrn" />
             <div className="work-nav__info">prv</div>
@@ -64,7 +64,7 @@ class WorkNavigation extends Component {
           <Link className="work-nav__link" to={GetWorks[this.next].name}>
             {/* Disabled media for mobile */}
             { window.innerWidth >= 480 &&
-              <div className="work-nav__media">{this.media(this.next)}</div>
+              <div className="work-nav__media hide-viewport--min">{this.media(this.next)}</div>
             }
             <div className="work-nav__pttrn" />
             <div className="work-nav__info">nxt</div>

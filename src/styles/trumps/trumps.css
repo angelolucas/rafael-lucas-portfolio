@@ -1,7 +1,3 @@
-.hide-viewport--min {
-  display: none!important;
-}
-
 @media (--viewport-min) {
   .hide-viewport--min {
     display: none!important;

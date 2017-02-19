@@ -157,7 +157,7 @@ function Section() {
         Disabled for small devices
       */}
       { window.innerWidth >= 480 &&
-        <div className="work-guideline">
+        <div className="work-guideline hide-viewport--min">
           <div className="container">
             <h3 className="work-guideline__title">Style Guide</h3>
             <img className="work-guideline__image" src={guideline} alt="Guideline" />

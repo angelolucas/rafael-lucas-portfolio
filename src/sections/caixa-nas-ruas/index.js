@@ -170,7 +170,7 @@ function Section() {
         Disabled for small devices
       */}
       { window.innerWidth >= 480 &&
-        <div className="work-step work-step--cnr04 work-guideline">
+        <div className="work-step work-step--cnr04 work-guideline hide-viewport--min">
           <div className="container">
             <h3 className="work-step__title">Guideline</h3>
             <img src={colors} alt="colors" />

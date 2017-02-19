@@ -52,7 +52,7 @@ class WorkHead extends Component {
       );
     }
     return (
-      <div className="work-head" style={{ backgroundColor: this.props.color }}>
+      <div className="work-head hide-viewport--min" style={{ backgroundColor: this.props.color }}>
         <div className="work-head__media" ref={(workMedia) => { this.workMedia = workMedia; }}>
           {media}
         </div>

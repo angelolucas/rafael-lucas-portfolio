@@ -75,7 +75,7 @@ function Section() {
         Disabled for small devices
       */}
       { window.innerWidth >= 480 &&
-        <div className="work-sitemap">
+        <div className="work-sitemap hide-viewport--min">
           <div className="container">
             <h2>Structure of site</h2>
             <img src={siteMap} alt="Site Map" />
@@ -158,7 +158,7 @@ function Section() {
         Disabled for small devices
       */}
       { window.innerWidth >= 480 &&
-        <div className="work-guideline">
+        <div className="work-guideline hide-viewport--min">
           <div className="container">
             <img src={guideline} alt="Guideline" />
           </div>
