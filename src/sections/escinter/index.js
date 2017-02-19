@@ -17,6 +17,7 @@ import contact from './media/contact.png';
 import navigation from './media/navigation.png';
 import devices from './media/devices.png';
 import credits from './media/credits.png';
+import creditsMin from './media/credits-min.png';
 import guideline from './media/guideline.png';
 import mockup2 from './media/mockup2.png';
 
@@ -130,7 +131,10 @@ function Section() {
           <div className="container">
             <h4 className="work-credits__title">Credits</h4>
             <p className="work-credits__description">Design versão desktop: <a href="https://www.linkedin.com/in/adrielnunes" target="_blank" rel="noopener noreferrer">Adriel Nunes</a></p>
-            <img src={credits} alt="" />
+            <picture>
+              <source srcSet={creditsMin} media="(max-width: 480px)" />
+              <img src={credits} alt="Credits" />
+            </picture>
           </div>
         </div>
       </div>
