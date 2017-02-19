@@ -1,10 +1,11 @@
 :root {
-  --cnr-colorfulDetails: #50afcc;
+  --cnr-colorfulDetails: rgb(70, 181, 221);
   --cnr-text: #333333;
   --cnr-darkText: #274560;
-  --cnr-BGColorful: #5293ca;
+  --cnr-BGColorful: rgb(52, 158, 213);
   --cnr-BGDefault: #f0f0f0;
 }
+
 .cnr {
   background-color: var(--cnr-BGDefault);
   color: var(--cnr-text);
@@ -16,6 +17,9 @@
     text-transform: uppercase;
     font-size: 45px;
     margin-top: 120px;
+  }
+  .work-intro .container {
+    max-width: 860px;
   }
   .work-step__title {
     &:before {
@@ -31,6 +35,7 @@
   .work-step__description {
     margin-top: 30px;
     margin-bottom: 80px;
+    max-width: 640px;
   }
   .work-results__title {
     font-weight: 700;
