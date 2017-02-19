@@ -213,11 +213,18 @@ function Section() {
         </div>
       </div>
 
-      {/* Mockup */}
-      <picture>
-        <source srcSet={mockup2Min} media="(max-width: 480px)" />
-        <img className="image-full" src={mockup2} alt="" />
-      </picture>
+      {/*
+        Mockup
+        Static for small and medium devices
+        Fixed for greater than med devices
+      */}
+      { window.innerWidth < 960 ? (
+        <img className="image-full" src={mockup2Min} alt="" />
+      ) : (
+        <div className="fixed-image">
+          <div className="fixed-image__image" style={{ backgroundImage: `url(${mockup2})` }} />
+        </div>
+      )}
     </section>
   );
 }
