@@ -1,0 +1,12 @@
+.fixed-image { 
+  height: 100vh;
+}
+
+.fixed-image__image {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+}

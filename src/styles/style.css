@@ -32,6 +32,7 @@
 @import '../components/two-columns';
 @import '../components/back-to-home';
 @import '../components/back-to-top';
+@import '../components/fixed-image';
 
 /* sections */
 @import '../sections/home';
