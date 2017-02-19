@@ -107,6 +107,7 @@
   z-index: 3;
 }
 .header__nav__item {
+  transition: color 0.4s ease;
   background: transparent;
   color: #a5a5a5;
   border: none;
@@ -115,7 +116,8 @@
   letter-spacing: 1px;
   padding: 0;
 
-  &.header__nav__item--active {
+  &.header__nav__item--active,
+  &:hover {
     color: white;
   }
 }
