@@ -1,7 +1,7 @@
 :root {
   --ect-colorfulDetails: #ff1d4f;
   --ect-text: #333333;
-  --ect-BGDefault: #e6e5e3;
+  --ect-BGDefault: #e7e6e4;
 }
 .ect {
   background-color: var(--ect-BGDefault);
@@ -11,7 +11,14 @@
     color: var(--ect-colorfulDetails);
   }
   .work-intro .container {
-    max-width: 920px;
+    max-width: 840px;
+  }
+  .chess-list__title {
+    font-weight: 600;
+    font-size: 42px;
+  }
+  .chess-list > li p {
+    max-width: 410px;
   }
   .work-sitemap img {
     margin-bottom: 100px;
@@ -22,11 +29,17 @@
   .work-step__title:after {
     border-color: var(--ect-colorfulDetails);
   }
+  .work-step--ect02 {
+    padding-bottom: 10px;
+  }
   .chess-list__title:after {
     border-color: var(--ect-colorfulDetails);
   }
   .chess-list img {
     transform: translateX(12%);
+  }
+  .image-full--devices {
+    margin-bottom: 120px;
   }
   .work-credits__title {
     font-size: 30px;
