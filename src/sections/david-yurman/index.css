@@ -23,7 +23,7 @@
   }
   .chess-list__title {
     text-transform: uppercase;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 50px;
   }
   .chess-list__title:after {
@@ -34,7 +34,7 @@
   }
   .work-guideline__title {
     font-size: 35px;
-    font-weight: 100;
+    font-weight: 300;
     text-transform: uppercase;
     margin-bottom: 90px;
   }
@@ -43,13 +43,13 @@
   }
   .credits__title {
     font-size: 35px;
-    font-weight: 100;
+    font-weight: 300;
     margin-bottom: 30px;
   }
   .credits__info {
     max-width: 730px;
     margin: 0 auto 90px;
     line-height: 1.7;
-    font-weight: 100;
+    font-weight: 300;
   }
 }
