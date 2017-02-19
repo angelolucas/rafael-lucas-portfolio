@@ -143,7 +143,7 @@ function Section() {
           <ul className="chess-list chess-list-engagement">
             <li>
               <div className="chess-list__info">
-                <h4 className="chess-list__title">Reach the daily goal!</h4>
+                <h4 className="chess-list__title">Reach the goal!</h4>
                 <p>You earned <strong>20 points</strong> for achieving your goal for the first time!”</p>
               </div>
               <div>

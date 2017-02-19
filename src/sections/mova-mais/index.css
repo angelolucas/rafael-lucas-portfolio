@@ -24,6 +24,7 @@
   }
   .work-step__description {
     margin-top: 50px;
+    max-width: 600px;
   }
 
   .chess-list__title:after {
@@ -60,7 +61,7 @@
   }
   > li p {
     font-size: 34px;
-    max-width: 450px;
+    max-width: 380px;
   }
   > li:last-child {
     margin-bottom: 0;
@@ -87,11 +88,10 @@
   .chess-list__title:after {
     display: none;
   }
-  p {
-    font-size: 34px;
-    max-width: 450px;
+  > li p {
+    max-width: 340px;
   }
-  strong {
+  > li strong {
     color: #55c367;
     font-weight: 500;
   }
