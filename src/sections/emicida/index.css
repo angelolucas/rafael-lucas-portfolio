@@ -13,6 +13,12 @@
   .work-intro .container {
     max-width: 1020px;
   }
+  .chess-list > li p {
+    max-width: 342px;
+  }
+  .chess-list__title {
+    font-weight: 600;
+  }
   .work-intro__subtitle {
     color: #dedfde;
   }
