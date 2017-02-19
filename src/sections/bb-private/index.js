@@ -22,6 +22,7 @@ import aboutTheClient from './media/about-the-client.jpg';
 import aboutTheClientMin from './media/about-the-client-min.jpg';
 import guideline from './media/guideline.png';
 import mockup2 from './media/mockup2.png';
+import mockup2Min from './media/mockup2-min.jpg';
 
 function Section() {
   return (
@@ -165,8 +166,18 @@ function Section() {
         </div>
       }
 
-      {/* Mockup */}
-      <img className="image-full" src={mockup2} alt="" />
+      {/*
+        Mockup
+        Static for small and medium devices
+        Fixed for greater than med devices
+      */}
+      { window.innerWidth < 960 ? (
+        <img className="image-full" src={mockup2Min} alt="" />
+      ) : (
+        <div className="fixed-image">
+          <div className="fixed-image__image" style={{ backgroundImage: `url(${mockup2})` }} />
+        </div>
+      )}
     </section>
   );
 }
