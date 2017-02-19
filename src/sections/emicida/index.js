@@ -50,8 +50,8 @@ function Section() {
         <div className="container">
           <img src={logo} width="180" alt="David Yurman" />
           <h2>Concept</h2>
-          <h3 className="work-intro__subtitle">E.M.I.C.I.D.A<br /> &quot;Enquanto Minha Imaginação Compuser Insanidades Domino a Arte&quot;</h3>
-          <p className="work-intro__description">Site institucional do rapper e produtor musical brasileiro Emicida. Considero uma das maiores revelações do hip hop do Brasil. Famoso por suas constantes vitórias nas batalhas do improvi</p>
+          <h3 className="work-intro__subtitle">E.M.I.C.I.D.A<br /> &quot;While my imagination compose insanities I dominate the art&quot;</h3>
+          <p className="work-intro__description">Institutional site of the Brazilian rapper and musical producer Emicida. Considered one of the bigger revelations of hip hop of Brazil. Famous for his constant victories in improvisation battles.</p>
         </div>
       </div>
 
@@ -71,7 +71,7 @@ function Section() {
       <div className="work-objective">
         <div className="container">
           <h2>Objective</h2>
-          <p>Fazer com que a experiência do site móvel seja completa e amigável, permitindo que o usuário conheça o artista, sua obra, tragetória e tenha acesso a sua agenda de maneira acessível e intuitiva.</p>
+          <p>Make the mobile site experience complete and user-friendly, allowing the user to meet the artist, his work, trajectory and have access to his agenda agenda in an accessible and intuitive mode.</p>
         </div>
       </div>
 
@@ -95,7 +95,7 @@ function Section() {
             <li>
               <div className="chess-list__info chess-list__info--sticky">
                 <h4 className="chess-list__title">Home Page</h4>
-                <p>Slideshow de início com os principais destaques do site. Em sequida boxes representando cada área do site. Abaixo as redes sociais do MC.</p>
+                <p>Slideshow of beginning with main highlights of the site. Then boxes representing each area of the site. Below are the social networks of MC.</p>
               </div>
               <div>
                 <img src={homePage} alt="Home Page" />
@@ -104,7 +104,7 @@ function Section() {
             <li>
               <div className="chess-list__info chess-list__info--sticky">
                 <h4 className="chess-list__title">Editorial</h4>
-                <p>Área de conteúdo, onde permite que o artista apresente suas objeções, filosofias  e ideais de vida de forma mais produnda.</p>
+                <p>Content’s area, where the artist can present his objections, philosophies and ideals of life in a deeper way.</p>
               </div>
               <div>
                 <img src={editorial} alt="Editorial" />
@@ -113,7 +113,7 @@ function Section() {
             <li>
               <div className="chess-list__info chess-list__info--sticky">
                 <h4 className="chess-list__title">Biography</h4>
-                <p>Nessa página é possível conhecer melhor sua tragetória de vida, início de carreira e suas influências. Aqui também é exibido os sua equipe de trabalho.</p>
+                <p>In this page is possible meet better his life trajectory, beginning of career and his influences. Here you will also see your work team.</p>
               </div>
               <div>
                 <img src={biography} alt="Biography" />
@@ -122,7 +122,7 @@ function Section() {
             <li>
               <div className="chess-list__info chess-list__info--sticky">
                 <h4 className="chess-list__title">Agenda</h4>
-                <p>Exposição de todos os compromissos e shows do rapper. É possível filtrar por mês.</p>
+                <p>Exhibition of all the commitments and shows of the rapper. It’s possible filter by month.</p>
               </div>
               <div>
                 <img src={agenda} alt="Agenda" />
@@ -131,7 +131,7 @@ function Section() {
             <li>
               <div className="chess-list__info chess-list__info--sticky">
                 <h4 className="chess-list__title">Discography</h4>
-                <p>Nessa página é possível conhecer toda sua obra, ter acesso as músicas dos álbuns e acessar as plataformas de compra e streaming.</p>
+                <p>In this page it’s possible to know all his work, to have access to the songs of the albums and to access the platforms of buy and streaming.</p>
               </div>
               <div>
                 <img src={discography} alt="Discography" />
@@ -140,7 +140,7 @@ function Section() {
             <li>
               <div className="chess-list__info chess-list__info--sticky">
                 <h4 className="chess-list__title">Photos Gallery</h4>
-                <p>Galeria de fotos e vídeos de shows, clipes, e até aquivos pessoais.</p>
+                <p>Gallery of photos and videos, clips, and even personal files.</p>
               </div>
               <div>
                 <img src={photosGallery} alt="Gallery" />
@@ -149,7 +149,7 @@ function Section() {
             <li>
               <div className="chess-list__info">
                 <h4 className="chess-list__title">Contact</h4>
-                <p>Emails para contato, assessoria de impresa e link da gravadora.</p>
+                <p>E-mails for contact, press office and link of the record company.</p>
               </div>
               <div>
                 <img src={contact} alt="Contact" />
@@ -158,7 +158,7 @@ function Section() {
             <li>
               <div className="chess-list__info">
                 <h4 className="chess-list__title">Navigation</h4>
-                <p>Menu simples e elegante que dá acesso a todas as páginas do site.</p>
+                <p>Simple and elegant menu that gives access to all pages of the site.</p>
               </div>
               <div>
                 <img src={navigation} alt="Navigation" />
@@ -180,7 +180,7 @@ function Section() {
         </div>
         <div className="container">
           <h3 className="work-credits__title">Credits</h3>
-          <p className="work-credits__description">Tive como insumo a versão desktop produzida pelo designer <a href="https://www.linkedin.com/in/adrielnunes" target="_blank" rel="noopener noreferrer">Adriel Nunes</a>, que também assina a direção de arte de alguns clips e a última capa de álbum.</p>
+          <p className="work-credits__description">I had like input the version desktop produced by the designer <a href="https://www.linkedin.com/in/adrielnunes" target="_blank" rel="noopener noreferrer">Adriel Nunes</a>, who also signs the art direction of some clips and the last album cover.</p>
         </div>
       </div>
 

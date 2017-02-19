@@ -63,7 +63,7 @@ function Section() {
       <div className="work-objective">
         <div className="container">
           <h2>Objective</h2>
-          <p>Projetar uma experiência móvel para um comércio eletrônico de jóias de luxo, permitindo que a exposição e compra dos produtos sejam efetuadas de maneira amigável, intuitiva e elegante.</p>
+          <p>Design a mobile experience for an e-commerce of luxurious jewelry, allowing the exposition and buy of products to be done in a friendly, intuitive and elegant way.</p>
         </div>
       </div>
 
@@ -73,7 +73,7 @@ function Section() {
           <li>
             <div className="chess-list__info">
               <h4 className="chess-list__title">Home Page</h4>
-              <p>Slideshow com as principais ofertas. Acesso ao menu de navegação e quantidade de produtos na bolsa no header.</p>
+              <p>Slideshow with the principal offers. Access to navigation menu and quantity of products in the header bag shopping.</p>
             </div>
             <div>
               <img src={homePage} alt="Home Page" />
@@ -82,7 +82,7 @@ function Section() {
           <li>
             <div className="chess-list__info">
               <h4 className="chess-list__title">Navigation</h4>
-              <p>Menu simples, com componentes cumprimidos. É possível efetuar uma busca e acessar as demais áreas do site através dele.</p>
+              <p>Simple menu, with compressed components. It is possible make a search and access the other areas of site through this.</p>
             </div>
             <div>
               <img src={navigation} alt="Navigation" />
@@ -91,7 +91,7 @@ function Section() {
           <li>
             <div className="chess-list__info chess-list__info--sticky">
               <h4 className="chess-list__title">Explore</h4>
-              <p>É possível visualizar vários produtos ao mesmo tempo, além de filtrar pro preço, tamanho, cor e categoria.</p>
+              <p>It is possible see various products at the same time, besides filter for value, size, color and category.</p>
             </div>
             <div>
               <img src={explore} alt="Explore" />
@@ -100,7 +100,7 @@ function Section() {
           <li>
             <div className="chess-list__info chess-list__info--sticky">
               <h4 className="chess-list__title">Procuct Detail</h4>
-              <p>Na página do produto é exposta imagens bem destacadas, onde é possível visualizar todos os detalhes da peça. Também é exibido as cores disponívels, dimenções, preços e vários outros detalhes.</p>
+              <p>In the product’s page the pictures are shown highlighted, where is possible see all the object’s details. The available colors, dimensions, prices and others details.</p>
             </div>
             <div>
               <img src={productDetail} alt="Procuct Detail" />
@@ -109,7 +109,7 @@ function Section() {
           <li>
             <div className="chess-list__info chess-list__info--sticky">
               <h4 className="chess-list__title">Search</h4>
-              <p>Busca por produtos com filtros, permitindo uma pesquisa rápida e efeciente.</p>
+              <p>Look for products with filters, allowing a fast and efficient search.</p>
             </div>
             <div>
               <img src={search} alt="Search" />
@@ -118,7 +118,7 @@ function Section() {
           <li>
             <div className="chess-list__info chess-list__info--sticky">
               <h4 className="chess-list__title">Shopping Bag</h4>
-              <p>Detalhes de todos os produtos adicionados na bolsa. Com navegação intuitiva o usuário consegue facilmente remover itens ou finalizar comprar.</p>
+              <p>Details of all products added to the bag. With an efficient navigation the user can easily remove items or finish the buy.</p>
             </div>
             <div>
               <img src={shoppingBag} alt="Shopping Bag" />
@@ -127,7 +127,7 @@ function Section() {
           <li>
             <div className="chess-list__info chess-list__info--sticky">
               <h4 className="chess-list__title">Checkout</h4>
-              <p>Último passo para compra, página onde o usuário preenche dados pessoais e de pagamento para conclusão da compra.</p>
+              <p>Last step for buying, page where the user fills in personal informations and the buy way for finish the buy.</p>
             </div>
             <div>
               <img src={checkout} alt="Checkout" />
@@ -136,7 +136,7 @@ function Section() {
           <li>
             <div className="chess-list__info">
               <h4 className="chess-list__title">Find A Store</h4>
-              <p>Forma fácil de encontrar uma loja próxima, identificando a localização ou inserindo o código postal.</p>
+              <p>Easy way to find a shop nearby by identifying the location or entering the zip code.</p>
             </div>
             <div>
               <img src={findAStore} alt="Find A Store" />
@@ -149,7 +149,7 @@ function Section() {
       <div className="credits">
         <div className="container">
           <h3 className="credits__title">Credits</h3>
-          <p className="credits__info">Tive como insumo o layout para desktop desenhado pelo então designer da David Yurman, <a href="http://w.sunghean.com/" target="_blank" rel="noopener noreferrer">Sung Hean</a> e pelo designer <a href="http://alexlins.com/portfolio/design/" target="_blank" rel="noopener noreferrer">Alex Lins</a>. Minha função no projeto foi desenhar o site para dispositivos móveis juntamente com o designer <a href="https://www.linkedin.com/in/adrielnunes" target="_blank" rel="noopener noreferrer">Adriel Nunes</a>.</p>
+          <p className="credits__info">I had like input the layout for desktop drew by the designer from David Yurman, <a href="http://w.sunghean.com/" target="_blank" rel="noopener noreferrer">Sung Hean</a> and by the designer <a href="http://alexlins.com/portfolio/design/" target="_blank" rel="noopener noreferrer">Alex Lins</a>. My role in the project was draw the site for mobile devices together the designer <a href="https://www.linkedin.com/in/adrielnunes" target="_blank" rel="noopener noreferrer">Adriel Nunes</a>.</p>
         </div>
       </div>
 

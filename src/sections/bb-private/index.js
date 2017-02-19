@@ -47,8 +47,8 @@ function Section() {
         <div className="container">
           <img src={logo} width="204" alt="Logo Banco do Brasil Private" />
           <h2>Concept</h2>
-          <h3 className="work-intro__subtitle">Não conte com a Sorte. Conte com o Private.</h3>
-          <p className="work-intro__description">Site institucional do segmento Private do maior banco da América Latina. Tem por objetivo atenter às necessidades de aconselhamento financeiro e gestão de recursos, com estratégias personalizadas de forma isenta e transparente.</p>
+          <h3 className="work-intro__subtitle">Don’t reckon with lucky. Reckon with BB Private.</h3>
+          <p className="work-intro__description">Institutional site of private segment of the biggest bank of Latin America. It aims to meet the needs of financial counseling and resource management, with customized strategies from a transparent and exempted mode.</p>
         </div>
       </div>
 
@@ -66,7 +66,7 @@ function Section() {
       <div className="work-objective">
         <div className="container">
           <h2>Objective</h2>
-          <p>Desenhar um ambiente agradável e confiável onde o cliente se sinta seguro. Além de transmitir credibilidade ao público e apresentar o modelo de relacionamento exclusivo, sólido e experiente.</p>
+          <p>Design an enjoyable and reliable ambience where the customer feels safe. Besides transmitting credibility to public and presenting the model of exclusive, solid and experient relationship.</p>
         </div>
       </div>
 
@@ -92,7 +92,7 @@ function Section() {
           </picture>
           <div className="work-screen__info">
             <h3 className="work-screen__title">Home Page</h3>
-            <p className="work-screen__description">Página inicial, exibe um slideshow elegante que dá acesso a página em destaque do momento. No header tem os três pilares do site e o botão para acesso a área privada.</p>
+            <p className="work-screen__description">Initial page show an elegant slideshow which gives access to page in highlight of moment. In the header has the three pillars of the site and a button to access a logged area.</p>
           </div>
         </div>
       </div>
@@ -106,7 +106,7 @@ function Section() {
           </picture>
           <div className="work-screen__info">
             <h3 className="work-screen__title">Private Client</h3>
-            <p className="work-screen__description">Página que expõe as principais vantagens de ser cliente do seguimento, e o leque de serviços oferecidos, como atendimento exclusivo e consultoria financeira.</p>
+            <p className="work-screen__description">This page presents the main advantages of being client of the segment, and the range of services offered, such as exclusive attendance and financial consulting.</p>
           </div>
         </div>
       </div>
@@ -120,7 +120,7 @@ function Section() {
           </picture>
           <div className="work-screen__info">
             <h3 className="work-screen__title">Investiments</h3>
-            <p className="work-screen__description">Elenca nessa página as principais formas de investimentos de maneira clara, diversificada e direta.</p>
+            <p className="work-screen__description">This page we have the principal modes of investments with a clear, diversified and direct way.</p>
           </div>
         </div>
       </div>
@@ -134,7 +134,7 @@ function Section() {
           </picture>
           <div className="work-screen__info">
             <h3 className="work-screen__title">Financial Advisory</h3>
-            <p className="work-screen__description">Essa página detalha sobre a assessoria financira, discriminando produtos como cartões, seguros e tarifas de serviços.</p>
+            <p className="work-screen__description">This page details about the financial advisory, specifying products like cards, securities and fare of service.</p>
           </div>
         </div>
       </div>
@@ -148,7 +148,7 @@ function Section() {
           </picture>
           <div className="work-screen__info">
             <h3 className="work-screen__title">About The Client</h3>
-            <p className="work-screen__description">Página que detalha sobre o segmento e o próprio banco, de maneira segura, sólida e experiente.</p>
+            <p className="work-screen__description">Page that details the segment and the own bank, with a security, solid and experient way.</p>
           </div>
         </div>
       </div>

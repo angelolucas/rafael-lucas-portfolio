@@ -54,8 +54,8 @@ function Section() {
         <div className="container">
           <img src={movaMais} alt="Mova Mais" />
           <h2>Concept</h2>
-          <h3 className="work-intro__subtitle">Ganhe pontos por fazer exercícios.</h3>
-          <p className="work-intro__description">A plataforma tem por objetivo incentivar pessoas a saírem do sedentarismo, acompanhando a rotina de atividades físicas e recompensado com pontos de programas de fidelidade, que podem ser trocados por voos, eletrônicos e muitos outros.</p>
+          <h3 className="work-intro__subtitle">Earn points for doing exercises.</h3>
+          <p className="work-intro__description">The platform has how objective encourage people to go out of the sedentary lifestyle, following the routine of physical activities and rewarded with points of loyalty programs, which can be exchanged for flights, electronics and many others.</p>
         </div>
       </div>
 
@@ -68,7 +68,7 @@ function Section() {
       <div className="work-objective">
         <div className="container">
           <h2>Objective</h2>
-          <p>Apresentar claramente a proposta de valor, tendo sempre um crescimento consistente da base de usuários, atrelado a uma interface amigável, concisa e focada no usuário.</p>
+          <p>Present clearly the value proposal, always having a consistent growing of the user’s base, linked to a friendly, concise and user-focused interface.</p>
         </div>
       </div>
 
@@ -94,11 +94,11 @@ function Section() {
       <div className="work-step work-step--mm02">
         <div className="container">
           <h3 className="work-step__title">Walkthroughs</h3>
-          <p className="work-step__description">A experiência do onboarding foi projetada para ser simples e didática, sem deixar de ser atrativa desde o primeiro momento, por isso a importância de ter uma linguagem clara e divertida.</p>
+          <p className="work-step__description">The onboarding experience was projected to be simple and didactic, without leaving to be attractive since the first moment, so the importance of having clear and playful language.</p>
           <ul className="chess-list chess-list-walkt">
             <li>
               <div className="chess-list__info">
-                <p>“Cadastre-se em um dos apps de monitoramento e conecte sua conta.”</p>
+                <p>“Sign up for one tracking app and connect your account.”</p>
               </div>
               <div>
                 <img src={step01} alt="" />
@@ -106,7 +106,7 @@ function Section() {
             </li>
             <li>
               <div className="chess-list__info">
-                <p>“Monitore suas atividades pelo app que conectou.”</p>
+                <p>“Monitor your activities by the app which you connected with.”</p>
               </div>
               <div>
                 <img src={step02} alt="" />
@@ -114,7 +114,7 @@ function Section() {
             </li>
             <li>
               <div className="chess-list__info">
-                <p>“Alcance sua meta diária  e acumule pontos para conversão”</p>
+                <p>“Reach your daily goal and accumulate points for conversion.”</p>
               </div>
               <div>
                 <img src={step03} alt="" />
@@ -128,7 +128,7 @@ function Section() {
       <div className="work-step work-step--mm03">
         <div className="container">
           <h3 className="work-step__title">Daily Goal</h3>
-          <p className="work-step__description">Um dos maiores objetivos da aplicativo é fazer com que o usuário se sinta sempre motivado a se exercitar, por isso exibimos mensagens de incentivo, sobretudo para não perder a sequência de exercícios.</p>
+          <p className="work-step__description">One of the biggest goals of the app is to do with what the user feel always motivated to exercise, because of this we show incentives messages, mainly not to lose the exercise’s sequence.</p>
         </div>
         <div className="mm__daily-goal__image">
           <img src={dailyGoal} alt="" />
@@ -139,12 +139,12 @@ function Section() {
       <div className="work-step work-step--mm04">
         <div className="container">
           <h3 className="work-step__title">Engagement</h3>
-          <p className="work-step__description">Reter o usuário é sempre um grande desafio se tratando de atividade física, por isso elaboramos um recurso chamado “Combo”, que beneficia com mais pontos os usuários que atiguem a meta diária com mais frequência.</p>
+          <p className="work-step__description">Retaining the user is always a big challenge being treated about physical activities, for that we elaborated a feature called “Combo”, which benefits with more points the user that reaches the daily goal more frequently.</p>
           <ul className="chess-list chess-list-engagement">
             <li>
               <div className="chess-list__info">
-                <h4 className="chess-list__title">Hit Target!</h4>
-                <p>“Você ganhou <strong>20 pontos</strong> por cumprir sua meta pela primeira vez!”</p>
+                <h4 className="chess-list__title">Reach the daily goal!</h4>
+                <p>You earned <strong>20 points</strong> for achieving your goal for the first time!”</p>
               </div>
               <div>
                 <img src={engagement01} alt="" />
@@ -152,8 +152,8 @@ function Section() {
             </li>
             <li>
               <div className="chess-list__info">
-                <h4 className="chess-list__title">Keep Your Combo</h4>
-                <p>“Criando uma sequência de metas atingidas você pode ganhar até <strong>40 pontos</strong> por cumprimento de meta.”</p>
+                <h4 className="chess-list__title">Keep your Combo</h4>
+                <p>“Creating a goal’s sequence reached you can earn until <strong>40 points</strong> for achievement of the goal.”</p>
               </div>
               <div>
                 <img src={engagement02} alt="" />
@@ -161,8 +161,8 @@ function Section() {
             </li>
             <li>
               <div className="chess-list__info">
-                <h4 className="chess-list__title">Rest Is Important</h4>
-                <p>“Você pode descansar por até <strong>2 dias</strong> seguidos sem quebrar seu combo.”</p>
+                <h4 className="chess-list__title">Rest is important!</h4>
+                <p>“You can rest for until <strong>2 followed days</strong> without breaking your Combo.”</p>
               </div>
               <div>
                 <img src={engagement03} alt="" />
@@ -176,7 +176,7 @@ function Section() {
       <div className="work-step work-step--mm05">
         <div className="container">
           <h3 className="work-step__title">Points</h3>
-          <p className="work-step__description">Permitir um acesso fácil e rápido aos pontos é crucial, apresentando-o de madeira clara, pois é a ponta final da nossa promessa de valor. Além do que, esse benefício, no nosso caso, atua como a “Metáfora da Cenoura”. Ele é o principal fator motivacional para muitos usuários.</p>
+          <p className="work-step__description">Allowing easy and quick access to the point is crucial, showing it of a clearly way, because it is the finish point of our value promise. In addition, this benefit in our case, act how the “Carrot Metaphor”, being it the main motivational factor for many users.</p>
         </div>
         <div className="container container--full">
           <ul className="two-columns">
@@ -193,12 +193,12 @@ function Section() {
       {/* Step 06 */}
       <div className="work-step work-step--mm06">
         <div className="container">
-          <h3 className="work-step__title">Other Resources</h3>
+          <h3 className="work-step__title">Other Features</h3>
           <ul className="chess-list chess-list--resources">
             <li>
               <div className="chess-list__info">
                 <h4 className="chess-list__title">Ranking Of Friends</h4>
-                <p>Um recurso muito eficiente de estímulo a prática de exercício, e fomenta competição entre amigos, além de permitir comentários em atividades, likes e outros recursos sociais.</p>
+                <p>A resource very efficient of stimulus to practice of exercises, which encourages competition between friends, in addition to allowing comments in activities, likes and others social resources.</p>
               </div>
               <div>
                 <img src={other01} alt="" />
@@ -207,7 +207,7 @@ function Section() {
             <li>
               <div className="chess-list__info">
                 <h4 className="chess-list__title">Tracker</h4>
-                <p>Tem por objetivo remover eventuais obstáculos do usuário no fluxo de embarque, e encurtar o espaço entre a prática do exercício e o benefício concreto. Em fase de teste.</p>
+                <p>Aims to remove eventual obstacles of user in the onboarding flow, and shorten space between exercise’s practice and a concrete benefice. Still in the test phase.</p>
               </div>
               <div>
                 <img src={other02} alt="" />
@@ -216,7 +216,7 @@ function Section() {
             <li>
               <div className="chess-list__info">
                 <h4 className="chess-list__title">Member Get Member</h4>
-                <p>Focado em aquisição. O usuário conquista pontos para cada amigo que entrar na plataforma e fizer pelo menos uma atividade.</p>
+                <p>Focused on the acquisition. The user earns points for each friend he indicates, register on the platform and do at least one activate.</p>
               </div>
               <div>
                 <img src={other03} alt="" />
@@ -225,7 +225,7 @@ function Section() {
             <li>
               <div className="chess-list__info">
                 <h4 className="chess-list__title">Duels</h4>
-                <p>Permite que os usuários disputam entre si. O recurso possibilita a escolha de atributos a fim de incentivar a competição.</p>
+                <p>Allows users to compete with each other. The resource enables choose of attributes to incentivize competition.</p>
               </div>
               <div>
                 <img src={other04} alt="" />
@@ -234,7 +234,7 @@ function Section() {
             <li>
               <div className="chess-list__info">
                 <h4 className="chess-list__title">Navegation</h4>
-                <p>O menu dá acesso rápido a todos os recursos do aplicativo, além de feedback sobre a conexão do tracker.</p>
+                <p>The menu gives quick access to all resources of the app, as well as feedback about connection of tracker.</p>
               </div>
               <div>
                 <img src={other05} alt="" />
