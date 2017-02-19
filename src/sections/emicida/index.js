@@ -8,6 +8,7 @@ import WorkHead from '../../components/work-head';
 import video from './media/video.mp4';
 import logo from './media/logo.png';
 import mockup from './media/mockup.png';
+import mockupMin from './media/mockup-min.png';
 import siteMap from './media/site-map.png';
 import siteMapMin from './media/site-map-min.png';
 import homePage from './media/home-page.png';
@@ -22,6 +23,7 @@ import pallete from './media/pallete.png';
 import types from './media/types.png';
 import patterns from './media/patterns.png';
 import credits from './media/credits.png';
+import creditsMin from './media/credits-min.png';
 import mockup2 from './media/mockup2.png';
 
 function Section() {
@@ -56,7 +58,10 @@ function Section() {
       {/* Mockup */}
       <div className="work-mockup">
         <div className="container container--full">
-          <img src={mockup} alt="" />
+          <picture>
+            <source srcSet={mockupMin} media="(max-width: 480px)" />
+            <img src={mockup} alt="Mockup" />
+          </picture>
         </div>
       </div>
 
@@ -168,7 +173,10 @@ function Section() {
       {/* Credits */}
       <div className="work-credits">
         <div className="container container--full">
-          <img className="work-credits__image" src={credits} alt="" />
+          <picture>
+            <source srcSet={creditsMin} media="(max-width: 480px)" />
+            <img className="work-credits__image" src={credits} alt="Credits" />
+          </picture>
         </div>
         <div className="container">
           <h3 className="work-credits__title">Credits</h3>
