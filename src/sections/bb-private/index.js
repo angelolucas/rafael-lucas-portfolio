@@ -85,7 +85,7 @@ function Section() {
       }
 
       {/* Home Page Screens */}
-      <div className="work-screen">
+      <div className="work-screen work-screen--home-page">
         <div className="container">
           <picture>
             <source srcSet={homePageMin} media="(max-width: 480px)" />
@@ -99,7 +99,7 @@ function Section() {
       </div>
 
       {/* Private Client Screens */}
-      <div className="work-screen">
+      <div className="work-screen work-screen--private-client">
         <div className="container">
           <picture>
             <source srcSet={privateClientMin} media="(max-width: 480px)" />
@@ -113,7 +113,7 @@ function Section() {
       </div>
 
       {/* Investiments Screens */}
-      <div className="work-screen">
+      <div className="work-screen work-screen--investiments">
         <div className="container">
           <picture>
             <source srcSet={investimentsMin} media="(max-width: 480px)" />
@@ -127,7 +127,7 @@ function Section() {
       </div>
 
       {/* Financial Advisory Screens */}
-      <div className="work-screen">
+      <div className="work-screen work-screen--financial">
         <div className="container">
           <picture>
             <source srcSet={financialAdvisoryMin} media="(max-width: 480px)" />
@@ -141,14 +141,14 @@ function Section() {
       </div>
 
       {/* About The Client Screens */}
-      <div className="work-screen">
+      <div className="work-screen work-screen--about-the-client">
         <div className="container">
           <picture>
             <source srcSet={aboutTheClientMin} media="(max-width: 480px)" />
             <img className="work-screen__image" src={aboutTheClient} alt="About The Client" />
           </picture>
           <div className="work-screen__info">
-            <h3 className="work-screen__title">About The Client</h3>
+            <h3 className="work-screen__title">About the Client</h3>
             <p className="work-screen__description">Page that details the segment and the own bank, with a security, solid and experient way.</p>
           </div>
         </div>

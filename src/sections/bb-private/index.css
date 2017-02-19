@@ -10,7 +10,7 @@
     color: white;
   }
   .work-intro .container {
-    max-width: 880px;
+    max-width: 900px;
   }
   .work-intro__subtitle {
     color: white;
@@ -25,13 +25,28 @@
   }
   .work-objective {
     .container {
-      max-width: 1230px;
+      max-width: 1000px;
     }
   }
   .work-sitemap {
     margin-bottom: 180px;
   }
+  .work-screen--home-page .work-screen__description {
+    max-width: 770px;
+  }
+  .work-screen--private-client .work-screen__description {
+    max-width: 700px;
+  }
+  .work-screen--investiments .work-screen__description {
+    max-width: 800px;
+  }
+  .work-screen--financial .work-screen__description {
+    max-width: 530px;
+  }
+  .work-screen--about-the-client .work-screen__description {
+    max-width: 400px;
+  }
   .work-guideline {
-    margin-bottom: 150px;
+    margin-bottom: 20px;
   }
 }
