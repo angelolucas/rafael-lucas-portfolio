@@ -26,7 +26,7 @@ function AllWorks() {
         Disabled for small devices
       */}
       { window.innerWidth >= 480 &&
-      <div className="all-works__preloaders" style={{ display: 'none' }}>
+      <div className="all-works__preloaders hide">
         {
           Object.keys(GetWorks).map((work, key) => (
             GetWorks[work].poster &&
