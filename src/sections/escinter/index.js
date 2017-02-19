@@ -15,11 +15,13 @@ import products from './media/products.png';
 import productsDetail from './media/products-detail.png';
 import contact from './media/contact.png';
 import navigation from './media/navigation.png';
-import devices from './media/devices.png';
+import devices from './media/devices.jpg';
+import devicesMin from './media/devices-min.jpg';
 import credits from './media/credits.png';
 import creditsMin from './media/credits-min.png';
 import guideline from './media/guideline.png';
-import mockup2 from './media/mockup2.png';
+import mockup2 from './media/mockup2.jpg';
+import mockup2Min from './media/mockup2-min.jpg';
 
 function Section() {
   return (
@@ -126,16 +128,29 @@ function Section() {
             </li>
           </ul>
         </div>
-        <img className="image-full" src={devices} alt="" />
-        <div className="work-credits">
-          <div className="container">
-            <h4 className="work-credits__title">Credits</h4>
-            <p className="work-credits__description">Desktop version designed by: <a href="https://www.linkedin.com/in/adrielnunes" target="_blank" rel="noopener noreferrer">Adriel Nunes</a></p>
-            <picture>
-              <source srcSet={creditsMin} media="(max-width: 480px)" />
-              <img src={credits} alt="Credits" />
-            </picture>
-          </div>
+      </div>
+
+      {/*
+        Devices
+        Static for small and medium devices
+        Fixed for greater than med devices
+      */}
+      { window.innerWidth < 960 ? (
+        <img className="image-full--devices image-full" src={devicesMin} alt="" />
+      ) : (
+        <div className="fixed-image image-full--devices">
+          <div className="fixed-image__image" style={{ backgroundImage: `url(${devices})` }} />
+        </div>
+      )}
+
+      <div className="work-credits">
+        <div className="container">
+          <h4 className="work-credits__title">Credits</h4>
+          <p className="work-credits__description">Desktop version designed by: <a href="https://www.linkedin.com/in/adrielnunes" target="_blank" rel="noopener noreferrer">Adriel Nunes</a></p>
+          <picture>
+            <source srcSet={creditsMin} media="(max-width: 480px)" />
+            <img src={credits} alt="Credits" />
+          </picture>
         </div>
       </div>
 
@@ -152,8 +167,18 @@ function Section() {
         </div>
       }
 
-      {/* Mockup */}
-      <img className="image-full" src={mockup2} alt="" />
+      {/*
+        Mockup
+        Static for small and medium devices
+        Fixed for greater than med devices
+      */}
+      { window.innerWidth < 960 ? (
+        <img className="image-full" src={mockup2Min} alt="" />
+      ) : (
+        <div className="fixed-image">
+          <div className="fixed-image__image" style={{ backgroundImage: `url(${mockup2})` }} />
+        </div>
+      )}
     </section>
   );
 }
