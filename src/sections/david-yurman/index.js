@@ -8,6 +8,7 @@ import WorkHead from '../../components/work-head';
 import video from './media/video.mp4';
 import logo from './media/logo.png';
 import mockup from './media/mockup.png';
+import mockupMin from './media/mockup-min.png';
 import homePage from './media/home-page.png';
 import navigation from './media/navigation.png';
 import explore from './media/explore.png';
@@ -18,6 +19,7 @@ import checkout from './media/checkout.png';
 import findAStore from './media/find-a-store.png';
 import guideline from './media/guideline.png';
 import credits from './media/credits.png';
+import creditsMin from './media/credits-min.png';
 import mockup2 from './media/mockup2.png';
 
 function Section() {
@@ -51,7 +53,10 @@ function Section() {
 
       {/* Mockup */}
       <div className="container">
-        <img src={mockup} alt="" />
+        <picture>
+          <source srcSet={mockupMin} media="(max-width: 480px)" />
+          <img src={mockup} alt="Mockup" />
+        </picture>
       </div>
 
       {/* Objective */}
@@ -149,7 +154,10 @@ function Section() {
       </div>
 
       <div className="container container--full">
-        <img src={credits} alt="" />
+        <picture>
+          <source srcSet={creditsMin} media="(max-width: 480px)" />
+          <img src={credits} alt="Credits" />
+        </picture>
       </div>
 
       {/*
