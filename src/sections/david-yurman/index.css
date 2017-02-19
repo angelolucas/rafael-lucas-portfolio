@@ -12,14 +12,17 @@
   h2 {
     color: white;
   }
+  h4 {
+    color: white;
+  }
   .work-intro .container {
-    max-width: 1050px;
+    max-width: 1030px;
   }
   .work-intro__subtitle {
     color: white;
   }
   .work-objective .container {
-    max-width: 1150px;
+    max-width: 1000px;
   }
   .chess-list__title {
     text-transform: uppercase;
@@ -31,6 +34,9 @@
   }
   .chess-list img {
     transform: translateX(6.5%);
+  }
+  .chess-list li p {
+    max-width: 340px;
   }
   .work-guideline__title {
     font-size: 35px;
