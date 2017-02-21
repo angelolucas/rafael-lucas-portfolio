@@ -25,26 +25,26 @@
   }
   .work-objective {
     .container {
-      max-width: 1000px;
+      max-width: 1110px;
     }
   }
   .work-sitemap {
     margin-bottom: 180px;
   }
   .work-screen--home-page .work-screen__description {
-    max-width: 770px;
+    max-width: 790px;
   }
   .work-screen--private-client .work-screen__description {
-    max-width: 700px;
+    max-width: 670px;
   }
   .work-screen--investiments .work-screen__description {
     max-width: 800px;
   }
   .work-screen--financial .work-screen__description {
-    max-width: 530px;
+    max-width: 510px;
   }
   .work-screen--about-the-client .work-screen__description {
-    max-width: 400px;
+    max-width: 380px;
   }
   .work-guideline {
     margin-bottom: 20px;

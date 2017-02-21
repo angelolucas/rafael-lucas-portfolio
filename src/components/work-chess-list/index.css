@@ -68,3 +68,15 @@
     height: auto;
   }
 }
+
+@media (--viewport-min) {
+  .chess-list__title {
+    font-size: 35px;
+  }
+  .chess-list > li {
+    p {
+      font-size: inherit;
+      line-height: inherit;
+    }
+  }
+}

@@ -18,3 +18,9 @@
     font-size: calc(10px + 5vw);
   }
 }
+
+@media (--viewport-min) {
+  .work-objective {
+    padding-bottom: 100px;
+  }
+}

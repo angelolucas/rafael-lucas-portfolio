@@ -21,3 +21,11 @@
     display: block;
   }
 }
+
+@media (--viewport-min) {
+  .work-page section {
+    h2 {
+      font-size: 16px;
+    }
+  }
+}

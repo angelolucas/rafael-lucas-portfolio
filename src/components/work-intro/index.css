@@ -6,9 +6,9 @@
     margin: 0 auto;
     max-width: 770px;
   }
-  img {
-    margin-bottom: 80px;
-  }
+}
+.work-intro__logo {
+  margin-bottom: 80px;
 }
 .work-intro__subtitle {
   font-size: 65px;
@@ -25,5 +25,14 @@
 @media (--viewport-med) {
   .work-intro__subtitle {
     font-size: calc(30px + 3.6vw);
+  }
+}
+@media (--viewport-min) {
+  .work-intro__logo {
+    width: 180px;
+  }
+  .work-intro__description {
+    font-size: inherit;
+    line-height: inherit;
   }
 }

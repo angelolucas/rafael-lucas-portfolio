@@ -11,7 +11,12 @@
   h2 {
     color: var(--mm-colorfulDetails);
   }
-
+  .work-intro .container {
+    max-width: 800px;
+  }
+  .work-objective .container {
+    max-width: 1000px;
+  }
   .work-step__title {
     margin-bottom: 50px;
 
@@ -24,9 +29,8 @@
   }
   .work-step__description {
     margin-top: 50px;
-    max-width: 600px;
+    max-width: 650px;
   }
-
   .chess-list__title:after {
     border-color: var(--mm-colorfulDetails);
   }
@@ -61,7 +65,7 @@
   }
   > li p {
     font-size: 34px;
-    max-width: 380px;
+    max-width: 400px;
   }
   > li:last-child {
     margin-bottom: 0;
@@ -121,6 +125,11 @@
   }
 }
 
+/* Step 03 */
+.work-step--mm03 .work-step__description{
+  margin-bottom: 0;
+}
+
 /* Step 04 */
 .work-step--mm04 {
   .container {
@@ -152,5 +161,22 @@
   }
   img {
     width: 320px;
+  }
+}
+
+@media (--viewport-min) {  
+  .chess-list-engagement .chess-list__title,
+  .chess-list--resources .chess-list__title {
+    font-size: 35px;
+  }
+
+  /* Step 08 */
+  .work-step--mm08 {
+    img {
+      margin-top: 0;
+    }
+    p {
+      font-size: 26px;
+    }
   }
 }

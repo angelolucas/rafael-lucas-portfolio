@@ -10,3 +10,9 @@ a {
 button {
   font-family: 'Sailec', sans-serif;
 }
+@media (--viewport-min) {
+  body {
+    font-size: 17px;
+    line-height: 1.4;
+  }
+}

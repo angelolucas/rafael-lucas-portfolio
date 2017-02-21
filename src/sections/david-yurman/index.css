@@ -22,7 +22,7 @@
     color: white;
   }
   .work-objective .container {
-    max-width: 1000px;
+    max-width: 900px;
   }
   .chess-list__title {
     text-transform: uppercase;
@@ -36,7 +36,7 @@
     transform: translateX(6.5%);
   }
   .chess-list li p {
-    max-width: 340px;
+    max-width: 380px;
   }
   .work-guideline__title {
     font-size: 35px;
@@ -53,9 +53,17 @@
     margin-bottom: 30px;
   }
   .credits__info {
-    max-width: 730px;
+    max-width: 610px;
     margin: 0 auto 90px;
     line-height: 1.7;
     font-weight: 300;
+  }
+}
+
+@media (--viewport-min) {
+  .dy {
+    .chess-list__title {
+      font-size: 35px;
+    }
   }
 }
