@@ -33,6 +33,7 @@
   font-size: 0;
 }
 .work-head__button {
+  animation: translate 0.5s linear infinite alternate;
   background-image: url('../components/work-head/arrow-bottom.svg');
   background-color: rgba(0, 0, 0, 0.3);
   background-repeat: no-repeat;
@@ -49,6 +50,16 @@
   z-index: 3;
   
   &:hover {
+    transform: translateY(5px);
+    animation-iteration-count: initial;
+  }
+}
+
+@keyframes translate {
+  from {
+    transform: translateY(0px);
+  }
+  to {
     transform: translateY(5px);
   }
 }

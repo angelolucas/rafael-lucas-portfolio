@@ -101,7 +101,7 @@ function Section() {
             </li>
             <li>
               <div className="chess-list__info chess-list__info--sticky">
-                <h4 className="chess-list__title">Products Detail</h4>
+                <h4 className="chess-list__title">Product Detail</h4>
                 <p>You can see some more of the story and the designer of the item on this page, see photos from different angles and have access to all data, such as dimensions and manufacturing details.</p>
               </div>
               <div>

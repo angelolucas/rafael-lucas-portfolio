@@ -4,6 +4,8 @@
   justify-content: space-around;
   text-align: center;
   overflow: hidden;
+  position: relative;
+  z-index: 1;
 }
 .work-nav__item {
   height: 300px;
