@@ -59,8 +59,8 @@
 
 @media (--viewport-max) {
   .work-flow__item:before {
-    width: calc(80px + 8.5vw);
-    height: calc(80px + 8.5vw);
+    width: calc(100px + 7.8vw);
+    height: calc(100px + 7.8vw);
   } 
 }
 

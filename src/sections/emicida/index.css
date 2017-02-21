@@ -67,6 +67,7 @@
     border-color: var(--mcd-text);
   }
   .work-credits {
+    overflow: hidden;
     padding-bottom: 100px;
   }
   .work-credits__image {

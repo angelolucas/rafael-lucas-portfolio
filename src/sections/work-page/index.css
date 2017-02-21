@@ -22,6 +22,12 @@
   }
 }
 
+@media (--viewport-med) {
+  .work-page section {
+    overflow: hidden;
+  }
+}
+
 @media (--viewport-min) {
   .work-page section {
     h2 {

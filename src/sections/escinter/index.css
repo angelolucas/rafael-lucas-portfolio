@@ -41,6 +41,9 @@
   .image-full--devices {
     margin-bottom: 120px;
   }
+  .work-credits {
+    padding-bottom: 150px;
+  }
   .work-credits__title {
     font-size: 30px;
     font-weight: 500;
@@ -62,6 +65,9 @@
   .ect {
     .chess-list__title {
       font-size: 35px;
+    }
+    .work-credits {
+      padding-bottom: 100px;
     }
     .work-credits__description {
       font-size: inherit;

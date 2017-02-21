@@ -3,6 +3,7 @@
   display: flex;
   justify-content: space-around;
   text-align: center;
+  overflow: hidden;
 }
 .work-nav__item {
   height: 300px;
