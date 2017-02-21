@@ -57,7 +57,12 @@ class WorkNavigation extends Component {
               <div className="work-nav__media hide-viewport--min">{this.media(this.prev)}</div>
             }
             <div className="work-nav__pttrn" />
-            <div className="work-nav__info">prv</div>
+            <div className="work-nav__info">
+              <span className="work-nav__where">prv</span>
+              <span className="work-nav__title-container">
+                <span className="work-nav__title">{GetWorks[this.prev].title}</span>
+              </span>
+            </div>
           </Link>
         </div>
         <div className="work-nav__item work-nav__item--next">
@@ -67,7 +72,12 @@ class WorkNavigation extends Component {
               <div className="work-nav__media hide-viewport--min">{this.media(this.next)}</div>
             }
             <div className="work-nav__pttrn" />
-            <div className="work-nav__info">nxt</div>
+            <div className="work-nav__info">
+              <span className="work-nav__where">nxt</span>
+              <span className="work-nav__title-container">
+                <span className="work-nav__title">{GetWorks[this.next].title}</span>
+              </span>
+            </div>
           </Link>
         </div>
       </div>
