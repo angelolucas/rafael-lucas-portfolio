@@ -52,11 +52,10 @@ class WorkNavigation extends Component {
       <div className="work-nav">
         <div className="work-nav__item work-nav__item--prev">
           <Link className="work-nav__link" to={GetWorks[this.prev].name}>
-            {/* Disabled media for mobile */}
-            { window.innerWidth >= 480 &&
+            {/* Disabled media for small and med devides */}
+            { window.innerWidth >= 960 &&
               <div className="work-nav__media hide-viewport--min">{this.media(this.prev)}</div>
             }
-            <div className="work-nav__pttrn" />
             <div className="work-nav__info">
               <span className="work-nav__where">prv</span>
               <span className="work-nav__title-container">
@@ -67,11 +66,10 @@ class WorkNavigation extends Component {
         </div>
         <div className="work-nav__item work-nav__item--next">
           <Link className="work-nav__link" to={GetWorks[this.next].name}>
-            {/* Disabled media for mobile */}
-            { window.innerWidth >= 480 &&
+            {/* Disabled media for small and med devides */}
+            { window.innerWidth >= 960 &&
               <div className="work-nav__media hide-viewport--min">{this.media(this.next)}</div>
             }
-            <div className="work-nav__pttrn" />
             <div className="work-nav__info">
               <span className="work-nav__where">nxt</span>
               <span className="work-nav__title-container">
