@@ -67,7 +67,7 @@ function Section() {
       <div className="work-objective">
         <div className="container">
           <h2>Objective</h2>
-          <p>Draw a nice and reliable environment where customers can feel secure; in addition to transmitting credibility to the public, presenting the unique , solid and experienced relationship model.</p>
+          <p>Draw a nice and reliable environment where customers can feel secure in addition to transmitting credibility to the public, presenting the unique, solid and experienced relationship model.</p>
         </div>
       </div>
 
