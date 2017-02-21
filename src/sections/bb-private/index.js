@@ -46,10 +46,10 @@ function Section() {
       {/* Intro */}
       <div className="work-intro">
         <div className="container">
-          <img src={logo} width="204" alt="Logo Banco do Brasil Private" />
+          <img className="work-intro__logo" src={logo} width="204" alt="Logo Banco do Brasil Private" />
           <h2>Concept</h2>
-          <h3 className="work-intro__subtitle">Don’t reckon with lucky. Reckon with BB Private.</h3>
-          <p className="work-intro__description">Institutional site of private segment of the biggest bank of Latin America. It aims to meet the needs of financial counseling and resource management, with customized strategies from a transparent and exempted mode.</p>
+          <h3 className="work-intro__subtitle">Do not rely on Luck. Rely on BB Private.</h3>
+          <p className="work-intro__description">Corporate site of the Private segment of the largest bank in Latin America. Aiming to meet the needs of financial advisory and resource management with customized strategies in a free of charge, transparent way.</p>
         </div>
       </div>
 
@@ -67,7 +67,7 @@ function Section() {
       <div className="work-objective">
         <div className="container">
           <h2>Objective</h2>
-          <p>Design an enjoyable and reliable ambience where the customer feels safe. Besides transmitting credibility to public and presenting the model of exclusive, solid and experient relationship.</p>
+          <p>Draw a nice and reliable environment where customers can feel secure; in addition to transmitting credibility to the public, presenting the unique , solid and experienced relationship model.</p>
         </div>
       </div>
 
@@ -93,7 +93,7 @@ function Section() {
           </picture>
           <div className="work-screen__info">
             <h3 className="work-screen__title">Home Page</h3>
-            <p className="work-screen__description">Initial page show an elegant slideshow which gives access to page in highlight of moment. In the header has the three pillars of the site and a button to access a logged area.</p>
+            <p className="work-screen__description">Home page, displays an elegant slide-show which enables access to the featured page at the moment. The header bears the three pillars of the site and the button to access the private area.</p>
           </div>
         </div>
       </div>
@@ -107,7 +107,7 @@ function Section() {
           </picture>
           <div className="work-screen__info">
             <h3 className="work-screen__title">Private Client</h3>
-            <p className="work-screen__description">This page presents the main advantages of being client of the segment, and the range of services offered, such as exclusive attendance and financial consulting.</p>
+            <p className="work-screen__description">Page exposing the main advantages of being a customer in this segment, and the range of services offered, such as exclusive service and financial consulting.</p>
           </div>
         </div>
       </div>
@@ -121,7 +121,7 @@ function Section() {
           </picture>
           <div className="work-screen__info">
             <h3 className="work-screen__title">Investiments</h3>
-            <p className="work-screen__description">This page we have the principal modes of investments with a clear, diversified and direct way.</p>
+            <p className="work-screen__description">This page lists the main forms of investment in a clear, differentiated, and straightforward way.</p>
           </div>
         </div>
       </div>
@@ -135,7 +135,7 @@ function Section() {
           </picture>
           <div className="work-screen__info">
             <h3 className="work-screen__title">Financial Advisory</h3>
-            <p className="work-screen__description">This page details about the financial advisory, specifying products like cards, securities and fare of service.</p>
+            <p className="work-screen__description">This page provides details on financial advisory, listing products such as credit cards, insurance and service charges.</p>
           </div>
         </div>
       </div>
@@ -149,7 +149,7 @@ function Section() {
           </picture>
           <div className="work-screen__info">
             <h3 className="work-screen__title">About the Client</h3>
-            <p className="work-screen__description">Page that details the segment and the own bank, with a security, solid and experient way.</p>
+            <p className="work-screen__description">Page detailing the segment and the Bank itself, in a secure, solid and experienced way.</p>
           </div>
         </div>
       </div>

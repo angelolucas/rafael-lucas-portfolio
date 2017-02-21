@@ -49,10 +49,10 @@ function Section() {
       {/* Intro */}
       <div className="work-intro">
         <div className="container">
-          <img src={logo} width="180" alt="David Yurman" />
+          <img className="work-intro__logo" src={logo} width="180" alt="David Yurman" />
           <h2>Concept</h2>
-          <h3 className="work-intro__subtitle">E.M.I.C.I.D.A<br /> &quot;While my imagination compose insanities I dominate the art&quot;</h3>
-          <p className="work-intro__description">Institutional site of the Brazilian rapper and musical producer Emicida. Considered one of the bigger revelations of hip hop of Brazil. Famous for his constant victories in improvisation battles.</p>
+          <h3 className="work-intro__subtitle">E.M.I.C.I.D.A<br /> &quot;While my imagination composes insanities I master artistry&quot;</h3>
+          <p className="work-intro__description">Corporate site of  Brazilian rapper and music producer Emicida. Considered one of the greatest hip hop revelations of Brazil. Famous for his constant victories at  improvisation battles.</p>
         </div>
       </div>
 
@@ -72,7 +72,7 @@ function Section() {
       <div className="work-objective">
         <div className="container">
           <h2>Objective</h2>
-          <p>Make the mobile site experience complete and user-friendly, allowing the user to meet the artist, his work, trajectory and have access to his agenda agenda in an accessible and intuitive mode.</p>
+          <p>Make the experience of mobile site complete and user-friendly, allowing the user to read about the artist, his work, his life story and to access his agenda in an accessible and intuitive way.</p>
         </div>
       </div>
 
@@ -96,7 +96,7 @@ function Section() {
             <li>
               <div className="chess-list__info chess-list__info--sticky">
                 <h4 className="chess-list__title">Home Page</h4>
-                <p>Slideshow of beginning with main highlights of the site. Then boxes representing each area of the site. Below are the social networks of MC.</p>
+                <p>Starting slideshow with the site highlights. Followed by boxes representing each area of the site. Then the rapper’s social networks.</p>
               </div>
               <div>
                 <img src={homePage} alt="Home Page" />
@@ -105,7 +105,7 @@ function Section() {
             <li>
               <div className="chess-list__info chess-list__info--sticky">
                 <h4 className="chess-list__title">Editorial</h4>
-                <p>Content’s area, where the artist can present his objections, philosophies and ideals of life in a deeper way.</p>
+                <p>Content area, where the artist can present his objections, philosophies and ideals of life more deeply.</p>
               </div>
               <div>
                 <img src={editorial} alt="Editorial" />
@@ -114,7 +114,7 @@ function Section() {
             <li>
               <div className="chess-list__info chess-list__info--sticky">
                 <h4 className="chess-list__title">Biography</h4>
-                <p>In this page is possible meet better his life trajectory, beginning of career and his influences. Here you will also see your work team.</p>
+                <p>You can see some more of his life story, early career and influences on this page. His work team is also displayed here.</p>
               </div>
               <div>
                 <img src={biography} alt="Biography" />
@@ -123,7 +123,7 @@ function Section() {
             <li>
               <div className="chess-list__info chess-list__info--sticky">
                 <h4 className="chess-list__title">Agenda</h4>
-                <p>Exhibition of all the commitments and shows of the rapper. It’s possible filter by month.</p>
+                <p>EExhibition of all appointments and concerts of the rapper. You can filter by month.</p>
               </div>
               <div>
                 <img src={agenda} alt="Agenda" />
@@ -132,7 +132,7 @@ function Section() {
             <li>
               <div className="chess-list__info chess-list__info--sticky">
                 <h4 className="chess-list__title">Discography</h4>
-                <p>In this page it’s possible to know all his work, to have access to the songs of the albums and to access the platforms of buy and streaming.</p>
+                <p>You can see all of his work, access songs from the albums and access purchase and streaming platforms on this page.</p>
               </div>
               <div>
                 <img src={discography} alt="Discography" />
@@ -141,7 +141,7 @@ function Section() {
             <li>
               <div className="chess-list__info chess-list__info--sticky">
                 <h4 className="chess-list__title">Photos Gallery</h4>
-                <p>Gallery of photos and videos, clips, and even personal files.</p>
+                <p>Photos and videos gallery of concerts, music videos, and even personal files.</p>
               </div>
               <div>
                 <img src={photosGallery} alt="Gallery" />
@@ -150,7 +150,7 @@ function Section() {
             <li>
               <div className="chess-list__info">
                 <h4 className="chess-list__title">Contact</h4>
-                <p>E-mails for contact, press office and link of the record company.</p>
+                <p>Contact emails, press relations and link for the label.</p>
               </div>
               <div>
                 <img src={contact} alt="Contact" />
@@ -159,7 +159,7 @@ function Section() {
             <li>
               <div className="chess-list__info">
                 <h4 className="chess-list__title">Navigation</h4>
-                <p>Simple and elegant menu that gives access to all pages of the site.</p>
+                <p>Plain, elegant menu that gives access to all pages on the site.</p>
               </div>
               <div>
                 <img src={navigation} alt="Navigation" />
@@ -181,7 +181,7 @@ function Section() {
         </div>
         <div className="container">
           <h3 className="work-credits__title">Credits</h3>
-          <p className="work-credits__description">I had like input the version desktop produced by the designer <a href="https://www.linkedin.com/in/adrielnunes" target="_blank" rel="noopener noreferrer">Adriel Nunes</a>, who also signs the art direction of some clips and the last album cover.</p>
+          <p className="work-credits__description">I have had as input the desktop version produced by designer <a href="https://www.linkedin.com/in/adrielnunes" target="_blank" rel="noopener noreferrer">Adriel Nunes</a>,  who also signs the art direction of a few music videos and the last album cover.</p>
         </div>
       </div>
 

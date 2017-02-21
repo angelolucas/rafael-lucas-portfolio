@@ -58,10 +58,10 @@ function Section() {
       {/* Intro */}
       <div className="work-intro">
         <div className="container">
-          <img src={caixaNasRuas} width="281" alt="Caixa Nas Ruas" />
+          <img className="work-intro__logo" src={caixaNasRuas} width="281" alt="Caixa Nas Ruas" />
           <h2>Concept</h2>
-          <h3 className="work-intro__subtitle">Your well-being begins on the streets.</h3>
-          <p className="work-intro__description">The Caixa Nas Ruas program stimulates the engagement of users motivating the regular practice of physical activities through of content, sense of belonging, social incentives and relationship program.</p>
+          <h3 className="work-intro__subtitle">Your well-being begins In the Streets.</h3>
+          <p className="work-intro__description">The Caixa Nas Ruas program encourages users’ engagement by motivating a regular practice of physical activities through content, sense of belonging, social stimulation, and relationship program.</p>
         </div>
       </div>
 
@@ -77,7 +77,7 @@ function Section() {
       <div className="work-objective work-objective--cnr">
         <div className="container">
           <h2>Objective</h2>
-          <p>Design a simple and friendly platform which stimulate health and quality of life, promoting sportive practice in a healthy way with awards.</p>
+          <p>Draw a simple, user-friendly platform that encourages health and quality of life, promoting the practice of sports in a healthy way with prizes.</p>
         </div>
       </div>
 
@@ -97,7 +97,7 @@ function Section() {
         <div className="container">
           <h3 className="work-step__title">Pages</h3>
           <h4>Dashboard</h4>
-          <p className="work-step__description">Each participant’s Performance Measurement Center with detailed informations about perseverance in training, individual goals and views of quantitative and qualitative data.</p>
+          <p className="work-step__description">Center for performance measurement of each participant with detailed data about train perseverance, individual goals, and displaying of quantitative and qualitative data.</p>
         </div>
         <div className="container container--full">
           <picture>
@@ -107,7 +107,7 @@ function Section() {
         </div>
         <div className="container">
           <h4>Teams</h4>
-          <p className="work-step__description">The team have the mission of mutual cooperation, and criterion of formation is established by the users themselves. The team has a lemma and an identification shield.</p>
+          <p className="work-step__description">Teams have the mission of mutual cooperation, and their setting up is established by the users themselves. Each team has a motto and a coat for identification.</p>
         </div>
         <div className="container container--full">
           <picture>
@@ -122,7 +122,7 @@ function Section() {
             <img src={shield3} alt="Shield3" />
           </div>
           <h4>Events</h4>
-          <p className="work-step__description">Presentation of the evidence calendar with navigation of stimulus to the participation of people in these events through the platform.</p>
+          <p className="work-step__description">Displaying the race calendar with encouraging browsing, promoting people’s participation in these events through the platform.</p>
         </div>
         <div className="container container--full">
           <picture>
@@ -132,7 +132,7 @@ function Section() {
         </div>
         <div className="container">
           <h4>Editorial</h4>
-          <p className="work-step__description">The program’s content has a motivator character, having how mission stimulate people and move them away of sedentary lifestyle through of a good example, inspiration and overcoming potential from each one. To help practitioners remove motivational barriers and techniques that hinder the beginning or evolution of a modality.</p>
+          <p className="work-step__description">The program content has a motivating nature, aiming to encourage people to stay away from a sedentary lifestyle through good examples, inspiration, and each person’s willingness. Helping practitioners to remove motivational and technical obstacles that hinder the beginning or evolution in the practice of a sport.</p>
         </div>
         <div className="container container--full">
           <picture>
@@ -142,7 +142,7 @@ function Section() {
         </div>
         <div className="container">
           <h4>Store</h4>
-          <p className="work-step__description">Showcase of products to exchange with points accumulated in the platform of agreement with its performance.</p>
+          <p className="work-step__description">Showcasing products available to trade using points collected on the platform according to your performance.</p>
         </div>
         <div className="container container--full">
           <picture>
@@ -192,22 +192,22 @@ function Section() {
             <li>
               <img width="42" src={result2} alt="" />
               <h5 className="work-results__title">144</h5>
-              <p>equals rounds to Earth</p>
+              <p>corresponding turns around the Earth</p>
             </li>
             <li>
               <img width="37" src={result3} alt="" />
               <h5 className="work-results__title">1 million</h5>
-              <p>hours of exercise</p>
+              <p>exercising hours</p>
             </li>
             <li>
               <img width="34" src={result4} alt="" />
               <h5 className="work-results__title">415 millions</h5>
-              <p>calories burned</p>
+              <p>calories burned off</p>
             </li>
             <li>
               <img width="31" src={result5} alt="" />
-              <h5 className="work-results__title">11 billion</h5>
-              <p>steps</p>
+              <h5 className="work-results__title">11 billions</h5>
+              <p>number of steps</p>
             </li>
           </ul>
         </div>

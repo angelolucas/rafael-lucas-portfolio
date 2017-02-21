@@ -45,10 +45,10 @@ function Section() {
       {/* Intro */}
       <div className="work-intro">
         <div className="container">
-          <img src={logo} width="187" height="187" alt="Logo Escinter" />
+          <img className="work-intro__logo" src={logo} width="187" height="187" alt="Logo Escinter" />
           <h2>Concept</h2>
           <h3 className="work-intro__subtitle">Escinter.<br /> Spaces That Engage.</h3>
-          <p className="work-intro__description">Escinter is a familiar company with 25 years of acting in the interior market of corporate spaces. Aware that the quality of the workspace interferes directly in people’s life, its mission is to ensure that its customers have a better quality of life and performance.</p>
+          <p className="work-intro__description">Escinter is a family company with 25 years of experience in the market of corporate spaces interiors. Aware that workspace quality directly interferes in people’s lives, its mission is to ensure that its customers have a better quality of life and performance.</p>
         </div>
       </div>
 
@@ -61,7 +61,7 @@ function Section() {
       <div className="work-objective">
         <div className="container">
           <h2>Objective</h2>
-          <p>Present the company as well as its catalog of products in the mobile version, allowing the best experience possible in a clear and concise manner.</p>
+          <p>Present the company as well as its products catalog on mobile version, allowing the best possible experience in a clear and concise way.</p>
         </div>
       </div>
 
@@ -84,7 +84,7 @@ function Section() {
             <li>
               <div className="chess-list__info chess-list__info--sticky">
                 <h4 className="chess-list__title">Home Page</h4>
-                <p>The initial page firstly displays a slideshow with the main offers of the moment, and below product’s categories. In the finish it’s showed an address, field to subscribe to the newsletter and access to social networks. </p>
+                <p>The home page first displays a slideshow with the main offers of the moment, and below it shows the categories of products. At the end, there are the address, a field to subscribe to the newsletter, and access to social networks.</p>
               </div>
               <div>
                 <img src={homePage} alt="Home Page" />
@@ -93,7 +93,7 @@ function Section() {
             <li>
               <div className="chess-list__info chess-list__info--sticky">
                 <h4 className="chess-list__title">Products</h4>
-                <p>The page allows the user to view several models at the same time, thus streamlining their search. You can filter by category.</p>
+                <p>This page allows users to visualize multiple models at the same time, thus speeding up their search. You can filter by category.</p>
               </div>
               <div>
                 <img src={products} alt="Products" />
@@ -102,7 +102,7 @@ function Section() {
             <li>
               <div className="chess-list__info chess-list__info--sticky">
                 <h4 className="chess-list__title">Products Detail</h4>
-                <p>On this page it’s possible to meet better the story and designer of the piece, see pictures from different angles and have access to all informations, such as dimensions and manufacturing details.</p>
+                <p>You can see some more of the story and the designer of the item on this page, see photos from different angles and have access to all data, such as dimensions and manufacturing details.</p>
               </div>
               <div>
                 <img src={productsDetail} alt="Products Destail" />
@@ -111,7 +111,7 @@ function Section() {
             <li>
               <div className="chess-list__info chess-list__info--sticky">
                 <h4 className="chess-list__title">Contact</h4>
-                <p>The website provides a simple form to contact with the company, and access to address of physical stores through a map.</p>
+                <p>The site provides a simple form to get in touch. As well as access to addresses of physical stores through the map.</p>
               </div>
               <div>
                 <img src={contact} alt="Contact" />
@@ -120,7 +120,7 @@ function Section() {
             <li>
               <div className="chess-list__info">
                 <h4 className="chess-list__title">Navigation</h4>
-                <p>Simple menu that gives access to all site’s page, besides contact telephones of  branch and headquarter of company.</p>
+                <p>Plain menu that gives access to all pages on the site, in addition to the contact of the branch and the headquarters.</p>
               </div>
               <div>
                 <img src={navigation} alt="Navigation" />
@@ -146,7 +146,7 @@ function Section() {
       <div className="work-credits">
         <div className="container">
           <h4 className="work-credits__title">Credits</h4>
-          <p className="work-credits__description">Desktop version designed by: <a href="https://www.linkedin.com/in/adrielnunes" target="_blank" rel="noopener noreferrer">Adriel Nunes</a></p>
+          <p className="work-credits__description">Desktop version design: <a href="https://www.linkedin.com/in/adrielnunes" target="_blank" rel="noopener noreferrer">Adriel Nunes</a></p>
           <picture>
             <source srcSet={creditsMin} media="(max-width: 480px)" />
             <img src={credits} alt="Credits" />

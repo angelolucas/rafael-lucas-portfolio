@@ -6,7 +6,7 @@ import WorkHead from '../../components/work-head';
 
 // Assets
 import video from './media/video.mp4';
-import logo from './media/logo.png';
+import logo from './media/logo.svg';
 import mockup from './media/mockup.png';
 import mockupMin from './media/mockup-min.png';
 import homePage from './media/home-page.png';
@@ -45,7 +45,7 @@ function Section() {
       {/* Intro */}
       <div className="work-intro">
         <div className="container">
-          <img src={logo} width="116" alt="David Yurman" />
+          <img className="work-intro__logo" src={logo} width="116" alt="David Yurman" />
           <h2>Concept</h2>
           <h3 className="work-intro__subtitle">Discover the artistry and inspiration of America’s preeminent jewelry designer.</h3>
           <p className="work-intro__description">David Yurman Inc. is a privately held American designer jewelry company founded by David Yurman and Sybil Yurmanand headquartered in New York City. There are currently a total of 32 David Yurman boutiques in North America and worldwide.</p>
@@ -64,7 +64,7 @@ function Section() {
       <div className="work-objective">
         <div className="container">
           <h2>Objective</h2>
-          <p>Design a mobile experience for an e-commerce of luxurious jewelry, allowing the exposition and buy of products to be done in a friendly, intuitive and elegant way.</p>
+          <p>Design a mobile experience to a luxury jewelry e-commerce, enabling a friendly, intuitive and elegant products exhibition and purchase.</p>
         </div>
       </div>
 
@@ -74,7 +74,7 @@ function Section() {
           <li>
             <div className="chess-list__info">
               <h4 className="chess-list__title">Home Page</h4>
-              <p>Slideshow with the principal offers. Access to navigation menu and quantity of products in the header bag shopping.</p>
+              <p>Slideshow covering main offerings. Access to navigation menu and quantity of items in the bag from the header.</p>
             </div>
             <div>
               <img src={homePage} alt="Home Page" />
@@ -83,7 +83,7 @@ function Section() {
           <li>
             <div className="chess-list__info">
               <h4 className="chess-list__title">Navigation</h4>
-              <p>Simple menu, with compressed components. It is possible make a search and access the other areas of site through this.</p>
+              <p>Plain menu with collapsed elements. You can search and access other areas of the site through it.</p>
             </div>
             <div>
               <img src={navigation} alt="Navigation" />
@@ -92,7 +92,7 @@ function Section() {
           <li>
             <div className="chess-list__info chess-list__info--sticky">
               <h4 className="chess-list__title">Explore</h4>
-              <p>It is possible see various products at the same time, besides filter for value, size, color and category.</p>
+              <p>You can visualize several products at the same time, in addition to filter by price, size, color and category.</p>
             </div>
             <div>
               <img src={explore} alt="Explore" />
@@ -101,7 +101,7 @@ function Section() {
           <li>
             <div className="chess-list__info chess-list__info--sticky">
               <h4 className="chess-list__title">Procuct</h4>
-              <p>In the product’s page the pictures are shown highlighted, where is possible see all the object’s details. The available colors, dimensions, prices and others details.</p>
+              <p>There are highlighted images on the product page where you can view every detail of the item. Available colors, dimensions, prices and several other details are also displayed.</p>
             </div>
             <div>
               <img src={productDetail} alt="Procuct Detail" />
@@ -110,7 +110,7 @@ function Section() {
           <li>
             <div className="chess-list__info chess-list__info--sticky">
               <h4 className="chess-list__title">Search</h4>
-              <p>Look for products with filters, allowing a fast and efficient search.</p>
+              <p>Search for products with filters, allowing a fast and efficient search.</p>
             </div>
             <div>
               <img src={search} alt="Search" />
@@ -119,7 +119,7 @@ function Section() {
           <li>
             <div className="chess-list__info chess-list__info--sticky">
               <h4 className="chess-list__title">Shopping Bag</h4>
-              <p>Details of all products added to the bag. With an efficient navigation the user can easily remove items or finish the buy.</p>
+              <p>Details of all products added in the bag. Intuitive browsing enables users to easily remove items or checkout.</p>
             </div>
             <div>
               <img src={shoppingBag} alt="Shopping Bag" />
@@ -128,7 +128,7 @@ function Section() {
           <li>
             <div className="chess-list__info chess-list__info--sticky">
               <h4 className="chess-list__title">Checkout</h4>
-              <p>Last step for buying, page where the user fills in personal informations and the buy way for finish the buy.</p>
+              <p>Last purchase step, page where the user fill in personal and payment data to complete the purchase.</p>
             </div>
             <div>
               <img src={checkout} alt="Checkout" />
@@ -137,7 +137,7 @@ function Section() {
           <li>
             <div className="chess-list__info">
               <h4 className="chess-list__title">Find A Store</h4>
-              <p>Easy way to find a shop nearby by identifying the location or entering the zip code.</p>
+              <p>Easy way to find a nearby store, identifying the location or by entering the zip code.</p>
             </div>
             <div>
               <img src={findAStore} alt="Find A Store" />
@@ -150,7 +150,7 @@ function Section() {
       <div className="credits">
         <div className="container">
           <h3 className="credits__title">Credits</h3>
-          <p className="credits__info">I had like input the layout for desktop drew by the designer from David Yurman, <a href="http://w.sunghean.com/" target="_blank" rel="noopener noreferrer">Sung Hean</a> and by the designer <a href="http://alexlins.com/portfolio/design/" target="_blank" rel="noopener noreferrer">Alex Lins</a>. My role in the project was draw the site for mobile devices together the designer <a href="https://www.linkedin.com/in/adrielnunes" target="_blank" rel="noopener noreferrer">Adriel Nunes</a>.</p>
+          <p className="credits__info">I have had as input the desktop layout designed by David Yurman’s designer, <a href="http://w.sunghean.com/" target="_blank" rel="noopener noreferrer">Sung Hean</a> and by designer <a href="http://alexlins.com/portfolio/design/" target="_blank" rel="noopener noreferrer">Alex Lins</a>. My role in the project was to draw the site for mobile devices along with designer <a href="https://www.linkedin.com/in/adrielnunes" target="_blank" rel="noopener noreferrer">Adriel Nunes</a>.</p>
         </div>
       </div>
 
