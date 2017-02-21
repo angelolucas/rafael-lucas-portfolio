@@ -21,7 +21,7 @@ import financialAdvisoryMin from './media/financial-advisory-min.jpg';
 import aboutTheClient from './media/about-the-client.jpg';
 import aboutTheClientMin from './media/about-the-client-min.jpg';
 import guideline from './media/guideline.png';
-import mockup2 from './media/mockup2.png';
+import mockup2 from './media/mockup2.jpg';
 import mockup2Min from './media/mockup2-min.jpg';
 
 function Section() {
