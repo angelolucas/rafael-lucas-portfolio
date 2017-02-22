@@ -16,6 +16,7 @@
     position: absolute;
     transform-style: preserve-3d;
     transition: transform 0.3s ease-out;
+    backface-visibility: hidden;
   }
   > div::before,
   > div::after {
