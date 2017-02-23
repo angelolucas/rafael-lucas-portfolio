@@ -5,3 +5,13 @@
   flex: 50%;
   margin: auto;
 }
+
+@media (--viewport-med) {
+  .two-columns {
+    flex-direction: column;
+  }
+  .two-columns__item {
+    flex: 100%;
+    margin-bottom: 30px;
+  }
+}
