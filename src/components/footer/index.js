@@ -19,7 +19,7 @@ function HomeFooter() {
               <a className="link-underlined" href="https://www.instagram.com/rafaellucass/" target="_blank" rel="noopener noreferrer">instagram</a>
             </li>
             <li>
-              <a className="link-underlined" href="mailto:contato@rafaellucas.com.br" target="_blank" rel="noopener noreferrer">e-mail</a>
+              <a className="link-underlined" href="mailto:bsb.rafael@gmail.com" target="_blank" rel="noopener noreferrer">e-mail</a>
             </li>
           </ul>
         </div>
