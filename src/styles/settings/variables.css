@@ -4,5 +4,6 @@
   --side-spacing: calc(1440 / 100 * var(--fluid-side-spacing)px);
 
 	/* Colors */
+  --greyBackground: #111111;
   --whiteBackground: #fafafa;
 }

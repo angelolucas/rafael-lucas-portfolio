@@ -3,7 +3,7 @@
   --verticalFooterHeight: 210px;
 }
 .footer {
-  background: #111111;
+  background: var(--greyBackground);
   color: white;
   display: flex;
   align-items: center;
