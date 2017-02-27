@@ -56,7 +56,7 @@ function Section() {
           <img className="work-intro__logo" src={movaMais} alt="Mova Mais" />
           <h2>Concept</h2>
           <h3 className="work-intro__subtitle">Earn points for working out.</h3>
-          <p className="work-intro__description">The platform aims to encourage people to get out of a sedentary lifestyle, following their daily routine of physical activities and rewarding them with loyalty programs points, which can be redeemed for flights, electronics, and many others.</p>
+          <p className="work-intro__description">The platform aims to encourage people to get out of a sedentary lifestyle, following their daily routine of physical activities and rewarding them with loyalty program points, which can be redeemed for flights, electronics, more.</p>
         </div>
       </div>
 
@@ -69,7 +69,7 @@ function Section() {
       <div className="work-objective">
         <div className="container">
           <h2>Objective</h2>
-          <p>Clearly present the value proposition, while ensuring a consistent growth of the user base, coupled to a user-friendly, concise, and user-focused interface.</p>
+          <p>Clearly present the value proposition, while ensuring a consistent growth of the user base, coupled with a concise, and user-focused interface.</p>
         </div>
       </div>
 
@@ -99,7 +99,7 @@ function Section() {
           <ul className="chess-list chess-list-walkt">
             <li>
               <div className="chess-list__info">
-                <p>“Sign up in one of the tracking apps and connect your account.”</p>
+                <p>Sign up in one of the tracking apps and connect your account.</p>
               </div>
               <div>
                 <img src={step01} alt="" />
@@ -107,7 +107,7 @@ function Section() {
             </li>
             <li>
               <div className="chess-list__info">
-                <p>“Track your physical activities through the app you have connected.”</p>
+                <p>Track your physical activities through the app you have connected.</p>
               </div>
               <div>
                 <img src={step02} alt="" />
@@ -115,7 +115,7 @@ function Section() {
             </li>
             <li>
               <div className="chess-list__info">
-                <p>“Reach your daily goal and collect points for conversion.”</p>
+                <p>Reach your daily goal and collect points.</p>
               </div>
               <div>
                 <img src={step03} alt="" />
@@ -129,7 +129,7 @@ function Section() {
       <div className="work-step work-step--mm03">
         <div className="container">
           <h3 className="work-step__title">Daily Goal</h3>
-          <p className="work-step__description">One of the major goals of the application is to ensure the user is always motivated to work out, so we display encouraging messages, especially reminding them not to miss the exercises streak.</p>
+          <p className="work-step__description">One of the major goals of the application is to ensure the user is always motivated to work out, so we display encouraging messages, especially reminding them not to miss the exercise streak.</p>
         </div>
         <div className="mm__daily-goal__image">
           <img src={dailyGoal} alt="" />
@@ -140,12 +140,12 @@ function Section() {
       <div className="work-step work-step--mm04">
         <div className="container">
           <h3 className="work-step__title">Engagement</h3>
-          <p className="work-step__description">Retaining the user is always a big challenge when it comes to physical activity, so we have developed a feature called Combo, which benefits with more points the user who reaches the daily goal more often.</p>
+          <p className="work-step__description">Retaining the user is always a big challenge when it comes to physical activity, so we have developed a feature called Combo, which grants more points to users who reache their daily goal more often.</p>
           <ul className="chess-list chess-list-engagement">
             <li>
               <div className="chess-list__info">
                 <h4 className="chess-list__title">Hit the goal!</h4>
-                <p>You have earned <strong>20 points</strong> for reaching your goal for the first time!”</p>
+                <p>You have earned <strong>20 points</strong> for reaching your goal for the first time!</p>
               </div>
               <div>
                 <img src={engagement01} alt="" />
@@ -154,7 +154,7 @@ function Section() {
             <li>
               <div className="chess-list__info">
                 <h4 className="chess-list__title">Keep your Combo</h4>
-                <p>“Creating a streak of reached goals you can earn up to <strong>40 points</strong> for achieving a goal.”</p>
+                <p>Creating a streak of reached goals you can earn up to <strong>40 points</strong> .</p>
               </div>
               <div>
                 <img src={engagement02} alt="" />
@@ -162,8 +162,8 @@ function Section() {
             </li>
             <li>
               <div className="chess-list__info">
-                <h4 className="chess-list__title">Resting is important!</h4>
-                <p>“You can rest for up to <strong>2 days</strong> in a row without breaking your Combo.”</p>
+                <h4 className="chess-list__title">Rest is important!</h4>
+                <p>You can rest for up to <strong>2 days</strong> in a row without breaking your Combo.</p>
               </div>
               <div>
                 <img src={engagement03} alt="" />
@@ -177,7 +177,7 @@ function Section() {
       <div className="work-step work-step--mm05">
         <div className="container">
           <h3 className="work-step__title">Points</h3>
-          <p className="work-step__description">Allowing an easy and quick access to points is key, presenting them in a clear way, as it is the edge of our promise of value. Besides, in our case, this benefit acts like the “carrot and stick” approach, being the major motivational factor for many users.</p>
+          <p className="work-step__description">Allowing an easy and quick access to points is key, presenting them in a clear way, as it is the edge of our promise of value.</p>
         </div>
         <div className="container container--full">
           <ul className="two-columns">
@@ -198,8 +198,8 @@ function Section() {
           <ul className="chess-list chess-list--resources">
             <li>
               <div className="chess-list__info">
-                <h4 className="chess-list__title">Ranking Of Friends</h4>
-                <p>A very efficient resource to stimulate the practice of exercise, promoting competition among friends, as well as allowing comments, likes, and other social resources on activities.</p>
+                <h4 className="chess-list__title">Challenge your friends</h4>
+                <p>A very efficient resource to stimulate the practice of exercise, promoting competition among friends, as well as allowing comments, likes, and other social feedback on activities.</p>
               </div>
               <div>
                 <img src={other01} alt="" />
@@ -207,8 +207,8 @@ function Section() {
             </li>
             <li>
               <div className="chess-list__info">
-                <h4 className="chess-list__title">Tracker</h4>
-                <p>Aims to remove any obstacles that hinder the user from joining, and shorten the gap between workouts and the concrete benefit. Still in testing phase.</p>
+                <h4 className="chess-list__title">Fitness Tracker</h4>
+                <p>The goal is to remove any obstacles that hinder the user from joining, and shorten the time between workouts. Still in testing phase.</p>
               </div>
               <div>
                 <img src={other02} alt="" />
@@ -216,7 +216,7 @@ function Section() {
             </li>
             <li>
               <div className="chess-list__info">
-                <h4 className="chess-list__title">Member Get Member</h4>
+                <h4 className="chess-list__title">Call your friends</h4>
                 <p>Focused on acquisition. Users earn points for each friend they indicate, provided that they sign up to the platform and do at least one activity.</p>
               </div>
               <div>

@@ -48,7 +48,7 @@ function Section() {
         <div className="container">
           <img className="work-intro__logo" src={logo} width="204" alt="Logo Banco do Brasil Private" />
           <h2>Concept</h2>
-          <h3 className="work-intro__subtitle">Do not rely on Luck. Rely on BB Private.</h3>
+          <h3 className="work-intro__subtitle">Don’t rely on Luck. Rely on BB Private.</h3>
           <p className="work-intro__description">Corporate site of the Private segment of the largest bank in Latin America. Aiming to meet the needs of financial advisory and resource management with customized strategies in a free of charge, transparent way.</p>
         </div>
       </div>

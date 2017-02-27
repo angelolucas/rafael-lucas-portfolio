@@ -60,7 +60,7 @@ function Section() {
         <div className="container">
           <img className="work-intro__logo" src={caixaNasRuas} width="281" alt="Caixa Nas Ruas" />
           <h2>Concept</h2>
-          <h3 className="work-intro__subtitle">Your well-being begins In the Streets.</h3>
+          <h3 className="work-intro__subtitle">More health and wellbeing for Bank Caixa staff.</h3>
           <p className="work-intro__description">The Caixa Nas Ruas program encourages users’ engagement by motivating a regular practice of physical activities through content, sense of belonging, social stimulation, and relationship program.</p>
         </div>
       </div>
