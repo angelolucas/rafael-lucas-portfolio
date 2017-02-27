@@ -78,10 +78,11 @@
 
 @media (--viewport-min) {
   .work-flow {
-    flex-direction: column;
+    display: block;
+    width: 100%;
   }
   .work-flow__item {
-    flex: 100%;
+    width: 100%;
     margin-bottom: 50px;
   }
 }
