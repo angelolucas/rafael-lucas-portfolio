@@ -8,8 +8,6 @@ import WorkHead from '../../components/work-head';
 import video from './media/video.mp4';
 import logo from './media/logo.svg';
 import mockup from './media/mockup.jpg';
-import siteMap from './media/site-map.png';
-import siteMapMin from './media/site-map-min.png';
 import homePage from './media/home-page.png';
 import products from './media/products.png';
 import productsDetail from './media/products-detail.png';
@@ -65,19 +63,8 @@ function Section() {
         </div>
       </div>
 
-      {/* Step 01 */}
-      <div className="work-step work-sitemap work-step--ect01">
-        <div className="container">
-          <h3 className="work-step__title">Site Map</h3>
-          <picture>
-            <source srcSet={siteMapMin} media="(max-width: 480px)" />
-            <img src={siteMap} alt="Site Map" />
-          </picture>
-        </div>
-      </div>
-
-      {/* Step 02 */}
-      <div className="work-step work-step--ect02">
+      {/* Web Mobile */}
+      <div className="work-step work-step--web-mobile">
         <div className="container">
           <h3 className="work-step__title">Web Mobile</h3>
           <ul className="chess-list">
@@ -143,6 +130,7 @@ function Section() {
         </div>
       )}
 
+      {/* Credits */}
       <div className="work-credits">
         <div className="container">
           <h4 className="work-credits__title">Credits</h4>
@@ -159,7 +147,7 @@ function Section() {
         Disabled for small devices
       */}
       { window.innerWidth >= 480 &&
-        <div className="work-step work-step--ect03 work-guideline hide-viewport--min">
+        <div className="work-step work-guideline hide-viewport--min">
           <div className="container">
             <h3 className="work-step__title">Guideline</h3>
             <img src={guideline} alt="Guideline" />

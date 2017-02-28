@@ -9,8 +9,6 @@ import caixaNasRuas from './media/caixa-nas-ruas.svg';
 import workHeadImage from './media/work-head.jpg';
 import mockup from './media/mockup.png';
 import mockupMin from './media/mockup-min.png';
-import siteMap from './media/site-map.png';
-import siteMapMin from './media/site-map-min.png';
 import dashboard from './media/dashboard.png';
 import dashboardMin from './media/dashboard-min.png';
 import team from './media/team.png';
@@ -81,19 +79,8 @@ function Section() {
         </div>
       </div>
 
-      {/* Step 01 */}
-      <div className="work-step work-step--cnr01">
-        <div className="container">
-          <h3 className="work-step__title">Site Map</h3>
-          <picture>
-            <source srcSet={siteMapMin} media="(max-width: 480px)" />
-            <img src={siteMap} alt="Site Map" />
-          </picture>
-        </div>
-      </div>
-
-      {/* Step 02 */}
-      <div className="work-step work-step--cnr02">
+      {/* Work Step */}
+      <div className="work-step">
         <div className="container">
           <h3 className="work-step__title">Pages</h3>
           <h4>Dashboard</h4>
@@ -152,8 +139,8 @@ function Section() {
         </div>
       </div>
 
-      {/* Step 03 */}
-      <div className="work-step work-step--cnr03">
+      {/* Mobile */}
+      <div className="work-step">
         <div className="container">
           <h3 className="work-step__title">Mobile</h3>
         </div>
@@ -170,7 +157,7 @@ function Section() {
         Disabled for small devices
       */}
       { window.innerWidth >= 480 &&
-        <div className="work-step work-step--cnr04 work-guideline hide-viewport--min">
+        <div className="work-step work-guideline hide-viewport--min">
           <div className="container">
             <h3 className="work-step__title">Guideline</h3>
             <img src={colors} alt="colors" />
@@ -179,8 +166,8 @@ function Section() {
         </div>
       }
 
-      {/* Step 05 */}
-      <div className="work-step work-step--cnr05 work-results">
+      {/* Results */}
+      <div className="work-step work-results">
         <div className="container">
           <h3 className="work-step__title">Results</h3>
           <ul>

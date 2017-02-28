@@ -20,16 +20,13 @@
   .chess-list > li p {
     max-width: 410px;
   }
-  .work-sitemap img {
-    margin-bottom: 100px;
-  }
   .work-step__title:before {
     background-color: var(--ect-colorfulDetails);
   }
   .work-step__title:after {
     border-color: var(--ect-colorfulDetails);
   }
-  .work-step--ect02 {
+  .work-step--web-mobile {
     padding-bottom: 10px;
   }
   .chess-list__title:after {
