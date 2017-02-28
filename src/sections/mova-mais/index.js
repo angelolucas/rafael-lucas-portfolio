@@ -5,9 +5,9 @@ import WorkPage from '../work-page';
 import WorkHead from '../../components/work-head';
 
 // Assets
-import movaMais from './media/mova-mais.png';
 import posterVideo from './media/video-poster.jpg';
 import video from './media/video.mp4';
+import logo from './media/mova-mais.svg';
 import mockup from './media/mockup.jpg';
 import step01 from './media/step1.png';
 import step02 from './media/step2.png';
@@ -28,8 +28,8 @@ import guidelineFont from './media/guideline-font.png';
 import guidelineIcons from './media/guideline-icons.png';
 import counter from './media/counter.png';
 import counterMin from './media/counter-min.png';
-import googlePlay from './media/google-play.png';
-import appleStore from './media/apple-store.png';
+import googlePlay from './media/google-play.svg';
+import appleStore from './media/apple-store.svg';
 
 function Section() {
   return (
@@ -53,7 +53,7 @@ function Section() {
       {/* Intro */}
       <div className="work-intro">
         <div className="container">
-          <img className="work-intro__logo" src={movaMais} alt="Mova Mais" />
+          <img className="work-intro__logo" src={logo} alt="Mova Mais" />
           <h2>Concept</h2>
           <h3 className="work-intro__subtitle">Earn points for working out.</h3>
           <p className="work-intro__description">The platform aims to encourage people to get out of a sedentary lifestyle, following their daily routine of physical activities and rewarding them with loyalty program points, which can be redeemed for flights, electronics, more.</p>
