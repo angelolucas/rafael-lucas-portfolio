@@ -1,6 +1,6 @@
 :root {
   --horizontalFooterHeight: 198px;
-  --verticalFooterHeight: 210px;
+  --verticalFooterHeight: 240px;
 }
 .footer {
   background: var(--greyBackground);
