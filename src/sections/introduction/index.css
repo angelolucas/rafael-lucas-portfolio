@@ -32,6 +32,7 @@
   }
   .introduction-section h2 {
     margin-right: var(--fluid-side-spacing)vw;
+    font-size: 7vw;
   }
   .introduction-section br {
     display: none;

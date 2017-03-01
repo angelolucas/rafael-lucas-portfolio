@@ -19,7 +19,7 @@
   pointer-events: none;
   z-index: 3;
 }
-@media (--viewport-min ) {
+@media (--viewport-med ) {
   .home__effect__overlay {
     height: 120vh;
   }

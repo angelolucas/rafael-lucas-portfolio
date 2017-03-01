@@ -25,7 +25,7 @@ class Home extends Component {
   }
   render() {
     return (
-      <div>
+      <div className="home">
         <div className="home__effect__container">
           <div className="home__effect__header" ref={(effect) => { this.effect = effect; }}>
             <Header />

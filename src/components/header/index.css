@@ -31,9 +31,11 @@
 
   /* Center Section */
   &.header__section--center {
+    transition-delay: 0s;
     transform: scale(0.9);
 
     &.header__section--active {
+      transition-delay: 0.1s;
       transform: scale(1);
     }
   }
