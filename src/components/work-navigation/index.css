@@ -1,5 +1,5 @@
 .work-nav {
-  background: #141414;
+  background: black;
   display: flex;
   justify-content: space-around;
   text-align: center;
@@ -15,7 +15,7 @@
 
   &:after {
     transition: background 0.5s;
-    background: #141414;
+    background: black;
     content: "";
     position: absolute;
     width: 100%;
@@ -25,7 +25,7 @@
     pointer-events: none;
   }
   &:hover:after {
-    background-color: rgba(20, 20, 20, 0.4);
+    background-color: rgba(0, 0, 0, 0.4);
   }
 }
 .work-nav__item--prev {
