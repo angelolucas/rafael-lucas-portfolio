@@ -133,7 +133,7 @@ function Section() {
       {/* Credits */}
       <div className="work-credits">
         <div className="container">
-          <h4 className="work-credits__title">Credits</h4>
+          <h4 className="work-credits__title">My Roles</h4>
           <p className="work-credits__description">Desktop version design: <a href="https://www.linkedin.com/in/adrielnunes" target="_blank" rel="noopener noreferrer">Adriel Nunes</a></p>
           <picture>
             <source srcSet={creditsMin} media="(max-width: 480px)" />

@@ -149,7 +149,7 @@ function Section() {
       {/* Credits */}
       <div className="credits">
         <div className="container">
-          <h3 className="credits__title">Credits</h3>
+          <h3 className="credits__title">My Roles</h3>
           <p className="credits__info">I have had as input the desktop layout designed by David Yurman’s designer, <a href="http://w.sunghean.com/" target="_blank" rel="noopener noreferrer">Sung Hean</a> and by designer <a href="http://alexlins.com/portfolio/design/" target="_blank" rel="noopener noreferrer">Alex Lins</a>. My role in the project was to draw the site for mobile devices along with designer <a href="https://www.linkedin.com/in/adrielnunes" target="_blank" rel="noopener noreferrer">Adriel Nunes</a>.</p>
         </div>
       </div>

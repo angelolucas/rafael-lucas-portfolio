@@ -154,6 +154,24 @@ function Section() {
         </div>
       </div>
 
+      {/* My Role */}
+      <div className="my-role">
+        <div className="container">
+          <h2>My Role</h2>
+          <p className="my-role__description">Fui responsável pela solução visual do site juntamente com o diretor de criação Adriel Nunes.</p>
+
+          <p><strong>Team:</strong></p>
+          <ul>
+            <li>Isobar Brasil</li>
+            <li>Director Creative, Adriel Nunes</li>
+            <li>UX, Rogério Pereira</li>
+            <li>Designer, Rafael Lucas</li>
+            <li>Project Manager, Mel Azevedo</li>
+            <li>Account Manager, Priscilla Lira</li>
+          </ul>
+        </div>
+      </div>
+
       {/*
         Guideline
         Disabled for small devices

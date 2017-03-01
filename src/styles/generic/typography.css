@@ -7,6 +7,9 @@ body {
 a {
   text-decoration: none;
 }
+strong {
+  font-weight: 500;
+}
 button {
   font-family: 'Sailec', sans-serif;
 }

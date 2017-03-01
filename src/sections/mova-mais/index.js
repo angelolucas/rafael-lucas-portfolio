@@ -260,6 +260,25 @@ function Section() {
         </div>
       }
 
+      {/* My Role */}
+      <div className="work-step my-role">
+        <div className="container">
+          <h3 className="work-step__title">My Role</h3>
+          <p className="my-role__description">Coube a mim a responsabilidade de pensar no produto como um todo, muito além do visual. Estive presente desde sua concepção, ajudando a definir os recursos, projetar a experiência, criar wireframes, desenhar a solução visual e atuando para no crescimento da base.</p>
+
+          <p><strong>Mova Mais’s Team:</strong></p>
+          <ul>
+            <li>Fernando (Nandico) Aquino, CEO</li>
+            <li>Marco Gomes, Board Member</li>
+            <li>Rafael Lucas, Designer</li>
+            <li>André Paz, CTO</li>
+            <li>Mateus Moura, Developer</li>
+            <li>Flávia Michels, Loyalty</li>
+            <li>Wesley Costa, Administrative Assistant</li>
+          </ul>
+        </div>
+      </div>
+
       {/* Step 08 */}
       <div className="work-step work-step--mm08">
         <div className="container">

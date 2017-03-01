@@ -167,7 +167,7 @@ function Section() {
           </picture>
         </div>
         <div className="container">
-          <h3 className="work-credits__title">Credits</h3>
+          <h3 className="work-credits__title">My Roles</h3>
           <p className="work-credits__description">I have had as input the desktop version produced by designer <a href="https://www.linkedin.com/in/adrielnunes" target="_blank" rel="noopener noreferrer">Adriel Nunes</a>,  who also signs the art direction of a few music videos and the last album cover.</p>
         </div>
       </div>

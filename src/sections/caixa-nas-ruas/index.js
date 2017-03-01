@@ -166,6 +166,25 @@ function Section() {
         </div>
       }
 
+      {/* My Role */}
+      <div className="work-step my-role">
+        <div className="container">
+          <h3 className="work-step__title">My Role</h3>
+          <p className="my-role__description">Esse projeto foi desenvolvido pelo Mova Mais S.A. em parceria com a agência promocional Fermento Promo. Eu como designer de produto do Mova Mais, fui responsável por projetar a experiência além de criar a solução visual de toda a plataforma.</p>
+
+          <p><strong>Team:</strong></p>
+          <ul>
+            <li>Fernando (Nandico) Aquino, CEO</li>
+            <li>Rodrigo Ferreira, General Director (Fermento)</li>
+            <li>Bruno Santiago, Digital Director (Fermento)</li>
+            <li>Rafael Lucas, Designer</li>
+            <li>André Paz, CTO</li>
+            <li>André Marques, Developer</li>
+            <li>Daniel Moura, Developer</li>
+          </ul>
+        </div>
+      </div>
+
       {/* Results */}
       <div className="work-step work-results">
         <div className="container">
