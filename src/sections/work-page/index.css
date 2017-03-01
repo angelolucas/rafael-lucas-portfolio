@@ -5,6 +5,32 @@
   height: 100vh;
 }
 
+/* For Momentum Scrolling in Touch Devices */
+.work-page:before,
+.work-page:after {
+  content: "";
+  background-color: #f0f0f0;
+  height: 50vh;
+  left: -100px;
+  right: -100px;
+  position: absolute;
+  z-index: -1;
+  pointer-events: none;
+}
+.work-page:before {
+  top: 0px;
+  box-shadow: inset 0 0 60px rgba(0, 0, 0, 0.5);
+}
+.work-page--dark:before {
+  box-shadow: inset 0 0 60px black; 
+  background-color: #0B0B0B;
+}
+.work-page:after {
+  background-color: #141414;
+  box-shadow: inset 0 0 60px black;
+  bottom: 0px;
+}
+
 /* Section */
 .work-page section {
   text-align: center;
