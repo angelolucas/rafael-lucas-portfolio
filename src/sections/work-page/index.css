@@ -1,8 +1,9 @@
 
 .work-page__scroll {
-  overflow-y: scroll;
+  overflow: scroll;
   -webkit-overflow-scrolling: touch;
   height: 100vh;
+  width: 100vw;
 }
 
 /* For Momentum Scrolling in Touch Devices */

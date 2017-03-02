@@ -19,6 +19,7 @@
 @import '../components/header';
 @import '../components/list-works';
 @import '../components/footer';
+@import '../components/match-with-fade';
 @import '../components/work-thumbnail';
 @import '../components/work-head';
 @import '../components/work-intro';

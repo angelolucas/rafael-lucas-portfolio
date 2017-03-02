@@ -20,6 +20,7 @@ const MatchWithFade = ({ component: Component, ...rest }) => {
           <div>
             {interpolatedStyles.map(config => (
               <div
+                className="match-with-fade"
                 key={config.key}
                 style={{ ...config.style }}
               >
