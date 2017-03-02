@@ -196,6 +196,11 @@
     font-size: 35px;
   }
 
+  .chess-list-engagement img,
+  .chess-list--resources img {
+    width: 80%;
+  }
+
   /* Step 08 */
   .work-step--mm08 {
     img {
