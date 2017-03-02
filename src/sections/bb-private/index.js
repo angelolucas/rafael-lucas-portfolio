@@ -6,7 +6,7 @@ import WorkHead from '../../components/work-head';
 
 // Assets
 import video from './media/video.mp4';
-import logo from './media/logo.png';
+import logo from './media/logo.svg';
 import mockup from './media/mockup.png';
 import mockupMin from './media/mockup-min.png';
 import siteMap from './media/site-map.png';
