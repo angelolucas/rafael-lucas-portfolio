@@ -23,6 +23,7 @@
 @import '../components/work-head';
 @import '../components/work-intro';
 @import '../components/work-objective';
+@import '../components/work-mockup';
 @import '../components/work-flow';
 @import '../components/work-steps';
 @import '../components/work-screen';

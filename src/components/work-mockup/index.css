@@ -1,0 +1,12 @@
+.work-mockup {
+  overflow: hidden;
+  position: relative;
+}
+@media (--viewport-min) {
+  .work-mockup__image {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    min-width: 140%;
+  }
+}

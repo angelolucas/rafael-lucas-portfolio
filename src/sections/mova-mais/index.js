@@ -61,8 +61,10 @@ function Section() {
       </div>
 
       {/* Mockup */}
-      <div className="container container--full">
-        <img src={mockup} alt="" />
+      <div className="work-mockup">
+        <div className="container container--full">
+          <img className="work-mockup__image" src={mockup} alt="" />
+        </div>
       </div>
 
       {/* Objective */}

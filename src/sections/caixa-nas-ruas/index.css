@@ -21,6 +21,9 @@
   .work-intro .container {
     max-width: 860px;
   }
+  .work-mockup__image {
+    min-width: 100%;
+  }
   .work-step__title {
     &:before {
       background-color: var(--cnr-colorfulDetails);

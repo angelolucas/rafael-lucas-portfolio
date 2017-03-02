@@ -58,7 +58,7 @@ function Section() {
         <div className="container container--full">
           <picture>
             <source srcSet={mockupMin} media="(max-width: 480px)" />
-            <img src={mockup} alt="Mockup" />
+            <img className="work-mockup__image" src={mockup} alt="Mockup" />
           </picture>
         </div>
       </div>

@@ -53,11 +53,13 @@ function Section() {
       </div>
 
       {/* Mockup */}
-      <div className="container">
-        <picture>
-          <source srcSet={mockupMin} media="(max-width: 480px)" />
-          <img src={mockup} alt="Mockup" />
-        </picture>
+      <div className="work-mockup">
+        <div className="container">
+          <picture>
+            <source srcSet={mockupMin} media="(max-width: 480px)" />
+            <img className="work-mockup__image" src={mockup} alt="Mockup" />
+          </picture>
+        </div>
       </div>
 
       {/* Objective */}

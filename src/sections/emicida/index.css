@@ -29,12 +29,6 @@
     max-width: 660px;
     margin: auto;
   }
-  .work-mockup {
-    position: relative;
-  }
-  .work-mockup img {
-    transform: translateX(-4.5%);
-  }
   .mcd-patter {
     background-attachment: fixed;
     height: 180px;
