@@ -5,7 +5,6 @@ import WorkPage from '../work-page';
 import WorkHead from '../../components/work-head';
 
 // Assets
-import video from './media/video.mp4';
 import logo from './media/logo.svg';
 import mockup from './media/mockup.jpg';
 import homePage from './media/home-page.png';
@@ -25,20 +24,8 @@ function Section() {
   return (
     <section className="ect">
 
-      {/*
-        Work Head
-        Disabled for small devices
-      */}
-      { window.innerWidth >= 480 &&
-        <WorkHead
-          name="ect"
-          title="Escinter"
-          category="web mobile"
-          color="white"
-          src={video}
-          type="video"
-        />
-      }
+      {/* Work Head */}
+      <WorkHead id={5} />
 
       {/* Intro */}
       <div className="work-intro">
@@ -68,7 +55,7 @@ function Section() {
       {/* Web Mobile */}
       <div className="work-step work-step--web-mobile">
         <div className="container">
-          <h3 className="work-step__title">Web Mobile</h3>
+          <h3 className="work-step__title">Pages</h3>
           <ul className="chess-list">
             <li>
               <div className="chess-list__info chess-list__info--sticky">
@@ -133,7 +120,7 @@ function Section() {
       )}
 
       {/* Credits */}
-      <div className="work-credits">
+      <div className="my-role">
         <div className="container">
           <h4 className="work-credits__title">My Roles</h4>
           <p className="work-credits__description">Desktop version design: <a href="https://www.linkedin.com/in/adrielnunes" target="_blank" rel="noopener noreferrer">Adriel Nunes</a></p>

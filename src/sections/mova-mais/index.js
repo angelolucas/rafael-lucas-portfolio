@@ -5,8 +5,6 @@ import WorkPage from '../work-page';
 import WorkHead from '../../components/work-head';
 
 // Assets
-import posterVideo from './media/video-poster.jpg';
-import video from './media/video.mp4';
 import logo from './media/mova-mais.svg';
 import mockup from './media/mockup.jpg';
 import step01 from './media/step1.png';
@@ -35,27 +33,15 @@ function Section() {
   return (
     <section className="mm">
 
-      {/*
-        Work Head
-        Disabled for small devices
-      */}
-      { window.innerWidth >= 480 &&
-        <WorkHead
-          name="mm"
-          title="Mova Mais"
-          category="app"
-          src={video}
-          poster={posterVideo}
-          type="video"
-        />
-      }
+      {/* Work Head */}
+      <WorkHead id={1} />
 
       {/* Intro */}
       <div className="work-intro">
         <div className="container">
           <img className="work-intro__logo" src={logo} alt="Mova Mais" />
           <h2>Concept</h2>
-          <h3 className="work-intro__subtitle">Earn points for working out.</h3>
+          <h3 className="work-intro__subtitle">Earn points for working out</h3>
           <p className="work-intro__description">The platform aims to encourage people to get out of a sedentary lifestyle, following their daily routine of physical activities and rewarding them with loyalty program points, which can be redeemed for flights, electronics, more.</p>
         </div>
       </div>
@@ -142,7 +128,7 @@ function Section() {
       <div className="work-step work-step--mm04">
         <div className="container">
           <h3 className="work-step__title">Engagement</h3>
-          <p className="work-step__description">Retaining the user is always a big challenge when it comes to physical activity, so we have developed a feature called Combo, which grants more points to users who reache their daily goal more often.</p>
+          <p className="work-step__description">Retaining the user is always a big challenge when it comes to physical activity, so we have developed a feature called Combo, which grants more points to users who reach their daily goal more often.</p>
           <ul className="chess-list chess-list-engagement">
             <li>
               <div className="chess-list__info">
@@ -179,7 +165,7 @@ function Section() {
       <div className="work-step work-step--mm05">
         <div className="container">
           <h3 className="work-step__title">Points</h3>
-          <p className="work-step__description">Allowing an easy and quick access to points is key, presenting them in a clear way, as it is the edge of our promise of value.</p>
+          <p className="work-step__description">Allowing an easy and quick access to the point is key for our value proposition.</p>
         </div>
         <div className="container container--full">
           <ul className="two-columns">
@@ -266,10 +252,10 @@ function Section() {
       <div className="work-step my-role">
         <div className="container">
           <h3 className="work-step__title">My Role</h3>
-          <p className="my-role__description">Coube a mim a responsabilidade de pensar no produto como um todo, muito além do visual. Estive presente desde sua concepção, ajudando a definir os recursos, projetar a experiência, criar wireframes, desenhar a solução visual e atuando para no crescimento da base.</p>
+          <p className="my-role__description">I was in charge of thinking about the product as a whole, far beyond visual aspects. From its conception, going through resources settings, experience designing, wireframe building, and designing the visual solution.</p>
 
-          <p><strong>Mova Mais’s Team:</strong></p>
-          <ul>
+          <h4 className="my-role__team">Team Mova Mais:</h4>
+          <ul className="my-role__list">
             <li>Fernando (Nandico) Aquino, CEO</li>
             <li>Marco Gomes, Board Member</li>
             <li>Rafael Lucas, Designer</li>

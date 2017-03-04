@@ -5,7 +5,6 @@ import WorkPage from '../work-page';
 import WorkHead from '../../components/work-head';
 
 // Assets
-import video from './media/video.mp4';
 import logo from './media/logo.svg';
 import mockup from './media/mockup.png';
 import mockupMin from './media/mockup-min.png';
@@ -27,28 +26,16 @@ function Section() {
   return (
     <section className="dy">
 
-      {/*
-        Work Head
-        Disabled for small devices
-      */}
-      { window.innerWidth >= 480 &&
-        <WorkHead
-          name="dy"
-          title="David Yurman"
-          category="web mobile"
-          color="black"
-          src={video}
-          type="video"
-        />
-      }
+      {/* Work Head */}
+      <WorkHead id={4} />
 
       {/* Intro */}
       <div className="work-intro">
         <div className="container">
           <img className="work-intro__logo" src={logo} width="116" alt="David Yurman" />
           <h2>Concept</h2>
-          <h3 className="work-intro__subtitle">Discover the artistry and inspiration of America’s preeminent jewelry designer.</h3>
-          <p className="work-intro__description">David Yurman Inc. is a privately held American designer jewelry company founded by David Yurman and Sybil Yurmanand headquartered in New York City. There are currently a total of 32 David Yurman boutiques in North America and worldwide.</p>
+          <h3 className="work-intro__subtitle">Get to know America’s most prominent jewelry designer.</h3>
+          <p className="work-intro__description">David Yurman Inc. is a privately held NYC-based jewelry designer company founded by David Yurman and Sybil Yurman. There are currently 32 David Yurman boutiques in North America and worldwide.</p>
         </div>
       </div>
 
@@ -66,7 +53,7 @@ function Section() {
       <div className="work-objective">
         <div className="container">
           <h2>Objective</h2>
-          <p>Design a mobile experience to a luxury jewelry e-commerce, enabling a friendly, intuitive and elegant products exhibition and purchase.</p>
+          <p>Design a mobile experience to a luxury jewelry e-commerce, enabling a premium, intuitive and elegant products exhibition and purchase.</p>
         </div>
       </div>
 
@@ -76,7 +63,7 @@ function Section() {
           <li>
             <div className="chess-list__info">
               <h4 className="chess-list__title">Home Page</h4>
-              <p>Slideshow covering main offerings. Access to navigation menu and quantity of items in the bag from the header.</p>
+              <p>Slideshow covering main offerings. Access to navigation menu and quantity of items in the shopping bag.</p>
             </div>
             <div>
               <img src={homePage} alt="Home Page" />

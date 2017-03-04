@@ -1,11 +1,33 @@
 import React, { Component } from 'react';
 import TweenLite from 'gsap';
+import GetWorks from '../get-works';
 
 class WorkHead extends Component {
+  componentWillMount() {
+    this.media = () => {
+      if (GetWorks[this.props.id].video) {
+        return (
+          <video
+            className="work-head__media--video"
+            src={GetWorks[this.props.id].video}
+            autoPlay
+            poster={GetWorks[this.props.id].poster}
+            muted
+            loop
+          />
+        );
+      }
+      return (
+        <div
+          className="work-head__media--image"
+          style={{ backgroundImage: `url(${GetWorks[this.props.id].poster})` }}
+        />
+      );
+    };
+  }
   componentDidMount() {
-    const el = document.querySelector(`.work-page--${this.props.name} .work-page__scroll`);
+    const el = document.querySelector(`.work-page--${GetWorks[this.props.id].shortName} .work-page__scroll`);
     const height = window.innerHeight;
-
     if (window.innerWidth >= 480) {
       el.addEventListener('scroll', (e) => {
         if (e.target.scrollTop < height) {
@@ -26,39 +48,14 @@ class WorkHead extends Component {
     );
   }
   render() {
-    let media = null;
-
-    // Media Type Video
-    if (this.props.type === 'video') {
-      media = (
-        <video
-          className="work-head__media--video"
-          src={this.props.src}
-          autoPlay
-          poster={this.props.poster}
-          muted
-          loop
-        />
-      );
-    }
-
-    // Media Type Image
-    if (this.props.type === 'image') {
-      media = (
-        <div
-          className="work-head__media--image"
-          style={{ backgroundImage: `url(${this.props.src})` }}
-        />
-      );
-    }
     return (
-      <div className="work-head hide-viewport--min" style={{ backgroundColor: this.props.color }}>
+      <div className="work-head hide-viewport--min">
         <div className="work-head__media" ref={(workMedia) => { this.workMedia = workMedia; }}>
-          {media}
+          {this.media()}
         </div>
         <div className="container">
-          <h1 className="work-head__title">{ this.props.title }</h1>
-          <h6 className="work-head__category">{ this.props.category }</h6>
+          <h1 className="work-head__title">{ GetWorks[this.props.id].title }</h1>
+          <h6 className="work-head__category">{ GetWorks[this.props.id].category }</h6>
         </div>
         <button
           type="button"
@@ -73,13 +70,7 @@ class WorkHead extends Component {
 }
 
 WorkHead.propTypes = {
-  name: React.PropTypes.string,
-  title: React.PropTypes.string,
-  category: React.PropTypes.string,
-  color: React.PropTypes.string,
-  src: React.PropTypes.string,
-  type: React.PropTypes.string,
-  poster: React.PropTypes.string,
+  id: React.PropTypes.number,
 };
 
 export default WorkHead;

@@ -6,7 +6,6 @@ import WorkHead from '../../components/work-head';
 
 // Assets
 import caixaNasRuas from './media/caixa-nas-ruas.svg';
-import workHeadImage from './media/work-head.jpg';
 import mockup from './media/mockup.png';
 import mockupMin from './media/mockup-min.png';
 import dashboard from './media/dashboard.png';
@@ -38,28 +37,16 @@ function Section() {
   return (
     <section className="cnr">
 
-      {/*
-        Work Head
-        Disabled for small devices
-      */}
-      { window.innerWidth >= 480 &&
-        <WorkHead
-          name="cnr"
-          title="Caixa Nas Ruas"
-          category="web desktop & mobile"
-          color="#a0a8ab"
-          src={workHeadImage}
-          type="image"
-        />
-      }
+      {/* Work Head */}
+      <WorkHead id={2} />
 
       {/* Intro */}
       <div className="work-intro">
         <div className="container">
           <img className="work-intro__logo" src={caixaNasRuas} width="281" alt="Caixa Nas Ruas" />
           <h2>Concept</h2>
-          <h3 className="work-intro__subtitle">More health and wellbeing for Bank Caixa staff.</h3>
-          <p className="work-intro__description">The Caixa Nas Ruas program encourages users’ engagement by motivating a regular practice of physical activities through content, sense of belonging, social stimulation, and relationship program.</p>
+          <h3 className="work-intro__subtitle">More health and wellbeing for Bank Caixa staff</h3>
+          <p className="work-intro__description">The Caixa Nas Ruas program is one of the biggest internal marketing platforms in Latin America in just two years. It is the great sponsor of sport to Caixa employees.</p>
         </div>
       </div>
 
@@ -77,7 +64,7 @@ function Section() {
       <div className="work-objective work-objective--cnr">
         <div className="container">
           <h2>Objective</h2>
-          <p>Draw a simple, user-friendly platform that encourages health and quality of life, promoting the practice of sports in a healthy way with prizes.</p>
+          <p>Design a platform which helps to improve the quality of life for the agency employees, promoting the practice of sports in a healthy way with prizes.</p>
         </div>
       </div>
 
@@ -120,13 +107,13 @@ function Section() {
           </picture>
         </div>
         <div className="container">
-          <h4>Editorial</h4>
+          <h4>Evergreen Editorial Content</h4>
           <p className="work-step__description">The program content has a motivating nature, aiming to encourage people to stay away from a sedentary lifestyle through good examples, inspiration, and each person’s willingness. Helping practitioners to remove motivational and technical obstacles that hinder the beginning or evolution in the practice of a sport.</p>
         </div>
         <div className="container container--full">
           <picture>
             <source srcSet={editorialMin} media="(max-width: 480px)" />
-            <img src={editorial} alt="events" />
+            <img src={editorial} alt="editorial" />
           </picture>
         </div>
         <div className="container">
@@ -172,10 +159,10 @@ function Section() {
       <div className="work-step my-role">
         <div className="container">
           <h3 className="work-step__title">My Role</h3>
-          <p className="my-role__description">Esse projeto foi desenvolvido pelo Mova Mais S.A. em parceria com a agência promocional Fermento Promo. Eu como designer de produto do Mova Mais, fui responsável por projetar a experiência além de criar a solução visual de toda a plataforma.</p>
+          <p className="my-role__description">This project is a white-label developed by Mova Mais S.A. in partnership with the agency Fermento Promo. As Mova Mais product designer, I was responsible for designing the experience as well as creating the visual solution for the whole platform.</p>
 
-          <p><strong>Team:</strong></p>
-          <ul>
+          <h4 className="my-role__team">Team:</h4>
+          <ul className="my-role__list">
             <li>Fernando (Nandico) Aquino, CEO</li>
             <li>Rodrigo Ferreira, General Director (Fermento)</li>
             <li>Bruno Santiago, Digital Director (Fermento)</li>

@@ -5,7 +5,6 @@ import WorkPage from '../work-page';
 import WorkHead from '../../components/work-head';
 
 // Assets
-import video from './media/video.mp4';
 import logo from './media/logo.svg';
 import mockup from './media/mockup.png';
 import mockupMin from './media/mockup-min.png';
@@ -28,20 +27,8 @@ function Section() {
   return (
     <section className="bbp">
 
-      {/*
-        Work Head
-        Disabled for small devices
-      */}
-      { window.innerWidth >= 480 &&
-        <WorkHead
-          name="bbp"
-          title="BB Private"
-          category="web desktop"
-          color="black"
-          src={video}
-          type="video"
-        />
-      }
+      {/* Work Head */}
+      <WorkHead id={3} />
 
       {/* Intro */}
       <div className="work-intro">
@@ -67,7 +54,7 @@ function Section() {
       <div className="work-objective">
         <div className="container">
           <h2>Objective</h2>
-          <p>Draw a nice and reliable environment where customers can feel secure in addition to transmitting credibility to the public, presenting the unique, solid and experienced relationship model.</p>
+          <p>Create an environment that increases the identification to a public with high net worth or sizable assets in a bank known to be popular, and offer this audience a unique and solid relationship model.</p>
         </div>
       </div>
 
@@ -93,7 +80,7 @@ function Section() {
           </picture>
           <div className="work-screen__info">
             <h3 className="work-screen__title">Home Page</h3>
-            <p className="work-screen__description">Home page, displays an elegant slide-show which enables access to the featured page at the moment. The header bears the three pillars of the site and the button to access the private area.</p>
+            <p className="work-screen__description">The home page displays an elegant slideshow which enables access to the featured page at the moment. The header bears the three pillars of the site and the button to access the private area.</p>
           </div>
         </div>
       </div>
@@ -160,8 +147,8 @@ function Section() {
           <h2>My Role</h2>
           <p className="my-role__description">Fui responsável pela solução visual do site juntamente com o diretor de criação Adriel Nunes.</p>
 
-          <p><strong>Team:</strong></p>
-          <ul>
+          <h4 className="my-role__team">Team:</h4>
+          <ul className="my-role__list">
             <li>Isobar Brasil</li>
             <li>Director Creative, Adriel Nunes</li>
             <li>UX, Rogério Pereira</li>

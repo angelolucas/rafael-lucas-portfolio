@@ -5,7 +5,6 @@ import WorkPage from '../work-page';
 import WorkHead from '../../components/work-head';
 
 // Assets
-import video from './media/video.mp4';
 import logo from './media/logo.svg';
 import mockup from './media/mockup.png';
 import mockupMin from './media/mockup-min.png';
@@ -29,20 +28,8 @@ function Section() {
   return (
     <section className="mcd">
 
-      {/*
-        Work Head
-        Disabled for small devices
-      */}
-      { window.innerWidth >= 480 &&
-        <WorkHead
-          name="mcd"
-          title="Emicida"
-          category="web mobile"
-          color="black"
-          src={video}
-          type="video"
-        />
-      }
+      {/* Work Head */}
+      <WorkHead id={6} />
 
       {/* Intro */}
       <div className="work-intro">
@@ -70,7 +57,7 @@ function Section() {
       <div className="work-objective">
         <div className="container">
           <h2>Objective</h2>
-          <p>Make the experience of mobile site complete and user-friendly, allowing the user to read about the artist, his work, his life story and to access his agenda in an accessible and intuitive way.</p>
+          <p>Introduce the artist, his work, life story, and ideals, allowing the user to have a seamless experience on the site.</p>
         </div>
       </div>
 
