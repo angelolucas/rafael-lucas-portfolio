@@ -46,7 +46,7 @@ function Section() {
           <img className="work-intro__logo" src={caixaNasRuas} width="281" alt="Caixa Nas Ruas" />
           <h2>Concept</h2>
           <h3 className="work-intro__subtitle">More health and wellbeing for Bank Caixa staff</h3>
-          <p className="work-intro__description">The Caixa Nas Ruas program is one of the biggest internal marketing platforms in Latin America in just two years. It is the great sponsor of sport to Caixa employees.</p>
+          <p className="work-intro__description">The <i>Caixa Nas Ruas</i> is one of the biggest endomarketing platforms in Latin America in just two years. It is the great sponsor of sport to Caixa employees.</p>
         </div>
       </div>
 
@@ -64,7 +64,7 @@ function Section() {
       <div className="work-objective work-objective--cnr">
         <div className="container">
           <h2>Objective</h2>
-          <p>Design a platform which helps to improve the quality of life for the agency employees, promoting the practice of sports in a healthy way with prizes.</p>
+          <p>Design a platform which helps to improve the quality of life for the bank employees, promoting the practice of sports in a healthy way with prizes.</p>
         </div>
       </div>
 
@@ -159,9 +159,9 @@ function Section() {
       <div className="work-step my-role">
         <div className="container">
           <h3 className="work-step__title">My Role</h3>
-          <p className="my-role__description">This project is a white-label developed by Mova Mais S.A. in partnership with the agency Fermento Promo. As Mova Mais product designer, I was responsible for designing the experience as well as creating the visual solution for the whole platform.</p>
+          <p className="my-role__description">This project is a white-label developed by Mova Mais S.A. in partnership with the agency <a href="http://www.fermentopromo.com.br/" target="_blank" rel="noopener noreferrer">Fermento Promo</a>. As Mova Mais product designer, I was responsible for designing the experience as well as creating the visual solution for the whole platform.</p>
 
-          <h4 className="my-role__team">Team:</h4>
+          <h5 className="my-role__team">Team:</h5>
           <ul className="my-role__list">
             <li>Fernando (Nandico) Aquino, CEO</li>
             <li>Rodrigo Ferreira, General Director (Fermento)</li>

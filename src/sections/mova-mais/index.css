@@ -12,7 +12,7 @@
     color: var(--mm-colorfulDetails);
   }
   .work-intro .container {
-    max-width: 800px;
+    max-width: 780px;
   }
   .work-intro__logo {
     background-color: #503556;
@@ -62,8 +62,8 @@
   }
 }
 
-/* Step 02 */
-.work-step--mm02 {
+/* Walkthroughs */
+.mm__walkthroughs {
   background-image: none;
   background-color: var(--mm-BGColorful);
   color: white;
@@ -130,6 +130,11 @@
   }
 }
 
+/* Daily Goal */
+.mm__daily-goal .work-step__description{
+  margin-bottom: 0;
+}
+
 .mm__daily-goal__image {
   overflow: hidden;
 
@@ -142,20 +147,20 @@
   }
 }
 
-/* Step 03 */
-.work-step--mm03 .work-step__description{
-  margin-bottom: 0;
-}
-
-/* Step 04 */
-.work-step--mm04 {
+/* Engagement */
+.mm__engagement {
   .container {
     max-width: 1150px;
   }
 }
 
+/* Points */
+.mm__points .work-step__description {
+  max-width: 400px;
+}
+
 /* Step 08 */
-.work-step--mm08 {
+.mm__results {
   background-image: none;
   background-color: var(--mm-BGColorful);
   color: white;

@@ -10,7 +10,7 @@
     color: white;
   }
   .work-intro .container {
-    max-width: 900px;
+    max-width: 730px;
   }
   .work-intro__subtitle {
     color: white;
@@ -25,14 +25,14 @@
   }
   .work-objective {
     .container {
-      max-width: 1110px;
+      max-width: 1150px;
     }
   }
   .work-sitemap {
     margin-bottom: 180px;
   }
   .work-screen--home-page .work-screen__description {
-    max-width: 790px;
+    max-width: 810px;
   }
   .work-screen--private-client .work-screen__description {
     max-width: 670px;

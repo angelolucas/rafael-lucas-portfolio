@@ -145,11 +145,10 @@ function Section() {
       <div className="my-role">
         <div className="container">
           <h2>My Role</h2>
-          <p className="my-role__description">Fui responsável pela solução visual do site juntamente com o diretor de criação Adriel Nunes.</p>
+          <p className="my-role__description">I was responsible for the visual solution of the site along with Creative Director Adriel Nunes.</p>
 
-          <h4 className="my-role__team">Team:</h4>
+          <h4 className="my-role__team">Isobar Brasil Team:</h4>
           <ul className="my-role__list">
-            <li>Isobar Brasil</li>
             <li>Director Creative, Adriel Nunes</li>
             <li>UX, Rogério Pereira</li>
             <li>Designer, Rafael Lucas</li>

@@ -61,7 +61,7 @@ function Section() {
         </div>
       </div>
 
-      {/* Step 01 */}
+      {/* Flow */}
       <div className="work-step">
         <div className="container">
           <h3 className="work-step__title">Flow</h3>
@@ -79,8 +79,8 @@ function Section() {
         </div>
       </div>
 
-      {/* Step 02 */}
-      <div className="work-step work-step--mm02">
+      {/* Walkthroughs */}
+      <div className="work-step mm__walkthroughs">
         <div className="container">
           <h3 className="work-step__title">Walkthroughs</h3>
           <p className="work-step__description">Onboarding experience was designed to be simple and didactic, without ceasing from being attractive from the outset, thus the importance of having a clear and playful language.</p>
@@ -113,8 +113,8 @@ function Section() {
         </div>
       </div>
 
-      {/* Step 03 */}
-      <div className="work-step work-step--mm03">
+      {/* Daily Goal */}
+      <div className="work-step mm__daily-goal">
         <div className="container">
           <h3 className="work-step__title">Daily Goal</h3>
           <p className="work-step__description">One of the major goals of the application is to ensure the user is always motivated to work out, so we display encouraging messages, especially reminding them not to miss the exercise streak.</p>
@@ -124,8 +124,8 @@ function Section() {
         </div>
       </div>
 
-      {/* Step 04 */}
-      <div className="work-step work-step--mm04">
+      {/* Engagement */}
+      <div className="work-step mm__engagement">
         <div className="container">
           <h3 className="work-step__title">Engagement</h3>
           <p className="work-step__description">Retaining the user is always a big challenge when it comes to physical activity, so we have developed a feature called Combo, which grants more points to users who reach their daily goal more often.</p>
@@ -161,8 +161,8 @@ function Section() {
         </div>
       </div>
 
-      {/* Step 05 */}
-      <div className="work-step work-step--mm05">
+      {/* Poits */}
+      <div className="work-step mm__points">
         <div className="container">
           <h3 className="work-step__title">Points</h3>
           <p className="work-step__description">Allowing an easy and quick access to the point is key for our value proposition.</p>
@@ -179,8 +179,8 @@ function Section() {
         </div>
       </div>
 
-      {/* Step 06 */}
-      <div className="work-step work-step--mm06">
+      {/* Other Resources */}
+      <div className="work-step">
         <div className="container">
           <h3 className="work-step__title">Other Resources</h3>
           <ul className="chess-list chess-list--resources">
@@ -238,7 +238,7 @@ function Section() {
         Disabled for small devices
       */}
       { window.innerWidth >= 480 &&
-        <div className="work-step work-step--mm07 work-guideline hide-viewport--min">
+        <div className="work-step work-guideline hide-viewport--min">
           <div className="container">
             <h3 className="work-step__title">Guideline</h3>
             <img src={guidelineColors} alt="" />
@@ -267,8 +267,8 @@ function Section() {
         </div>
       </div>
 
-      {/* Step 08 */}
-      <div className="work-step work-step--mm08">
+      {/* Results */}
+      <div className="work-step mm__results">
         <div className="container">
           <h3 className="work-step__title">Results</h3>
           <picture>

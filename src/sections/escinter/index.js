@@ -122,13 +122,16 @@ function Section() {
       {/* Credits */}
       <div className="my-role">
         <div className="container">
-          <h4 className="work-credits__title">My Roles</h4>
-          <p className="work-credits__description">Desktop version design: <a href="https://www.linkedin.com/in/adrielnunes" target="_blank" rel="noopener noreferrer">Adriel Nunes</a></p>
-          <picture>
-            <source srcSet={creditsMin} media="(max-width: 480px)" />
-            <img src={credits} alt="Credits" />
-          </picture>
+          <h4 className="work-credits__title">My Role</h4>
+          <p className="work-credits__description">I was responsible for the visual and interactive solution of the mobile devices. Direction design and version desktop were made by <a href="https://www.linkedin.com/in/adrielnunes" target="_blank" rel="noopener noreferrer">Adriel Nunes</a>.</p>
         </div>
+      </div>
+
+      <div className="container container--full">
+        <picture>
+          <source srcSet={creditsMin} media="(max-width: 480px)" />
+          <img src={credits} alt="Credits" />
+        </picture>
       </div>
 
       {/*
