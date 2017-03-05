@@ -21,6 +21,7 @@ class WorkNavigation extends Component {
           <video
             className="work-nav__media--video"
             src={GetWorks[id].video}
+            poster={GetWorks[id].poster}
             muted
             loop
           />

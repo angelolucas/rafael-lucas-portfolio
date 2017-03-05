@@ -10,8 +10,8 @@ class WorkHead extends Component {
           <video
             className="work-head__media--video"
             src={GetWorks[this.props.id].video}
-            autoPlay
             poster={GetWorks[this.props.id].poster}
+            autoPlay
             muted
             loop
           />
