@@ -146,6 +146,18 @@ function Section() {
         </div>
       </div>
 
+      {/*
+        Guideline
+        Disabled for small devices
+      */}
+      { window.innerWidth >= 480 &&
+        <div className="work-guideline hide-viewport--min">
+          <div className="container">
+            <img src={guideline} alt="Guideline" />
+          </div>
+        </div>
+      }
+
       {/* My Role */}
       <div className="my-role">
         <div className="container">
@@ -162,18 +174,6 @@ function Section() {
           </ul>
         </div>
       </div>
-
-      {/*
-        Guideline
-        Disabled for small devices
-      */}
-      { window.innerWidth >= 480 &&
-        <div className="work-guideline hide-viewport--min">
-          <div className="container">
-            <img src={guideline} alt="Guideline" />
-          </div>
-        </div>
-      }
 
       {/*
         Mockup

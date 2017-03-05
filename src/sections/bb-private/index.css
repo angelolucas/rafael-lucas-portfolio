@@ -49,4 +49,7 @@
   .work-guideline {
     margin-bottom: 20px;
   }
+  .my-role .container{
+    max-width: 600px;
+  }
 }
