@@ -33,8 +33,13 @@ function Section() {
   return (
     <section className="mm">
 
-      {/* Work Head */}
-      <WorkHead id={1} />
+      {/*
+        Work Head
+        Disabled for small devices
+      */}
+      { window.innerWidth >= 480 &&
+        <WorkHead id={1} />
+      }
 
       {/* Intro */}
       <div className="work-intro">
