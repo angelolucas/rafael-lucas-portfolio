@@ -173,8 +173,8 @@ function Section() {
             <li>Bruno Santiago, Digital Director (Fermento)</li>
             <li>Rafael Lucas, Designer</li>
             <li>André Paz, CTO</li>
-            <li>André Marques, Developer</li>
-            <li>Daniel Moura, Developer</li>
+            <li>André Marques, Front-End Developer</li>
+            <li>Daniel Moura, Back-End Developer</li>
           </ul>
         </div>
       </div>
