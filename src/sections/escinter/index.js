@@ -132,7 +132,7 @@ function Section() {
         </div>
       </div>
 
-      <div className="container container--full">
+      <div className="work-credits container container--full">
         <picture>
           <source srcSet={creditsMin} media="(max-width: 480px)" />
           <img src={credits} alt="Credits" />
