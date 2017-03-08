@@ -1,7 +1,15 @@
 import React from 'react';
+import ReactGA from 'react-ga';
 import { Link } from 'react-router';
 
 function WorkThumbnail(props) {
+  function handleClick(categoryValue, actionValue, labelValue) {
+    ReactGA.event({
+      category: categoryValue,
+      action: actionValue,
+      label: labelValue,
+    });
+  }
   return (
     <li className="work-thumbnail">
       <div className="work-thumbnail__window">
@@ -12,7 +20,13 @@ function WorkThumbnail(props) {
       </div>
       <h3 className="work-thumbnail__title">{props.title}</h3>
       <p className="work-thumbnail__category">{props.category}</p>
-      <Link className="work-thumbnail__link" to={props.link}>Mais informações</Link>
+      <Link
+        className="work-thumbnail__link"
+        to={props.link}
+        onClick={() => { handleClick('Thumbnail', 'Click', props.title); }}
+      >
+        See
+      </Link>
     </li>
   );
 }

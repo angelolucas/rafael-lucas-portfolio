@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ReactGA from 'react-ga';
 import { Link } from 'react-router';
 import GetWorks from '../get-works';
 
@@ -34,6 +35,14 @@ class WorkNavigation extends Component {
         />
       );
     };
+
+    this.handleClick = (categoryValue, actionValue, labelValue) => {
+      ReactGA.event({
+        category: categoryValue,
+        action: actionValue,
+        label: labelValue,
+      });
+    };
   }
   componentDidMount() {
     const video = document.querySelectorAll('.work-nav__media--video');
@@ -52,7 +61,11 @@ class WorkNavigation extends Component {
     return (
       <div className="work-nav">
         <div className="work-nav__item work-nav__item--prev">
-          <Link className="work-nav__link" to={GetWorks[this.prev].name}>
+          <Link
+            className="work-nav__link"
+            to={GetWorks[this.prev].name}
+            onClick={() => { this.handleClick('Work Navigation', 'Click', GetWorks[this.prev].title); }}
+          >
             {/* Disabled media for small and med devides */}
             { window.innerWidth >= 960 &&
               <div className="work-nav__media hide-viewport--min">{this.media(this.prev)}</div>
@@ -66,7 +79,11 @@ class WorkNavigation extends Component {
           </Link>
         </div>
         <div className="work-nav__item work-nav__item--next">
-          <Link className="work-nav__link" to={GetWorks[this.next].name}>
+          <Link
+            className="work-nav__link"
+            to={GetWorks[this.next].name}
+            onClick={() => { this.handleClick('Work Navigation', 'Click', GetWorks[this.next].title); }}
+          >
             {/* Disabled media for small and med devides */}
             { window.innerWidth >= 960 &&
               <div className="work-nav__media hide-viewport--min">{this.media(this.next)}</div>

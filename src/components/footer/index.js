@@ -1,25 +1,73 @@
 import React from 'react';
+import ReactGA from 'react-ga';
 
 function HomeFooter() {
+  function handleClick(categoryValue, actionValue, labelValue) {
+    ReactGA.event({
+      category: categoryValue,
+      action: actionValue,
+      label: labelValue,
+    });
+  }
   return (
     <div className="footer-container">
       <footer className="footer">
         <div className="container">
           <ul className="footer__networks">
             <li>
-              <a className="link-underlined" href="http://twitter.com/rafaellucas" target="_blank" rel="noopener noreferrer">twitter</a>
+              <a
+                className="link-underlined"
+                href="http://twitter.com/rafaellucas"
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => { handleClick('Footer', 'Click', 'Twitter'); }}
+              >
+                twitter
+              </a>
             </li>
             <li>
-              <a className="link-underlined" href="http://facebook.com.br/rafaellucass" target="_blank" rel="noopener noreferrer">facebook</a>
+              <a
+                className="link-underlined"
+                href="http://facebook.com.br/rafaellucass"
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => { handleClick('Footer', 'Click', 'Facebook'); }}
+              >
+                facebook
+              </a>
             </li>
             <li>
-              <a className="link-underlined" href="http://linkedin.com/in/rafaellucass" target="_blank" rel="noopener noreferrer">linkedin</a>
+              <a
+                className="link-underlined"
+                href="http://linkedin.com/in/rafaellucass"
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => { handleClick('Footer', 'Click', 'Linkedin'); }}
+              >
+                linkedin
+              </a>
             </li>
             <li>
-              <a className="link-underlined" href="https://www.instagram.com/rafaellucass/" target="_blank" rel="noopener noreferrer">instagram</a>
+              <a
+                className="link-underlined"
+                href="https://www.instagram.com/rafaellucass/"
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => { handleClick('Footer', 'Click', 'Instagram'); }}
+              >
+                instagram
+              </a>
             </li>
             <li>
-              <a className="link-underlined" href="mailto:bsb.rafael@gmail.com" target="_blank" rel="noopener noreferrer">e-mail</a>
+              <a
+                className="link-underlined"
+                href="mailto:bsb.rafael@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => { handleClick('Footer', 'Click', 'E-mail'); }}
+              >
+                e-mail
+              </a>
             </li>
           </ul>
         </div>

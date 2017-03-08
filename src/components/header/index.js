@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ReactGA from 'react-ga';
 import TweenLite from 'gsap';
 
 import Introduction from '../../sections/introduction';
@@ -26,6 +27,7 @@ class Header extends Component {
         nav.classList.add('header__nav__item--active', 'link-underlined--active');
       }
     };
+
     this.work = () => {
       TweenLite.to(
         window,
@@ -36,6 +38,14 @@ class Header extends Component {
           },
         },
       );
+    };
+
+    this.handleClick = (categoryValue, actionValue, labelValue) => {
+      ReactGA.event({
+        category: categoryValue,
+        action: actionValue,
+        label: labelValue,
+      });
     };
   }
   render() {
@@ -81,7 +91,7 @@ class Header extends Component {
             className="header__nav__item link-underlined"
             data-section-id="2"
             onTouchEnd={() => this.section(2)}
-            onClick={() => this.section(2)}
+            onClick={() => { this.section(2); this.handleClick('Header', 'Click', 'About'); }}
           >
             about
           </button>
@@ -89,7 +99,7 @@ class Header extends Component {
           <button
             className="header__nav__item link-underlined"
             onTouchEnd={this.work}
-            onClick={this.work}
+            onClick={() => { this.work(); this.handleClick('Header', 'Click', 'Work'); }}
           >
             work
           </button>
@@ -98,7 +108,7 @@ class Header extends Component {
             className="header__nav__item link-underlined"
             data-section-id="3"
             onTouchEnd={() => this.section(3)}
-            onClick={() => this.section(3)}
+            onClick={() => { this.section(3); this.handleClick('Header', 'Click', 'Contact'); }}
           >
             contact
           </button>
