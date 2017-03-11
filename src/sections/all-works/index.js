@@ -36,7 +36,7 @@ function AllWorks() {
         {
           Object.keys(GetWorks).map((work, key) => (
             GetWorks[work].video &&
-            <video key={key} src={GetWorks[work].video} autoPlay />
+            <video key={key} src={GetWorks[work].video} />
           ))
         }
       </div>

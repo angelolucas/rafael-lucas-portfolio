@@ -5,7 +5,10 @@ import GetWorks from '../get-works';
 class WorkHead extends Component {
   componentWillMount() {
     this.media = () => {
+      this.mediaType = 'image';
+
       if (GetWorks[this.props.id].video) {
+        this.mediaType = 'video';
         return (
           <video
             className="work-head__media--video"
@@ -28,10 +31,22 @@ class WorkHead extends Component {
   componentDidMount() {
     const el = document.querySelector(`.work-page--${GetWorks[this.props.id].shortName} .work-page__scroll`);
     const height = window.innerHeight;
+    let visible = false;
+
     if (window.innerWidth >= 480) {
       el.addEventListener('scroll', (e) => {
         if (e.target.scrollTop < height) {
           this.workMedia.style.transform = `translateY(${e.target.scrollTop / 2}px)`;
+
+          /* play video if is visible */
+          if (visible === false && this.mediaType === 'video') {
+            el.querySelector('.work-head__media--video').play();
+            visible = true;
+          }
+        /* pause video if not visible */
+        } else if (visible === true && this.mediaType === 'video') {
+          el.querySelector('.work-head__media--video').pause();
+          visible = false;
         }
       });
     }
