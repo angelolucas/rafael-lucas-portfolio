@@ -9,6 +9,10 @@
   h2 {
     color: white;
   }
+  a {
+    color: white;
+    border-bottom: 1px solid white;
+  }
   .work-intro .container {
     max-width: 730px;
   }
@@ -50,6 +54,6 @@
     margin-bottom: 20px;
   }
   .my-role .container{
-    max-width: 600px;
+    max-width: 660px;
   }
 }

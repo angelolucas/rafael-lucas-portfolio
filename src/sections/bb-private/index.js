@@ -8,7 +8,6 @@ import WorkHead from '../../components/work-head';
 import logo from './media/logo.svg';
 import mockup from './media/mockup.png';
 import mockupMin from './media/mockup-min.png';
-import siteMap from './media/site-map.png';
 import homePage from './media/home-page.png';
 import homePageMin from './media/home-page-min.jpg';
 import privateClient from './media/privat-client.jpg';
@@ -19,7 +18,6 @@ import financialAdvisory from './media/financial-advisory.jpg';
 import financialAdvisoryMin from './media/financial-advisory-min.jpg';
 import aboutTheClient from './media/about-the-client.jpg';
 import aboutTheClientMin from './media/about-the-client-min.jpg';
-import guideline from './media/guideline.png';
 import mockup2 from './media/mockup2.jpg';
 import mockup2Min from './media/mockup2-min.jpg';
 
@@ -62,20 +60,6 @@ function Section() {
           <p>Create an environment that increases the identification to a public with high net worth or sizable assets in a bank known to be popular, and offer this audience a unique and solid relationship model.</p>
         </div>
       </div>
-
-      {/*
-        Site Map
-        Disabled for small devices
-      */}
-      { window.innerWidth >= 480 &&
-        <div className="work-sitemap hide-viewport--min">
-          <div className="container">
-            <h2>Structure of site</h2>
-            <img src={siteMap} alt="Site Map" />
-          </div>
-        </div>
-      }
-
       {/* Home Page Screens */}
       <div className="work-screen work-screen--home-page">
         <div className="container">
@@ -146,32 +130,11 @@ function Section() {
         </div>
       </div>
 
-      {/*
-        Guideline
-        Disabled for small devices
-      */}
-      { window.innerWidth >= 480 &&
-        <div className="work-guideline hide-viewport--min">
-          <div className="container">
-            <img src={guideline} alt="Guideline" />
-          </div>
-        </div>
-      }
-
       {/* My Role */}
       <div className="my-role">
         <div className="container">
           <h2>My Role</h2>
-          <p className="my-role__description">I was responsible for the visual solution of the site along with Creative Director Adriel Nunes.</p>
-
-          <h4 className="my-role__team">Isobar Brasil Team:</h4>
-          <ul className="my-role__list">
-            <li>Director Creative, Adriel Nunes</li>
-            <li>UX, Rogério Pereira</li>
-            <li>Designer, Rafael Lucas</li>
-            <li>Project Manager, Mel Azevedo</li>
-            <li>Account Manager, Priscilla Lira</li>
-          </ul>
+          <p className="my-role__description">I was responsible for the visual solution of the site along with Creative Director <a href="https://www.linkedin.com/in/adrielnunes" target="_blank" rel="noopener noreferrer">Adriel Nunes</a>. Information architecture made by <a href="https://br.linkedin.com/in/rog%C3%A9rio-pereira-b6128710" target="_blank" rel="noopener noreferrer">Rogério Pereira</a>, at <a href="http://www.isobar.com/br/en/" target="_blank" rel="noopener noreferrer">Isobar Brasil</a>.</p>
         </div>
       </div>
 

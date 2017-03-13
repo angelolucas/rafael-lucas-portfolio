@@ -18,6 +18,10 @@
     font-size: 45px;
     margin-top: 120px;
   }
+  a {
+    color: #666;
+    border-bottom: 1px solid #666;
+  }
   .work-intro .container {
     max-width: 970px;
   }

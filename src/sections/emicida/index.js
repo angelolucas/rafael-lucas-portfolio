@@ -16,9 +16,6 @@ import discography from './media/discography.png';
 import photosGallery from './media/photos-gallery.png';
 import contact from './media/contact.png';
 import navigation from './media/navigation.png';
-import pallete from './media/pallete.png';
-import types from './media/types.png';
-import patterns from './media/patterns.png';
 import credits from './media/credits.png';
 import creditsMin from './media/credits-min.png';
 import mockup2 from './media/mockup2.jpg';
@@ -163,23 +160,6 @@ function Section() {
           <p className="work-credits__description">I was responsible for the visual and interactive solution of the mobile devices. Direction design and version desktop were made by <a href="https://www.linkedin.com/in/adrielnunes" target="_blank" rel="noopener noreferrer">Adriel Nunes</a>,  who also signs the art direction of a few music videos and the last album cover.</p>
         </div>
       </div>
-
-      {/*
-        Guideline
-        Disabled for small devices
-      */}
-      { window.innerWidth >= 480 &&
-        <div className="work-guideline hide-viewport--min">
-          <div className="container">
-            <h2>Color Pallete</h2>
-            <img src={pallete} alt="" />
-            <h2>Typefaces</h2>
-            <img src={types} alt="" />
-            <h2>Patterns</h2>
-            <img src={patterns} alt="" />
-          </div>
-        </div>
-      }
 
       {/*
         Mockup

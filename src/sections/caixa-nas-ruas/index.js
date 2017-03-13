@@ -23,8 +23,6 @@ import store from './media/store.png';
 import storeMin from './media/store-min.png';
 import mobile from './media/mobile.png';
 import mobileMin from './media/mobile-min.png';
-import colors from './media/colors.png';
-import types from './media/types.png';
 import result1 from './media/result1.svg';
 import result2 from './media/result2.svg';
 import result3 from './media/result3.svg';
@@ -146,39 +144,6 @@ function Section() {
         </div>
       </div>
 
-      {/*
-        Guideline
-        Disabled for small devices
-      */}
-      { window.innerWidth >= 480 &&
-        <div className="work-step work-guideline hide-viewport--min">
-          <div className="container">
-            <h3 className="work-step__title">Guideline</h3>
-            <img src={colors} alt="colors" />
-            <img src={types} alt="types" />
-          </div>
-        </div>
-      }
-
-      {/* My Role */}
-      <div className="work-step my-role">
-        <div className="container">
-          <h3 className="work-step__title">My Role</h3>
-          <p className="my-role__description">This project is a white-label developed by Mova Mais S.A. in partnership with the agency <a href="http://www.fermentopromo.com.br/" target="_blank" rel="noopener noreferrer">Fermento Promo</a>. As Mova Mais product designer, I was responsible for designing the experience as well as creating the visual solution for the whole platform.</p>
-
-          <h5 className="my-role__team">Team:</h5>
-          <ul className="my-role__list">
-            <li>Fernando (Nandico) Aquino, CEO</li>
-            <li>Rodrigo Ferreira, General Director (Fermento)</li>
-            <li>Bruno Santiago, Digital Director (Fermento)</li>
-            <li>Rafael Lucas, Designer</li>
-            <li>André Paz, CTO</li>
-            <li>André Marques, Front-End Developer</li>
-            <li>Daniel Moura, Back-End Developer</li>
-          </ul>
-        </div>
-      </div>
-
       {/* Results */}
       <div className="work-step work-results">
         <div className="container">
@@ -210,6 +175,14 @@ function Section() {
               <p>number of steps</p>
             </li>
           </ul>
+        </div>
+      </div>
+
+      {/* My Role */}
+      <div className="work-step my-role">
+        <div className="container">
+          <h3 className="work-step__title">My Role</h3>
+          <p className="my-role__description">This project is a white-label developed by Mova Mais S.A. in partnership with the agency <a href="http://www.fermentopromo.com.br/" target="_blank" rel="noopener noreferrer">Fermento Promo</a>. As Mova Mais product designer, I was responsible for designing the experience as well as creating the visual solution for the whole platform.</p>
         </div>
       </div>
 

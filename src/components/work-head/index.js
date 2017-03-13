@@ -38,12 +38,12 @@ class WorkHead extends Component {
         if (e.target.scrollTop < height) {
           this.workMedia.style.transform = `translateY(${e.target.scrollTop / 2}px)`;
 
-          /* play video if is visible */
+          /* play video if it's visible */
           if (visible === false && this.mediaType === 'video') {
             el.querySelector('.work-head__media--video').play();
             visible = true;
           }
-        /* pause video if not visible */
+        /* pause video if it's not visible */
         } else if (visible === true && this.mediaType === 'video') {
           el.querySelector('.work-head__media--video').pause();
           visible = false;

@@ -16,7 +16,6 @@ import devices from './media/devices.jpg';
 import devicesMin from './media/devices-min.jpg';
 import credits from './media/credits.png';
 import creditsMin from './media/credits-min.png';
-import guideline from './media/guideline.png';
 import mockup2 from './media/mockup2.jpg';
 import mockup2Min from './media/mockup2-min.jpg';
 
@@ -138,19 +137,6 @@ function Section() {
           <img src={credits} alt="Credits" />
         </picture>
       </div>
-
-      {/*
-        Guideline
-        Disabled for small devices
-      */}
-      { window.innerWidth >= 480 &&
-        <div className="work-step work-guideline hide-viewport--min">
-          <div className="container">
-            <h3 className="work-step__title">Guideline</h3>
-            <img src={guideline} alt="Guideline" />
-          </div>
-        </div>
-      }
 
       {/*
         Mockup

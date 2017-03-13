@@ -253,25 +253,6 @@ function Section() {
         </div>
       }
 
-      {/* My Role */}
-      <div className="work-step my-role">
-        <div className="container">
-          <h3 className="work-step__title">My Role</h3>
-          <p className="my-role__description">I was in charge of thinking about the product as a whole, far beyond visual aspects. From its conception, going through resources settings, experience designing, wireframe building, and designing the visual solution.</p>
-
-          <h4 className="my-role__team">Team Mova Mais:</h4>
-          <ul className="my-role__list">
-            <li>Fernando (Nandico) Aquino, CEO</li>
-            <li>Marco Gomes, Board Member</li>
-            <li>Rafael Lucas, Designer</li>
-            <li>André Paz, CTO</li>
-            <li>Mateus Moura, Developer</li>
-            <li>Flávia Michels, Loyalty</li>
-            <li>Wesley Costa, Administrative Assistant</li>
-          </ul>
-        </div>
-      </div>
-
       {/* Results */}
       <div className="work-step mm__results">
         <div className="container">
@@ -281,6 +262,14 @@ function Section() {
             <img src={counter} alt="" />
           </picture>
           <p>users worldwide.</p>
+        </div>
+      </div>
+
+      {/* My Role */}
+      <div className="work-step my-role">
+        <div className="container">
+          <h3 className="work-step__title">My Role</h3>
+          <p className="my-role__description">I was in charge of thinking about the product as a whole, far beyond visual aspects. From its conception, going through resources settings, experience designing, wireframe building, and designing the visual solution.</p>
         </div>
       </div>
 
