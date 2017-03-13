@@ -1,6 +1,5 @@
 :root {
-  --horizontalFooterHeight: 198px;
-  --verticalFooterHeight: 240px;
+  --footerHeight: 198px;
 }
 .footer {
   background: var(--greyBackground);
@@ -8,7 +7,7 @@
   display: flex;
   align-items: center;
   position: fixed;
-  height: var(--horizontalFooterHeight);
+  height: var(--footerHeight);
   bottom: 0;
   left: 0;
   right: 0;
@@ -22,13 +21,13 @@
   > li {
     display: inline-block;
     position: relative;
-    padding: 10px 35px;
+    padding: 10px 50px;
 
     a {
       transition: color 0.5s ease;
       display: inline-block;
       color: white;
-      font-size: 35px;
+      font-size: 38px;
       font-weight: bold;
       line-height: 1.2;
     }
@@ -50,7 +49,7 @@
 }
 .footer-container {
   position: relative;
-  height: var(--horizontalFooterHeight);
+  height: var(--footerHeight);
 
   &:after {
     background: url('../components/footer/gradient.png') repeat-x;
@@ -78,12 +77,5 @@
       height: 25px;
       right: -2px;
     }
-  }
-}
-
-@media ( --viewport-min ) {
-  .footer-container,
-  .footer {
-    height: var(--verticalFooterHeight);
   }
 }

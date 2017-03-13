@@ -28,34 +28,12 @@ function HomeFooter() {
             <li>
               <a
                 className="link-underlined"
-                href="http://facebook.com.br/rafaellucass"
-                target="_blank"
-                rel="noopener noreferrer"
-                onClick={() => { handleClick('Footer', 'Click', 'Facebook'); }}
-              >
-                facebook
-              </a>
-            </li>
-            <li>
-              <a
-                className="link-underlined"
                 href="http://linkedin.com/in/rafaellucass"
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={() => { handleClick('Footer', 'Click', 'Linkedin'); }}
               >
                 linkedin
-              </a>
-            </li>
-            <li>
-              <a
-                className="link-underlined"
-                href="https://www.instagram.com/rafaellucass/"
-                target="_blank"
-                rel="noopener noreferrer"
-                onClick={() => { handleClick('Footer', 'Click', 'Instagram'); }}
-              >
-                instagram
               </a>
             </li>
             <li>
