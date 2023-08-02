@@ -63,6 +63,9 @@
     "webpack-manifest-plugin": "1.1.0",
     "whatwg-fetch": "1.0.0"
   },
+  "resolutions": {
+    "history": "4.3.0" 
+  },
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",

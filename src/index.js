@@ -2,7 +2,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Router from 'react-router/BrowserRouter';
-import ReactGA from 'react-ga';
+// import ReactGA from 'react-ga';
 
 // Global Styles
 import './styles/style.css';
@@ -11,14 +11,14 @@ import './styles/style.css';
 import Home from './sections/home';
 import AllWorks from './sections/all-works';
 
-ReactGA.initialize('UA-93149537-1');
+// ReactGA.initialize('UA-93149537-1');
 
-function fireTracking() {
-  ReactGA.pageview(window.location.hash);
-}
+// function fireTracking() {
+//   ReactGA.pageview(window.location.hash);
+// }
 
 ReactDOM.render(
-  <Router onUpdate={fireTracking}>
+  <Router >
     <div>
       <Home />
       <AllWorks />
