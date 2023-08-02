@@ -176,9 +176,9 @@ function Section() {
       { window.innerWidth < 960 ? (
         <img className="image-full" src={mockup2Min} alt="" />
       ) : (
-        <div className="fixed-image">
-          <div className="fixed-image__image" style={{ backgroundImage: `url(${mockup2})` }} />
-        </div>
+      <div className="fixed-image">
+        <div className="fixed-image__image" style={{ backgroundImage: `url(${mockup2})` }} />
+      </div>
       )}
     </section>
   );

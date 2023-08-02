@@ -118,9 +118,9 @@ function Section() {
       { window.innerWidth < 960 ? (
         <img className="image-full--devices image-full" src={devicesMin} alt="" />
       ) : (
-        <div className="fixed-image image-full--devices">
-          <div className="fixed-image__image" style={{ backgroundImage: `url(${devices})` }} />
-        </div>
+      <div className="fixed-image image-full--devices">
+        <div className="fixed-image__image" style={{ backgroundImage: `url(${devices})` }} />
+      </div>
       )}
 
       {/* Credits */}
@@ -146,9 +146,9 @@ function Section() {
       { window.innerWidth < 960 ? (
         <img className="image-full" src={mockup2Min} alt="" />
       ) : (
-        <div className="fixed-image">
-          <div className="fixed-image__image" style={{ backgroundImage: `url(${mockup2})` }} />
-        </div>
+      <div className="fixed-image">
+        <div className="fixed-image__image" style={{ backgroundImage: `url(${mockup2})` }} />
+      </div>
       )}
     </section>
   );
