@@ -15,3 +15,4 @@ build
 npm-debug.log
 
 .com.apple.timemachine.supported
+.vercel

@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://angelolucas.github.io/portfolio",
+  "homepage": "http://rafaellucas.com.br/",
   "private": true,
   "dependencies": {
     "gsap": "1.19.0",
@@ -57,6 +57,7 @@
     "strip-ansi": "3.0.1",
     "style-loader": "0.13.1",
     "url-loader": "0.5.7",
+    "vercel": "^31.2.1",
     "webpack": "1.13.2",
     "webpack-dev-server": "1.16.2",
     "webpack-manifest-plugin": "1.1.0",
@@ -66,7 +67,8 @@
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js --env=jsdom",
-    "deploy": "npm run build&&gh-pages -d build"
+    "deploy": "npm run build&&gh-pages -d build",
+    "deploy-vercel": "yarn vercel deploy --prod"
   },
   "jest": {
     "collectCoverageFrom": [
